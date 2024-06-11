@@ -1,0 +1,21 @@
+// For format details, see https://aka.ms/devcontainer.json.
+{
+  "name": "cal-itp/mkdocs-template",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bpruitt-goddard.mermaid-markdown-syntax-highlighting",
+        "eamodio.gitlens",
+        "esbenp.prettier-vscode",
+        "mhutchie.git-graph"
+      ]
+    }
+  },
+  "forwardPorts": [8000],
+  "workspaceFolder": "/app/mkdocs",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/app/mkdocs,type=bind"
+}
