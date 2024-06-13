@@ -1,11 +1,8 @@
-# mkdocs-template
+# big-data-geoanalytics
 
-This is a template repository to enable rapid creation of documentation sites built using `mkdocs` and served via GitHub Pages
-under Cal-ITP's `docs.calitp.org` domain.
+This repository is as place for the analyses of the [Division of Data and Digital Services Big Data and GeoAnalytics Branch](https://dot.ca.gov/programs/planning-modal).
 
-Read more about how to use this template: <https://docs.calitp.org/mkdocs-template>.
-
-Create a new docs site from this template: <https://github.com/cal-itp/mkdocs-template/generate>.
+Analyses include data from Big Data platforms like Streetlight and Replica. Analysts, add a folder for here for your work!
 
 ## License
 

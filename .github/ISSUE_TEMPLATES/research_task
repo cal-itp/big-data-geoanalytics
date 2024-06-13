@@ -1,0 +1,26 @@
+---
+name: Research Request
+about: Use this template for work that is either stand alone or a part of a bigger project.
+title: Research Request- [Summary]
+labels: 'research request'
+assignees: ''
+---
+
+# Research Request
+
+Complete this issue to track work that is either stand alone or a smaller part of a bigger project.
+
+## Project Description
+* **Relevant PR** (if applicable):
+
+* **Question or Goal**: overarching goal of this issue
+
+* **Data Required**:
+  * Currently have:
+  * Need:
+
+* **Research Required**:
+
+* **Metrics**: what specific calculations are you looking to find?
+
+* **Expected Outputs / Findings**: what do you hope to have created when this is complete?
