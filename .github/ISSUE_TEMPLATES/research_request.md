@@ -1,6 +1,6 @@
 ---
 name: Research Request
-about: Use this template for work that is either stand alone or a part of a bigger project.
+about: Use this template for to track a requests we receive.
 title: Research Request- [Summary]
 labels: 'research request'
 assignees: ''
@@ -8,10 +8,10 @@ assignees: ''
 
 # Research Request
 
-Complete this issue to track work that is either stand alone or a smaller part of a bigger project.
+Complete this issue to detail any research requests we recieve from internal or external partners. This issue is best for describing what type of work will be done. This research request can be followed up by one or more Research Tasks.
 
 ## Project Description
-* **Relevant PR** (if applicable):
+* **Relevant PRs or Reserach Requests** (if applicable):
 
 * **Question or Goal**: overarching goal of this issue
 
@@ -20,7 +20,5 @@ Complete this issue to track work that is either stand alone or a smaller part o
   * Need:
 
 * **Research Required**:
-
-* **Metrics**: what specific calculations are you looking to find?
 
 * **Expected Outputs / Findings**: what do you hope to have created when this is complete?
