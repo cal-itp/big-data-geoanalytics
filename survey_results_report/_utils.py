@@ -47,7 +47,8 @@ def read_in_data(sheetname):
                            "have_you_utilized_the_resources_training_streetlight_and_replica_provide?":"have_you_utilized_the_resources_training?"})
     
     if sheetname==("Streetlight_and_Replica"):
-        df = df.rename(columns={'would_you_like_to_be_part_of_the_caltrans_big_data_user_group_for_replica_and_streetlight?\nthis_user_group_would_be_internal_just_for_caltrans_and_would_meet_quarterly__':'would_you_like_to_be_part_of_the_user_groups?',
+        df = df.rename(columns={'how_often_do_you_use_the_streetlight_and_or_replica_platforms?':'how_often_do_you_use_streetlight?',
+                                'would_you_like_to_be_part_of_the_caltrans_big_data_user_group_for_replica_and_streetlight?\nthis_user_group_would_be_internal_just_for_caltrans_and_would_meet_quarterly__':'would_you_like_to_be_part_of_the_user_groups?',
                                 'what_sorts_of_challenges_are_you_facing?_\n_can_be_for_just_one_or_both_platforms_':'what_sorts_of_challenges_are_you_facing?'})
 
     elif sheetname==("Streetlight"):
