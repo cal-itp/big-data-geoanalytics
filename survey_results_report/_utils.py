@@ -47,19 +47,23 @@ def read_in_data(sheetname):
                            "have_you_utilized_the_resources_training_streetlight_and_replica_provide?":"have_you_utilized_the_resources_training?"})
     
     if sheetname==("Streetlight_and_Replica"):
-        df = df.rename(columns={'how_often_do_you_use_the_streetlight_and_or_replica_platforms?':'how_often_do_you_use_streetlight?',
+        df = df.rename(columns={'how_often_do_you_use_the_streetlight_and_or_replica_platforms?':'how_often_do_you_use_the_platforms?',
                                 'would_you_like_to_be_part_of_the_caltrans_big_data_user_group_for_replica_and_streetlight?\nthis_user_group_would_be_internal_just_for_caltrans_and_would_meet_quarterly__':'would_you_like_to_be_part_of_the_user_groups?',
                                 'what_sorts_of_challenges_are_you_facing?_\n_can_be_for_just_one_or_both_platforms_':'what_sorts_of_challenges_are_you_facing?'})
 
     elif sheetname==("Streetlight"):
-        df = df.rename(columns={'would_you_like_to_be_part_of_the_caltrans_big_data_user_group_for_streetlight?\nthis_user_group_would_be_internal_just_for_caltrans_and_would_meet_quarterly__':'would_you_like_to_be_part_of_the_user_groups?',
+        df = df.rename(columns={'how_often_do_you_use_streetlight?':'how_often_do_you_use_the_platforms?',
+                                'would_you_like_to_be_part_of_the_caltrans_big_data_user_group_for_streetlight?\nthis_user_group_would_be_internal_just_for_caltrans_and_would_meet_quarterly__':'would_you_like_to_be_part_of_the_user_groups?',
                                "what_are_you_typically_using_the_platforms_data_for?\n_ex__to_gather_speed_data,_downloading_segment_analysis_data_for_additional_analysis_outside_the_platform_":"what_types_of_analyses_are_you_running?",
                                "have_you_utilized_the_resources_training_streetlight_provides?":"have_you_utilized_the_resources_training?",
                                "if_yes,_is_there_a_particular_reason_why_you_gravitated_towards_streetlight?":"if_you_do_gravitate_towards_one_platform_more,_could_you_briefly_explain_why?"})
    
     elif sheetname==("Replica"):
-        df = df.rename(columns={'would_you_like_to_be_part_of_the_caltrans_big_data_user_group_for_replica?\nthis_user_group_would_be_internal_just_for_caltrans_and_would_meet_quarterly__':'would_you_like_to_be_part_of_the_user_groups?',
-                               "have_you_utilized_the_resources_training_replica_provides?":"have_you_utilized_the_resources_training?"})
+        df = df.rename(columns={'how_often_do_you_use_replica?':'how_often_do_you_use_the_platforms?', 
+                                'what_types_of_analyses_are_you_running?':'which_types_of_analyses_that_you_typically_use?',
+                                'would_you_like_to_be_part_of_the_caltrans_big_data_user_group_for_replica?\nthis_user_group_would_be_internal_just_for_caltrans_and_would_meet_quarterly__':'would_you_like_to_be_part_of_the_user_groups?',
+                               'have_you_utilized_the_training_resources_replica_provides?':'have_you_utilized_the_resources_training?',
+                               'what_are_you_typically_using_the_platforms_data_for?_\n__ex__to_gather_speed_data,_downloading_study_data_for_additional_analysis_outside_the_platform_':'what_types_of_analyses_are_you_running?'})
     
     
     return df
