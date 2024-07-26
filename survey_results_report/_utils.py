@@ -69,6 +69,53 @@ def read_in_data(sheetname):
     return df
 
 
+def add_district_col(df, col):
+    df['district'] = (
+        np.where(df[col].str.contains("HQ") | df[col].str.contains("Headquarters"), "Headquarters",
+        np.where(df[col].str.contains("74"), "Headquarters",
+        np.where(df[col].str.contains("10"), "District 10",
+        np.where(df[col].str.contains("11"),  "District 11",
+        np.where(df[col].str.contains("12"), "District 12",
+        np.where(df[col].str.contains("01") | df[col].str.contains("D1"), "District 1",
+        np.where(df[col].str.contains("3"), "District 3",
+        np.where(df[col].str.contains("4"), "District 4",
+        np.where(df[col].str.contains("5"), "District 5",
+        np.where(df[col].str.contains("6"), "District 6",
+        np.where(df[col].str.contains("7")| df[col].str.contains("7/")| df[col].str.contains("D7"), "District 7",
+        np.where(df[col].str.contains("8"), "District 8",
+        np.where(df[col].str.contains("9"), "District 9",          
+
+                                    "Not Specified"))))))))))))))
+    return df
+
+
+def add_division_col(df, col):
+    df[col] = df[col].str.title()
+    df['division'] = (
+        np.where(df[col].str.contains("Dotp") | df[col].str.contains("Transportation Planning"), "Transportation Planning",
+        np.where(df[col].str.contains("Environmental Planning"), "Environmental Planning",
+        np.where(df[col].str.contains("Central Corridors Design"), "Central Corridors Design",
+        np.where(df[col].str.contains("Planning"),  "Planning",
+        np.where(df[col].str.contains("Maintenance Design"), "Maintenance Design",  
+        np.where(df[col].str.contains("Design"), "Design",
+        np.where(df[col].str.contains("Traffic Ops") | df[col].str.contains("Traffic Operations") | df[col].str.contains("Operations"), "Traffic Operations",
+        np.where(df[col].str.contains("Dea"), "Environmental Analysis",
+        np.where(df[col].str.contains("Drisi"), "Research Innovation and System Information",
+        np.where(df[col].str.contains("Maintenance"), "Maintenance",
+        np.where(df[col].str.contains("Traffic Safety"), "Traffic Safety",
+        np.where(df[col].str.contains("Safety Program"), "Safety Program",   
+        np.where(df[col].str.contains("Row")| df[col].str.contains("Right Of Way"), "Right of Way",
+        np.where(df[col].str.contains("Engineering Services"), "Engineering Services",
+        np.where(df[col].str.contains("Dla")| df[col].str.contains("Local Assistance"), "Local Assistance",
+        np.where(df[col].str.contains("Traffic Management"), "Traffic Management",
+        np.where(df[col].str.contains("Sb1")| df[col].str.contains("Sb 1"), "SB1 Program",
+        np.where(df[col].str.contains("Corridors"), "Corridors",
+        np.where(df[col].str.contains("Traffic safety Investigation"), "Traffic Safety Investigation",      
+
+                                    "Not Specified"))))))))))))))))))))
+    return df
+
+
 def title_column_names(df):
     df.columns = df.columns.map(str.title) 
     df.columns = df.columns.map(lambda x : x.replace("_", " "))
