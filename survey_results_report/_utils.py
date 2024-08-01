@@ -110,9 +110,11 @@ def add_division_col(df, col):
         np.where(df[col].str.contains("Traffic Management"), "Traffic Management",
         np.where(df[col].str.contains("Sb1")| df[col].str.contains("Sb 1"), "SB1 Program",
         np.where(df[col].str.contains("Corridors"), "Corridors",
-        np.where(df[col].str.contains("Traffic safety Investigation"), "Traffic Safety Investigation",      
+        np.where(df[col].str.contains("Traffic safety Investigation"), "Traffic Safety Investigation",
+        np.where(df[col].str.contains("Asset Management"), "Asset Management",
+                 
 
-                                    "Not Specified"))))))))))))))))))))
+                                    "Not Specified")))))))))))))))))))))
     return df
 
 
