@@ -125,7 +125,7 @@ def title_column_names(df):
     return df
 
 
-def chart_results(df, column_list):
+def chart_results(df, column_list, color_col):
     for col in column_list:
         chart = (
             alt.Chart(df>>filter(_[col].notnull()))
@@ -133,7 +133,7 @@ def chart_results(df, column_list):
             .encode(
                 x=alt.X(col),
                  y='count()',
-                color=alt.Color(col, scale=alt.Scale(range = cp.CALITP_DIVERGING_COLORS,)
+                color=alt.Color(color_col, scale=alt.Scale(range = cp.CALITP_SEQUENTIAL_COLORS,)
                 ))
           .properties(title=col,
         width=800,
@@ -160,5 +160,32 @@ def get_list_of_responses(df, response):
     response_list = ast.literal_eval(text_list)
     response_list = set(response_list)
     
+    response_list.remove('Vehicle Traffic In General')
+    
     return response_list
 
+
+def get_dummies_by_type(df, col):
+    
+    mode_list = get_list_of_responses(df, col)
+        
+    mode_types = set()
+    for mode in df[col].str.split(', '):
+        mode_types.update(mode)
+    unique_modes = []
+    
+    for mode in mode_types:
+        df[mode] = df[col].str.count(mode)
+        unique_modes.append(mode)
+
+    ### adding column for unique agencies list
+    def get_unique_modes(mode_list):
+        unique_modes = set()
+        for mode in mode_list:
+            unique_modes.update(mode.split(', '))
+        return ', '.join(sorted(list(unique_modes)))
+    
+    df = df.drop('Vehicle traffic in general', axis=1)
+
+
+    return df
