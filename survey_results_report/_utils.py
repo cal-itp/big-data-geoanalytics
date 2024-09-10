@@ -35,6 +35,10 @@ def read_in_data(sheetname):
     ## this removes the test responses the team sent in
     df = df[(df['timestamp'] > '2024-07-10 17:30:00')]
     
+    ## drop rows for those who have sumbitted the form twice. Keep the last record (if they update their response, the most recent will be captured) 
+    df['caltrans_email'] = df['caltrans_email'].str.lower()
+    df = df.drop_duplicates(subset="caltrans_email", keep='last', inplace=False, ignore_index=False)
+    
     ## remove the email attached to the response. 
     df = df.drop('caltrans_email', axis=1)
     
