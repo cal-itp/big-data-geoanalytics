@@ -39,6 +39,8 @@ def read_in_data(sheetname):
     df['caltrans_email'] = df['caltrans_email'].str.lower()
     df = df.drop_duplicates(subset="caltrans_email", keep='last', inplace=False, ignore_index=False)
     
+    assert len(df>>count(_.caltrans_email)>>filter(_.n==2)) == 0
+    
     ## remove the email attached to the response. 
     df = df.drop('caltrans_email', axis=1)
     
