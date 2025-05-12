@@ -6,1997 +6,1414 @@
 # a list of SHS Intersection locations pulled from the subset of OSOW permit routes
 shs_intersections = [
     {
-        "shs_intersection": "I-5 and I-10",
-        "x_coords": "-118.217127",
-        "y_coords": "34.043080",
-        "city": "Los Angeles",
-        "county": "Los Angeles"
+        "shs_intersection": "I-5 and I-10, California",
+        "x_coords": "-118.2193173",
+        "y_coords": "34.0395767"
     },
     {
-        "shs_intersection": "I-5 AND I-15", # room for improvement
+        "shs_intersection": "I-5 AND I-15",
         "x_coords": "-117.121720",
-        "y_coords": "32.692938", 
-        "city": "San Diego",
-        "county": "San Diego"
+        "y_coords": "32.692938"
     },
     {
         "shs_intersection": "I-5 AND I-505",
         "x_coords": "-121.941668",
-        "y_coords": "38.849695",
-        "city": "Woodland",
-        "county": "Yolo"
+        "y_coords": "38.849695"
     },
     {
         "shs_intersection": "I-5 AND I-580",
         "x_coords": "-121.340756",
-        "y_coords": "37.596558",
-        "city": "Tracy",
-        "county": "San Joaquin"
+        "y_coords": "37.596558"
     },
     {
         "shs_intersection": "I-5 AND I-805",
         "x_coords": "-117.040268",
-        "y_coords": "32.549777",
-        "city": "San Ysidro",
-        "county": "San Diego"
+        "y_coords": "32.549777"
     },
     {
-        "shs_intersection": "I-5 and I-80",
+        "shs_intersection": "I-5 and I-80, California",
         "x_coords": "-121.5171204", 
-        "y_coords": "38.6248864",
-        "city": "Sacramento",
-        "county": "Sacramento"
+        "y_coords": "38.6248864"
     },
     {
-        "shs_intersection": "I-5 and I-205",
+        "shs_intersection": "I-5 and I-205, California",
         "x_coords": "-121.3212098", 
-        "y_coords": "37.7747996",
-        "city": "lathrop",
-        "county": "San Joaquin"
+        "y_coords": "37.7747996"
     },
     {
-        "shs_intersection": "I-5 and I-405",
-        "x_coords": "-117.731998", 
-        "y_coords": "33.640746",
-        "city": "Irvine",
-        "county": "orange"
+        "shs_intersection": "I-5 and I-405, California",
+        "x_coords": "-117.7303127", 
+        "y_coords": "33.6389622"
     },
     {
-        "shs_intersection": "I-5 and I-8",
+        "shs_intersection": "I-5 and I-8, California",
         "x_coords": "-117.2037869", 
-        "y_coords": "32.7591082",
-        "city": "San Diego",
-        "county": "San Diego"
+        "y_coords": "32.7591082"
     },
     {
-        "shs_intersection": "I-5 AND OR LINE", # State Boundary
+        "shs_intersection": "I-5 AND OR LINE",
         "x_coords": "-122.615471",
-        "y_coords": "42.005398",
-        "city": "Hornbrook",
-        "county": "Siskiyou"
+        "y_coords": "42.005398"
     },
     {
-        "shs_intersection": "I-5 and SR-12",
-        "x_coords": "-121.397983", 
-        "y_coords": "38.116021",
-        "city": "Lodi",
-        "county": "San Joaquin"
+        "shs_intersection": "I-5 and SR-12, California",
+        "x_coords": "-121.3978848", 
+        "y_coords": "38.1154351"
     },
     {
-        "shs_intersection": "I-5 and SR-14",
-        "x_coords": "-118.508647",
-        "y_coords": "34.334785",
-        "city": "Sylmar",
-        "county": "Los Angeles"
+        "shs_intersection": "I-5 and SR-14, California",
+        "x_coords": "-118.507427", 
+        "y_coords": "34.3326266"
     },
     {
-        "shs_intersection": "I-5 and SR-15", # room for improvement
-        "x_coords": "-117.121720",
-        "y_coords": "32.692938", 
-        "city": "San Diego",
-        "county": "San Diego"
+        "shs_intersection": "I-5 and SR-15, California",
+        "x_coords": "-117.1211288", 
+        "y_coords": "32.6923764"
     },
     {
-        "shs_intersection": "I-5 and SR-16"
-        "x_coords": "-121.800409", 
-        "y_coords": "38.718630",
-        "city": "Woodland",
-        "county": "Yolo"
+        "shs_intersection": "I-5 and SR-16, California",
+        "x_coords": "-120.2791601", 
+        "y_coords": "36.3078477"
     },
     {
         "shs_intersection": "I-5 AND SR-166",
         "x_coords": "-118.999200",
-        "y_coords": "35.059332",
-        "city": "Bakersfield",
-        "county": "Kern"
+        "y_coords": "35.059332"
     },
     {
-        "shs_intersection": "I-5 and SR-20",
+        "shs_intersection": "I-5 and SR-20, California",
         "x_coords": "-122.1498933", 
-        "y_coords": "39.1665678",
-        "city": "Williams",
-        "county": "Colusa"
+        "y_coords": "39.1665678"
     },
     {
-        "shs_intersection": "I-5 and SR-22",
-        "x_coords": "-117.876860", 
-        "y_coords": "33.778977",
-        "city": "Santa Ana",
-        "county": "orange"
+        "shs_intersection": "I-5 and SR-22, California",
+        "x_coords": "-117.8769603", 
+        "y_coords": "33.7788598"
     },
     {
-        "shs_intersection": "I-5 and SR-32",
-        "x_coords": "-122.205495", 
-        "y_coords": "39.750681",
-        "city": "Orland",
-        "county": "Glenn"
+        "shs_intersection": "I-5 and SR-32, California",
+        "x_coords": "-122.205501", 
+        "y_coords": "39.75032"
     },
     {
-        "shs_intersection": "I-5 and SR-33",
-        "x_coords": "-120.394142", 
-        "y_coords": "36.435726",
-        "city": "Cantua Creek",
-        "county": "Fresno"
+        "shs_intersection": "I-5 and SR-33, California",
+        "x_coords": "-120.3923114", 
+        "y_coords": "36.4334225"
     },
     {
-        "shs_intersection": "I-5 and SR-36",
-        "x_coords": "-122.225192",
-        "y_coords": "40.180686",
-        "city": "Red Bluff",
-        "county": "Tehama"
+        "shs_intersection": "I-5 and SR-36, California",
+        "x_coords": "-122.2445409", 
+        "y_coords": "40.2041737"
     },
     {
-        "shs_intersection": "I-5 and SR-41",
+        "shs_intersection": "I-5 and SR-41, California",
         "x_coords": "-119.9603248", 
         "y_coords": "35.9816544"
     },
     {
-        "shs_intersection": "I-5 and SR-43",
-        "x_coords": "-119.252488", 
-        "y_coords": "35.293324",
-        "city": "Bakersfield",
-        "county": "Kern"
+        "shs_intersection": "I-5 and SR-43, California",
+        "x_coords": "-119.2525845", 
+        "y_coords": "35.2930485"
     },
     {
-        "shs_intersection": "I-5 and SR-44",
-        "x_coords": "-122.360534", 
-        "y_coords": "40.585395",
-        "city": "Redding",
-        "county": "Shasta"
+        "shs_intersection": "I-5 and SR-44, California",
+        "x_coords": "-122.3605092", 
+        "y_coords": "40.5850561"
     },
     {
-        "shs_intersection": "I-5 and SR-46",
-        "x_coords": "-119.653306", 
-        "y_coords": "35.616297",
-        "city": "Lost Hills",
-        "county": "Kern"
+        "shs_intersection": "I-5 and SR-46, California",
+        "x_coords": "-119.6532836", 
+        "y_coords": "35.6161199"
     },
     {
-        "shs_intersection": "I-5 and SR-52",
-        "x_coords": "-117.234788", 
-        "y_coords": "32.837969",
-        "city": "San Diego",
-        "county": "San Diego"
+        "shs_intersection": "I-5 and SR-52, California",
+        "x_coords": "-117.2347813", 
+        "y_coords": "32.8376004"
     },
     {
-        "shs_intersection": "I-5 and SR-55",
-        "x_coords": "-117.833823", 
-        "y_coords": "33.740668",
-        "city": "Tustin",
-        "county": "Orange"
+        "shs_intersection": "I-5 and SR-55, California",
+        "x_coords": "-117.83382", 
+        "y_coords": "33.7405912"
     },
     {
-        "shs_intersection": "I-5 and SR-56",
+        "shs_intersection": "I-5 and SR-56, California",
         "x_coords": "-117.2408403",
-        "y_coords": "32.9301482",
-        "city": "San Diego",
-        "county": "San Diego"
+        "y_coords": "32.9301482"
     },
     {
-        "shs_intersection": "I-5 and SR-57",
+        "shs_intersection": "I-5 and SR-57, California",
         "x_coords": "-117.880123", 
-        "y_coords": "33.7822912",
-        "city": "Orange",
-        "county": "Orange"
+        "y_coords": "33.7822912"
     },
     {
         "shs_intersection": "I-5 AND SR-54",
         "x_coords": "-117.104102",
-        "y_coords": "32.651004",
-        "city": "National City",
-        "county": "San Diego"
+        "y_coords": "32.651004"
     },
     {
         "shs_intersection": "I-5 AND SR-58",
         "x_coords": "-119.397329",
-        "y_coords": "35.398890",
-        "city": "Buttonwillow",
-        "county": "Kern"
+        "y_coords": "35.398890"
     },
     {
-        "shs_intersection": "I-5 and SR-73",
+        "shs_intersection": "I-5 and SR-73, California",
         "x_coords": "-117.6738146", 
-        "y_coords": "33.5425909",
-        "city": "San Juan Capistrano",
-        "county": "Orange"
+        "y_coords": "33.5425909"
     },
     {
-        "shs_intersection": "I-5 and SR-74",
-        "x_coords": "-117.658483", 
-        "y_coords": "33.502451",
-        "city": "San Juan Capistrano",
-        "county": "Orange"
+        "shs_intersection": "I-5 and SR-74, California",
+        "x_coords": "-117.6584611", 
+        "y_coords": "33.5022528"
     },
     {
-        "shs_intersection": "I-5 and SR-75",
+        "shs_intersection": "I-5 and SR-75, California",
         "x_coords": "-117.1424314", 
-        "y_coords": "32.7009545",
-        "city": "San Diego",
-        "county": "San Diego"
+        "y_coords": "32.7009545"
     },
     {
-        "shs_intersection": "I-5 and SR-76",
-        "x_coords": "-117.383145", 
-        "y_coords": "33.204713",
-        "city": "Oceanside",
-        "county": "San Diego"
+        "shs_intersection": "I-5 and SR-76, California",
+        "x_coords": "-117.3830207", 
+        "y_coords": "33.2044458"
     },
     {
-        "shs_intersection": "I-5 and SR-78",
+        "shs_intersection": "I-5 and SR-78, California",
         "x_coords": "-117.3513025", 
-        "y_coords": "33.1770414",
-        "city": "Oceanside",
-        "county": "San Diego"
+        "y_coords": "33.1770414"
     },
     {
-        "shs_intersection": "I-5 and SR-89",
+        "shs_intersection": "I-5 and SR-89, California",
         "x_coords": "-122.304868", 
-        "y_coords": "41.286287",
-        "city": "Mt Shasta",
-        "county": "Siskiyou
+        "y_coords": "41.286287"
     },
     {
-        "shs_intersection": "I-5 and SR-91",
+        "shs_intersection": "I-5 and SR-91, California",
         "x_coords": "-117.9803962", 
-        "y_coords": "33.8569961",
-        "city": "Fullerton",
-        "county": "Orange"
+        "y_coords": "33.8569961"
     },
     {
-        "shs_intersection": "I-5 and SR-94",
+        "shs_intersection": "I-5 and SR-94, California",
         "x_coords": "-117.1476619", 
-        "y_coords": "32.7143796",
-        "city": "San Diego",
-        "county": "San Diego"
+        "y_coords": "32.7143796"
     },
     {
-        "shs_intersection": "I-5 AND SR-99", # same name, different location
+        "shs_intersection": "I-5 AND SR-99",
         "x_coords": "-118.954452",
-        "y_coords": "35.013687",
-        "city": "Lebec",
-        "county": "Kern"
+        "y_coords": "35.013687"
     },
-    {
-        "shs_intersection": "I-5 AND SR-99", # same name, different location
-        "x_coords": "-121.540221",
-        "y_coords": "38.669260",
-        "city": "North Natomas",
-        "county": "Sacramento"
-    },  
     {
         "shs_intersection": "I-5 AND SR-113",
         "x_coords": "-121.751637",
-        "y_coords": "38.685321",
-        "city": "Woodland",
-        "county": "Yolo"
+        "y_coords": "38.685321"
     },
     {
-        "shs_intersection": "I-5 and SR-118",
+        "shs_intersection": "I-5 and SR-118, California",
         "x_coords": "-118.4435609", 
-        "y_coords": "34.2667135",
-        "city": "Los Angeles",
-        "county": "Los Angeles"
+        "y_coords": "34.2667135"
     },
     {
-        "shs_intersection": "I-5 and SR-119",
+        "shs_intersection": "I-5 and SR-119, California",
         "x_coords": "-119.224524", 
-        "y_coords": "35.2670658",
-        "city": "Bakersfield",
-        "county": "Kern"
+        "y_coords": "35.2670658"
     },
     {
-        "shs_intersection": "I-5 and SR-120",
-        "x_coords": "-121.303462", 
-        "y_coords": "37.787210",
-        "city": "Lathrop",
-        "county": "San Joaquin"
+        "shs_intersection": "I-5 and SR-120, California",
+        "x_coords": "-121.3018261", 
+        "y_coords": "37.7887748"
     },
     {
-        "shs_intersection": "I-5 and SR-126",
+        "shs_intersection": "I-5 and SR-126, California",
         "x_coords": "-118.6055142", 
-        "y_coords": "34.4431988",
-        "city": "Santa Clarita",
-        "county": "Los Angeles"
+        "y_coords": "34.4431988"
     },
     {
-        "shs_intersection": "I-5 and SR-132",
+        "shs_intersection": "I-5 and SR-132, California",
         "x_coords": "-121.3430842", 
-        "y_coords": "37.6377555",
-        "city": "Tracy",
-        "county": "San Joaquin"
+        "y_coords": "37.6377555"
     },
     {
-        "shs_intersection": "I-5 and SR-133",
+        "shs_intersection": "I-5 and SR-133, California",
         "x_coords": "-117.7533201", 
-        "y_coords": "33.6674393",
-        "city": "Irvine",
-        "county": "Orange"
+        "y_coords": "33.6674393"
     },
     {
-        "shs_intersection": "I-5 and SR-134",
+        "shs_intersection": "I-5 and SR-134, California",
         "x_coords": "-118.2847469", 
-        "y_coords": "34.1528621",
-        "city": "Los Angeles",
-        "county": "Los Angeles"
+        "y_coords": "34.1528621"
     },
     {
-        "shs_intersection": "I-5 and SR-138",
+        "shs_intersection": "I-5 and SR-138, California",
         "x_coords": "-118.7986074", 
-        "y_coords": "34.7640468",
-        "city": "Lebec",
-        "county": "Kern"
+        "y_coords": "34.7640468"
     },
     {
-        "shs_intersection": "I-5 and SR-140",
+        "shs_intersection": "I-5 and SR-140, California",
         "x_coords": "-121.0889606", 
-        "y_coords": "37.2461183",
-        "city": "Gustine",
-        "county": "Merced"
+        "y_coords": "37.2461183"
     },
     {
-        "shs_intersection": "I-5 and SR-152",
+        "shs_intersection": "I-5 and SR-152, California",
         "x_coords": "-120.9698301", 
-        "y_coords": "37.0566575",
-        "city": "Gustine",
-        "county": "Merced"
+        "y_coords": "37.0566575"
     },
     {
-        "shs_intersection": "I-5 and SR-162",
+        "shs_intersection": "I-5 and SR-162, California",
         "x_coords": "-122.2147204", 
-        "y_coords": "39.524194",
-        "city": "Willows",
-        "county": "Glenn"
+        "y_coords": "39.524194"
     },
     {
-        "shs_intersection": "I-5 and SR-165",
+        "shs_intersection": "I-5 and SR-165, California",
         "x_coords": "-120.8404977", 
-        "y_coords": "36.9302781",
-        "city": "Los Banos",
-        "county": "Merced"
+        "y_coords": "36.9302781"
     },
     {
-        "mid_route_inersections": "I-5 and SR-166",
+        "mid_route_inersections": "I-5 and SR-166, California",
         "x_coords": "-118.999163", 
-        "y_coords": "35.059316",
-        "city": "Bakersfield",
-        "county": "Kern"
+        "y_coords": "35.059316"
     },
     {
-        "shs_intersection": "I-5 and SR-170",
+        "shs_intersection": "I-5 and SR-170, California",
         "x_coords": "-118.4101239", 
-        "y_coords": "34.2330844",
-        "city": "Los Angeles",
-        "county": "Los Angeles"
+        "y_coords": "34.2330844"
     },
     {
-        "shs_intersection": "I-5 and SR-198",
+        "shs_intersection": "I-5 and SR-198, California",
         "x_coords": "-120.2439689", 
-        "y_coords": "36.2543345",
-        "city": "Coalinga",
-        "county": "Fresno"
+        "y_coords": "36.2543345"
     },
     {
-        "shs_intersection": "I-5 and SR-210",
+        "shs_intersection": "I-5 and SR-210, California",
         "x_coords": "-118.4903133", 
-        "y_coords": "34.3159777",
-        "city": "Los Angeles",
-        "county": "Los Angeles"
+        "y_coords": "34.3159777"
     },
     {
-        "shs_intersection": "I-5 and SR-223",
+        "shs_intersection": "I-5 and SR-223, California",
         "x_coords": "-119.1629213", 
-        "y_coords": "35.209104",
-        "city": "Bakersfield",
-        "county": "Kern"
+        "y_coords": "35.209104"
     },
     {
-        "shs_intersection": "I-5 and SR-269",
+        "shs_intersection": "I-5 and SR-269, California",
         "x_coords": "-120.1020456", 
-        "y_coords": "36.0767521",
-        "city": "Huron",
-        "county": "Fresno"
+        "y_coords": "36.0767521"
     },
     {
-        "shs_intersection": "I-5 and SR-273", # multiple locations with same name
+        "shs_intersection": "I-5 and SR-273, California",
         "x_coords": "-122.28333", 
-        "y_coords": "40.4272485",
-        "city": "Anderson",
-        "county": "Shasta"
+        "y_coords": "40.4272485"
     },
     {
-        "shs_intersection": "I-5 and SR-273", # multiple locations with same name
-        "x_coords": "-122.368705", 
-        "y_coords": "40.630541",
-        "city": "Redding",
-        "county": "Shasta"
-    },
-    {
-        "shs_intersection": "I-5 and SR-299",
+        "shs_intersection": "I-5 and SR-299, California",
         "x_coords": "-122.3632521", 
-        "y_coords": "40.6121579",
-        "city": "Redding",
-        "county": "Shasta"
+        "y_coords": "40.6121579"
     },
     {
-        "shs_intersection": "I-5 and SR-905",
+        "shs_intersection": "I-5 and SR-905, California",
         "x_coords": "-117.0734143", 
-        "y_coords": "32.5651478",
-        "city": "San Diego",
-        "county": "San Diego"
+        "y_coords": "32.5651478"
     },
     {
         "shs_intersection": "I-5 AND STOCKDALE HIGHWAY",
         "x_coords": "-119.335958",
-        "y_coords": "35.354969",
-        "city": "Bakersfield",
-        "county": "Kern"
+        "y_coords": "35.354969"
     },
     {
         "shs_intersection": "I-5 AND TEMPLIN HIGHWAY",
         "x_coords": "-118.687859",
-        "y_coords": "34.569665",
-        "city": "Castaic",
-        "county": "Los Angeles"
+        "y_coords": "34.569665"
     },
     {
-        "shs_intersection": "I-5 and US-50",
+        "shs_intersection": "I-5 and US-50, California",
         "x_coords": "-121.5108873", 
-        "y_coords": "38.5682793",
-        "city": "Sacramento",
-        "county": "Sacramento"
+        "y_coords": "38.5682793"
     },
     {
-        "shs_intersection": "I-5 and US-97",
+        "shs_intersection": "I-5 and US-97, California",
         "x_coords": "-122.3825292", 
-        "y_coords": "41.41573",
-        "city": "Weed"
-        "county": "Siskiyou"
+        "y_coords": "41.41573"
     },
     {
-        "shs_intersection": "I-10 AND AZ LINE", # State Boundary
+        "shs_intersection": "I-10 AND AZ LINE",
         "x_coords": "-114.217309",
-        "y_coords": "33.663136",
-        "city": "Blythe",
-        "county": "Riverside"
+        "y_coords": "33.663136"
     },
     {
         "shs_intersection": "I-10 AND I-15",
         "x_coords": "-117.544920",
-        "y_coords": "34.067352",
-        "city": "Ontario",
-        "county": "San Bernardino"
+        "y_coords": "34.067352"
     },
     {
-        "shs_intersection": "I-10 and I-215",
+        "shs_intersection": "I-10 and I-215, California",
         "x_coords": "-117.2964956", 
-        "y_coords": "34.0641924",
-        "city": "Colton",
-        "county": "San Bernardino"
+        "y_coords": "34.0641924"
     },
     {
-        "shs_intersection": "I-10 and I-405",
+        "shs_intersection": "I-10 and I-405, California",
         "x_coords": "-118.4335953", 
-        "y_coords": "34.0312671",
-        "city": "Los Angeles",
-        "county": "Los Angeles"
+        "y_coords": "34.0312671"
     },
     {
-        "shs_intersection": "I-10 and I-605",
+        "shs_intersection": "I-10 and I-605, California",
         "x_coords": "-118.0000932", 
-        "y_coords": "34.0650647",
-        "city": "Baldwin Park",
-        "county": "Los Angeles"
+        "y_coords": "34.0650647"
     },
     {
-        "shs_intersection": "I-10 and I-710",
-        "x_coords": "-118.165152", 
-        "y_coords": "34.061214",
-        "city": "Monterey Park",
-        "county": "Los Angeles"
+        "shs_intersection": "I-10 and I-710, California",
+        "x_coords": "-118.1650635", 
+        "y_coords": "34.0616746"
     },
     {
-        "shs_intersection": "I-10 and SR-15",
-        "x_coords": "-117.544944", 
-        "y_coords": "34.067397",
-        "city": "Ontario",
-        "county": "San Bernardino"
+        "shs_intersection": "I-10 and SR-15, California",
+        "x_coords": "-117.5449899", 
+        "y_coords": "34.06694"
     },
     {
-        "shs_intersection": "I-10 and SR-22", # Questionable value
+        "shs_intersection": "I-10 and SR-22, California",
         "x_coords": "-118.0562305",
-        "y_coords": "33.7555338",
+        "y_coords": "33.7555338"
     },
     {
-        "shs_intersection": "I-10 and SR-57",
+        "shs_intersection": "I-10 and SR-57, California",
         "x_coords": "-117.8065739",
-        "y_coords": "34.0651133",
-        "city": "Pomona",
-        "county": "Los Angeles"
+        "y_coords": "34.0651133"
     },
     {
-        "shs_intersection": "I-10 and SR-60",
-        "x_coords": "-116.989441",
-        "y_coords": "33.932887"
-        "city": "Beaumont",
-        "county": "Riverside
+        "shs_intersection": "I-10 and SR-60, California",
+        "x_coords": "-116.9884664",
+        "y_coords": "33.9323636"
     },
     {
-        "shs_intersection": "I-10 and SR-62",
-        "x_coords": "-116.604714",
-        "y_coords": "33.915269",
-        "city": "Whitewater",
-        "county": "Riverside"
+        "shs_intersection": "I-10 and SR-62, California",
+        "x_coords": "-116.6043518",
+        "y_coords": "33.9142755"
     },
     {
-        "shs_intersection": "I-10 and SR-78",
+        "shs_intersection": "I-10 and SR-78, California",
         "x_coords": "-114.6576732",
-        "y_coords": "33.6065263",
-        "city": "Blythe",
-        "county": "Riverside"
+        "y_coords": "33.6065263"
     },
     {
-        "shs_intersection": "I-10 and SR-79",
+        "shs_intersection": "I-10 and SR-79, California",
         "x_coords": "-116.9771835",
-        "y_coords": "33.9269216",
-        "city": "Beaumont",
-        "county": "Riverside"
+        "y_coords": "33.9269216"
     },
     {
-        "shs_intersection": "I-10 and SR-83",
+        "shs_intersection": "I-10 and SR-83, California",
         "x_coords": "-117.6511013",
-        "y_coords": "34.0873237",
-        "city": "Ontario",
-        "county": "Los Angeles"
+        "y_coords": "34.0873237"
     },
     {
-        "shs_intersection": "I-10 and SR-86",
+        "shs_intersection": "I-10 and SR-86, California",
         "x_coords": "-116.1932279",
-        "y_coords": "33.7178667",
-        "city": "Indio",
-        "county": "Riverside"
+        "y_coords": "33.7178667"
     },
     {
-        "shs_intersection": "I-10 and SR-111",
+        "shs_intersection": "I-10 and SR-111, California",
         "x_coords": "-116.2070171",
-        "y_coords": "33.7149312",
-        "city": "Indio",
-        "county": "Riverside"
+        "y_coords": "33.7149312"
     },
     {
-        "shs_intersection": "I-10 and SR-152", # questionable value
+        "shs_intersection": "I-10 and SR-152, California",
         "x_coords": "-121.084865",
         "y_coords": "37.077806"
     },
     {
-        "shs_intersection": "I-10 and SR-177",
+        "shs_intersection": "I-10 and SR-177, California",
         "x_coords": "-115.4002514",
-        "y_coords": "33.7104463",
-        "city": "Desert Center",
-        "county": "Riverside"
+        "y_coords": "33.7104463"
     },
     {
-        "shs_intersection": "I-10 and SR-243",
+        "shs_intersection": "I-10 and SR-243, California",
         "x_coords": "-116.8854203",
-        "y_coords": "33.9241006",
-        "city": "Banning",
-        "county": "Riverside"
+        "y_coords": "33.9241006"
     },
     {
-        "shs_intersection": "I-10 and US-95",
+        "shs_intersection": "I-10 and US-95, California",
         "x_coords": "-114.5706989",
-        "y_coords": "33.6072721",
-        "city": "Blythe",
-        "county": "Riverside"
+        "y_coords": "33.6072721"
     },
     {
         "shs_intersection": "I-15 AND I-215",
         "x_coords": "-117.408750",
-        "y_coords": "34.223824",
-        "city": "San Bernardino",
-        "county": "San Bernardino"
+        "y_coords": "34.223824"
     },
     {
         "shs_intersection": "I-15 AND I-805",
         "x_coords": "-117.114120",
-        "y_coords": "32.738542",
-        "city": "San Diego",
-        "county": "San Diego"
+        "y_coords": "32.738542"
     },
     {
         "shs_intersection": "I-15 AND I-40",
         "x_coords": "-117.008954",
-        "y_coords": "34.886545",
-        "city": "Barstow",
-        "county": "San Bernardino"
+        "y_coords": "34.886545"
     },
     {
-        "shs_intersection": "I-15 AND NV LINE", # State Boundary
+        "shs_intersection": "I-15 AND NV LINE",
         "x_coords": "-115.391428",
-        "y_coords": "35.606876",
-        "city": "Nipton",
-        "county": "San Bernardino"
+        "y_coords": "35.606876"
     },
     {
         "shs_intersection": "I-15 AND SR-127",
         "x_coords": "-116.073225",
-        "y_coords": "35.263438",
-        "city": "Baker",
-        "county": "San Bernardino"
+        "y_coords": "35.263438"
     },
     {
         "shs_intersection": "I-15 AND SR-163",
         "x_coords": "-117.113220",
-        "y_coords": "32.859192",
-        "city": "San Diego",
-        "county": "San Diego"
+        "y_coords": "32.859192"
     },
     {
         "shs_intersection": "I-15 AND SR-18",
         "x_coords": "-117.300712",
-        "y_coords": "34.545369",
-        "city": "Victorville",
-        "county": "San Bernardino"
+        "y_coords": "34.545369"
     },
     {
         "shs_intersection": "I-15 AND SR-210",
         "x_coords": "-117.495885",
-        "y_coords": "34.136374",
-        "city": "Rancho Cucamonga",
-        "county": "San Bernardino"
+        "y_coords": "34.136374"
     },
     {
         "shs_intersection": "I-15 AND SR-247",
         "x_coords": "-117.022901",
-        "y_coords": "34.885996",
-        "city": "Barstow",
-        "county": "San Bernardino"
+        "y_coords": "34.885996"
     },
     {
         "shs_intersection": "I-15 AND SR-52",
         "x_coords": "-117.120651",
-        "y_coords": "32.841860",
-        "city": "San Diego",
-        "county": "San Diego"
+        "y_coords": "32.841860"
     },
     {
         "shs_intersection": "I-15 AND SR-56",
-        "x_coords": "-117.095392",
-        "y_coords": "32.964692",
-        "city": "San Diego",
-        "county": "San Diego"
+        "x_coords": "-117.092564",
+        "y_coords": "32.969107"
     },
     {
         "shs_intersection": "I-15 AND SR-58",
         "x_coords": "-117.076548",
-        "y_coords": "34.870725",
-        "city": "Barstow",
-        "county": "San Bernardino"
+        "y_coords": "34.870725"
     },
     {
         "shs_intersection": "I-15 AND SR-60",
         "x_coords": "-117.550268",
-        "y_coords": "34.021768",
-        "city": "Jurupa Valley",
-        "county": "Riverside"
+        "y_coords": "34.021768"
     },
     {
         "shs_intersection": "I-15 AND SR-74",
-        "x_coords": "-117.337629",
-        "y_coords": "33.691987,
-        "city": "Lake Elsinore
-        "county": "Riverside
+        "x_coords": "-117.658481",
+        "y_coords": "33.502448"
     },
     {
         "shs_intersection": "I-15 AND SR-76",
-        "x_coords": "-117.159290",
-        "y_coords": "33.331111",
-        "city": "Fallbrook",
-        "county": "San Diego"
+        "x_coords": "-117.383127",
+        "y_coords": "33.204713"
     },
     {
         "shs_intersection": "I-15 AND SR-78",
         "x_coords": "-117.351316",
-        "y_coords": "33.177050",
-        "city": "Escondido",
-        "county": "San Diego"
+        "y_coords": "33.177050"
     },
     {
         "shs_intersection": "I-15 AND SR-91",
         "x_coords": "-117.547322",
-        "y_coords": "33.881866",
-        "city": "Corona"
-        "county": "Riverside"
+        "y_coords": "33.881866"
     },
     {
         "shs_intersection": "I-15 AND SR-94",
         "x_coords": "-117.117900",
-        "y_coords": "32.716725",
-        "city": "San Diego",
-        "county": "San Diego"
+        "y_coords": "32.716725"
     },
     {
         "shs_intersection": "I-15 AND US-395",
-        "x_coords": "-117.401725",
-        "y_coords": "34.399341",
-        "city": "Hesperia",
-        "county": "San Bernardino
+        "x_coords": "-117.402128",
+        "y_coords": "34.398855"
     },
     {
         "shs_intersection": "I-205 AND I-580",
         "x_coords": "-121.566683",
-        "y_coords": "37.742415",
-        "city": "Tracy",
-        "county": "San Joaquin"
+        "y_coords": "37.742415"
     },
     {
-        "shs_intersection": "I-40 AND AZ LINE", # State Boundary
+        "shs_intersection": "I-40 AND AZ LINE",
         "x_coords": "-114.487893",
-        "y_coords": "34.717170",
-        "city": "Needles",
-        "county": "San Bernardino"
+        "y_coords": "34.717170"
     },
     {
-        "shs_intersection": "I-40 and US-95",
+        "shs_intersection": "I-40 and US-95, California",
         "x_coords": "-114.5969206",
-        "y_coords": "34.8240555",
-        "city": "Needles",
-        "county": "San Bernardino"
+        "y_coords": "34.8240555"
     },
     {
-        "shs_intersection": "I-80 and I-505",
+        "shs_intersection": "I-80 and I-505, California",
         "x_coords": "-121.9563057",
-        "y_coords": "38.370683",
-        "city": "Vacaville",
-        "county": "Solano
+        "y_coords": "38.370683"
     },
     {
-        "shs_intersection": "I-80 and I-580", # multiple locations with same name
-        "x_coords": "-122.293846",
-        "y_coords": "37.828350",
-        "city": "Oakland",
-        "county": "Alameda"
+        "shs_intersection": "I-80 and I-580, California",
+        "x_coords": "-122.3083543",
+        "y_coords": "37.8896701"
     },
     {
-        "shs_intersection": "I-80 and I-580", # multiple locations with same name
-        "x_coords": "-122.308629",
-        "y_coords": "37.889281",
-        "city": "Albany"
-        "county": "Alameda"
-    },
-    {
-        "shs_intersection": "I-80 and I-680",
+        "shs_intersection": "I-80 and I-680, California",
         "x_coords": "-122.1379333",
-        "y_coords": "38.2163797",
-        "city": "Fairfield",
-        "county": "Solano"
+        "y_coords": "38.2163797"
     },
     {
-        "shs_intersection": "I-80 and I-880",
+        "shs_intersection": "I-80 and I-880, California",
         "x_coords": "-122.2936744",
-        "y_coords": "37.8287862",
-        "city": "Oakland",
-        "county": "Alameda"
+        "y_coords": "37.8287862"
     },
     {
-        "shs_intersection": "I-80 AND NV LINE", # State Boundary
+        "shs_intersection": "I-80 AND NV LINE",
         "x_coords": "-120.003342",
-        "y_coords": "39.467509",
-        "city": "Floriston",
-        "county": "Nevada"
+        "y_coords": "39.467509"
     },
     {
-        "shs_intersection": "I-80 and SR-89",
+        "shs_intersection": "I-80 and SR-89, California",
         "x_coords": "-120.2077074",
-        "y_coords": "39.3230493",
-        "city": "Truckee",
-        "county": "Nevada"
+        "y_coords": "39.3230493"
     },
     {
-        "shs_intersection": "I-80 and SR-113",
+        "shs_intersection": "I-80 and SR-113, California",
         "x_coords": "-121.7702521",
-        "y_coords": "38.519704",
-        "city": "Davis",
-        "county": "Solano"
+        "y_coords": "38.519704"
     },
     {
-        "shs_intersection": "I-80 and SR-193",
+        "shs_intersection": "I-80 and SR-193, California",
         "x_coords": "-121.1257945",
-        "y_coords": "38.8780956",
-        "city": "Newcastle",
-        "county": "Placer"
+        "y_coords": "38.8780956"
     },
     {
-        "shs_intersection": "I-80 and SR-780",
+        "shs_intersection": "I-80 and SR-780, California",
         "x_coords": "-122.2304448",
-        "y_coords": "38.091502",
-        "city": "Vallejo",
-        "county": "Solano"
+        "y_coords": "38.091502"
     },
     {
-        "shs_intersection": "I-105 and I-405",
+        "shs_intersection": "I-105 and I-405, California",
         "x_coords": "-118.3683925",
-        "y_coords": "33.9299777",
-        "city": "Hawthorne",
-        "county": "Los Angeles"
+        "y_coords": "33.9299777"
     },
     {
-        "shs_intersection": "I-105 and I-605",
+        "shs_intersection": "I-105 and I-605, California",
         "x_coords": "-118.1048384",
-        "y_coords": "33.9139358",
-        "city": "Norwalk",
-        "county": "Los Angeles"
+        "y_coords": "33.9139358"
     },
     {
-        "shs_intersection": "I-105 and I-710",
+        "shs_intersection": "I-105 and I-710, California",
         "x_coords": "-118.1801015",
-        "y_coords": "33.9128225",
-        "city": "Lynwood",
-        "county": "Los Angeles"
+        "y_coords": "33.9128225"
     },
     {
-        "shs_intersection": "I-105 and SR-110",
+        "shs_intersection": "I-105 and SR-110, California",
         "x_coords": "-118.2807593",
-        "y_coords": "33.9286602",
-        "city": "Los Angeles",
-        "county": "Los Angeles
+        "y_coords": "33.9286602"
     },
     {
-        "shs_intersection": "I-105 and I-110",
-        "x_coords": "-118.2807593",
-        "y_coords": "33.9286602",
-        "city": "Los Angeles",
-        "county": "Los Angeles
-    },
-    {
-        "shs_intersection": "I-215 and SR-259",
+        "shs_intersection": "I-215 and SR-259, California",
         "x_coords": "-117.3027148",
-        "y_coords": "34.127001",
-        "city": "San Bernardino",
-        "county": "San Bernardino"
+        "y_coords": "34.127001"
     },
     {
-        "shs_intersection": "I-280 and I-380",
+        "shs_intersection": "I-280 and I-380, California",
         "x_coords": "-122.4309517",
-        "y_coords": "37.6272684",
-        "city": "San Bruno",
-        "county": "San Mateo"
+        "y_coords": "37.6272684"
     },
     {
-        "shs_intersection": "I-280 and I-680",
-        "x_coords": "-121.851986",
-        "y_coords": "37.339644",
-        "city": "San Jose",
-        "county": "Santa Clara"
+        "shs_intersection": "I-280 and I-680, California",
+        "x_coords": "-121.8589036",
+        "y_coords": "37.3352733"
     },
     {
-        "shs_intersection": "I-280 and I-880",
+        "shs_intersection": "I-280 and I-880, California",
         "x_coords": "-121.9402621",
-        "y_coords": "37.3172818",
-        "city": "San Jose",
-        "county": "Santa Clara"
+        "y_coords": "37.3172818"
     },
     {
-        "shs_intersection": "I-405 and I-605",
+        "shs_intersection": "I-405 and I-605, California",
         "x_coords": "-118.0938338",
-        "y_coords": "33.7863509",
-        "city": "Long Beach",
-        "county": "Los Angeles"
+        "y_coords": "33.7863509"
     },
     {
-        "shs_intersection": "I-405 and I-710",
+        "shs_intersection": "I-405 and I-710, California",
         "x_coords": "-118.2074519",
-        "y_coords": "33.8263771",
-        "city": "Long Beach",
-        "county": "Los Angeles"
+        "y_coords": "33.8263771"
     },
     {
         "shs_intersection": "I-580 AND I-680",
         "x_coords": "-121.922687",
-        "y_coords": "37.700955",
-        "city": "Pleasanton",
-        "county": "Alameda"
+        "y_coords": "37.700955"
     },
     {
-        "shs_intersection": "I-680 and SR-780",
+        "shs_intersection": "I-680 and SR-780, California",
         "x_coords": "-122.1304573",
-        "y_coords": "38.0510052",
-        "city": "Benicia",
-        "county": "Solano"
+        "y_coords": "38.0510052"
     },
     {
         "shs_intersection": "I-710 AND SEASIDE FWY",
         "x_coords": "-118.238522",
-        "y_coords": "33.758464",
-        "city": "Long Beach",
-        "county": "Los Angeles"
+        "y_coords": "33.758464"
     },
     {
         "shs_intersection": "I-8 AND AZ LINE",
         "x_coords": "-114.617597",
-        "y_coords": "32.728482",
-        "city": "Winterhaven",
-        "county": "Imperial"
+        "y_coords": "32.728482"
     },
     {
         "shs_intersection": "I-8 AND I-15",
         "x_coords": "-117.112371",
-        "y_coords": "32.778595",
-        "city": "San Diego",
-        "county": "San Diego"
+        "y_coords": "32.778595"
     },
     {
         "shs_intersection": "I-8 AND I-805",
         "x_coords": "-117.131980",
-        "y_coords": "32.771822",
-        "city": "San Diego",
-        "county": "San Diego"
+        "y_coords": "32.771822"
     },
     {
         "shs_intersection": "I-8 AND SR-111",
         "x_coords": "-115.501143",
-        "y_coords": "32.773791",
-        "city": "El Centro"
-        "county": "Imperial"
+        "y_coords": "32.773791"
     },
     {
         "shs_intersection": "I-8 AND SR-115",
         "x_coords": "-115.285567",
         "y_coords": "32.773003"
-        "city": "Holtville",
-        "county": "Imperial"
     },
     {
         "shs_intersection": "I-8 AND SR-125",
         "x_coords": "-117.003694",
-        "y_coords": "32.777633",
-        "city": "La Mesa",
-        "county": "San Diego"
+        "y_coords": "32.777633"
     },
     {
         "shs_intersection": "I-8 AND SR-163",
         "x_coords": "-117.163405",
-        "y_coords": "32.762618",
-        "city": "San Diego",
-        "county": "San Diego"
+        "y_coords": "32.762618"
     },
     {
         "shs_intersection": "I-8 AND SR-67",
-        "x_coords": "-116.962391",
-        "y_coords": "32.803048",
-        "city": "El Cajon",
-        "county": "San Diego"
+        "x_coords": "-116.965450",
+        "y_coords": "32.803084"
     },
     {
         "shs_intersection": "I-8 AND SR-86",
-        "x_coords": "-115.569496",
-        "y_coords": "32.773915",
-        "city": "El Centro",
-        "county": "imperial"
+        "x_coords": "115.569496",
+        "y_coords": "32.773915"
     },
     {
         "shs_intersection": "I-8 AND SR-98",
         "x_coords": "-115.089260",
-        "y_coords": "32.710583",
-        "city": "Holtville",
-        "county": "Imperial"
+        "y_coords": "32.710583"
     },
     {
-        "shs_intersection": "I-805 and SR-905",
+        "shs_intersection": "I-805 and SR-905, California",
         "x_coords": "-117.0406132",
-        "y_coords": "32.5681478",
-        "city": "San Diego",
-        "county": "San Diego"
+        "y_coords": "32.5681478"
     },
     {
         "shs_intersection": "MCGOWAN PARKWAY AND SR-65",
         "x_coords": "-121.527808",
-        "y_coords": "39.077510",
-        "city": "Olivehurst",
-        "county": "Yuba"
+        "y_coords": "39.077510"
     },
     {
         "shs_intersection": "MCGOWAN PARKWAY AND SR-70",
-        "x_coords": "-121.541351",
-        "y_coords": "39.077339",
-        "city": "Olivehurst",
-        "county": "Yuba"
+        "x_coords": "-121.541372",
+        "y_coords": "39.077319"
     },
     {
         "shs_intersection": "RAMONA EXPWY AND I-215",
         "x_coords": "-117.250840",
-        "y_coords": "33.843789",
-        "city": "Perris",
-        "county": "Riverside"
+        "y_coords": "33.843789"
     },
     {
         "shs_intersection": "SEASIDE FWY AND SR-47",
         "x_coords": "-118.260375",
-        "y_coords": "33.750041",
-        "city": "San Pedro",
-        "county": "Los Angeles"
+        "y_coords": "33.750041"
     },
     {
-        "shs_intersection": "SR-1 and I-5",
-        "x_coords": "-117.669858",
-        "y_coords": "33.467035",
-        "city": "San Juan Capistrano",
-        "county": "Orange"
+        "shs_intersection": "SR-1 and I-5, California",
+        "x_coords": "-117.669851",
+        "y_coords": "33.4669366"
     },
     {
         "shs_intersection": "SR-1 AND I-10",
         "x_coords": "-118.490047",
-        "y_coords": "34.012645",
-        "city": "Santa Monica",
-        "county": "Los Angeles"
+        "y_coords": "34.012645"
     },
     {
-        "shs_intersection": "SR-1 and I-105",
-        "x_coords": "-118.396097",
-        "y_coords": "33.931459",
-        "city": "Los Angeles",
-        "county": "Los Angeles"
+        "shs_intersection": "SR-1 and I-105, California",
+        "x_coords": "-118.3961351",
+        "y_coords": "33.9313854"
     },
     {
         "shs_intersection": "SR-1 AND SR-107",
         "x_coords": "-118.351131",
-        "y_coords": "33.805035",
-        "city": "Torrance",
-        "county": "Los Angeles"
+        "y_coords": "33.805035"
     },
     {
         "shs_intersection": "SR-1 AND SR-135",
-        "x_coords": "-120.452668",
-        "y_coords": "34.851470",
-        "city": "Orcutt",
-        "county": "Santa Barbara"
+        "x_coords": "-120.451996",
+        "y_coords": "34.840925"
     },
     {
         "shs_intersection": "SR-1 AND SR-166",
         "x_coords": "-120.574034",
-        "y_coords": "34.957589",
-        "city": "Guadalupe",
-        "county": "Santa Barbara"
+        "y_coords": "34.957589"
     },
     {
         "shs_intersection": "SR-1 AND SR-22",
         "x_coords": "-118.122776",
         "y_coords": "33.775379"
-        "city": "Long Beach",
-        "county": "Los Angeles"
     },
     {
         "shs_intersection": "SR-1 AND SR-246",
         "x_coords": "-120.435929",
-        "y_coords": "34.641263",
-        "city": "Lompoc",
-        "county": "Santa Barbara"
+        "y_coords": "34.641263"
     },
     {
         "shs_intersection": "SR-1 AND I-280",
-        "x_coords": "-122.471526",
-        "y_coords": "37.677579",
-        "city": "Daly City",
-        "county": "San Mateo"
+        "x_coords": "-122.471388",
+        "y_coords": "37.680776"
     },
     {
         "shs_intersection": "SR-1 AND SR-35",
         "x_coords": "-122.485056",
-        "y_coords": "37.668500",
-        "city": "Daly City",
-        "county": "San Mateo"
+        "y_coords": "37.668500"
     },
     {
-        "shs_intersection": "SR-1 and I-710",
-        "x_coords": "-118.207872",
-        "y_coords": "33.789912",
-        "city": "Long Beach",
-        "county": "Los Angeles"
+        "shs_intersection": "SR-1 and I-710, California",
+        "x_coords": "-118.2078449",
+        "y_coords": "33.7898405"
     },
     {
-        "shs_intersection": "SR-1 and SR-9",
+        "shs_intersection": "SR-1 and SR-9, California",
         "x_coords": "-122.0297558",
-        "y_coords": "36.9844096",
-        "city": "Santa Cruz",
-        "county": "Santa Cruz"
+        "y_coords": "36.9844096"
     },
     {
-        "shs_intersection": "SR-1 and SR-55",
+        "shs_intersection": "SR-1 and SR-55, California",
         "x_coords": "-117.9293219",
-        "y_coords": "33.6212163",
-        "city": "Newport Beach",
-        "county": "Los Angeles"
+        "y_coords": "33.6212163"
     },
     {
-        "shs_intersection": "SR-1 and SR-103",
-        "x_coords": "-118.224974",
-        "y_coords": "33.789869",
-        "city": "Long Beach",
-        "county": "Los Angeles"
+        "shs_intersection": "SR-1 and SR-103, California",
+        "x_coords": "-118.2249691",
+        "y_coords": "33.7897639"
     },
     {
-        "shs_intersection": "SR-1 and SR-110",
+        "shs_intersection": "SR-1 and SR-110, California",
         "x_coords": "-118.2820661",
-        "y_coords": "33.7905789",
-        "city": "Wilmington",
-        "county": "California"
+        "y_coords": "33.7905789"
     },
     {
-        "shs_intersection": "SR-1 and SR-118", # questionable value
-        "x_coords": "-119.154982",
-        "y_coords": "34.288098",
-        "city": "Ventura",
-        "county": "Ventura"
+        "shs_intersection": "SR-1 and SR-118, California",
+        "x_coords": "-119.5144457",
+        "y_coords": "34.2516422"
     },
     {
-        "shs_intersection": "SR-1 and SR-129",
+        "shs_intersection": "SR-1 and SR-129, California",
         "x_coords": "-121.774179",
         "y_coords": "36.894236"
-        "city": "Watsonville",
-        "county": "Santa Cruz"
     },
     {
-        "shs_intersection": "SR-1 and SR-156",
+        "shs_intersection": "SR-1 and SR-156, California",
         "x_coords": "-121.7656141",
-        "y_coords": "36.7529187",
-        "city": "Castroville",
-        "county": "Monterey"
+        "y_coords": "36.7529187"
     },
     {
         "shs_intersection": "SR-1 AND SR-183",
         "x_coords": "-121.765394",
-        "y_coords": "36.770867",
-        "city": "Castroville",
-        "county": "Monterey"
+        "y_coords": "36.770867"
     },
     {
-        "shs_intersection": "SR-2 and I-405",
+        "shs_intersection": "SR-1 and SR-223, California",
+        "x_coords": "-121.7767206",
+        "y_coords": "36.762416"
+    },
+    {
+        "shs_intersection": "SR-2 and I-405, California",
         "x_coords": "-118.4467267",
-        "y_coords": "34.0469528",
-        "city": "Los Angeles",
-        "county": "Los Angeles"
+        "y_coords": "34.0469528"
     },
     {
-        "shs_intersection": "SR-2 and SR-134",
+        "shs_intersection": "SR-2 and SR-134, California",
         "x_coords": "-118.226278",
-        "y_coords": "34.1467022",
-        "city": "Los Angeles",
-        "county": "Los Angeles"
+        "y_coords": "34.1467022"
     },
     {
-        "shs_intersection": "SR-2 and SR-210",
+        "shs_intersection": "SR-2 and SR-210, California",
         "x_coords": "-118.2175196",
-        "y_coords": "34.2074836",
-        "city": "
+        "y_coords": "34.2074836"
     },
     {
-        "shs_intersection": "SR-3 and I-5",
+        "shs_intersection": "SR-2 and US-95, California",
+        "x_coords": "-114.7829911",
+        "y_coords": "32.4839304"
+    },
+    {
+        "shs_intersection": "SR-3 and I-5, California",
         "x_coords": "-122.6278309",
-        "y_coords": "41.7394717",
-        "city": "Yreka",
-        "county": "Siskiyou"
+        "y_coords": "41.7394717"
     },
     {
-        "shs_intersection": "SR-4 and SR-160",
+        "shs_intersection": "SR-4 and SR-160, California",
         "x_coords": "-121.7572058",
-        "y_coords": "37.9908358",
-        "city": "Antioch",
-        "county": "Contra Costa"
+        "y_coords": "37.9908358"
     },
     {
-        "shs_intersection": "SR-4 and SR-242",
+        "shs_intersection": "SR-4 and SR-242, California",
         "x_coords": "-122.0359094",
-        "y_coords": "38.0060299",
-        "city": "
+        "y_coords": "38.0060299"
     },
     {
-        "shs_intersection": "SR-7 and SR-8",
+        "shs_intersection": "SR-7 and SR-8, California",
         "x_coords": "-115.3836718",
         "y_coords": "32.7732264"
     },
     {
-        "shs_intersection": "SR-7 and SR-65, California", # Questionable value, I believe this is 7th Standard Road
+        "shs_intersection": "SR-7 and SR-65, California",
         "x_coords": "-119.0746319",
-        "y_coords": "35.4413814",
-        "city": "Bakersfield",
-        "county": "Kern"
+        "y_coords": "35.4413814"
     },
     {
-        "shs_intersection": "7th Standard Road and SR-65",
-        "x_coords": "-119.0746319",
-        "y_coords": "35.4413814",
-        "city": "Bakersfield",
-        "county": "Kern"
-    },
-    {
-        "shs_intersection": "SR-8 and I-805",
+        "shs_intersection": "SR-8 and I-805, California",
         "x_coords": "-117.1319771",
-        "y_coords": "32.7717861",
-        "city": "San Diego",
-        "county": "San Diego"
+        "y_coords": "32.7717861"
     },
     {
-        "shs_intersection": "SR-8 and SR-15",
+        "shs_intersection": "SR-8 and SR-15, California",
         "x_coords": "-117.1123522",
-        "y_coords": "32.7785497",
-        "city": "San Diego",
-        "county": "San Diego"
+        "y_coords": "32.7785497"
     },
     {
-        "shs_intersection": "SR-8 and SR-67",
+        "shs_intersection": "SR-8 and SR-67, California",
         "x_coords": "-116.9624199",
-        "y_coords": "32.8030392", 
-        "city": "El Cajon",
-        "county": "San Diego"
+        "y_coords": "32.8030392"
     },
     {
-        "shs_intersection": "SR-8 and SR-86",
-        "x_coords": "-115.552215",
-        "y_coords": "32.773789",
-        "city": "El Centro",
-        "county": "imperial"
+        "shs_intersection": "SR-8 and SR-86, California",
+        "x_coords": "-115.5695068",
+        "y_coords": "32.7737888"
     },
     {
-        "shs_intersection": "SR-8 and SR-98",
-        "x_coords": "-116.021673",
-        "y_coords": "32.727343"
-        "city": "Ocotillo",
-        "county": "Imperial"
+        "shs_intersection": "SR-8 and SR-98, California",
+        "x_coords": "-115.0892642",
+        "y_coords": "32.7105553"
     },
     {
-        "shs_intersection": "SR-8 and SR-98",
-        "x_coords": "-115.089293",
-        "y_coords": "32.710624",
-        "city": "Holtville",
-        "county:" "Imperial"
-    },
-    {
-        "shs_intersection": "SR-8 and SR-111",
+        "shs_intersection": "SR-8 and SR-111, California",
         "x_coords": "-115.5011888",
-        "y_coords": "32.7737429",
-        "city": "El Centro",
-        "county": "Imperial"
+        "y_coords": "32.7737429"
     },
     {
-        "shs_intersection": "SR-8 and SR-115",
+        "shs_intersection": "SR-8 and SR-115, California",
         "x_coords": "-115.2856203",
-        "y_coords": "32.7729486",
-        "city": "Holtville",
-        "county": "Imperial"
-        
+        "y_coords": "32.7729486"
     },
     {
-        "shs_intersection": "SR-8 and SR-125",
+        "shs_intersection": "SR-8 and SR-125, California",
         "x_coords": "-117.003655",
-        "y_coords": "32.7776181",
-        "city": "La Mesa",
-        "county": "San Diego"
+        "y_coords": "32.7776181"
     },
     {
-        "shs_intersection": "SR-8 and SR-163",
+        "shs_intersection": "SR-8 and SR-163, California",
         "x_coords": "-117.1633704",
-        "y_coords": "32.7624981",
-        "city": "San Diego",
-        "county": "San Diego"
+        "y_coords": "32.7624981"
     },
     {
         "shs_intersection": "SR-12 AND COMMANCHE PARKWAY",
         "x_coords": "-120.980647",
-        "y_coords": "38.197714",
-        "city": "Wallace",
-        "county": "Calaveras"
+        "y_coords": "38.197714"
     },
     {
-        "shs_intersection": "SR-12 and I-680",
-        "x_coords": "-122.137893",
-        "y_coords": "38.216700",
-        "city": "Fairfield",
-        "county": "Solano"
+        "shs_intersection": "SR-12 and I-680, California",
+        "x_coords": "-122.1376249",
+        "y_coords": "38.2165412"
     },
     {
         "shs_intersection": "SR-12 AND SR-88",
         "x_coords": "-121.068064",
-        "y_coords": "38.197891",
-        "city": "Clements",
-        "county": "San Joaquin"
+        "y_coords": "38.197891"
     },
     {
-        "shs_intersection": "SR-12 and SR-99",
+        "shs_intersection": "SR-12 and SR-99, California",
         "x_coords": "-121.2578895",
-        "y_coords": "38.1162481",
-        "city": "Lodi",
-        "San Joaquin"
+        "y_coords": "38.1162481"
     },
     {
-        "shs_intersection": "SR-12 and US-101",
+        "shs_intersection": "SR-12 and US-101, California",
         "x_coords": "-122.7154274",
-        "y_coords": "38.4311076",
-        "city": "Santa Rosa",
-        "county": "Sonoma"
+        "y_coords": "38.4311076"
     },
     {
-        "shs_intersection": "SR-14 and SR-58",
+        "shs_intersection": "SR-14 and SR-58, California",
         "x_coords": "-118.1721488",
-        "y_coords": "35.0477644",
-        "city": "Mojave",
-        "county": "Kern"
+        "y_coords": "35.0477644"
     },
     {
-        "shs_intersection": "SR-15 and I-40",
+        "shs_intersection": "SR-15 and I-40, California",
         "x_coords": "-117.0112902",
-        "y_coords": "34.8858921",
-        "city": "Barstow",
-        "county": "San Bernardino"
+        "y_coords": "34.8858921"
     },
     {
-        "shs_intersection": "SR-15 and I-215",
-        "x_coords": "-117.180826",
-        "y_coords": "33.549355",
-        "city": "Temecula",
-        "county": "Riverside"
+        "shs_intersection": "SR-15 and I-215, California",
+        "x_coords": "-117.1768221",
+        "y_coords": "33.5431454"
     },
     {
-        "shs_intersection": "SR-15 and I-805",
+        "shs_intersection": "SR-15 and I-805, California",
         "x_coords": "-117.1116087",
-        "y_coords": "32.7320531",
-        "city": "San Diego",
-        "county": "San Diego"
+        "y_coords": "32.7320531"
     },
     {
-        "shs_intersection": "SR-15 and SR-52",
+        "shs_intersection": "SR-15 and SR-52, California",
         "x_coords": "-117.1206401",
-        "y_coords": "32.8418193",
-        "city": "San Diego",
-        "county": "San Diego"
+        "y_coords": "32.8418193"
     },
     {
-        "shs_intersection": "SR-15 and SR-58",
+        "shs_intersection": "SR-15 and SR-58, California",
         "x_coords": "-117.0764783",
-        "y_coords": "34.870668",
-        "city": "Barstow",
-        "county": "Riverside"
+        "y_coords": "34.870668"
     },
     {
-        "shs_intersection": "SR-15 and SR-60",
+        "shs_intersection": "SR-15 and SR-60, California",
         "x_coords": "-117.550282",
-        "y_coords": "34.0216929",
-        "city": "Mira Loma",
-        "county": "Riverside"
+        "y_coords": "34.0216929"
     },
     {
-        "shs_intersection": "SR-15 and SR-74",
+        "shs_intersection": "SR-15 and SR-74, California",
         "x_coords": "-117.3375886",
-        "y_coords": "33.691937",
-        "city": "Lake Elsinore",
-        "county": "Riverside"
+        "y_coords": "33.691937"
     },
     {
-        "shs_intersection": "SR-15 and SR-76",
+        "shs_intersection": "SR-15 and SR-76, California",
         "x_coords": "-117.1592442",
-        "y_coords": "33.3310553",
-        "city": "Fallbrook",
-        "county": "San Diego"
+        "y_coords": "33.3310553"
     },
     {
-        "shs_intersection": "SR-15 and SR-78",
+        "shs_intersection": "SR-15 and SR-78, California",
         "x_coords": "-117.1048215",
-        "y_coords": "33.1270234",
-        "city": "Escondido",
-        "county": "San Diego"
+        "y_coords": "33.1270234"
     },
     {
-        "shs_intersection": "SR-15 and SR-79",
+        "shs_intersection": "SR-15 and SR-79, California",
         "x_coords": "-117.1629555",
-        "y_coords": "33.5224701",
-        "city": "Temecula",
-        "county": "Riverside"
+        "y_coords": "33.5224701"
     },
     {
-        "shs_intersection": "SR-15 and SR-91",
+        "shs_intersection": "SR-15 and SR-91, California",
         "x_coords": "-117.5472415",
-        "y_coords": "33.881847",
-        "city": "Corona",
-        "county": "Riverside"
+        "y_coords": "33.881847"
     },
     {
-        "shs_intersection": "SR-15 and SR-94",
-        "x_coords": "-117.117889",
-        "y_coords": "32.716773",
-        "city": "San Diego",
-        "county": "San Diego"
+        "shs_intersection": "SR-15 and SR-94, California",
+        "x_coords": "-117.1178271",
+        "y_coords": "32.7162961"
     },
     {
-        "shs_intersection": "SR-15 and SR-127",
+        "shs_intersection": "SR-15 and SR-127, California",
         "x_coords": "-116.0732067",
-        "y_coords": "35.2633089",
-        "city": "Nipton",
-        "county": "San Bernardino"
+        "y_coords": "35.2633089"
     },
     {
-        "shs_intersection": "SR-15 and SR-163",
+        "shs_intersection": "SR-15 and SR-163, California",
         "x_coords": "-117.1136803",
-        "y_coords": "32.8581269",
-        "city": "San Diego",
-        "county": "San Diego"
+        "y_coords": "32.8581269"
     },
     {
-        "shs_intersection": "SR-15 and SR-210",
+        "shs_intersection": "SR-15 and SR-210, California",
         "x_coords": "-117.4959677",
         "y_coords": "34.1362949"
-        "city": "Rancho Cucamonga",
-        "county": "San Bernardino"
     },
     {
-        "shs_intersection": "SR-15 and SR-247",
+        "shs_intersection": "SR-15 and SR-247, California",
         "x_coords": "-117.0229073",
-        "y_coords": "34.8859224",
-        "city": "Barstow",
-        "county": "San Bernardino"
+        "y_coords": "34.8859224"
     },
     {
-        "shs_intersection": "SR-15 and US-395",
+        "shs_intersection": "SR-15 and US-395, California",
         "x_coords": "-117.4018882",
-        "y_coords": "34.3990487",
-        "city": "Hesperia",
-        "county": "San Bernardino"
+        "y_coords": "34.3990487"
     },
     {
-        "shs_intersection": "SR-16 and I-505",
+        "shs_intersection": "SR-16 and I-505, California",
         "x_coords": "-121.9520726",
-        "y_coords": "38.6796051",
-        "city": "Madison",
-        "county": "Yolo"
+        "y_coords": "38.6796051"
     },
     {
         "shs_intersection": "SR-16 AND US-50",
         "x_coords": "-121.409349",
-        "y_coords": "38.553624",
-        "city": "Sacramento",
-        "county": "Sacramento"
+        "y_coords": "38.553624"
     },
     {
-        "shs_intersection": "SR-17 and I-280",
-        "x_coords": "-121.940329",
-        "y_coords": "37.316402",
-        "city": "San Jose",
-        "county": "Santa Clara"
+        "shs_intersection": "SR-17 and I-280, California",
+        "x_coords": "-121.940286",
+        "y_coords": "37.316506"
     },
     {
         "shs_intersection": "SR-1 AND SR-17",
-        "x_coords": "-122.021857",
-        "y_coords": "36.989805",
-        "city": "Santa Cruz",
-        "county": "Santa Cruz"
+        "x_coords": "-122.021507",
+        "y_coords": "36.989636"
     },
     {
-        "shs_intersection": "SR-18 and SR-38",
+        "shs_intersection": "SR-18 and SR-38, California",
         "x_coords": "-116.8455725",
-        "y_coords": "34.2611375",
-        "city": "Big Bear",
-        "county": "San Bernardino"
+        "y_coords": "34.2611375"
     },
     {
         "shs_intersection": "SR-18 AND SR-138",
         "x_coords": "-117.289797",
-        "y_coords": "34.227983",
-        "city": "Crestline",
-        "county": "San Bernardino
+        "y_coords": "34.227983"
     },
     {
-        "shs_intersection": "SR-18 and SR-247",
+        "shs_intersection": "SR-18 and SR-247, California",
         "x_coords": "-116.9496312",
         "y_coords": "34.4438103"
-        "city": "Lucerne Valley",
-        "county": "San Bernardino"
     },
     {
         "shs_intersection": "SR-18 AND US-395",
         "x_coords": "-117.399583",
-        "y_coords": "34.506690",
-        "city": "Victorville",
-        "county": "San Bernardino"
+        "y_coords": "34.506690"
     },
     {
         "shs_intersection": "SR-20 AND US-101",
         "x_coords": "-123.206635",
-        "y_coords": "39.240908",
-        "city": "Calpella",
-        "county": "Mendocino"
+        "y_coords": "39.240908"
     },
     {
-        "shs_intersection": "SR-20 and SR-29",
+        "shs_intersection": "SR-20 and SR-29, California",
         "x_coords": "-122.9213631",
-        "y_coords": "39.1634382",
-        "city": "Upper Lake",
-        "county": "Lake"
+        "y_coords": "39.1634382"
     },
     {
         "shs_intersection": "SR-20 AND SR-45",
         "x_coords": "-122.014791",
-        "y_coords": "39.215595",
-        "city": "Colusa",
-        "county": "Colusa"
+        "y_coords": "39.215595"
     },
     {
-        "shs_intersection": "SR-20 and SR-53",
-        "x_coords": "-122.614254",
-        "y_coords": "39.008536",
-        "city": "Clearlake Oaks",
-        "county": "Lake"
+        "shs_intersection": "SR-20 and SR-53, California",
+        "x_coords": "-122.6140787",
+        "y_coords": "39.0086394"
     },
     {
         "shs_intersection": "SR-20 AND SR-70",
         "x_coords": "-121.591129",
-        "y_coords": "39.144671",
-        "city": "Marysville",
-        "county": "Yuba"
+        "y_coords": "39.144671"
     },
     {
         "shs_intersection": "SR-20 AND SR-99",
         "x_coords": "-121.634553",
-        "y_coords": "39.141863",
-        "city": "Yuba City",
-        "county": "Yuba"
+        "y_coords": "39.141863"
     },
     {
-        "shs_intersection": "SR-22 and I-605",
-        "x_coords": "-118.089705",
-        "y_coords": "33.775884",
-        "city": "Seal Beach",
-        "county": "Los Angeles"
+        "shs_intersection": "SR-22 and I-605, California",
+        "x_coords": "-118.0912555",
+        "y_coords": "33.7847504"
     },
     {
-        "shs_intersection": "SR-22 and SR-39",
+        "shs_intersection": "SR-22 and SR-39, California",
         "x_coords": "-117.9923035",
-        "y_coords": "33.7710974",
-        "city": "Westminster",
-        "county": "Orange"
+        "y_coords": "33.7710974"
     },
     {
-        "shs_intersection": "SR-22 and SR-55",
+        "shs_intersection": "SR-22 and SR-55, California",
         "x_coords": "-117.8333988",
-        "y_coords": "33.7767961",
-        "city": "Orange",
-        "county": "Orange"
+        "y_coords": "33.7767961"
     },
     {
-        "shs_intersection": "SR-22 and SR-57",
-        "x_coords": "-117.879541",
-        "y_coords": "33.781431",
-        "city": "Orange",
-        "county": "Orange"
+        "shs_intersection": "SR-22 and SR-57, California",
+        "x_coords": "-117.879924",
+        "y_coords": "33.7853374"
     },
     {
-        "shs_intersection": "SR-24 and I-680",
-        "x_coords": "122.071081",
-        "y_coords": "37.896535",
-        "city": "Walnut Creek",
-        "county": "Contra Costa"
+        "shs_intersection": "SR-24 and I-680, California",
+        "x_coords": "-122.071081",
+        "y_coords": "37.8985594"
     },
     {
-        "shs_intersection": "SR-25 and SR-156",
+        "shs_intersection": "SR-25 and SR-156, California",
         "x_coords": "-121.4272778",
-        "y_coords": "36.8954298",
-        "city": "Holister",
-        "county": "San Benito"
+        "y_coords": "36.8954298"
     },
     {
-        "shs_intersection": "SR-25 and US-101",
+        "shs_intersection": "SR-25 and US-101, California",
         "x_coords": "-121.5510535",
-        "y_coords": "36.9611334",
-        "city": "Gilroy",
-        "county": "Santa Clara"
+        "y_coords": "36.9611334"
     },
     {
-        "shs_intersection": "SR-26 and SR-99",
+        "shs_intersection": "SR-26 and SR-99, California",
         "x_coords": "-121.2458016",
-        "y_coords": "37.9699259",
-        "city": "Stockton",
-        "county": "San Joaquin"
+        "y_coords": "37.9699259"
     },
     {
-        "shs_intersection": "SR-27 and SR-118",
+        "shs_intersection": "SR-27 and SR-118, California",
         "x_coords": "-118.6047846",
-        "y_coords": "34.2777048",
-        "city": "Chatsworth",
-        "county": "Los Angeles"
+        "y_coords": "34.2777048"
     },
     {
-        "shs_intersection": "SR-27 and US-101",
+        "shs_intersection": "SR-27 and US-101, California",
         "x_coords": "-118.6058136",
-        "y_coords": "34.1707228",
-        "city": "Calabasas",
-        "county": "Los Angeles"
+        "y_coords": "34.1707228"
     },
     {
-        "shs_intersection": "SR-29 and I-80",
+        "shs_intersection": "SR-29 and I-80, California",
         "x_coords": "-122.2317522",
-        "y_coords": "38.075832",
-        "city": "Vallejo",
-        "county": "Solano"
+        "y_coords": "38.075832"
     },
     {
-        "shs_intersection": "SR-29 and SR-37",
+        "shs_intersection": "SR-29 and SR-37, California",
         "x_coords": "-122.2560807",
-        "y_coords": "38.1399243",
-        "city": "Vallejo",
-        "county": "Solano"
+        "y_coords": "38.1399243"
     },
     {
-        "shs_intersection": "SR-29 and SR-221",
-        "x_coords": "-122.268511",
-        "y_coords": "38.241562",
-        "city": "Napa",
-        "county": "Napa"
+        "shs_intersection": "SR-29 and SR-221, California",
+        "x_coords": "-122.2694572",
+        "y_coords": "38.2417237"
     },
     {
         "shs_intersection": "SR-33 AND SR-58",
         "x_coords": "-119.622173",
-        "y_coords": "35.308867",
-        "city": "McKittrick",
-        "county": "Kern"
+        "y_coords": "35.308867"
     },
     {
         "shs_intersection": "SR-33 AND SR-198",
         "x_coords": "-120.363459",
-        "y_coords": "36.136391",
-        "city": "Coalinga",
-        "county": "Kern"
+        "y_coords": "36.136391"
     },
     {
         "shs_intersection": "SR-33 AND SR-152",
         "x_coords": "-121.016306",
-        "y_coords": "37.056874",
-        "city": "Gustine",
-        "county": "Merced"
+        "y_coords": "37.056874"
     },
     {
-        "shs_intersection": "SR-33 and US-101",
+        "shs_intersection": "SR-33 and US-101, California",
         "x_coords": "-119.3053327",
-        "y_coords": "34.2787708",
-        "city": "Ventura",
-        "county": "Ventura"
+        "y_coords": "34.2787708"
     },
     {
-        "shs_intersection": "SR-37 and I-80",
-        "x_coords": "-122.219901",
-        "y_coords": "38.139415",
-        "city": "Vallejo",
-        "county": "Solano"
+        "shs_intersection": "SR-37 and I-80, California",
+        "x_coords": "-122.2168017",
+        "y_coords": "38.1454187"
     },
     {
-        "shs_intersection": "SR-37 and US-101",
-        "x_coords": "-122.545811",
-        "y_coords": "38.079601",
-        "city": "Novato",
-        "county": "Marin"
+        "shs_intersection": "SR-37 and US-101, California",
+        "x_coords": "-122.5459499",
+        "y_coords": "38.0798641"
     },
     {
-        "shs_intersection": "SR-39 and I-405",
+        "shs_intersection": "SR-39 and I-405, California",
         "x_coords": "-117.9893587",
-        "y_coords": "33.7325282",
-        "city": "Huntington Beach",
-        "county": "Los Angeles"
+        "y_coords": "33.7325282"
     },
     {
-        "shs_intersection": "SR-39 and SR-91",
+        "shs_intersection": "SR-39 and SR-91, California",
         "x_coords": "-117.9980141",
-        "y_coords": "33.8560464",
-        "city": "Buena Park",
-        "county": "Orange"
+        "y_coords": "33.8560464"
     },
     {
-        "shs_intersection": "SR-41 and SR-99",
+        "shs_intersection": "SR-41 and SR-99, California",
         "x_coords": "-119.7847169",
-        "y_coords": "36.7176454",
-        "city": "Fresno",
-        "county": "Fresno"
+        "y_coords": "36.7176454"
     },
     {
-        "shs_intersection": "SR-41 and SR-198",
+        "shs_intersection": "SR-41 and SR-198, California",
         "x_coords": "-119.8080698",
-        "y_coords": "36.2820593",
-        "city": "Lemoore",
-        "county": "Kings"
+        "y_coords": "36.2820593"
     },
     {
-        "shs_intersection": "SR-43 and SR-58",
+        "shs_intersection": "SR-43 and SR-58, California",
         "x_coords": "-119.2521044",
-        "y_coords": "35.3542946",
-        "city": "Bakersfield",
-        "county": "Kern"
+        "y_coords": "35.3542946"
     },
     {
-        "shs_intersection": "SR-43 and SR-119",
+        "shs_intersection": "SR-43 and SR-119, California",
         "x_coords": "-119.2526877",
-        "y_coords": "35.2672514",
-        "city": "Bakersfield",
-        "county": "Kern"
+        "y_coords": "35.2672514"
     },
     {
-        "shs_intersection": "SR-43 and SR-198",
+        "shs_intersection": "SR-43 and SR-198, California",
         "x_coords": "-119.6009198",
-        "y_coords": "36.3251738",
-        "city": "Hanford",
-        "county": "Kings"
+        "y_coords": "36.3251738"
     },
     {
-        "shs_intersection": "SR-46 and SR-99",
+        "shs_intersection": "SR-46 and SR-99, California",
         "x_coords": "-119.2112125",
-        "y_coords": "35.6017319",
-        "city": "McFarland",
-        "county": "Kern"
+        "y_coords": "35.6017319"
     },
     {
-        "shs_intersection": "SR-47 and I-710",
+        "shs_intersection": "SR-47 and I-710, California",
         "x_coords": "-118.2385084",
-        "y_coords": "33.7583399",
-        "city": "Long Beach",
-        "county": "Los Angeles"
+        "y_coords": "33.7583399"
     },
     {
-        "shs_intersection": "SR-47 and SR-110",
+        "shs_intersection": "SR-47 and SR-110, California",
         "x_coords": "-118.2907046",
-        "y_coords": "33.7492427",
-        "city": "San Pedro",
-        "county": "Los Angeles"
+        "y_coords": "33.7492427"
     },
     {
-        "shs_intersection": "SR-49 and I-80",
+        "shs_intersection": "SR-49 and I-80, California",
         "x_coords": "-121.0747006",
-        "y_coords": "38.9002061",
-        "city": "Auburn",
-        "county": "Placer"
+        "y_coords": "38.9002061"
     },
     {
-        "shs_intersection": "SR-52 and I-805",
+        "shs_intersection": "SR-52 and I-805, California",
         "x_coords": "-117.1780977",
-        "y_coords": "32.8474801",
-        "city": "San Diego",
-        "county": "San Diego"
+        "y_coords": "32.8474801"
     },
     {
-        "shs_intersection": "SR-52 and SR-67",
+        "shs_intersection": "SR-52 and SR-67, California",
         "x_coords": "-116.962491",
-        "y_coords": "32.8322913",
-        "city": "Santee",
-        "county": "San Diego"
+        "y_coords": "32.8322913"
     },
     {
-        "shs_intersection": "SR-52 and SR-125",
-        "x_coords": "-117.003262",
-        "y_coords": "32.836708",
-        "city": "Santee",
-        "county": "San Diego"
+        "shs_intersection": "SR-52 and SR-125, California",
+        "x_coords": "-117.0031747",
+        "y_coords": "32.8364922"
     },
     {
-        "shs_intersection": "SR-52 and SR-163",
+        "shs_intersection": "SR-52 and SR-163, California",
         "x_coords": "-117.1335355",
-        "y_coords": "32.8411165",
-        "city": "San Diego",
-        "county": "San Diego"
+        "y_coords": "32.8411165"
     },
     {
-        "shs_intersection": "SR-54 and I-805",
+        "shs_intersection": "SR-54 and I-805, California",
         "x_coords": "-117.0745078",
-        "y_coords": "32.658292",
-        "city": "National City",
-        "county": "San Diego"
+        "y_coords": "32.658292"
     },
     {
         "shs_intersection": "SR-54 AND SR-94",
         "x_coords": "-116.942454",
-        "y_coords": "32.739561",
-        "city": "El Cajon",
-        "county": "San Diego"
+        "y_coords": "32.739561"
     },
     {
-        "shs_intersection": "SR-55 and I-405",
+        "shs_intersection": "SR-55 and I-405, California",
         "x_coords": "-117.8722219",
-        "y_coords": "33.6873201",
-        "city": "Santa Ana",
-        "county": "Orange"
+        "y_coords": "33.6873201"
     },
     {
-        "shs_intersection": "SR-55 and SR-73",
+        "shs_intersection": "SR-55 and SR-73, California",
         "x_coords": "-117.8862283",
-        "y_coords": "33.6733476",
-        "city": "Costa Mesa",
-        "county": "Orange"
+        "y_coords": "33.6733476"
     },
     {
-        "shs_intersection": "SR-56 and I-805", # questionable value
+        "shs_intersection": "SR-56 and I-805, California",
         "x_coords": "-117.2338534",
-        "y_coords": "32.9171369",
-        "city": "San Diego",
-        "county": "San Diego"
+        "y_coords": "32.9171369"
     },
     {
-        "shs_intersection": "SR-57 and SR-71",
-        "x_coords": "-117.807857",
-        "y_coords": "34.069369",
-        "city": "San Dimas",
-        "county": "Los Angeles"
+        "shs_intersection": "SR-57 and SR-71, California",
+        "x_coords": "-117.807419",
+        "y_coords": "34.0683769"
     },
     {
-        "shs_intersection": "SR-57 and SR-90",
-        "x_coords": "-117.883578",
-        "y_coords": "33.910757",
-        "city": "Bree",
-        "county": "Orange"
+        "shs_intersection": "SR-57 and SR-90, California",
+        "x_coords": "-117.8834422",
+        "y_coords": "33.9107697"
     },
     {
-        "shs_intersection": "SR-57 and SR-91",
-        "x_coords": "-117.875842",
-        "y_coords": "33.849768",
-        "city": "Anaheim",
-        "county": "Orange"
+        "shs_intersection": "SR-57 and SR-91, California",
+        "x_coords": "-117.8758752",
+        "y_coords": "33.8498298"
     },
     {
-        "shs_intersection": "SR-57 and SR-210",
+        "shs_intersection": "SR-57 and SR-210, California",
         "x_coords": "-117.8243558",
-        "y_coords": "34.1205105",
-        "city": "Glendora",
-        "county": "Los Angeles"
+        "y_coords": "34.1205105"
     },
     {
-        "shs_intersection": "SR-58 and SR-99",
+        "shs_intersection": "SR-58 and SR-99, California",
         "x_coords": "-119.0395304",
-        "y_coords": "35.3526592",
-        "city": "Bakersfield",
-        "county": "Kern"
+        "y_coords": "35.3526592"
     },
     {
-        "shs_intersection": "SR-58 and SR-184",
+        "shs_intersection": "SR-58 and SR-184, California",
         "x_coords": "-118.9141569",
-        "y_coords": "35.3521819",
-        "city": "Bakersfield",
-        "county": "Kern"
+        "y_coords": "35.3521819"
     },
     {
-        "shs_intersection": "SR-58 and SR-202",
+        "shs_intersection": "SR-58 and SR-202, California",
         "x_coords": "-118.4673695",
-        "y_coords": "35.1413514",
-        "city": "Tehachapi",
-        "county": "Kern"
+        "y_coords": "35.1413514"
     },
     {
-        "shs_intersection": "SR-58 and SR-204",
+        "shs_intersection": "SR-58 and SR-204, California",
         "x_coords": "-119.0029996",
-        "y_coords": "35.3524168",
-        "city": "Bakersfield",
-        "county": "Kern"
+        "y_coords": "35.3524168"
     },
     {
-        "shs_intersection": "SR-58 and US-395",
-        "x_coords": "-117.542579",
-        "y_coords": "34.996049",
-        "city": "Kramer Junction",
-        "county": "Kern"
+        "shs_intersection": "SR-58 and US-395, California",
+        "x_coords": "-117.542581",
+        "y_coords": "34.9957715"
     },
     {
-        "shs_intersection": "SR-59 and SR-152",
+        "shs_intersection": "SR-59 and SR-152, California",
         "x_coords": "-120.4921135",
-        "y_coords": "37.0833327",
-        "city": "El Nido",
-        "county": "Merced"
+        "y_coords": "37.0833327"
     },
     {
-        "shs_intersection": "SR-60 and I-605",
+        "shs_intersection": "SR-60 and I-605, California",
         "x_coords": "-118.0272198",
-        "y_coords": "34.0339903",
-        "city": "City of Industry",
-        "county": "Los Angeles"
+        "y_coords": "34.0339903"
     },
     {
-        "shs_intersection": "SR-60 and I-710",
+        "shs_intersection": "SR-60 and I-710, California",
         "x_coords": "-118.1700494",
-        "y_coords": "34.0356009",
-        "city": "East Los Angeles",
-        "county": "Los Angeles"
+        "y_coords": "34.0356009"
     },
     {
-        "shs_intersection": "SR-60 and SR-71",
+        "shs_intersection": "SR-60 and SR-71, California",
         "x_coords": "-117.7492327",
-        "y_coords": "34.0232317",
-        "city": "Pomona",
-        "county": "Los Angeles"
+        "y_coords": "34.0232317"
     },
     {
-        "shs_intersection": "SR-60 and SR-83",
-        "x_coords": "-117.650855",
-        "y_coords": "34.030425",
-        "city": "Ontario",
-        "county": "San Bernardino"
+        "shs_intersection": "SR-60 and SR-83, California",
+        "x_coords": "-117.6509453",
+        "y_coords": "34.030361"
     },
     {
-        "shs_intersection": "SR-61 and I-880", # questionable value
+        "shs_intersection": "SR-61 and I-880, California",
         "x_coords": "-122.1869313",
-        "y_coords": "37.7159549",
-        "city": "San Leandro",
-        "county": "San Mateo"
+        "y_coords": "37.7159549"
     },
     {
-        "shs_intersection": "SR-62 AND AZ LINE", # State Boundary
+        "shs_intersection": "SR-62 AND AZ LINE",
         "x_coords": "-114.299646",
-        "y_coords": "34.160032",
-        "city": "Earp",
-        "county": "San Bernardino"
+        "y_coords": "34.160032"
     },
     {
-        "shs_intersection": "SR-63 and SR-198",
-        "x_coords": "-119.301342",
-        "y_coords": "36.326938",
-        "city": "Visalia",
-        "county": "Tulare"
+        "shs_intersection": "SR-63 and SR-198, California",
+        "x_coords": "-119.3013104",
+        "y_coords": "36.3267232"
     },
     {
         "shs_intersection": "SR-76 AND SR-79",
         "x_coords": "-116.710364",
-        "y_coords": "33.199791",
-        "city": "Santa Ysabel",
-        "county": "San Diego"
+        "y_coords": "33.199791"
     },
     {
         "shs_intersection": "SR-92 AND I-880",
         "x_coords": "-122.093822",
-        "y_coords": "37.644770",
-        "city": "Hayward",
-        "county": "Alameda"
+        "y_coords": "37.644770"
     },
     {
         "shs_intersection": "SR-99 AND SR-162",
         "x_coords": "-121.688478",
-        "y_coords": "39.465192",
-        "city": "Oroville",
-        "county": "Butte"
+        "y_coords": "39.465192"
     },
     {
-        "shs_intersection": "SR-99 and SR-219",
+        "shs_intersection": "SR-99 and SR-219, California",
         "x_coords": "-121.0810425",
-        "y_coords": "37.7090017",
-        "city": "Salida",
-        "county": "Stanislaus"
+        "y_coords": "37.7090017"
     },
     {
         "shs_intersection": "SR-121 AND SR-221",
         "x_coords": "-122.274172",
-        "y_coords": "38.280542",
-        "city": "Napa",
-        "county": "Napa"
+        "y_coords": "38.280542"
     },
     {
         "shs_intersection": "SR-163 AND I-805",
         "x_coords": "-117.152883",
-        "y_coords": "32.808835",
-        "city": "San Diego",
-        "county": "San Diego"
+        "y_coords": "32.808835"
     },
     {
         "shs_intersection": "SR-168 AND SR-180",
         "x_coords": "-117.152838",
-        "y_coords": "32.808854",
-        "city": "San Diego",
-        "county": "San Diego"
+        "y_coords": "32.808854"
     },
     {
         "shs_intersection": "SR-210 AND I-215",
