@@ -97,7 +97,7 @@ shs_intersections = [
         "county": "San Diego"
     },
     {
-        "shs_intersection": "I-5 and SR-16"
+        "shs_intersection": "I-5 and SR-16",
         "x_coords": "-121.800409", 
         "y_coords": "38.718630",
         "city": "Woodland",
@@ -253,7 +253,7 @@ shs_intersections = [
         "x_coords": "-122.304868", 
         "y_coords": "41.286287",
         "city": "Mt Shasta",
-        "county": "Siskiyou
+        "county": "Siskiyou"
     },
     {
         "shs_intersection": "I-5 and SR-91",
@@ -469,7 +469,7 @@ shs_intersections = [
         "shs_intersection": "I-5 and US-97",
         "x_coords": "-122.3825292", 
         "y_coords": "41.41573",
-        "city": "Weed"
+        "city": "Weed",
         "county": "Siskiyou"
     },
     {
@@ -536,9 +536,9 @@ shs_intersections = [
     {
         "shs_intersection": "I-10 and SR-60",
         "x_coords": "-116.989441",
-        "y_coords": "33.932887"
+        "y_coords": "33.932887",
         "city": "Beaumont",
-        "county": "Riverside
+        "county": "Riverside"
     },
     {
         "shs_intersection": "I-10 and SR-62",
@@ -702,9 +702,9 @@ shs_intersections = [
     {
         "shs_intersection": "I-15 AND SR-74",
         "x_coords": "-117.337629",
-        "y_coords": "33.691987,
-        "city": "Lake Elsinore
-        "county": "Riverside
+        "y_coords": "33.691987",
+        "city": "Lake Elsinore",
+        "county": "Riverside"
     },
     {
         "shs_intersection": "I-15 AND SR-76",
@@ -724,7 +724,7 @@ shs_intersections = [
         "shs_intersection": "I-15 AND SR-91",
         "x_coords": "-117.547322",
         "y_coords": "33.881866",
-        "city": "Corona"
+        "city": "Corona",
         "county": "Riverside"
     },
     {
@@ -739,7 +739,7 @@ shs_intersections = [
         "x_coords": "-117.401725",
         "y_coords": "34.399341",
         "city": "Hesperia",
-        "county": "San Bernardino
+        "county": "San Bernardino"
     },
     {
         "shs_intersection": "I-205 AND I-580",
@@ -767,7 +767,7 @@ shs_intersections = [
         "x_coords": "-121.9563057",
         "y_coords": "38.370683",
         "city": "Vacaville",
-        "county": "Solano
+        "county": "Solano"
     },
     {
         "shs_intersection": "I-80 and I-580", # multiple locations with same name
@@ -780,7 +780,7 @@ shs_intersections = [
         "shs_intersection": "I-80 and I-580", # multiple locations with same name
         "x_coords": "-122.308629",
         "y_coords": "37.889281",
-        "city": "Albany"
+        "city": "Albany",
         "county": "Alameda"
     },
     {
@@ -858,14 +858,14 @@ shs_intersections = [
         "x_coords": "-118.2807593",
         "y_coords": "33.9286602",
         "city": "Los Angeles",
-        "county": "Los Angeles
+        "county": "Los Angeles"
     },
     {
         "shs_intersection": "I-105 and I-110",
         "x_coords": "-118.2807593",
         "y_coords": "33.9286602",
         "city": "Los Angeles",
-        "county": "Los Angeles
+        "county": "Los Angeles"
     },
     {
         "shs_intersection": "I-215 and SR-259",
@@ -955,13 +955,13 @@ shs_intersections = [
         "shs_intersection": "I-8 AND SR-111",
         "x_coords": "-115.501143",
         "y_coords": "32.773791",
-        "city": "El Centro"
+        "city": "El Centro",
         "county": "Imperial"
     },
     {
         "shs_intersection": "I-8 AND SR-115",
         "x_coords": "-115.285567",
-        "y_coords": "32.773003"
+        "y_coords": "32.773003",
         "city": "Holtville",
         "county": "Imperial"
     },
@@ -991,7 +991,7 @@ shs_intersections = [
         "x_coords": "-115.569496",
         "y_coords": "32.773915",
         "city": "El Centro",
-        "county": "imperial"
+        "county": "Imperial"
     },
     {
         "shs_intersection": "I-8 AND SR-98",
@@ -1080,7 +1080,7 @@ shs_intersections = [
     {
         "shs_intersection": "SR-1 AND SR-22",
         "x_coords": "-118.122776",
-        "y_coords": "33.775379"
+        "y_coords": "33.775379",
         "city": "Long Beach",
         "county": "Los Angeles"
     },
@@ -1150,7 +1150,7 @@ shs_intersections = [
     {
         "shs_intersection": "SR-1 and SR-129",
         "x_coords": "-121.774179",
-        "y_coords": "36.894236"
+        "y_coords": "36.894236",
         "city": "Watsonville",
         "county": "Santa Cruz"
     },
@@ -1183,10 +1183,9 @@ shs_intersections = [
         "county": "Los Angeles"
     },
     {
-        "shs_intersection": "SR-2 and SR-210",
+        "shs_intersection": "SR-2 and SR-210", # look into this intersection
         "x_coords": "-118.2175196",
-        "y_coords": "34.2074836",
-        "city": "
+        "y_coords": "34.2074836"
     },
     {
         "shs_intersection": "SR-3 and I-5",
@@ -1203,10 +1202,9 @@ shs_intersections = [
         "county": "Contra Costa"
     },
     {
-        "shs_intersection": "SR-4 and SR-242",
+        "shs_intersection": "SR-4 and SR-242", # look into this intersection
         "x_coords": "-122.0359094",
         "y_coords": "38.0060299",
-        "city": "
     },
     {
         "shs_intersection": "SR-7 and SR-8",
@@ -1253,12 +1251,12 @@ shs_intersections = [
         "x_coords": "-115.552215",
         "y_coords": "32.773789",
         "city": "El Centro",
-        "county": "imperial"
+        "county": "Imperial"
     },
     {
         "shs_intersection": "SR-8 and SR-98",
         "x_coords": "-116.021673",
-        "y_coords": "32.727343"
+        "y_coords": "32.727343",
         "city": "Ocotillo",
         "county": "Imperial"
     },
@@ -1267,7 +1265,7 @@ shs_intersections = [
         "x_coords": "-115.089293",
         "y_coords": "32.710624",
         "city": "Holtville",
-        "county:" "Imperial"
+        "county": "Imperial"
     },
     {
         "shs_intersection": "SR-8 and SR-111",
@@ -1324,7 +1322,7 @@ shs_intersections = [
         "x_coords": "-121.2578895",
         "y_coords": "38.1162481",
         "city": "Lodi",
-        "San Joaquin"
+        "county": "San Joaquin"
     },
     {
         "shs_intersection": "SR-12 and US-101",
@@ -1441,7 +1439,7 @@ shs_intersections = [
     {
         "shs_intersection": "SR-15 and SR-210",
         "x_coords": "-117.4959677",
-        "y_coords": "34.1362949"
+        "y_coords": "34.1362949",
         "city": "Rancho Cucamonga",
         "county": "San Bernardino"
     },
@@ -1499,12 +1497,12 @@ shs_intersections = [
         "x_coords": "-117.289797",
         "y_coords": "34.227983",
         "city": "Crestline",
-        "county": "San Bernardino
+        "county": "San Bernardino"
     },
     {
         "shs_intersection": "SR-18 and SR-247",
         "x_coords": "-116.9496312",
-        "y_coords": "34.4438103"
+        "y_coords": "34.4438103",
         "city": "Lucerne Valley",
         "county": "San Bernardino"
     },
@@ -2001,7 +1999,7 @@ shs_intersections = [
     {
         "shs_intersection": "SR-210 AND I-215",
         "x_coords": "-117.319360",
-        "y_coords": "34.144444"
+        "y_coords": "34.144444",
         "city": "Blair Park",
         "county": "San Bernardino"
     },
@@ -2246,7 +2244,7 @@ shs_intersections = [
     {
         "shs_intersection": "SR-43 AND SR-99",
         "x_coords": "-119.628677",
-        "y_coords": "36.575668"
+        "y_coords": "36.575668",
         "city": "Selma",
         "county": "Fresno"
     },
@@ -2556,7 +2554,7 @@ shs_intersections = [
         "x_coords": "-117.189327",
         "y_coords": "33.754840",
         "city": "Perris",
-        "county" "Riverside"
+        "county": "Riverside"
     },
     {
         "shs_intersection": "SR-74 AND SR-79",
@@ -2596,7 +2594,7 @@ shs_intersections = [
     {
         "shs_intersection": "SR-82 AND SR-84",
         "x_coords": "-122.221827",
-        "y_coords": "37.476476"
+        "y_coords": "37.476476",
         "city": "Redwood City",
         "county": "San Mateo"
     },
@@ -2745,7 +2743,7 @@ shs_intersections = [
         "x_coords": "-115.498663",
         "y_coords": "32.679065",
         "city": "Calexico",
-        "county": "Imperial County"
+        "county": "Imperial"
     },
     {
         "shs_intersection": "SR-99 AND SR-113",
@@ -2871,7 +2869,7 @@ shs_intersections = [
         "x_coords": "-120.994849",
         "y_coords": "37.711146",
         "city": "Modesto",
-        "county" "Stanislaus"
+        "county": "Stanislaus"
     },
     {
         "shs_intersection": "SR-110 AND I-405",
@@ -3016,7 +3014,7 @@ shs_intersections = [
     {
         "shs_intersection": "SR-14 AND SR-138",
         "x_coords": "-118.133763",
-        "y_coords": "34.581330"
+        "y_coords": "34.581330",
         "city": "Palmdale",
         "county": "Los Angeles"
     },
@@ -3275,21 +3273,21 @@ shs_intersections = [
     {
         "shs_intersection": "US-50 AND SR-65", # Questionable value
         "x_coords": "-121.427796",
-        "y_coords": "38.550575"
-        "city": "Sacramento"
+        "y_coords": "38.550575",
+        "city": "Sacramento",
         "county": "Sacramento"
     },
     {
         "shs_intersection": "US-50 AND 65th Street", # not an SHS intersection
         "x_coords": "-121.427796",
-        "y_coords": "38.550575"
-        "city": "Sacramento"
+        "y_coords": "38.550575",
+        "city": "Sacramento",
         "county": "Sacramento"
     },
     {
         "shs_intersection": "US-50 AND SR-99",
         "x_coords": "-121.473449",
-        "y_coords": "38.558891"
+        "y_coords": "38.558891",
         "city": "Sacramento",
         "county": "Sacramento"
     },
@@ -3331,15 +3329,15 @@ shs_intersections = [
     {
         "shs_intersection": "US-395 AND NV LINE", # State Border; Multiple Locations with same name
         "x_coords": "-119.548514",
-        "y_coords": "38.686669"
-        "city": "Topaz"
+        "y_coords": "38.686669",
+        "city": "Topaz",
         "county": "Mono"
     },
     {
         "shs_intersection": "US-395 AND NV LINE", # State Border; Multiple Locations with same name
         "x_coords": "-119.548514",
-        "y_coords": "38.686669"
-        "city": "chilcoot"
+        "y_coords": "38.686669",
+        "city": "chilcoot",
         "county": "Plumas"
     },
 ]
