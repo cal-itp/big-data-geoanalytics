@@ -101,7 +101,7 @@ origin_intersections = [
     {
         "origin_intersection": "65th st and US-50",
         "x_coords": "-121.4277722",
-        "y_coords": "38.5505406"
+        "y_coords": "38.5505406",
         "city": "Sacramento"
     },
     {
@@ -186,19 +186,23 @@ origin_intersections = [
         "origin_intersection": "airport blvd and US-101", # multiple values with the same name
         "x_coords": "-121.6228739",
         "y_coords": "36.6608137",
-        "city": "Salinas"
+        "city": "Salinas",
+        "county": "Monterey"
     },
     {
         "origin_intersection": "airport blvd and US-101", # multiple values with the same name
-        "x_coords": "-122.4055361",
-        "y_coords": "37.6467612",
-        "city": "San Francisco"
+        "x_coords": "-122.408303",
+        "y_coords": "37.649971",
+        "city": "South San Francisco", # some folks may just use San Francisco
+        "county": "San Mateo"
+        
     },
     {
         "origin_intersection": "s airport blvd and US-101",
         "x_coords": "-122.4055361",
         "y_coords": "37.6467612",
-        "city": "San Francisco"
+        "city": "South San Francisco", # some folks may just use San Francisco
+        "county": "San Mateo"
     },
     {
         "origin_intersection": "airport blvd and SR-86",
@@ -612,7 +616,7 @@ origin_intersections = [
         "origin_intersection": "bob hope dr and I-10",
         "x_coords": "-116.4091025",
         "y_coords": "33.8200992",
-        "Riverside County"
+        "county": "Riverside County"
     },
     {
         "origin_intersection": "bolsa chica rd and SR-22",
@@ -630,7 +634,8 @@ origin_intersections = [
         "origin_intersection": "boundry pl and SR-1",
         "x_coords": "-118.3959874",
         "y_coords": "33.8771174",
-        "city": "Los Angeles"
+        "city": "Los Angeles",
+        "county": "Los Angles"
     },
     {
         "origin_intersection": "bowman rd and US-395",
@@ -1083,7 +1088,7 @@ origin_intersections = [
         "origin_intersection": "comconex rd and SR-120",
         "x_coords": "-121.1682347",
         "y_coords": "37.7975491",
-        "city": "Manteca, California
+        "city": "Manteca"
     },
     {
         "origin_intersection": "commercial vehicle border entrance Otay Mesa / Mex Border, California and SR-905", # State Boundary
@@ -3631,7 +3636,7 @@ origin_intersections = [
     {
         "origin_intersection": "rosedale hwy and SR-43",
         "x_coords": "-119.2520383",
-        "y_coords": "35.3834705"
+        "y_coords": "35.3834705",
         "city": "Bakersfield"
     },
     {
@@ -4238,8 +4243,10 @@ origin_intersections = [
     },
     {
         "origin_intersection": "US-395 and Nevada Line", # State Boundary
-        "x_coords": "-120.0008077",
-        "y_coords": "39.6732954"
+        "x_coords": "-120.001569",
+        "y_coords": "39.673683",
+        "city": "Chicoot",
+        "county": "Sierra"
     },
     {
         "origin_intersection": "US-395 and Oregon Line", # State Boundary
@@ -4409,13 +4416,13 @@ origin_intersections = [
     {
         "origin_intersection": "w 16th st and SR-59", # room for improvement
         "x_coords": "-120.5005899",
-        "y_coords": "37.3031921"
+        "y_coords": "37.3031921",
         "city": "Merced"
     },
     {
         "origin_intersection": "16th st and SR-59",
         "x_coords": "-120.5005899",
-        "y_coords": "37.3031921"
+        "y_coords": "37.3031921",
         "city": "Merced"
     },
     {
@@ -4774,7 +4781,9 @@ destination_intersections = [
     {
         "destination_intersection": "I-10 and Arizona Line", # State Boundary
         "x_coords": "-114.5311155",
-        "y_coords": "33.6047178"
+        "y_coords": "33.6047178",
+        "city": "Blythe",
+        "county": "Riverside County"
     },
     {
         "destination_intersection": "I-10 and cactus rest area",
@@ -4809,7 +4818,7 @@ destination_intersections = [
     {
         "destination_intersection": "I-10 and citrus ave",
         "x_coords": "-117.4536429",
-        "y_coords": "34.0669222"
+        "y_coords": "34.0669222",
         "city": "Fontana"
     },
     {
@@ -4864,7 +4873,8 @@ destination_intersections = [
         "destination_intersection": "I-10 and intake blvd",
         "x_coords": "-114.5707033",
         "y_coords": "33.6074328",
-        "city": "Blythe"
+        "city": "Blythe",
+        "county": "Riverside County"
     },
     {
         "destination_intersection": "I-10 and live oak canyon rd",
@@ -5232,12 +5242,14 @@ destination_intersections = [
     {
         "destination_intersection": "I-15 and Nevada Line", # State Boundary
         "x_coords": "-115.392266",
-        "y_coords": "35.6048034"
+        "y_coords": "35.6048034",
+        "city": "Calada",
+        "county": "Riverside"
     },
     {
         "destination_intersection": "I-15 and nipton rd",
         "x_coords": "-115.4487745",
-        "y_coords": "35.4733664"
+        "y_coords": "35.4733664",
         "city": "Nevada City"
     },
     {
@@ -5358,7 +5370,7 @@ destination_intersections = [
         "destination_intersection": "I-205 and macarthur dr",
         "x_coords": "-121.4147387",
         "y_coords": "37.7642675",
-        "Tracy"
+        "city": "Tracy"
     },
     {
         "destination_intersection": "I-205 and mountain house pkwy",
@@ -5530,7 +5542,9 @@ destination_intersections = [
     {
         "destination_intersection": "I-40 and Arizona Line", # State Boundary
         "x_coords": "-114.4878107",
-        "y_coords": "34.7171822"
+        "y_coords": "34.7171822",
+        "city": "Needles",
+        "county": "Riverside"
     },
     {
         "destination_intersection": "I-40 and daggett, California",
@@ -5559,7 +5573,7 @@ destination_intersections = [
     {
         "destination_intersection": "I-40 and ludlow Ludlow, California",
         "x_coords": "-116.163163",
-        "y_coords": "34.7254931"
+        "y_coords": "34.7254931",
         "city": "Ludlow"
     },
     {
@@ -6025,7 +6039,9 @@ destination_intersections = [
     {
         "destination_intersection": "I-5 and Oregon Line", # State Boundary
         "x_coords": "-122.6154437",
-        "y_coords": "42.0053409"
+        "y_coords": "42.0053409",
+        "city": "Hilt",
+        "county": "Siskiyou"
     },
     {
         "destination_intersection": "I-5 and oso parkway",
@@ -6142,13 +6158,13 @@ destination_intersections = [
     {
         "destination_intersection": "I-5 and SR-99 Chico, California", # Multiple Locations with the same name
         "x_coords": "-122.1852829",
-        "y_coords": "40.1856597"
+        "y_coords": "40.1856597",
         "city": "Chico"
     },
     {
         "destination_intersection": "I-5 and SR-99 Pleasant Grove, California", # Multiple Locations with the same name
         "x_coords": "-121.5410906",
-        "y_coords": "38.6690371"
+        "y_coords": "38.6690371",
         "city": "Pleasant Grove"
     },
     {
@@ -6200,7 +6216,7 @@ destination_intersections = [
         "city": "Westley"
     },
     {
-        "destination_intersection": "I-505 and I-5 Oregon Line/5, California", # State Boundary
+        "destination_intersection": "I-505 and I-5 Oregon Line/5, California", # State Boundary/questionable value
         "x_coords": "-122.6155149",
         "y_coords": "42.0053402"
     },
@@ -6595,7 +6611,9 @@ destination_intersections = [
     {
         "destination_intersection": "I-80 and Nevada Line", # State Boundary
         "x_coords": "-120.0029996",
-        "y_coords": "39.4680353"
+        "y_coords": "39.4680353",
+        "city": "Verdi",
+        "county": "Sierra"
     },
     {
         "destination_intersection": "I-80 and richmond parkway",
@@ -6842,13 +6860,13 @@ destination_intersections = [
         "destination_intersection": "SR-1 and `a` st",
         "x_coords": "-120.5205714",
         "y_coords": "34.7507815",
-        "city" "Vandenberg Space Force Base"
+        "city": "Vandenberg Space Force Base"
     },
     {
         "destination_intersection": "SR-1 and capitola / park ave",
         "x_coords": "-121.9370337",
         "y_coords": "36.9839562",
-        "city": "Santa Cruz
+        "city": "Santa Cruz"
     },
     {
         "destination_intersection": "SR-1 and park ave",
@@ -7138,7 +7156,7 @@ destination_intersections = [
     {
         "destination_intersection": "SR-118 and tampa ave",
         "x_coords": "-118.5562257",
-        "y_coords": "34.2723535"
+        "y_coords": "34.2723535",
         "city": "Porter Ranch"
     },
     {
@@ -7713,7 +7731,7 @@ destination_intersections = [
         "destination_intersection": "SR-4 and holt brothers tractor",
         "x_coords": "-121.308023",
         "y_coords": "37.9339281",
-        "Stockton"
+        "city": "Stockton"
     },
     {
         "destination_intersection": "SR-4 and laurel rd",
@@ -8110,7 +8128,9 @@ destination_intersections = [
     {
         "destination_intersection": "SR-62 and Arizona Line", # State Boundary
         "x_coords": "-114.2993208",
-        "y_coords": "34.1596529"
+        "y_coords": "34.1596529",
+        "city": "Big River",
+        "county": "San Bernardino"
     },
     {
         "destination_intersection": "SR-62 and yucca mesa rd",
@@ -9022,14 +9042,18 @@ destination_intersections = [
         "y_coords": "37.8904863"
     },
     {
-        "destination_intersection": "US-395 and nv line Nv Line Us-395 Border, California", # State Boundary
+        "destination_intersection": "US-395 and nv line Nv Line Us-395 Border, California", # State Boundary, # room for improvement
         "x_coords": "-120.0070829",
-        "y_coords": "39.6795194"
+        "y_coords": "39.6795194",
+        "city": "Chilcoot",
+        "county": "Sierra"
     },
     {
-        "destination_intersection": "US-395 and nv line Nv Line, California", # State Boundary
-        "x_coords": "-120.0061014",
-        "y_coords": "39.6838903"
+        "destination_intersection": "US-395 and nv line Nv Line, California", # State Boundary, # room for improvement
+        "x_coords": "-120.0070829",
+        "y_coords": "39.6795194",
+        "city": "Chilcoot",
+        "county": "Sierra"
     },
     {
         "destination_intersection": "US-395 and SR-3",
@@ -9038,9 +9062,11 @@ destination_intersections = [
         "city": "Hesperia"
     },   
     {
-        "destination_intersection": "US-395 and US-6 Nv State Line, California",  # State Boundary
+        "destination_intersection": "US-395 and US-6 Nv State Line, California",  # State Boundary, # room for improvement
         "x_coords": "-118.4359206",
-        "y_coords": "37.9007438"
+        "y_coords": "37.9007438", 
+        "city": "Benton",
+        "county": "Mono"
     },
     {
         "destination_intersection": "SR-4 and navy dr",
@@ -9137,16 +9163,11 @@ destination_intersections = [
         "city": "Rancho Cordova"
     },
     {
-        "destination_intersection": "US-50 and watt ave", # multiple locations with the same name
+        "destination_intersection": "US-50 and watt ave",
         "x_coords": "-121.3794416",
         "y_coords": "38.5587472",
-        "city": "Sacramento"
-    },
-    {
-        "destination_intersection": "US-50 and watt ave", # multiple locations with the same name
-        "x_coords": "-121.379404",
-        "y_coords": "38.558696",
-        "city": "North Highlands"
+        "city": "Sacramento",
+        "county": "Sacramento"
     },
     {
         "destination_intersection": "US-50 and West Sacramento, California", # Questionable value
