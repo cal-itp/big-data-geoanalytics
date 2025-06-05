@@ -1,0 +1,225 @@
+,ID,DIST,CO,RTE,PF1,BEGPM,PF1.1,ENDPM,Length,HG,MAINT_DIST,MAINT_RGN,DIST_RGN,BUDGETZONE,FY/Q,"NB/EB
+Pass","NB/EB
+Need 1","NB/EB
+Need 2","NB/EB
+Construction","NB/EB
+Encampments","SB/WB 
+Pass","SB/WB
+Need 1","SB/WB
+Need 2","SB/WB
+Construction","SB/WB
+Encampments",District LOS Score,"NB/EB
+Pass.1","NB/EB
+Need 1.1","NB/EB
+Need 2.1","NB/EB
+Construction.1","NB/EB
+Encampments.1","SB/WB 
+Pass.1","SB/WB
+Need 1.1","SB/WB
+Need 2.1","SB/WB
+Construction.1","SB/WB
+Encampments.1",RA LOS Score,Average LOS score
+0,1.0,8.0,RIV,10.0,R,0.0,R,1.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-4,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+1,2.0,8.0,RIV,10.0,R,1.0,R,2.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-4,FY23/Q3,,x,,,,x,,,,,75.0,,X,,,,X,,,,,75.0,75.0
+2,3.0,8.0,RIV,10.0,R,2.0,R,3.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-4,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+3,4.0,8.0,RIV,10.0,R,3.0,R,4.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-4,FY23/Q3,,,x,,,x,,,,,50.0,,X,,,,X,,,,,75.0,63.0
+4,5.0,8.0,RIV,10.0,R,4.0,R,5.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-4,FY23/Q3,,x,,,,,x,,,,50.0,,X,,,,,X,,,,50.0,50.0
+5,6.0,8.0,RIV,10.0,R,5.0,R,6.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-4,FY23/Q3,,,x,,,,x,,,,25.0,,X,,,,,X,,,,50.0,38.0
+6,7.0,8.0,RIV,10.0,R,6.0,,7.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-4,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+7,16.0,8.0,RIV,10.0,,29.0,,30.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,Des-4,FY23/Q3,,,x,,,x,,,,,50.0,,,X,,,X,,,,,50.0,50.0
+8,17.0,8.0,RIV,10.0,,30.0,,31.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,Des-4,FY23/Q3,x,,,,,,x,,,,75.0,X,,,,,,X,,,,75.0,75.0
+9,18.0,8.0,RIV,10.0,,31.0,,32.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,Des-4,FY23/Q3,,x,,,,,x,,,,50.0,,X,,,,,X,,,,50.0,50.0
+10,19.0,8.0,RIV,10.0,,32.0,,33.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,Des-4,FY23/Q3,,x,,,,,x,,,,50.0,,X,,,,,X,,,,50.0,50.0
+11,20.0,8.0,RIV,10.0,,33.0,,34.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,Des-4,FY23/Q3,x,,,,,,x,,,,75.0,X,,,,,,X,,,,75.0,75.0
+12,21.0,8.0,RIV,10.0,,34.0,,35.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,Des-4,FY23/Q3,,x,,,,x,,,,,75.0,,X,,,,X,,,,,75.0,75.0
+13,22.0,8.0,RIV,10.0,,35.0,,36.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,Des-4,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+14,23.0,8.0,RIV,10.0,,36.0,,37.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,Des-4,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+15,24.0,8.0,RIV,10.0,,37.0,,38.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,Des-4,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+16,25.0,8.0,RIV,10.0,,38.0,,39.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,Des-4,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+17,26.0,8.0,RIV,10.0,,39.0,,40.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,Des-4,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+18,27.0,8.0,RIV,10.0,,40.0,,41.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,Des-4,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+19,28.0,8.0,RIV,10.0,,41.0,,42.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,Des-4,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+20,29.0,8.0,RIV,10.0,,42.0,,43.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,Des-4,FY23/Q3,,x,,,,x,,,,,75.0,,,X,,,X,,,,,50.0,63.0
+21,30.0,8.0,RIV,10.0,,43.0,,44.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,Des-4,FY23/Q3,,,x,,,x,,,,,50.0,,X,,,,X,,,,,75.0,63.0
+22,31.0,8.0,RIV,10.0,,44.0,,45.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,Des-4,FY23/Q3,,x,,,,x,,,,,75.0,,X,,,,X,,,,,75.0,75.0
+23,32.0,8.0,RIV,10.0,,45.0,,46.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,Des-4,FY23/Q3,,x,,,,x,,,,,75.0,,X,,,,X,,,,,75.0,75.0
+24,33.0,8.0,RIV,10.0,,46.0,,47.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,Des-4,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+25,34.0,8.0,RIV,10.0,,47.0,,48.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,Des-4,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+26,35.0,8.0,RIV,10.0,,48.0,,49.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,Des-4,FY23/Q3,,,x,,,x,,,,,50.0,,X,,,,X,,,,,75.0,63.0
+27,36.0,8.0,RIV,10.0,,49.0,,50.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,Des-4,FY23/Q3,,x,,,,x,,,,,75.0,,X,,,,X,,,,,75.0,75.0
+28,37.0,8.0,RIV,10.0,,51.0,,52.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-4,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+29,38.0,8.0,RIV,10.0,R,52.0,R,53.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,Des-4,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+30,39.0,8.0,RIV,10.0,R,53.0,R,54.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,Des-4,FY23/Q3,,x,,,,x,,,,,75.0,,X,,,,X,,,,,75.0,75.0
+31,40.0,8.0,RIV,10.0,R,54.0,R,55.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,Des-4,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+32,41.0,8.0,RIV,10.0,R,55.0,R,56.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,Des-4,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+33,42.0,8.0,RIV,10.0,R,56.0,R,57.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,Des-4,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+34,43.0,8.0,RIV,10.0,R,57.0,R,58.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,Des-4,FY23/Q3,x,,,,,,x,,,,75.0,X,,,,,,X,,,,75.0,75.0
+35,44.0,8.0,RIV,10.0,R,58.0,R,59.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,Des-4,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+36,45.0,8.0,RIV,10.0,R,59.0,R,60.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,Des-4,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+38,46.0,8.0,RIV,15.0,,3.0,,4.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+39,47.0,8.0,RIV,15.0,,4.0,,5.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+40,48.0,8.0,RIV,15.0,,5.0,,6.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+41,49.0,8.0,RIV,15.0,,6.0,,7.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+42,50.0,8.0,RIV,15.0,,7.0,,8.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+43,51.0,8.0,RIV,15.0,,8.0,,9.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+44,52.0,8.0,RIV,15.0,,9.0,,10.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+45,53.0,8.0,RIV,15.0,,10.0,,11.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+46,54.0,8.0,RIV,15.0,,11.0,,12.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+47,55.0,8.0,RIV,15.0,,12.0,,13.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+48,56.0,8.0,RIV,15.0,,13.0,,14.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+49,57.0,8.0,RIV,15.0,,14.0,,15.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+50,58.0,8.0,RIV,15.0,,15.0,,16.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,,x,,,,75.0,X,,,,,,X,,,,75.0,75.0
+51,59.0,8.0,RIV,15.0,,16.0,,17.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+52,60.0,8.0,RIV,15.0,,17.0,,18.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+53,61.0,8.0,RIV,15.0,,18.0,,19.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+54,62.0,8.0,RIV,15.0,,19.0,,20.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+55,63.0,8.0,RIV,15.0,,20.0,,21.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+56,64.0,8.0,RIV,15.0,,21.0,,22.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+57,65.0,8.0,RIV,15.0,,26.0,,27.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+58,66.0,8.0,RIV,15.0,,27.0,,28.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+59,67.0,8.0,RIV,15.0,,28.0,,29.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+60,68.0,8.0,RIV,15.0,,29.0,,30.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+61,69.0,8.0,RIV,15.0,,30.0,,31.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+62,70.0,8.0,RIV,15.0,,31.0,,32.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+63,71.0,8.0,RIV,15.0,,32.0,,33.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+64,72.0,8.0,RIV,15.0,,33.0,,34.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+65,73.0,8.0,RIV,15.0,,34.0,,35.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+66,74.0,8.0,RIV,15.0,,35.0,,36.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+67,75.0,8.0,RIV,15.0,,36.0,,37.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,,x,,,,x,,,,,75.0,,X,,,,X,,,,,75.0,75.0
+68,76.0,8.0,RIV,15.0,,37.0,,38.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+69,77.0,8.0,RIV,15.0,,38.0,,39.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,,x,,,,x,,,,,75.0,,X,,,,X,,,,,75.0,75.0
+70,78.0,8.0,RIV,15.0,,39.0,,40.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+71,79.0,8.0,RIV,15.0,,40.0,,41.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,,x,,,,75.0,X,,,,,,X,,,,75.0,75.0
+72,82.0,8.0,RIV,15.0,,43.0,,44.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+73,83.0,8.0,RIV,15.0,,44.0,,45.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,,,x,,,50.0,X,,,,,,X,,,,75.0,63.0
+74,84.0,8.0,RIV,15.0,,45.0,,46.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,,x,,,,75.0,X,,,,,,X,,,,75.0,75.0
+75,85.0,8.0,RIV,15.0,,46.0,,47.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+76,86.0,8.0,RIV,15.0,,47.0,,48.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+77,87.0,8.0,RIV,15.0,,48.0,,49.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,,x,,,,75.0,X,,,,,,X,,,,75.0,75.0
+78,88.0,8.0,RIV,15.0,,49.0,,50.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+79,89.0,8.0,RIV,15.0,,50.0,,51.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+80,90.0,8.0,RIV,15.0,,51.0,,52.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,,x,,,,75.0,,X,,,,,X,,,,50.0,63.0
+82,91.0,8.0,RIV,60.0,,13.0,,14.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,,x,,,,x,,,,,75.0,,X,,,,X,,,,,75.0,75.0
+83,92.0,8.0,RIV,60.0,,14.0,,15.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,,x,,,,x,,,,,75.0,,X,,,X,X,,,,,75.0,75.0
+84,93.0,8.0,RIV,60.0,,15.0,,16.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+85,94.0,8.0,RIV,60.0,,16.0,,17.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,,x,,,x,75.0,,X,,,X,,X,,,X,50.0,63.0
+86,95.0,8.0,RIV,60.0,,17.0,,18.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+87,98.0,8.0,RIV,60.0,,20.0,,21.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+88,99.0,8.0,RIV,60.0,,21.0,,22.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+89,100.0,8.0,RIV,60.0,,22.0,,23.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,,x,,,,x,,,,,75.0,,X,,,,X,,,,,75.0,75.0
+91,101.0,8.0,RIV,91.0,R,0.0,R,1.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+92,103.0,8.0,RIV,91.0,R,2.0,R,3.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,,,x,,,50.0,X,,,,,,,X,,,50.0,50.0
+93,104.0,8.0,RIV,91.0,R,3.0,R,4.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+94,105.0,8.0,RIV,91.0,R,4.0,R,5.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+95,110.0,8.0,RIV,91.0,,9.0,,10.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,,x,,,,75.0,X,,,,,,X,,,,75.0,75.0
+96,111.0,8.0,RIV,91.0,,10.0,,11.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,,,x,,x,50.0,X,,,,,,X,,,X,75.0,63.0
+97,112.0,8.0,RIV,91.0,,11.0,,12.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,,x,,,x,,,x,,x,25.0,,X,,,X,,,X,,X,25.0,25.0
+98,113.0,8.0,RIV,91.0,,12.0,,13.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,,x,,,,75.0,X,,,,,,X,,,,75.0,75.0
+99,114.0,8.0,RIV,91.0,,13.0,,14.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,,,x,,,50.0,X,,,,,,,X,,,50.0,50.0
+100,115.0,8.0,RIV,91.0,,14.0,,15.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,,,x,,,50.0,X,,,,,,,X,,,50.0,50.0
+101,116.0,8.0,RIV,91.0,,15.0,,16.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,,,x,,,,,x,,,0.0,,,X,,,,,X,,,0.0,0.0
+102,117.0,8.0,RIV,91.0,,16.0,,17.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,,x,,,,,,x,,,25.0,,X,,,,,X,,,,50.0,38.0
+103,118.0,8.0,RIV,91.0,,17.0,,18.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,,x,,,,75.0,X,,,,,,X,,,,75.0,75.0
+104,119.0,8.0,RIV,91.0,,18.0,,19.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,,x,,,,,x,,,,50.0,,X,,,,,X,,,,50.0,50.0
+105,120.0,8.0,RIV,91.0,,19.0,,20.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+106,121.0,8.0,RIV,91.0,,20.0,,21.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,,x,,,,75.0,X,,,,,,X,,,,75.0,75.0
+108,122.0,8.0,RIV,215.0,,21.0,,22.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+109,123.0,8.0,RIV,215.0,,22.0,,23.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+110,124.0,8.0,RIV,215.0,,23.0,,24.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+111,125.0,8.0,RIV,215.0,,24.0,,25.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,,x,,,,75.0,X,,,,,,X,,,,75.0,75.0
+112,126.0,8.0,RIV,215.0,,25.0,,26.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+113,127.0,8.0,RIV,215.0,,26.0,,27.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+114,128.0,8.0,RIV,215.0,R,28.0,R,29.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,,x,,,,,x,,,,50.0,,X,,,,,X,,,,50.0,50.0
+115,129.0,8.0,RIV,215.0,R,29.0,R,30.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,,x,,,,,x,,,,50.0,,X,,,,,X,,,,50.0,50.0
+116,130.0,8.0,RIV,215.0,R,30.0,R,31.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,,,x,,,x,,,,,50.0,,,X,,,X,,,,,50.0,50.0
+117,131.0,8.0,RIV,215.0,R,31.0,R,32.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,,x,,,,x,,,,,75.0,,X,,,,X,,,,,75.0,75.0
+118,132.0,8.0,RIV,215.0,R,32.0,R,33.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+119,133.0,8.0,RIV,215.0,R,33.0,R,34.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+120,134.0,8.0,RIV,215.0,R,34.0,R,35.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+121,135.0,8.0,RIV,215.0,R,35.0,R,36.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,,x,,,x,x,,,,,75.0,,X,,,X,X,,,,,75.0,75.0
+122,138.0,8.0,RIV,215.0,R,38.0,,39.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,,x,,,,x,,,,,75.0,,X,,,,X,,,,,75.0,75.0
+123,139.0,8.0,RIV,215.0,,39.0,,40.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+124,140.0,8.0,RIV,215.0,,40.0,,41.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+125,141.0,8.0,RIV,215.0,,41.0,,42.0,1.0,,8.0,District 8 - South Region,District 8 - South Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+127,154.0,8.0,SBD,10.0,,13.0,,14.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+128,155.0,8.0,SBD,10.0,,14.0,,15.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+129,156.0,8.0,SBD,10.0,,15.0,,16.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+130,157.0,8.0,SBD,10.0,,16.0,,17.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+131,161.0,8.0,SBD,10.0,,20.0,,21.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,,x,,,,75.0,X,,,,,,X,,,,75.0,75.0
+132,162.0,8.0,SBD,10.0,R,21.0,R,22.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+133,163.0,8.0,SBD,10.0,R,22.0,R,23.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+134,164.0,8.0,SBD,10.0,R,23.0,R,24.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,,x,,,,75.0,X,,,,,,X,,,,75.0,75.0
+135,165.0,8.0,SBD,10.0,R,24.0,,25.0,1.0,,,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,,x,,,,,x,,,,50.0,,X,,,,,X,,,,50.0,50.0
+136,166.0,8.0,SBD,10.0,,25.0,,26.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+137,167.0,8.0,SBD,10.0,,26.0,,27.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,,x,,,,75.0,X,,,,,,X,,,,75.0,75.0
+138,168.0,8.0,SBD,10.0,,27.0,,28.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+139,169.0,8.0,SBD,10.0,,28.0,,29.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+140,170.0,8.0,SBD,10.0,,29.0,,30.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,,x,,,x,,,x,,x,25.0,,X,,,x,,,X,,X,25.0,25.0
+141,171.0,8.0,SBD,10.0,,30.0,,31.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+142,172.0,8.0,SBD,10.0,,31.0,,32.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+143,173.0,8.0,SBD,10.0,,32.0,,33.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,,x,,,,75.0,X,,,,,,X,,,,75.0,75.0
+144,174.0,8.0,SBD,10.0,,33.0,,34.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,,x,,,,x,,,,,75.0,,X,,,,X,,,,,75.0,75.0
+145,175.0,8.0,SBD,10.0,,34.0,,35.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,,x,,,,75.0,X,,,,,,X,,,,75.0,75.0
+146,176.0,8.0,SBD,10.0,,35.0,,36.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+147,177.0,8.0,SBD,10.0,R,37.0,R,38.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+148,178.0,8.0,SBD,10.0,R,38.0,R,39.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,,x,,,,x,,,,,75.0,,X,,,,X,,,,,75.0,75.0
+150,179.0,8.0,SBD,15.0,,0.0,,1.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-4,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+151,180.0,8.0,SBD,15.0,,1.0,,2.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-4,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+152,181.0,8.0,SBD,15.0,,2.0,,3.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-4,FY23/Q3,,x,,,,x,,,,,75.0,,X,,,,X,,,,,75.0,75.0
+153,182.0,8.0,SBD,15.0,,3.0,,4.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-4,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+154,183.0,8.0,SBD,15.0,,4.0,,5.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-4,FY23/Q3,,x,,,,x,,,,,75.0,X,,,,,X,,,,,100.0,88.0
+155,184.0,8.0,SBD,15.0,,5.0,,6.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-4,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+156,185.0,8.0,SBD,15.0,,6.0,,7.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-4,FY23/Q3,x,,,,,,x,,,,75.0,X,,,,,,X,,,,75.0,75.0
+157,186.0,8.0,SBD,15.0,,7.0,,8.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-4,FY23/Q3,,x,,,,,,x,,,25.0,,X,,,,,X,,,,50.0,38.0
+158,194.0,8.0,SBD,15.0,,38.0,,39.0,1.0,,8.0,District 8 - North Region,District 8 - North Region,Des-4,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+159,195.0,8.0,SBD,15.0,,39.0,,40.0,1.0,,8.0,District 8 - North Region,District 8 - North Region,Des-4,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+160,196.0,8.0,SBD,15.0,,40.0,,41.0,1.0,,8.0,District 8 - North Region,District 8 - North Region,Des-4,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+161,197.0,8.0,SBD,15.0,,41.0,,42.0,1.0,,8.0,District 8 - North Region,District 8 - North Region,Des-4,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+162,198.0,8.0,SBD,15.0,,42.0,,43.0,1.0,,8.0,District 8 - North Region,District 8 - North Region,Des-4,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+163,199.0,8.0,SBD,15.0,,43.0,,44.0,1.0,,8.0,District 8 - North Region,District 8 - North Region,Des-4,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+165,200.0,8.0,SBD,60.0,R,0.0,R,1.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+166,203.0,8.0,SBD,60.0,R,3.0,R,4.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+167,204.0,8.0,SBD,60.0,R,4.0,R,5.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+168,205.0,8.0,SBD,60.0,R,5.0,R,6.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+169,206.0,8.0,SBD,60.0,R,6.0,R,7.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+171,209.0,8.0,SBD,210.0,,0.0,,1.0,1.0,,8.0,District 8 - North Region,District 8 - North Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+172,210.0,8.0,SBD,210.0,,1.0,,2.0,1.0,,8.0,District 8 - North Region,District 8 - North Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+173,211.0,8.0,SBD,210.0,,2.0,,3.0,1.0,,8.0,District 8 - North Region,District 8 - North Region,InVal-5,FY23/Q3,x,,,,,,x,,,,75.0,X,,,,,,X,,,,75.0,75.0
+174,212.0,8.0,SBD,210.0,,3.0,,4.0,1.0,,8.0,District 8 - North Region,District 8 - North Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+175,213.0,8.0,SBD,210.0,,4.0,,5.0,1.0,,8.0,District 8 - North Region,District 8 - North Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+176,214.0,8.0,SBD,210.0,,5.0,,6.0,1.0,,8.0,District 8 - North Region,District 8 - North Region,InVal-5,FY23/Q3,,x,,,,x,,,,,75.0,X,,,,,X,,,,,100.0,88.0
+177,215.0,8.0,SBD,210.0,,6.0,,7.0,1.0,,8.0,District 8 - North Region,District 8 - North Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+178,216.0,8.0,SBD,210.0,,7.0,,8.0,1.0,,8.0,District 8 - North Region,District 8 - North Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+179,217.0,8.0,SBD,210.0,,8.0,,9.0,1.0,,8.0,District 8 - North Region,District 8 - North Region,InVal-5,FY23/Q3,x,,,,,,x,,,,75.0,X,,,,,,X,,,,75.0,75.0
+180,218.0,8.0,SBD,210.0,,9.0,,10.0,1.0,,8.0,District 8 - North Region,District 8 - North Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+181,219.0,8.0,SBD,210.0,,10.0,,11.0,1.0,,8.0,District 8 - North Region,District 8 - North Region,InVal-5,FY23/Q3,x,,,,,,,x,,,50.0,X,,,,,,X,,,,75.0,63.0
+182,220.0,8.0,SBD,210.0,,11.0,,12.0,1.0,,8.0,District 8 - North Region,District 8 - North Region,InVal-5,FY23/Q3,,x,,,,,x,,,,50.0,,X,,,,,X,,,,50.0,50.0
+183,221.0,8.0,SBD,210.0,,12.0,,13.0,1.0,,8.0,District 8 - North Region,District 8 - North Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+184,222.0,8.0,SBD,210.0,,13.0,,14.0,1.0,,8.0,District 8 - North Region,District 8 - North Region,InVal-5,FY23/Q3,,x,,,,x,,,,,75.0,,X,,,,X,,,,,75.0,75.0
+185,223.0,8.0,SBD,210.0,,14.0,,15.0,1.0,,8.0,District 8 - North Region,District 8 - North Region,InVal-5,FY23/Q3,,x,,,,x,,,,,75.0,,X,,,,X,,,,,75.0,75.0
+186,224.0,8.0,SBD,210.0,,15.0,,16.0,1.0,,8.0,District 8 - North Region,District 8 - North Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+187,225.0,8.0,SBD,210.0,,16.0,,17.0,1.0,,8.0,District 8 - North Region,District 8 - North Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+188,226.0,8.0,SBD,210.0,,17.0,,18.0,1.0,,8.0,District 8 - North Region,District 8 - North Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+189,227.0,8.0,SBD,210.0,,18.0,,19.0,1.0,,8.0,District 8 - North Region,District 8 - North Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,,X,,,X,X,,,,,75.0,88.0
+190,228.0,8.0,SBD,210.0,,19.0,,20.0,1.0,,8.0,District 8 - North Region,District 8 - North Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+191,229.0,8.0,SBD,210.0,,20.0,,21.0,1.0,,8.0,District 8 - North Region,District 8 - North Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+192,230.0,8.0,SBD,210.0,R,22.0,R,23.0,1.0,,8.0,District 8 - North Region,District 8 - North Region,InVal-5,FY23/Q3,,x,,,,x,,,,,75.0,X,,,,,X,,,,,100.0,88.0
+193,231.0,8.0,SBD,210.0,R,23.0,R,24.0,1.0,,8.0,District 8 - North Region,District 8 - North Region,InVal-5,FY23/Q3,x,,,,,,x,,,,75.0,,X,,,,,X,,,X,50.0,63.0
+194,232.0,8.0,SBD,210.0,R,24.0,R,25.0,1.0,,8.0,District 8 - North Region,District 8 - North Region,InVal-5,FY23/Q3,x,,,,,,x,,,,75.0,,X,,,,,X,,,X,50.0,63.0
+195,233.0,8.0,SBD,210.0,R,25.0,R,26.0,1.0,,8.0,District 8 - North Region,District 8 - North Region,InVal-5,FY23/Q3,,x,,,,,x,,,,50.0,,X,,,,,X,,,,50.0,50.0
+197,241.0,8.0,SBD,215.0,,0.0,,1.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,,x,,,,,x,,,,50.0,,X,,,,,X,,,,50.0,50.0
+198,242.0,8.0,SBD,215.0,,1.0,,2.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+199,244.0,8.0,SBD,215.0,,3.0,,4.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,,x,,,,,x,,,,50.0,,X,,,,,X,,,,50.0,50.0
+200,245.0,8.0,SBD,215.0,,4.0,,5.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+201,246.0,8.0,SBD,215.0,,5.0,,6.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,,x,,,,75.0,X,,,,,,X,,,,75.0,75.0
+202,247.0,8.0,SBD,215.0,,6.0,,7.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,,X,,,X,75.0,88.0
+203,248.0,8.0,SBD,215.0,,7.0,,8.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,,x,,,,x,,,,,75.0,,X,,,X,X,,,,,75.0,75.0
+204,249.0,8.0,SBD,215.0,,8.0,,9.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,,X,,,X,X,,,,,75.0,88.0
+205,250.0,8.0,SBD,215.0,,9.0,,10.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+206,251.0,8.0,SBD,215.0,,10.0,,11.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+207,252.0,8.0,SBD,215.0,,11.0,,12.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+208,253.0,8.0,SBD,215.0,,12.0,,13.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+209,254.0,8.0,SBD,215.0,,13.0,,14.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+210,255.0,8.0,SBD,215.0,,14.0,,15.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+211,256.0,8.0,SBD,215.0,,15.0,,16.0,1.0,,8.0,District 8 - Metro Region,District 8 - Metro Region,InVal-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
+212,257.0,8.0,SBD,215.0,,16.0,,17.0,1.0,,8.0,District 8 - North Region,District 8 - North Region,Des-5,FY23/Q3,x,,,,,x,,,,,100.0,X,,,,,X,,,,,100.0,100.0
