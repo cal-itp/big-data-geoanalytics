@@ -1,0 +1,231 @@
+ID,DIST,CO,RTE,PF1,BEGPM,PF1,ENDPM,Length,HG,MAINT_DIST,MAINT_RGN,DIST_RGN,BUDGETZONE,FY/Q,"NB/EB
+Pass","NB/EB
+Need 1","NB/EB
+Need 2","NB/EB
+Construction","NB/EB
+Encampments","SB/WB 
+Pass","SB/WB
+Need 1","SB/WB
+Need 2","SB/WB
+Construction","SB/WB
+Encampments",District LOS Score,"NB/EB
+Pass","NB/EB
+Need 1","NB/EB
+Need 2","NB/EB
+Construction","NB/EB
+Encampments","SB/WB 
+Pass","SB/WB
+Need 1","SB/WB
+Need 2","SB/WB
+Construction","SB/WB
+Encampments",RA LOS Score,Average LOS score
+1,12,ORA,1,,5,,6,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+2,12,ORA,1,,6,,7,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+3,12,ORA,1,,7,,8,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+4,12,ORA,1,,8,,9,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+5,12,ORA,1,,9,,10,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+7,12,ORA,1,,11,,12,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+8,12,ORA,1,,12,,13,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+9,12,ORA,1,,13,,14,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+10,12,ORA,1,,17,,18,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+11,12,ORA,1,,18,,19,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+12,12,ORA,1,,19,,20,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+13,12,ORA,1,,20,,21,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+14,12,ORA,1,,21,,22,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+15,12,ORA,1,,22,,23,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+16,12,ORA,1,,23,,24,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+17,12,ORA,1,,24,,25,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+18,12,ORA,1,,25,,26,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+19,12,ORA,1,,26,,27,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+20,12,ORA,1,,27,,28,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+21,12,ORA,1,,28,,29,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+22,12,ORA,1,,29,,30,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+23,12,ORA,1,,30,,31,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+24,12,ORA,1,,31,,32,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+25,12,ORA,1,,32,,33,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+26,12,ORA,5,,0,,1,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+27,12,ORA,5,,1,,2,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+28,12,ORA,5,,2,,3,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,,X,,,,75,X,,,,,X,,,,,100,88
+29,12,ORA,5,,3,,4,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,,X,,,,75,X,,,,,X,,,,,100,88
+30,12,ORA,5,,4,,5,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,,X,,,,X,,,,,75,,X,,,,X,,,,,75,75
+31,12,ORA,5,,5,,6,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,,X,,,,75,X,,,,,X,,,,,100,88
+32,12,ORA,5,,6,,7,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+33,12,ORA,5,,7,,8,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+34,12,ORA,5,,8,,9,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,,X,,,,,X,,,,50,,X,,,,X,,,,,75,63
+35,12,ORA,5,,9,,10,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,,X,,,,75,X,,,,,X,,,,,100,88
+36,12,ORA,5,,10,,11,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,,X,,,,75,X,,,,,X,,,,,100,88
+37,12,ORA,5,,11,,12,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+45,12,ORA,5,,19,,20,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,,X,,,,,X,,,,50,X,,,,,X,,,,,100,75
+46,12,ORA,5,,20,,21,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,,X,,,,X,,,,,75,,X,,,,X,,,,,75,75
+47,12,ORA,5,,21,,22,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+48,12,ORA,5,,22,,23,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+49,12,ORA,5, ,23,,24,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+50,12,ORA,5, ,24,,25,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+51,12,ORA,5, ,25,,26,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+52,12,ORA,5, ,26,,27,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+53,12,ORA,5, ,27,,28,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+54,12,ORA,5, ,28,,29,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+55,12,ORA,5,,30,,31,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,,X,,,,X,,,,,75,88
+56,12,ORA,5,,31,,32,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+57,12,ORA,5,,32,,33,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+58,12,ORA,5,,33,,34,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+59,12,ORA,5,,34,,35,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+60,12,ORA,5,,35,,36,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,,X,,,X,X,,,,,75,88
+61,12,ORA,5,,36,,37,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,,X,,,,75,X,,,,,X,,,,,100,88
+62,12,ORA,5,,37,,38,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,,X,,,X,75,88
+63,12,ORA,5,,38,,39,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+64,12,ORA,5,,39,,40,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,,X,,,X,X,,,,,75,X,,,,,X,,,,,100,88
+65,12,ORA,5,,40,,41,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,,X,,,X,X,,,,,75,,X,,,X,X,,,,,75,75
+66,12,ORA,5,,41,,42,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,,X,,,X,75,X,,,,,,X,,,X,75,75
+67,12,ORA,5,,42,,43,1,L,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,,X,,,X,75,88
+68,12,ORA,5,,43,,44,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,,X,,,,75,X,,,,,X,,,,,100,88
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+69,12,ORA,22,R,2,R,3,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+70,12,ORA,22,R,3,R,4,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,,X,,,,X,,,,,75,,X,,,,X,,,,,75,75
+71,12,ORA,22,R,4,R,5,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,,X,,,,75,X,,,,,X,,,,,100,88
+72,12,ORA,22,R,5,R,6,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+73,12,ORA,22,R,6,R,7,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+74,12,ORA,22,R,7,R,8,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,,X,,,,X,,,,,75,X,,,,,X,,,,,100,88
+75,12,ORA,22,R,8,R,9,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,,X,,,X,75,X,,,,,,X,,,X,75,75
+76,12,ORA,22,R,9,R,10,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,,X,,,,X,,,,,75,X,,,,,X,,,,,100,88
+77,12,ORA,22,R,10,R,11,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,,X,,,,X,,,,,75,X,,,,,X,,,,,100,88
+78,12,ORA,22,R,11,R,12,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+79,12,ORA,22,R,12,R,13,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,,X,,,,75,X,,,,,X,,,,,100,88
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+80,12,ORA,39,,0,,1,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+81,12,ORA,39,,1,,2,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+82,12,ORA,39,,2,,3,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+83,12,ORA,39,,3,,4,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+84,12,ORA,39,,4,,5,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+85,12,ORA,39,,5,,6,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+86,12,ORA,39,,6,,7,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+87,12,ORA,39,,7,,8,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+88,12,ORA,39,,8,,9,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,,X,,,X,,X,,,X,50,,X,,,X,,X,,,X,50,50
+89,12,ORA,39,,9,,10,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+90,12,ORA,39,,10,,11,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+91,12,ORA,55,,2,,3,,,,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+92,12,ORA,55,R,3,R,4,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+93,12,ORA,55,R,4,R,5,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,,X,,,,X,,,,,75,88
+94,12,ORA,55,R,5,R,6,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,,X,,,,75,88
+99,12,ORA,55,R,10,,11,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+100,12,ORA,55,,11,,12,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+101,12,ORA,55,,12,,13,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+102,12,ORA,55,,13,,14,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+103,12,ORA,55,,14,,15,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+104,12,ORA,55,,15,,16,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+105,12,ORA,55,,16,,17,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,,X,,,,X,,,,,75,X,,,,,X,,,,,100,88
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+106,12,ORA,57,,12,,13,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,,X,,,,,X,,,,50,,X,,,,X,,,,,75,63
+107,12,ORA,57,,13,,14,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,,X,,,,X,,,,,75,88
+108,12,ORA,57,,14,,15,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+109,12,ORA,57,,15,,16,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,,X,,,,,X,,,,50,75
+110,12,ORA,57,,16,,17,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,,X,,,,X,,,,,75,,X,,,,X,,,,,75,75
+111,12,ORA,57,,17,,18,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,,X,,,,X,,,,,75,,X,,,,X,,,,,75,75
+112,12,ORA,57,,18,,19,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,,X,,,X,75,X,,,,,,X,,,X,75,75
+113,12,ORA,57,,19,,20,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+115,12,ORA,57,,21,,22,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,,X,,,,75,,X,,,,,X,,,,50,63
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+116,12,ORA,73,,10,,11,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+117,12,ORA,73,,11,,12,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+118,12,ORA,73,,12,,13,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+119,12,ORA,73,,13,,14,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+120,12,ORA,73,,14,,15,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+121,12,ORA,73,,15,,16,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+122,12,ORA,73,,16,,17,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+123,12,ORA,73,,17,,18,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+124,12,ORA,73,,18,,19,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+125,12,ORA,73,,19,,20,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+126,12,ORA,73,,20,,21,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+131,12,ORA,73, ,25,,26,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+132,12,ORA,73,R,26,R,27,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+133,12,ORA,74,,0,,1,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+134,12,ORA,74,,1,,2,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+135,12,ORA,74,,2,,3,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+136,12,ORA,74,,3,,4,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+137,12,ORA,74,,4,,5,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+138,12,ORA,74,,5,,6,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+139,12,ORA,74,,6,,7,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+140,12,ORA,74,,7,,8,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+141,12,ORA,74,,8,,9,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+142,12,ORA,74,,9,,10,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+143,12,ORA,74,,10,,11,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+149,12,ORA,90,,1,,2,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+150,12,ORA,90,,2,,3,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+151,12,ORA,90,,3,,4,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+152,12,ORA,90,,4,,5,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+153,12,ORA,90,,5,,6,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+154,12,ORA,90,,6,,7,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+155,12,ORA,90,,7,,8,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+156,12,ORA,91,,5,,6,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,,X,,,X,75,,X,,,,,X,,,,50,63
+157,12,ORA,91,,6,,7,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,,X,,,X,75,88
+158,12,ORA,91,,7,,8,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+159,12,ORA,91,,8,R,9,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,,X,,,,75,,X,,,,,X,,,,50,63
+160,12,ORA,91,R,9,R,10,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,,X,,,,75,X,,,,,X,,,,,100,88
+161,12,ORA,91,R,10,R,11,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+162,12,ORA,91,R,11,R,12,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+163,12,ORA,91,R,12,R,13,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+164,12,ORA,133,,0,,1,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+165,12,ORA,133,,1,,2,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+166,12,ORA,133,,2,,3,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+167,12,ORA,133,,3,R,4,,,,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+168,12,ORA,133,R,4,R,5,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+169,12,ORA,133,R,5,R,6,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+170,12,ORA,133,R,6,R,7,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+171,12,ORA,133,R,7,R,8,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+172,12,ORA,133,R,8,,9,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+173,12,ORA,133,,9,,10,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+174,12,ORA,133,,10,,11,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+175,12,ORA,133,,11,,12,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+176,12,ORA,133,,12,,13,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+177,12,ORA,241,,15,,16,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+178,12,ORA,241,,16,,17,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+179,12,ORA,241,,17,,18,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+180,12,ORA,241,,18,,19,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+181,12,ORA,241,,19,,20,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+182,12,ORA,241,,20,,21,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+183,12,ORA,241,,21,,22,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+184,12,ORA,241,,22,,23,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+185,12,ORA,241,,23,,24,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+186,12,ORA,241,,24,,25,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+187,12,ORA,241,,25,,26,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+188,12,ORA,241,,26,,27,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+189,12,ORA,241,,27,,28,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+190,12,ORA,241,,28,,29,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+191,12,ORA,241,,29,,30,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+192,12,ORA,241,,30,,31,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+193,12,ORA,241,,31,,32,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+194,12,ORA,241,,32,,33,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+195,12,ORA,241,,33,,34,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+196,12,ORA,241,,34,,35,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+197,12,ORA,241,,35,,36,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+198,12,ORA,241,,36,,37,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+199,12,ORA,241,,37,,38,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+200,12,ORA,241,,38,,39,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+201,12,ORA,261,,1,,2,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+202,12,ORA,261,,2,,3,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+203,12,ORA,261,,3,,4,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+204,12,ORA,261,,4,,5,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+205,12,ORA,261,,5,,6,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+206,12,ORA,405,,1,,2,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+207,12,ORA,405,,2,,3,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+208,12,ORA,405,,3,,4,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+209,12,ORA,405,,4,,5,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+210,12,ORA,405,,5,,6,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+211,12,ORA,405,,6,,7,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+212,12,ORA,405,,7,,8,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+213,12,ORA,405,,8,,9,1,,12,District 12 - Orange Region,District 12 - Orange Region,SoCst-5,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+,,,23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,178,15,0,35,3,173,20,0,35,5,95,174,17,0,37,3,179,12,0,37,7,96,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,Unsheltered,,Need 1,3,,Unsheltered,,Need 1,5,,,Unsheltered,,Need 1,3,,Unsheltered,,Need 1,7,,
+,,,,,,,,,,,,,,,,,,Need 2,0,,,,Need 2,0,,,,,Need 2,0,,,,Need 2,0,,

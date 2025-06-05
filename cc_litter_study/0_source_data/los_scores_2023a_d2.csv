@@ -1,0 +1,204 @@
+ID,DIST,CO,RTE,PFX,BEGPM,PFX,ENDPM,Length,HG,MAINT_DIST,MAINT_RGN,DIST_RGN,BUDGET ZONE,FY/Q,"NB/EB
+Pass","NB/EB
+Need 1","NB/EB
+Need 2","NB/EB
+Construction","NB/EB
+Encampments","SB/WB
+Pass","SB/WB
+Need 1","SB/WB
+Need 2","SB/WB
+Construction","SB/WB
+Encampments",District LOS Score,"NB/EB
+Pass","NB/EB
+Need 1","NB/EB
+Need 2","NB/EB
+Construction","NB/EB
+Encampments","SB/WB
+Pass","SB/WB
+Need 1","SB/WB
+Need 2","SB/WB
+Construction","SB/WB
+Encampments",RA LOS Score,Average LOS score
+1,2,SHA,5,R,4,R,5,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+2,2,SHA,5,R,5,R,6,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+3,2,SHA,5,R,6,R,7,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+4,2,SHA,5,R,7,R,8,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+5,2,SHA,5,R,8,R,9,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+6,2,SHA,5,R,9,R,10,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+7,2,SHA,5,R,10,R,11,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+8,2,SHA,5,R,11,R,12,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+9,2,SHA,5,R,12,R,13,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+10,2,SHA,5,R,13,R,14,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+11,2,SHA,5,R,14,R,15,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+12,2,SHA,5,R,15,R,16,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+13,2,SHA,5,R,16,R,17,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+14,2,SHA,5,R,17,R,18,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,,X,,,,75,X,,,,,X,,,,,100,88
+15,2,SHA,5,R,18,R,19,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,,X,,,,75,X,,,,,X,,,,,100,88
+16,2,SHA,5,R,19,R,20,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+17,2,SHA,5,R,20,R,21,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+18,2,SHA,5,R,21,R,22,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+19,2,SHA,5,R,22,R,23,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+20,2,SHA,5,R,23,R,24,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+21,2,SHA,5,R,24,R,25,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+22,2,SHA,5,R,25,R,26,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+23,2,SHA,5,R,26,R,27,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+24,2,SHA,5,R,27,R,28,1,,2,District 2 - Field Region,District 2 - Field Region,LoMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+25,2,SHA,5,R,28,R,29,1,,2,District 2 - Field Region,District 2 - Field Region,LoMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+26,2,SHA,5,R,36,R,37,1,,2,District 2 - Field Region,District 2 - Field Region,LoMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+27,2,SHA,5,R,37,R,38,1,,2,District 2 - Field Region,District 2 - Field Region,LoMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+28,2,SHA,5,R,38,R,39,1,,2,District 2 - Field Region,District 2 - Field Region,LoMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+29,2,SHA,5,R,39,R,40,1,,2,District 2 - Field Region,District 2 - Field Region,LoMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+30,2,SHA,5,R,40,R,41,1,,2,District 2 - Field Region,District 2 - Field Region,LoMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+31,2,SHA,5,R,41,R,42,1,,2,District 2 - Field Region,District 2 - Field Region,LoMt-3,FY23/Q3,,X,,,,,X,,,,50,X,,,,,X,,,,,100,75
+32,2,SHA,5,R,42,R,43,1,,2,District 2 - Field Region,District 2 - Field Region,LoMt-3,FY23/Q3,X,,,,,,X,,,,75,X,,,,,X,,,,,100,88
+33,2,SHA,5,R,43,R,44,1,,2,District 2 - Field Region,District 2 - Field Region,LoMt-3,FY23/Q3,X,,,,,,X,,,,75,X,,,,,X,,,,,100,88
+34,2,SHA,5,R,44,R,45,1,,2,District 2 - Field Region,District 2 - Field Region,LoMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+35,2,SHA,5,R,45,R,46,1,,2,District 2 - Field Region,District 2 - Field Region,LoMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+36,2,SHA,5,R,46,R,47,1,,2,District 2 - Field Region,District 2 - Field Region,LoMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+37,2,SHA,5,R,47,R,48,1,,2,District 2 - Field Region,District 2 - Field Region,LoMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+38,2,SHA,5,R,48,R,49,1,,2,District 2 - Field Region,District 2 - Field Region,LoMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+39,2,SHA,5,R,49,R,50,1,,2,District 2 - Field Region,District 2 - Field Region,LoMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+40,2,SHA,5,R,50,R,51,1,,2,District 2 - Field Region,District 2 - Field Region,LoMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+41,2,SHA,5,R,51,R,52,1,,2,District 2 - Field Region,District 2 - Field Region,LoMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+42,2,SHA,5,R,52,R,53,1,,2,District 2 - Field Region,District 2 - Field Region,LoMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+43,2,SHA,5,R,53,R,54,1,,2,District 2 - Field Region,District 2 - Field Region,LoMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+44,2,SHA,5,R,55,R,56,1,,2,District 2 - Field Region,District 2 - Field Region,LoMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+45,2,SHA,5,R,56,,57,1,,2,District 2 - Field Region,District 2 - Field Region,LoMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+46,2,SHA,5,,57,,58,1,,2,District 2 - Field Region,District 2 - Field Region,LoMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+47,2,SHA,5,,58,,59,1,,2,District 2 - Field Region,District 2 - Field Region,LoMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+48,2,SHA,5,,59,,60,1,,2,District 2 - Field Region,District 2 - Field Region,LoMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+49,2,SHA,5,,60,,61,1,,2,District 2 - Field Region,District 2 - Field Region,LoMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+50,2,SHA,5,,61,,62,1,,2,District 2 - Field Region,District 2 - Field Region,LoMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+51,2,SHA,5,,62,,63,1,,2,District 2 - Field Region,District 2 - Field Region,LoMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+52,2,SHA,5,,63,,64,1,,2,District 2 - Field Region,District 2 - Field Region,LoMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+53,2,SHA,5,,64,,65,1,,2,District 2 - Field Region,District 2 - Field Region,LoMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+54,2,SHA,5,,65,,66,1,,2,District 2 - Field Region,District 2 - Field Region,LoMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+55,2,SIS,5,,0,,1,1,,2,District 2 - Field Region,District 2 - Field Region,LoMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+56,2,SIS,5,,1,,2,1,,2,District 2 - Field Region,District 2 - Field Region,LoMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+57,2,SIS,5,,2,,3,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+58,2,SIS,5,,3,,4,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+59,2,SIS,5,,4,,5,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+60,2,SIS,5,,5,,6,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,,X,,,,X,,,,,75,X,,,,,,X,,,,75,75
+61,2,SIS,5,R,6,R,7,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,,X,,,,X,,,,,75,X,,,,,X,,,,,100,88
+62,2,SIS,5,R,7,R,8,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,,X,,,,75,X,,,,,X,,,,,100,88
+63,2,SIS,5,R,8,R,9,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+64,2,SIS,5,R,9,R,10,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+65,2,SIS,5,R,10,R,11,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+66,2,SIS,5,R,11,R,12,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+67,2,SIS,5,R,12,R,13,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,,X,,,,X,,,,,75,,X,,,,X,,,,,75,75
+68,2,SIS,5,R,13,R,14,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+69,2,SIS,5,R,14,R,15,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+70,2,SIS,5,R,15,R,16,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,,X,,,,75,X,,,,,X,,,,,100,88
+71,2,SIS,5,R,16,R,17,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+72,2,SIS,5,R,17,R,18,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,,,X,,,,X,,,,25,63
+73,2,SIS,5,R,18,R,19,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,,X,,,,X,,,,,75,88
+74,2,SIS,5,R,19,R,20,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,,X,,,,75,X,,,,,X,,,,,100,88
+75,2,SIS,5,R,20,R,21,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+76,2,SIS,5,R,21,R,22,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+77,2,SIS,5,R,22,R,23,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,,X,,,,X,,,,,75,88
+78,2,SIS,5,R,23,R,24,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,,X,,,,X,,,,,75,X,,,,,X,,,,,100,88
+79,2,SIS,5,R,24,R,25,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,,X,,,,,X,,,,50,,X,,,,,X,,,,50,50
+80,2,SIS,5,R,25,R,26,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,,X,,,,,X,,,,50,,X,,,,,X,,,,50,50
+81,2,SIS,5,R,26,R,27,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,,X,,,,,X,,,,50,,X,,,,,X,,,,50,50
+82,2,SIS,5,R,27,R,28,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+83,2,SIS,5,R,28,R,29,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,,X,,,,X,,,,,75,,X,,,,,,,,,50,63
+84,2,SIS,5,R,29,R,30,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+85,2,SIS,5,R,30,R,31,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,,X,,,,75,,X,,,,X,,,,,75,75
+86,2,SIS,5,R,31,R,32,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,,X,,,,,X,,,,50,,X,,,,,X,,,,50,50
+87,2,SIS,5,R,32,R,33,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+88,2,SIS,5,R,33,R,34,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+89,2,SIS,5,R,34,R,35,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+90,2,SIS,5,R,35,R,36,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+91,2,SIS,5,R,36,R,37,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+92,2,SIS,5,R,37,R,38,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+93,2,SIS,5,R,38,R,39,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+94,2,SIS,5,R,39,R,40,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+95,2,SIS,5,R,40,R,41,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,,X,,,,,X,,,,50,X,,,,,X,,,,,100,75
+96,2,SIS,5,R,41,R,42,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,,X,,,,,X,,,,50,,X,,,,X,,,,,75,63
+97,2,SIS,5,R,42,R,43,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,,X,,,,75,X,,,,,X,,,,,100,88
+98,2,SIS,5,R,43,R,44,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,,X,,,,X,,,,,75,X,,,,,X,,,,,100,88
+99,2,SIS,5,R,44,R,45,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,,X,,,,X,,,,,75,X,,,,,X,,,,,100,88
+100,2,SIS,5,R,45,R,46,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+101,2,SIS,5,R,46,R,47,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+102,2,SIS,5,R,47,R,48,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+103,2,SIS,5,R,48,R,49,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,,X,,,,X,,,,,75,,X,,,,,X,,,,50,63
+104,2,SIS,5,R,49,R,50,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,,X,,,,75,,X,,,,X,,,,,75,75
+105,2,SIS,5,R,50,R,51,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+106,2,SIS,5,R,51,R,52,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+107,2,SIS,5,R,52,R,53,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,,X,,,,X,,,,,75,,X,,,,X,,,,,75,75
+108,2,SIS,5,R,53,R,54,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,,X,,,,,X,,,,50,,X,,,,X,,,,,75,63
+109,2,SIS,5,R,54,R,55,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+110,2,SIS,5,R,55,R,56,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+111,2,SIS,5,R,56,R,57,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+112,2,SIS,5,R,57,R,58,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,,X,,,,75,X,,,,,X,,,,,100,88
+113,2,SIS,5,R,58,R,59,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,,X,,,,X,,,,,75,X,,,,,X,,,,,100,88
+114,2,SIS,5,R,59,R,60,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,,X,,,,X,,,,,75,X,,,,,X,,,,,100,88
+115,2,SIS,5,R,60,R,61,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+116,2,SIS,5,R,61,R,62,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,,X,,,,,X,,,,50,,X,,,,,X,,,,50,50
+117,2,SIS,5,R,62,R,63,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,,X,,,,,X,,,,50,,X,,,,,X,,,,50,50
+118,2,SIS,5,R,63,R,64,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,,X,,,,75,88
+119,2,SIS,5,R,64,R,65,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+120,2,SIS,5,R,65,R,66,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,,X,,,,75,88
+121,2,SIS,5,R,66,R,67,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+122,2,SIS,5,R,67,R,68,1,,2,District 2 - Field Region,District 2 - Field Region,HiMt-3,FY23/Q3,,X,,,,X,,,,,75,,X,,,,,X,,,,50,63
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+123,2,TEH,5,R,0,R,1,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+124,2,TEH,5,R,1,R,2,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+125,2,TEH,5,R,2,R,3,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+126,2,TEH,5,R,3,R,4,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+127,2,TEH,5,R,4,R,5,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+128,2,TEH,5,R,5,R,6,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+129,2,TEH,5,R,6,R,7,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+130,2,TEH,5,R,7,R,8,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,,X,,,,75,X,,,,,X,,,,,100,88
+131,2,TEH,5,R,8,R,9,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+132,2,TEH,5,R,9,R,10,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+133,2,TEH,5,R,10,R,11,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,,X,,,,75,X,,,,,X,,,,,100,88
+134,2,TEH,5,R,11,R,12,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+135,2,TEH,5,R,12,R,13,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+136,2,TEH,5,R,13,R,14,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+137,2,TEH,5,R,14,R,15,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+138,2,TEH,5,R,15,R,16,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+139,2,TEH,5,R,16,R,17,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+140,2,TEH,5,R,17,R,18,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+141,2,TEH,5,R,18,R,19,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+142,2,TEH,5,R,19,R,20,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+143,2,TEH,5,R,20,R,21,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+144,2,TEH,5,R,21,R,22,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+145,2,TEH,5,R,22,R,23,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+146,2,TEH,5,R,23,R,24,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+147,2,TEH,5,R,24,R,25,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+148,2,TEH,5,R,25,R,26,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+149,2,TEH,5,R,26,R,27,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+150,2,TEH,5,R,27,R,28,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,,X,,,,X,,,,,75,X,,,,,X,,,,,100,88
+151,2,TEH,5,,31,,32,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+152,2,TEH,5,,32,,33,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,,X,,,,X,,,,,75,X,,,,,X,,,,,100,88
+153,2,TEH,5,,33,,34,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+154,2,TEH,5,,34,,35,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+155,2,TEH,5,,35,,36,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+156,2,TEH,5,,36,,37,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+157,2,TEH,5,,37,,38,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+158,2,TEH,5,,38,,39,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+159,2,TEH,5,,39,,40,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+160,2,SHA,273,,4,,5,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+161,2,SHA,273,,5,,6,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+162,2,SHA,273,,6,,7,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,,X,,,,X,,,,,75,X,,,,,X,,,,,100,88
+163,2,SHA,273,,7,,8,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,,X,,,,X,,,,,75,X,,,,,X,,,,,100,88
+164,2,SHA,273,,8,,9,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,,,X,,X,50,75
+165,2,SHA,273,,9,,10,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+166,2,SHA,273,,10,,11,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100,,X,,,,X,,,,,75,88
+167,2,SHA,273,,11,,12,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+168,2,SHA,273,,12,,13,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+169,2,SHA,273,,13,,14,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,,X,,,,75,X,,,,,X,,,,,100,88
+170,2,SHA,273,,14,,15,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,,X,,,X,75,X,,,,,X,,,,,100,88
+171,2,SHA,273,,15,,16,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+172,2,SHA,273,,16,,17,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+173,2,SHA,273,,17,,18,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+174,2,SHA,273,,18,,19,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+175,2,SHA,273,,19,,20,1,,2,District 2 - Field Region,District 2 - Field Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100,X,,,,,X,,,,,100,100
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,149,26,0,0,0,150,25,0,0,1,93,156,18,1,0,0,161,12,1,0,1,95,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,Encampments,,Need 1,0,,Encampments,,Need 1,1,,,Encampments,,Need 1,0,,Encampments,,Need 1,0,,
+,,,,,,,,,,,,,,,,,,Need 2,0,,,,Need 2,0,,,,,Need 2,0,,,,Need 2,1,,

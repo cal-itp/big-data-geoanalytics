@@ -1,0 +1,223 @@
+ID,DIST,CO,RTE,PFX,BEGPM,PFX,ENDPM,Length,HG,MAINT_DIST,DIST_RGN,BUDGET ZONE,FY/Q,"NB/EB
+Pass","NB/EB
+Need 1","NB/EB
+Need 2","NB/EB
+Construction","NB/EB
+Encampments","SB/WB
+Pass","SB/WB
+Need 1","SB/WB
+Need 2","SB/WB
+Construction","SB/WB
+Encampments",Average LOS score
+1,6,FRE,5,,0,,1,1,,6,District 6 - North Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+2,6,FRE,5,,1,,2,1,,6,District 6 - North Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+3,6,FRE,5,,2,,3,1,,6,District 6 - North Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+4,6,FRE,5,,3,,4,1,,6,District 6 - North Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+5,6,FRE,5,,4,,5,1,,6,District 6 - North Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+6,6,FRE,5,,5,,6,1,,6,District 6 - North Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+7,6,FRE,5,,6,,7,1,,6,District 6 - North Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+8,6,FRE,5,,7,,8,1,,6,District 6 - North Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+9,6,FRE,5,,8,,9,1,,6,District 6 - North Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+10,6,FRE,5,,9,,10,1,,6,District 6 - North Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+,,,,,,,,,,,,,,,,,,,,,,,,
+11,6,FRE,41,R,18,R,19,1,,6,District 6 - North Region,InVal-4,FY23/Q3,x,,,,,x,,,,,100
+12,6,FRE,41,R,19,R,20,1,,6,District 6 - North Region,InVal-4,FY23/Q3,x,,,,,x,,,,,100
+13,6,FRE,41,R,20,R,21,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,x,,,,x,,,,,75
+14,6,FRE,41,R,21,R,22,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,x,,,,,,x,,,25
+15,6,FRE,41,R,22,R,23,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,x,,,,,,x,,,25
+16,6,FRE,41,R,23,R,24,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,,x,,,,x,,,,25
+17,6,FRE,41,R,24,R,25,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,x,,,,,x,,,,50
+18,6,FRE,41,R,25,R,26,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,x,,,,,x,,,,50
+19,6,FRE,41,R,26,R,27,1,,6,District 6 - North Region,InVal-4,FY23/Q3,x,,,,,x,,,,,100
+22,6,FRE,41,R,29,R,30,1,,6,District 6 - North Region,InVal-4,FY23/Q3,x,,,,,,x,,,,75
+23,6,FRE,41,R,30,R,31,1,,6,District 6 - North Region,InVal-4,FY23/Q3,x,,,,,,x,,,,75
+24,6,FRE,41,R,31,R,32,1,,6,District 6 - North Region,InVal-4,FY23/Q3,x,,,,,x,,,,,100
+25,6,FRE,41,R,32,,33,1,,6,District 6 - North Region,InVal-4,FY23/Q3,x,,,,,x,,,,,100
+,,,,,,,,,,,,,,,,,,,,,,,,
+26,6,FRE,43,,0,,1,1,,6,District 6 - North Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100
+28,6,FRE,43,,2,,3,1,,6,District 6 - North Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100
+29,6,FRE,43,,3,,4,1,,6,District 6 - North Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100
+30,6,FRE,43,,4,,5,1,,6,District 6 - North Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100
+31,6,FRE,43,,5,,6,1,,6,District 6 - North Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100
+32,6,FRE,43,,6,,7,1,,6,District 6 - North Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100
+33,6,FRE,43,,7,,8,1,,6,District 6 - North Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100
+34,6,FRE,43,,8,,9,1,,6,District 6 - North Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100
+,,,,,,,,,,,,,,,,,,,,,,,,
+35,6,FRE,99,R,0,R,1,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,,x,,,,x,,,,25
+36,6,FRE,99,R,1,R,2,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,,x,,,,x,,,,25
+37,6,FRE,99,R,2,R,3,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,,x,,,,x,,,,25
+38,6,FRE,99,R,3,R,4,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,,x,,,,x,,,,25
+39,6,FRE,99,R,4,R,5,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,,x,,,,x,,,,25
+40,6,FRE,99,R,5,R,6,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,,x,,,,x,,,,25
+41,6,FRE,99,,6,,7,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,x,,,,x,,,,,75
+47,6,FRE,99,,12,,13,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,x,,,,x,,,,,75
+48,6,FRE,99,,13,,14,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,x,,,,x,,,,,75
+49,6,FRE,99,,14,,15,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,x,,,,,x,,,,50
+50,6,FRE,99,,15,,16,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,x,,,,x,,,,,75
+51,6,FRE,99,,16,,17,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,x,,,,,x,,,,50
+52,6,FRE,99,,17,,18,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,,x,,,,x,,,,25
+53,6,FRE,99,,18,,19,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,x,,,,,x,,,,50
+54,6,FRE,99,,19,,20,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,x,,,,,,,,,50
+55,6,FRE,99,,20,,21,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,x,,,,,,,,,50
+56,6,FRE,99,,21,,22,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,,x,,,,,,,,0
+57,6,FRE,99,,22,,23,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,,x,,,,,,,,0
+58,6,FRE,99,,23,,24,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,,x,,,,x,,,,25
+59,6,FRE,99,,24,,25,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,x,,,,x,,,,,75
+60,6,FRE,99,,25,,26,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,x,,,,x,,,,,75
+61,6,FRE,99,,26,,27,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,,x,,,x,,,,,50
+62,6,FRE,99,,27,,28,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,x,,,,,x,,,,50
+,,,,,,,,,,,,,,,,,,,,,,,,
+66,6,FRE,180,,40,,41,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+67,6,FRE,180,,41,,42,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+68,6,FRE,180,,42,,43,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+69,6,FRE,180,,43,,44,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+70,6,FRE,180,,44,,45,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+71,6,FRE,180,,53,,54,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+72,6,FRE,180,R,54,R,55,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+73,6,FRE,180,R,55,R,56,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+74,6,FRE,180,R,56,R,57,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,,x,,,,75
+75,6,FRE,180,R,57,R,58,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,,x,,,,75
+76,6,FRE,180,R,58,R,59,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,,x,,,,75
+77,6,FRE,180,R,59,R,60,1,,6,District 6 - North Region,InVal-3,FY23/Q3,,x,,,,x,,,,,75
+78,6,FRE,180,R,60,R,61,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,,x,,,x,75
+79,6,FRE,180,R,61,R,62,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,,,x,,x,50
+80,6,FRE,180,R,62,R,63,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+81,6,FRE,180,R,63,R,64,1,,6,District 6 - North Region,InVal-3,FY23/Q3,,,,,,,x,,,,50
+82,6,FRE,180,R,64,R,65,1,,6,District 6 - North Region,InVal-3,FY23/Q3,,,,,,x,,,,,100
+83,6,FRE,180,R,66,,67,1,,6,District 6 - North Region,InVal-3,FY23/Q3,,,,,,x,,,,,100
+,,,,,,,,,,,,,,,,,,,,,,,,
+84,6,KER,5,,1,,2,1,,7,District 7 - North Region,HiMt-4,FY23/Q3,X,,,,,X,,,,,100
+85,6,KER,5,,2,,3,1,,7,District 7 - North Region,HiMt-4,FY23/Q3,X,,,,,X,,,,,100
+86,6,KER,5,,3,,4,1,,7,District 7 - North Region,HiMt-4,FY23/Q3,X,,,,,X,,,,,100
+87,6,KER,5,,4,,5,1,,7,District 7 - North Region,HiMt-4,FY23/Q3,X,,,,,X,,,,,100
+88,6,KER,5,,5,,6,1,,7,District 7 - North Region,HiMt-4,FY23/Q3,X,,,,,,,X,,,50
+89,6,KER,5,,6,,7,1,,7,District 7 - North Region,HiMt-4,FY23/Q3,X,,,,,X,,,,,100
+90,6,KER,5,,7,,8,1,,7,District 7 - North Region,HiMt-4,FY23/Q3,X,,,,,X,,,,,100
+91,6,KER,5,,8,,9,1,,7,District 7 - North Region,HiMt-4,FY23/Q3,X,,,,,X,,,,,100
+92,6,KER,5,,9,,10,1,,7,District 7 - North Region,HiMt-4,FY23/Q3,X,,,,,X,,,,,100
+93,6,KER,5,,10,,11,1,,6,District 6 - South Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+94,6,KER,5,,11,,12,1,,6,District 6 - South Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+95,6,KER,5,,12,,13,1,,6,District 6 - South Region,InVal-4,FY23/Q3,X,,,,,,X,,,,75
+96,6,KER,5,,13,,14,1,,6,District 6 - South Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+97,6,KER,5,,14,,15,1,,6,District 6 - South Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+,,,,,,,,,,,,,,,,,,,,,,,,
+99,6,KER,58,R,54,R,55,1,,6,District 6 - South Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100
+100,6,KER,58,R,55,R,56,1,,6,District 6 - South Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100
+101,6,KER,58,R,56,R,57,1,,6,District 6 - South Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100
+102,6,KER,58,R,57,R,58,1,,6,District 6 - South Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100
+103,6,KER,58,R,58,R,59,1,,6,District 6 - South Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100
+104,6,KER,58,R,59,R,60,1,,6,District 6 - South Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100
+105,6,KER,58,R,60,R,61,1,,6,District 6 - South Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100
+106,6,KER,58,R,61,R,62,1,,6,District 6 - South Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100
+107,6,KER,58,R,62,R,63,1,,6,District 6 - South Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100
+108,6,KER,58,R,63,R,64,1,,6,District 6 - South Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100
+109,6,KER,58,R,64,R,65,1,,6,District 6 - South Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100
+110,6,KER,58,R,65,R,66,1,,6,District 6 - South Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100
+111,6,KER,58,R,66,,67,1,,6,District 6 - South Region,InVal-3,FY23/Q3,X,,,,,X,,,,,100
+,,,,,,,,,,,,,,,,,,,,,,,,
+122,6,KER,99,,25,,26,1,,6,District 6 - South Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+123,6,KER,99,,26,,27,1,,6,District 6 - South Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+124,6,KER,99,,27,,28,1,,6,District 6 - South Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+125,6,KER,99, ,28,,29,1,,6,District 6 - South Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+126,6,KER,99,R,29,R,30,1,,6,District 6 - South Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+127,6,KER,99,R,30,R,31,1,,6,District 6 - South Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+128,6,KER,99,R,31,,32,1,,6,District 6 - South Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+129,6,KER,99,,32,,33,1,,6,District 6 - South Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+130,6,KER,99,,33,,34,1,,6,District 6 - South Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+131,6,KER,99,,34,,35,1,,6,District 6 - South Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+132,6,KER,99,,48,,49,1,,6,District 6 - South Region,InVal-4,FY23/Q3,X,,,,,,X,,,,75
+133,6,KER,99,,49,,50,1,,6,District 6 - South Region,InVal-4,FY23/Q3,X,,,,,,X,,,,75
+134,6,KER,99,,50,,51,1,,6,District 6 - South Region,InVal-4,FY23/Q3,,,X,,,X,,,,,50
+135,6,KER,99,,51,,52,1,,6,District 6 - South Region,InVal-4,FY23/Q3,,X,,,,X,,,,,75
+136,6,KER,99,,52,,53,1,,6,District 6 - South Region,InVal-4,FY23/Q3,,,X,,,X,,,,,50
+137,6,KER,99,,53,,54,1,,6,District 6 - South Region,InVal-4,FY23/Q3,X,,,,,,,X,,,50
+138,6,KER,99,,54,,55,1,,6,District 6 - South Region,InVal-4,FY23/Q3,,,X,,,X,,,,,50
+139,6,KER,99,,55,,56,1,,6,District 6 - South Region,InVal-4,FY23/Q3,,,X,,,X,,,,,50
+140,6,KER,99,,56,,57,1,,6,District 6 - South Region,InVal-4,FY23/Q3,,,X,,,X,,,,,50
+,,,,,,,,,,,,,,,,,,,,,,,,
+141,6,KIN,41,,16,,17,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+142,6,KIN,41,,17,,18,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+143,6,KIN,41,,18,,19,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+144,6,KIN,41,,19,,20,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+145,6,KIN,41,,20,,21,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+146,6,KIN,41,,21,,22,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+147,6,KIN,41,,22,,23,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+148,6,KIN,41,,23,,24,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+149,6,KIN,41,,24,,25,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+150,6,KIN,41,,25,,26,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+151,6,KIN,41,,26,,27,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+152,6,KIN,41,,27,,28,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+153,6,KIN,41,,28,,29,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+154,6,KIN,41,,29,,30,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+155,6,KIN,41,,30,,31,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+156,6,KIN,41,,31,,32,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+157,6,KIN,41,,32,,33,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+158,6,KIN,41,,33,,34,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+159,6,KIN,41,,34,,35,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+160,6,KIN,41,,35,,36,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+161,6,KIN,41,R,37,R,38,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+162,6,KIN,41,R,39,R,40,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+163,6,KIN,41,R,40,R,41,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+164,6,KIN,41,R,41,R,42,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+165,6,KIN,41,R,42,R,43,1,,6,District 6 - North Region,InVal-3,FY23/Q3,x,,,,,x,,,,,100
+,,,,,,,,,,,,,,,,,,,,,,,,
+166,6,KIN,198,,8,,9,1,,6,District 6 - North Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+167,6,KIN,198,R,9,R,10,1,,6,District 6 - North Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+168,6,KIN,198,R,10,R,11,1,,6,District 6 - North Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+169,6,KIN,198,R,11,R,12,1,,6,District 6 - North Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+170,6,KIN,198,R,12,R,13,1,,6,District 6 - North Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+171,6,KIN,198,R,17,R,18,1,,6,District 6 - North Region,InVal-4,FY23/Q3,X,,,,,,X,,,X,75
+172,6,KIN,198,R,18,R,19,1,,6,District 6 - North Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+173,6,KIN,198,R,19,R,20,1,,6,District 6 - North Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+174,6,KIN,198,R,20,R,21,1,,6,District 6 - North Region,InVal-4,FY23/Q3,X,,,,,,X,,,,75
+175,6,KIN,198,R,21,R,22,1,,6,District 6 - North Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+,,,,,,,,,,,,,,,,,,,,,,,,
+176,6,MAD,99, ,0,,1,1,,6,District 6 - North Region,InVal-4,FY23/Q3,x,,,,,x,,,,,100
+177,6,MAD,99,,1,,2,1,,6,District 6 - North Region,InVal-4,FY23/Q3,x,,,,,x,,,,,100
+178,6,MAD,99,,2,,3,1,,6,District 6 - North Region,InVal-4,FY23/Q3,x,,,,,x,,,,,100
+179,6,MAD,99,,3,,4,1,,6,District 6 - North Region,InVal-4,FY23/Q3,x,,,,,x,,,,,100
+180,6,MAD,99,,4,,5,1,,6,District 6 - North Region,InVal-4,FY23/Q3,x,,,,,x,,,,,100
+181,6,MAD,99,,5,,6,1,,6,District 6 - North Region,InVal-4,FY23/Q3,x,,,,,x,,,,,100
+182,6,MAD,99,,6,,7,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,x,,,,x,,,,,75
+184,6,MAD,99,,8,,9,1,,6,District 6 - North Region,InVal-4,FY23/Q3,x,,,,,x,,,,,100
+185,6,MAD,99,,9,,10,1,,6,District 6 - North Region,InVal-4,FY23/Q3,x,,,,,,x,,,,75
+186,6,MAD,99,,10,,11,1,,6,District 6 - North Region,InVal-4,FY23/Q3,x,,,,,,x,,,,75
+187,6,MAD,99,,11,,12,1,,6,District 6 - North Region,InVal-4,FY23/Q3,x,,,,,x,,,,,100
+188,6,MAD,99,,12,,13,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,x,,,x,x,,,,,75
+189,6,MAD,99,,13,,14,1,,6,District 6 - North Region,InVal-4,FY23/Q3,x,,,,,x,,,,,100
+190,6,MAD,99,,14,,15,1,,6,District 6 - North Region,InVal-4,FY23/Q3,x,,,,,x,,,,,100
+191,6,MAD,99,,15,,16,1,,6,District 6 - North Region,InVal-4,FY23/Q3,x,,,,,x,,,,,100
+192,6,MAD,99,,16,,17,1,,6,District 6 - North Region,InVal-4,FY23/Q3,x,,,,,,x,,,,75
+193,6,MAD,99,R,18,R,19,1,,6,District 6 - North Region,InVal-4,FY23/Q3,x,,,,,x,,,,,100
+194,6,MAD,99,R,19,R,20,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,x,,,,,x,,,,50
+195,6,MAD,99,R,20,,21,1,,6,District 6 - North Region,InVal-4,FY23/Q3,x,,,,,x,,,,,100
+196,6,MAD,99,,21,,22,1,,6,District 6 - North Region,InVal-4,FY23/Q3,x,,,,,x,,,,,100
+197,6,MAD,99,,22,,23,1,,6,District 6 - North Region,InVal-4,FY23/Q3,x,,,,,x,,,,,100
+198,6,MAD,99,,23,,24,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,x,,,,x,,,,,75
+199,6,MAD,99,,24,,25,1,,6,District 6 - North Region,InVal-4,FY23/Q3,x,,,,,x,,,,,100
+200,6,MAD,99,,25,,26,1,,6,District 6 - North Region,InVal-4,FY23/Q3,x,,,,,,x,,,,75
+201,6,MAD,99,,26,,27,1,,6,District 6 - North Region,InVal-4,FY23/Q3,x,,,,,x,,,,,100
+202,6,MAD,99,,27,,28,1,,6,District 6 - North Region,InVal-4,FY23/Q3,,x,,,,x,,,,,75
+203,6,TUL,99,,24,,25,1,,6,District 6 - South Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+204,6,TUL,99,,25,,26,1,,6,District 6 - South Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+205,6,TUL,99,,26,,27,1,,6,District 6 - South Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+206,6,TUL,99,,27,,28,1,,6,District 6 - South Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+207,6,TUL,99,,28,,29,1,,6,District 6 - South Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+208,6,TUL,99,,29,,30,1,,6,District 6 - South Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+,,,,,,,,,,,,,,,,,,,,,,,,
+212,6,TUL,198,,6,,7,1,,6,District 6 - South Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+213,6,TUL,198,,7,,8,1,,6,District 6 - South Region,InVal-4,FY23/Q3,,X,,,,,X,,,,50
+214,6,TUL,198,R,8,R,9,1,,6,District 6 - South Region,InVal-4,FY23/Q3,,X,,,,X,,,,,75
+215,6,TUL,198,R,9,R,10,1,,6,District 6 - South Region,InVal-4,FY23/Q3,,X,,,,X,,,,,75
+216,6,TUL,198,R,10,R,11,1,,6,District 6 - South Region,InVal-4,FY23/Q3,,,X,,,X,,,,,50
+217,6,TUL,198,R,11,R,12,1,,6,District 6 - South Region,InVal-4,FY23/Q3,X,,,,,,X,,,,75
+218,6,TUL,198,R,12,R,13,1,,6,District 6 - South Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+219,6,TUL,198,R,13,R,14,1,,6,District 6 - South Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+220,6,TUL,198,R,14,R,15,1,,6,District 6 - South Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+221,6,TUL,198,R,15,R,16,1,,6,District 6 - South Region,InVal-4,FY23/Q3,X,,,,,X,,,,,100
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,147,27,18,26,1,152,34,5,26,3,86
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,Encampments,,Need 1,1,,Encampments,,Need 1,2,
+,,,,,,,,,,,,,,,,,Need 2,0,,,,Need 2,1,
