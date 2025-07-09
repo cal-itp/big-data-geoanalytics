@@ -64,7 +64,7 @@ origin_intersections = [
         "city": "Santa Monica"
     },
     {
-        "origin_intersection": "20th st Santa Monica, California and morn10w", # Questionable value
+        "origin_intersection": "20 st Santa Monica, California and I-10",
         "x_coords": "-118.4737377",
         "y_coords": "34.0232892"
     },
@@ -4900,6 +4900,7 @@ destination_intersections = [
         "y_coords": "34.0674249",
         "city": "Fontana"
     },
+    
     {
         "destination_intersection": "I-10 and monterey ave",
         "x_coords": "-116.3881637",
@@ -6939,6 +6940,13 @@ destination_intersections = [
         "x_coords": "-121.812895",
         "y_coords": "36.6694672",
         "city": "Salinas"
+    },
+    {
+        "destination_intersection": "SR-1 and morning view rd",
+        "x_coords": "-118.827867",
+        "y_coords": "34.020269",
+        "city": "Malibu",
+        "county": "Los Angeles"
     },
     {
         "destination_intersection": "SR-1 and rio del mar",
