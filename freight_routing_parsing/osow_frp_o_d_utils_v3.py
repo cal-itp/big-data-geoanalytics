@@ -61,12 +61,15 @@ origin_intersections = [
         "origin_intersection": "20th st and I-10",
         "x_coords": "-118.4737752",
         "y_coords": "34.0233192",
-        "city": "Santa Monica"
+        "city": "Santa Monica",
+        "county": "Los Angeles"        
     },
     {
-        "origin_intersection": "20 st Santa Monica, California and I-10",
+        "origin_intersection": "20th st Santa Monica, California and I-10",
         "x_coords": "-118.4737377",
-        "y_coords": "34.0232892"
+        "y_coords": "34.0232892",
+        "city": "Santa Monica",
+        "county": "Los Angeles"
     },
     {
         "origin_intersection": "29th ave and I-880",
