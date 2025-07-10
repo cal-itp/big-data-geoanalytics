@@ -805,6 +805,13 @@ origin_intersections = [
         "city": "Highland"
     },
     {
+        "origin_intersection": "california st and I-105",
+        "x_coords": "-118.403969",
+        "y_coords": "33.931394",
+        "city": "Los Angles",
+        "county": "Los Angeles"
+    },
+    {
         "origin_intersection": "camarillo springs rd and US-101",
         "x_coords": "-118.9836261",
         "y_coords": "34.2052546",
@@ -4483,6 +4490,13 @@ origin_intersections = [
         "x_coords": "-116.7796368",
         "y_coords": "32.8400159",
         "city": "Alpine"
+    },
+    {
+        "origin_intersection": "taylor st and I-8",
+        "x_coords": "-117.197255",
+        "y_coords": "32.758404",
+        "city": "San Diego",
+        "county": "San Diego"
     },
     {
         "origin_intersection": "tejon highway and SR-223",
