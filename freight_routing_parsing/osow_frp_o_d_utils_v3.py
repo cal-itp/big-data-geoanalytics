@@ -1262,6 +1262,54 @@ origin_intersections = [
         "city": "Fontana"
     },
     {
+        "origin_intersection": "co rd 102 and SR-113",
+        "x_coords": "-121.727575",
+        "y_coords": "38.792218",
+        "city": "Woodland",
+        "county": "Yolo"
+    },
+    {
+        "origin_intersection": "co rd 13 and SR-36",
+        "x_coords": "-121.141658",
+        "y_coords": "40.305864",
+        "county": "Plumas"
+    },
+    {
+        "origin_intersection": "co rd 18 and SR-113",
+        "x_coords": "-121.765200",
+        "y_coords": "38.713536",
+        "city": "Woodland",
+        "county": "Yolo"
+    },
+    {
+        "origin_intersection": "co rd 29 and SR-113",
+        "x_coords": "-121.767212",
+        "y_coords": "38.590234",
+        "city": "Davis",
+        "county": "Yolo"
+    },
+    {
+        "origin_intersection": "co rd 6 and I-5",
+        "x_coords": "-121.973910",
+        "y_coords": "38.881664",
+        "city": "Woodland",
+        "county": "Yolo"
+    },
+    {
+        "origin_intersection": "co rd 70 and SR-299",
+        "x_coords": "-120.745457",
+        "y_coords": "41.468996",
+        "city": "Canby",
+        "county": "Modoc"
+    },
+    {
+        "origin_intersection": "co rd 8 and I-5",
+        "x_coords": "-121.973857",
+        "y_coords": "38.881657",
+        "city": "Woodland",
+        "county": "Yolo"
+    },
+    {
         "origin_intersection": "covell blvd and SR-113",
         "x_coords": "-121.7678071",
         "y_coords": "38.5608649",
