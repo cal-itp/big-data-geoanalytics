@@ -1067,6 +1067,13 @@ origin_intersections = [
         "county": "orange"
     },
     {
+        "origin_intersection": "christianitos canyon rd and SR-74",
+        "x_coords": "-117.580697",
+        "y_coords": "33.513741",
+        "city": "San Juan Capistrano",
+        "county": "orange"
+    },
+    {
         "origin_intersection": "churchill downs ave and SR-113",
         "x_coords": "-121.7652055",
         "y_coords": "38.6988228",
@@ -1161,6 +1168,13 @@ origin_intersections = [
         "x_coords": "-121.1682347",
         "y_coords": "37.7975491",
         "city": "Manteca"
+    },
+    {
+        "origin_intersection": "commercial vehicle border and SR-905", # State Boundary
+        "x_coords": "-116.939074",
+        "y_coords": "32.5518611",
+        "city": "Otay Mesa",
+        "county": "San Diego"
     },
     {
         "origin_intersection": "commercial vehicle border entrance and SR-905", # State Boundary
@@ -3449,6 +3463,13 @@ origin_intersections = [
         "city": "Maricopa"
     },
     {
+        "origin_intersection": "old us 50 and I-5", # old us 50/11th Street
+        "x_coords": "-121.341462",
+        "y_coords": "37.759992",
+        "city": "Tracy",
+        "county": "San Joaquin"
+    },
+    {
         "origin_intersection": "olema Bolinas, California and bolinas rd", # Questionable value
         "x_coords": "-122.6996505",
         "y_coords": "37.9347986"
@@ -3632,6 +3653,13 @@ origin_intersections = [
         "x_coords": "-116.5906103",
         "y_coords": "33.9612897",
         "city": "Desert Hot Springs"
+    },
+    {
+        "origin_intersection": "pine valley rd and I-8",
+        "x_coords": "-116.532562",
+        "y_coords": "32.818264",
+        "city": "Pine Valley",
+        "county": "San Diego"
     },
     {
         "origin_intersection": "placentia ave and I-215",
@@ -4469,6 +4497,13 @@ origin_intersections = [
         "city": "Lewiston"
     },
     {
+        "origin_intersection": "tujunga ave and SR-170",
+        "x_coords": "-118.379212",
+        "y_coords": "34.157004",
+        "city": "North Hollywood",
+        "county": "Los Angeles"
+    },
+    {
         "origin_intersection": "tully rd and US-101",
         "x_coords": "-121.8315308",
         "y_coords": "37.3184312",
@@ -4479,6 +4514,13 @@ origin_intersections = [
         "x_coords": "-121.8315363",
         "y_coords": "37.3184246",
         "city": "San Jose"
+    },
+    {
+        "origin_intersection": "tupman rd and SR-119",
+        "x_coords": "-119.311903",
+        "y_coords": "35.265780",
+        "city": "Taft",
+        "county": "Kern"
     },
     {
         "origin_intersection": "turner rd and SR-99",
@@ -4873,6 +4915,13 @@ origin_intersections = [
         "x_coords": "-114.9016368",
         "y_coords": "33.6079559",
         "city": "Blythe"
+    },
+    {
+        "origin_intersection": "wilkinson rd and SR-111",
+        "x_coords": "-115.518609",
+        "y_coords": "33.140211",
+        "city": "Calipatria",
+        "county": "Imperial"
     },
     {
         "origin_intersection": "will s green rd and SR-20",
