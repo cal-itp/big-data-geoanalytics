@@ -40,7 +40,7 @@ def aggregate_destination_station_geometries(df_all_stations, origin_stations_li
         station_destinations = df_all_stations >> filter(_.station_name != station)
         station_destinations_deduplicated = station_destinations.drop_duplicates(subset=['geoname'], keep='first')
 
-        utils.make_zipped_shapefile(station_destinations_deduplicated, f"station_destinations/origin_{station}_destinations_network_wide.zip")
+        utils.make_zipped_shapefile(station_destinations_deduplicated, f"station_destinations/origin_{station}_destinations_network_wide_2.zip")
         # station_destinations.to_file(f"{gcs_path}station_destinations_combined/{station}_destinations.shp", driver="ESRI Shapefile")
 
         print(f"Sucessfully exported {station} destinations to gcs")
