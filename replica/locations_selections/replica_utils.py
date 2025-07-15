@@ -57,3 +57,37 @@ def aggregate_destination_station_geometries(df_all_stations, origin_stations_li
             print(f"Error: {folder_to_delete} : {e.strerror}")
     else:
         print(f"The folder '{folder_to_delete}' does not exist.")
+        
+
+        
+def define_transit_line(line):
+    if line == "sbline":
+        line_name = "San Bernardino Line"
+    elif line == "riversideline":
+        line_name = "Riverside Line"
+    else:
+        line_name = "Both"
+        
+    return line_name
+    
+
+def calc_auto_travel_info(df):
+    df_auto = df[df.primary_mode=="private_auto"]
+    
+    auto_mean_min = df_auto.trip_duration_minutes.mean()
+    auto_median_min = df_auto.trip_duration_minutes.median()
+    auto_mean_miles = df_auto.trip_distance_miles.mean()
+    auto_median_miles = df_auto.trip_distance_miles.median()
+    
+    return auto_mean_min, auto_median_min, auto_mean_miles, auto_median_miles
+
+
+def calc_transit_travel_info(df):
+    df_auto = df[df.primary_mode=="public_transit"]
+    
+    transit_mean_min = df_auto.trip_duration_minutes.mean()
+    transit_median_min = df_auto.trip_duration_minutes.median()
+    transit_mean_miles = df_auto.trip_distance_miles.mean()
+    transit_median_miles = df_auto.trip_distance_miles.median()
+    
+    return transit_mean_min, transit_median_min, transit_mean_miles, transit_median_miles
