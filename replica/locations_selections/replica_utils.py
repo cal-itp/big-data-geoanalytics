@@ -13,7 +13,7 @@ import os
 import shutil
 
 
-gcs_path = "calitp-analytics-data/data-analyses/big_data/MetroLink_LinkUS/station_locations/"
+gcs_path = "gs://calitp-analytics-data/data-analyses/big_data/MetroLink_LinkUS/station_locations/"
 
 
 def import_stations(station_list):
@@ -32,6 +32,24 @@ def import_stations(station_list):
     all_stations = pd.concat(all_df, ignore_index=True)
     
     return all_stations
+
+
+def read_in_stations():
+    
+    gdf_stations = import_stations(all_stations_list)
+    
+    all_station_list = pd.read_csv(f"{gcs_path}Station_lists.csv",  nrows=72)
+    
+    column_names = all_station_list.columns[2:12]
+    
+    all_station_list['transit_lines'] = all_station_list[column_names].apply(lambda row: ', '.join([col for col in column_names if row[col] == 'x']), axis=1)
+    all_station_list = all_station_list.rename(columns={'station_name':'station_name_full', 'downloaded_geo_name':'station_name'})
+    
+    gdf_stations = gdf_stations.merge((all_station_list[['station_name_full','station_name','transit_lines']]), on="station_name", how="left")
+    
+    
+    return gdf_stations
+    
 
 
 def aggregate_destination_station_geometries(df_all_stations, origin_stations_list):
@@ -91,3 +109,33 @@ def calc_transit_travel_info(df):
     transit_median_miles = df_auto.trip_distance_miles.median()
     
     return transit_mean_min, transit_median_min, transit_mean_miles, transit_median_miles
+
+
+def get_top_and_bottom_tract_counts(df, top_least):
+    tract_counts = df['destination_tract_station_area'].value_counts().reset_index()
+    tract_counts.columns = ['destination_tract_station_area', 'count']
+    
+    if (top_least == ("top")):
+        top_name1 = tract_counts.iloc[0, 0]
+        top_num1 = tract_counts.iloc[0, 1]
+
+        top_name2 = tract_counts.iloc[1, 0]
+        top_num2 = tract_counts.iloc[1, 1]
+
+        top_name3 = tract_counts.iloc[2, 0]
+        top_num3 = tract_counts.iloc[2, 1]
+        
+        return top_name1, top_num1, top_name2, top_num2, top_name3, top_num3
+    
+    if (top_least == ("least")):
+        bottom_name1 = tract_counts.iloc[(len(tract_counts)-1), 0]
+        bottom_num1 = tract_counts.iloc[(len(tract_counts)-1), 1]
+
+        bottom_name2 = tract_counts.iloc[(len(tract_counts)-2), 0]
+        bottom_num2 = tract_counts.iloc[(len(tract_counts)-2), 1]
+
+        bottom_name3 = tract_counts.iloc[(len(tract_counts)-3), 0]
+        bottom_num3 = tract_counts.iloc[(len(tract_counts)-3), 1]
+        
+        return bottom_name1, bottom_num1, bottom_name2, bottom_num2, bottom_name3, bottom_num3
+    
