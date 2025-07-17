@@ -453,6 +453,54 @@ origin_intersections = [
         "city": "Wilmington"
     },
     {
+        "origin_intersection": "ave 12 and SR-145",
+        "x_coords": "-120.056036",
+        "y_coords": "36.923858",
+        "city": "Madera",
+        "county": "Madera"
+    },
+    {
+        "origin_intersection": "ave 12 and SR-41",
+        "x_coords": "-119.793996",
+        "y_coords": "36.923248",
+        "city": "Madera",
+        "county": "Madera"
+    },
+    {
+        "origin_intersection": "ave 12 and SR-99",
+        "x_coords": "-120.022094",
+        "y_coords": "36.923858",
+        "county": "Madera"
+    },
+    {
+        "origin_intersection": "ave 20 and SR-99",
+        "x_coords": "-120.158758",
+        "y_coords": "37.042666",
+        "city": "Madera",
+        "county": "Madera"
+    },
+    {
+        "origin_intersection": "ave 24 and SR-99",
+        "x_coords": "-120.216246",
+        "y_coords": "37.098256",
+        "city": "Chowchilla",
+        "county": "Madera"
+    },
+    {
+        "origin_intersection": "ave 384 and SR-99",
+        "x_coords": "-119.518580",
+        "y_coords": "36.490030",
+        "city": "Kingsburg",
+        "county": "Fresno"
+    },
+    {
+        "origin_intersection": "ave 416 and SR-63",
+        "x_coords": "-119.286879",
+        "y_coords": "36.544752",
+        "city": "Orosi",
+        "county": "Tulare"
+    },
+    {
         "origin_intersection": "ave 15341 Rd 28 1/2 Madra, Ca, California and SR-99", # Questionable value
         "x_coords": "-120.028455",
         "y_coords": "36.9381609"
@@ -476,6 +524,27 @@ origin_intersections = [
         "origin_intersection": "ave 3520 East Ave M, Palmdale, Ca, California and SR-14", # Questionable value
         "x_coords": "-118.1532543",
         "y_coords": "34.6456641"
+    },
+    {
+        "origin_intersection": "ave h and SR-14",
+        "x_coords": "-118.170197",
+        "y_coords": "34.718694",
+        "city": "Lancaster",
+        "county": "Los Angeles"
+    },
+    {
+        "origin_intersection": "ave l and SR-14",
+        "x_coords": "-118.153357",
+        "y_coords": "34.660354",
+        "city": "Lancaster",
+        "county": "Los Angeles"
+    },
+    {
+        "origin_intersection": "ave m and SR-14",
+        "x_coords": "-118.153236",
+        "y_coords": "34.645714",
+        "city": "Lancaster",
+        "county": "Los Angeles"
     },
     {
         "origin_intersection": "azalea ave and SR-200",
@@ -2181,6 +2250,20 @@ origin_intersections = [
         "city": "Cottonwood"
     },
     {
+        "origin_intersection": "humboldt rd and SR-89",
+        "x_coords": "-121.208430",
+        "y_coords": "40.227139",
+        "city": "Chester",
+        "county": "Plumas"
+    },
+    {
+        "origin_intersection": "humbolt rd and SR-89", # (sic) to capture misspellings
+        "x_coords": "-121.208430",
+        "y_coords": "40.227139",
+        "city": "Chester",
+        "county": "Plumas"
+    },
+    {
         "origin_intersection": "humphrey rd and SR-20",
         "x_coords": "-121.7261331",
         "y_coords": "39.1418871",
@@ -2229,6 +2312,13 @@ origin_intersections = [
         "x_coords": "-121.8130107",
         "y_coords": "36.6694461",
         "city": "Marina"
+    },
+    {
+        "origin_intersection": "imperial hwy & I-105",
+        "x_coords": "-118.345358",
+        "y_coords": "33.930968",
+        "city": "Inglewood",
+        "county": "Los Angeles"
     },
     {
         "origin_intersection": "indian canyon dr and I-10",
@@ -2648,6 +2738,12 @@ origin_intersections = [
         "city": "Lemoore"
     },
     {
+        "origin_intersection": "lemoore naval air station and SR-198",
+        "x_coords": "-119.8960744",
+        "y_coords": "36.2554875",
+        "city": "Lemoore"
+    },
+    {
         "origin_intersection": "lerdo highway and SR-65",
         "x_coords": "-119.0766122",
         "y_coords": "35.4994389",
@@ -3012,7 +3108,7 @@ origin_intersections = [
         "city": "Calexico",
         "county": "Imperial"
     },
-
+    
     {
         "origin_intersection": "mexico border United States / Mexican Border - Calexico, California and SR-7", # State Boundary
         "x_coords": "-115.3878034",
@@ -3022,6 +3118,13 @@ origin_intersections = [
         "origin_intersection": "mexico border Us/Mex Border At Hwy 188, California and SR-188", # State Boundary
         "x_coords": "-116.6274985",
         "y_coords": "32.5763774"
+    },
+    {
+        "origin_intersection": "mexico border and SR-188",# State BOundary
+        "x_coords": "-116.627646",
+        "y_coords": "32.577547",
+        "city": "Tecate",
+        "county": "San Diego"
     },
     {
         "origin_intersection": "mexico border Us/Mx Border 7, California and SR-7", # State Boundary
