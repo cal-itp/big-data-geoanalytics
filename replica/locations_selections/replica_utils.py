@@ -117,25 +117,25 @@ def get_top_and_bottom_tract_counts(df, top_least, all_trips):
     
     if (top_least == ("top")):
         top_name1 = tract_counts.iloc[0, 0]
-        top_num1 = (tract_counts.iloc[0, 1])/all_trips
+        # top_num1 = (tract_counts.iloc[0, 1])/all_trips
 
-        top_name2 = tract_counts.iloc[1, 0]
-        top_num2 = (tract_counts.iloc[1, 1])/all_trips
+        # top_name2 = tract_counts.iloc[1, 0]
+#         top_num2 = (tract_counts.iloc[1, 1])/all_trips
 
-        top_name3 = tract_counts.iloc[2, 0]
-        top_num3 = (tract_counts.iloc[2, 1])/all_trips
+        # top_name3 = tract_counts.iloc[2, 0]
+#         top_num3 = (tract_counts.iloc[2, 1])/all_trips
         
-        return top_name1, top_name2, top_name3
+        return top_name1, #top_name2, #top_name3
     
     if (top_least == ("least")):
         bottom_name1 = tract_counts.iloc[(len(tract_counts)-1), 0]
         # bottom_num1 = tract_counts.iloc[(len(tract_counts)-1), 1]
 
-        bottom_name2 = tract_counts.iloc[(len(tract_counts)-2), 0]
-        # bottom_num2 = tract_counts.iloc[(len(tract_counts)-2), 1]
+        # bottom_name2 = tract_counts.iloc[(len(tract_counts)-2), 0]
+#         # bottom_num2 = tract_counts.iloc[(len(tract_counts)-2), 1]
 
-        bottom_name3 = tract_counts.iloc[(len(tract_counts)-3), 0]
-        # bottom_num3 = tract_counts.iloc[(len(tract_counts)-3), 1]
+#         bottom_name3 = tract_counts.iloc[(len(tract_counts)-3), 0]
+#         # bottom_num3 = tract_counts.iloc[(len(tract_counts)-3), 1]
         
-        return bottom_name1, bottom_name2, bottom_name3
+        return bottom_name1, #bottom_name2, #bottom_name3
     
