@@ -13,7 +13,7 @@ import os
 import shutil
 
 
-gcs_path = "gs://calitp-analytics-data/data-analyses/big_data/MetroLink_LinkUS/station_locations/"
+gcs_path = "gs://calitp-analytics-data/data-analyses/big_data/MetroLink_LinkUS/"
 
 
 def import_stations(station_list):
@@ -21,7 +21,7 @@ def import_stations(station_list):
     all_df = []
     
     for station in station_list:
-        with get_fs().open(f"{gcs_path}saved-selection-geo-{station}_us-tract-2020.zip") as f:
+        with get_fs().open(f"{gcs_path}station_locations/saved-selection-geo-{station}_us-tract-2020.zip") as f:
             
             df = to_snakecase(gpd.read_file(f))
             
@@ -34,7 +34,7 @@ def import_stations(station_list):
     return all_stations
 
 
-def read_in_stations():
+def read_in_stations(all_stations_list):
     
     gdf_stations = import_stations(all_stations_list)
     
@@ -111,31 +111,31 @@ def calc_transit_travel_info(df):
     return transit_mean_min, transit_median_min, transit_mean_miles, transit_median_miles
 
 
-def get_top_and_bottom_tract_counts(df, top_least):
+def get_top_and_bottom_tract_counts(df, top_least, all_trips):
     tract_counts = df['destination_tract_station_area'].value_counts().reset_index()
     tract_counts.columns = ['destination_tract_station_area', 'count']
     
     if (top_least == ("top")):
         top_name1 = tract_counts.iloc[0, 0]
-        top_num1 = tract_counts.iloc[0, 1]
+        top_num1 = (tract_counts.iloc[0, 1])/all_trips
 
         top_name2 = tract_counts.iloc[1, 0]
-        top_num2 = tract_counts.iloc[1, 1]
+        top_num2 = (tract_counts.iloc[1, 1])/all_trips
 
         top_name3 = tract_counts.iloc[2, 0]
-        top_num3 = tract_counts.iloc[2, 1]
+        top_num3 = (tract_counts.iloc[2, 1])/all_trips
         
-        return top_name1, top_num1, top_name2, top_num2, top_name3, top_num3
+        return top_name1, top_name2, top_name3
     
     if (top_least == ("least")):
         bottom_name1 = tract_counts.iloc[(len(tract_counts)-1), 0]
-        bottom_num1 = tract_counts.iloc[(len(tract_counts)-1), 1]
+        # bottom_num1 = tract_counts.iloc[(len(tract_counts)-1), 1]
 
         bottom_name2 = tract_counts.iloc[(len(tract_counts)-2), 0]
-        bottom_num2 = tract_counts.iloc[(len(tract_counts)-2), 1]
+        # bottom_num2 = tract_counts.iloc[(len(tract_counts)-2), 1]
 
         bottom_name3 = tract_counts.iloc[(len(tract_counts)-3), 0]
-        bottom_num3 = tract_counts.iloc[(len(tract_counts)-3), 1]
+        # bottom_num3 = tract_counts.iloc[(len(tract_counts)-3), 1]
         
-        return bottom_name1, bottom_num1, bottom_name2, bottom_num2, bottom_name3, bottom_num3
+        return bottom_name1, bottom_name2, bottom_name3
     
