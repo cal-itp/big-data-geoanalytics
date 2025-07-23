@@ -94,10 +94,14 @@ def calc_auto_travel_info(df):
     
     auto_mean_min = df_auto.trip_duration_minutes.mean()
     auto_median_min = df_auto.trip_duration_minutes.median()
+    
     auto_mean_miles = df_auto.trip_distance_miles.mean()
     auto_median_miles = df_auto.trip_distance_miles.median()
     
-    return auto_mean_min, auto_median_min, auto_mean_miles, auto_median_miles
+    auto_max_min = df_auto.trip_duration_minutes.max()
+    auto_max_miles = df_auto.trip_distance_miles.max()
+    
+    return auto_mean_min, auto_median_min, auto_mean_miles, auto_median_miles, auto_max_min, auto_max_miles
 
 
 def calc_transit_travel_info(df):
@@ -105,10 +109,14 @@ def calc_transit_travel_info(df):
     
     transit_mean_min = df_auto.trip_duration_minutes.mean()
     transit_median_min = df_auto.trip_duration_minutes.median()
+    
     transit_mean_miles = df_auto.trip_distance_miles.mean()
     transit_median_miles = df_auto.trip_distance_miles.median()
     
-    return transit_mean_min, transit_median_min, transit_mean_miles, transit_median_miles
+    transit_max_miles = df_auto.trip_distance_miles.max()
+    transit_max_min = df_auto.trip_duration_minutes.max()
+    
+    return transit_mean_min, transit_median_min, transit_mean_miles, transit_median_miles, transit_max_miles, transit_max_min
 
 
 def get_top_and_bottom_tract_counts(df, top_least, all_trips):
