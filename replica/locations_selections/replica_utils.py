@@ -38,7 +38,9 @@ def read_in_stations(all_stations_list):
     
     gdf_stations = import_stations(all_stations_list)
     
-    all_station_list = pd.read_csv(f"{gcs_path}Station_lists.csv",  nrows=72)
+    all_station_list = pd.read_csv(f"{gcs_path}Station_lists_072425.csv",  nrows=72)
+    
+    all_station_list['downloaded_geo_name'] = all_station_list['downloaded_geo_name'].str.replace('_', '-')
     
     column_names = all_station_list.columns[2:12]
     
