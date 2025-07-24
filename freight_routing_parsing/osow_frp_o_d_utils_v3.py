@@ -52,6 +52,13 @@ origin_intersections = [
         "city": "Palmdale"
     },
     {
+        "origin_intersection": "17th ave and SR-198", # aka rd 56 and SR-198
+        "x_coords": "-119.448413",
+        "y_coords": "36.327555",
+        "city": "Visalia",
+        "county": "Tulare"
+    },
+    {
         "origin_intersection": "190th st and I-405",
         "x_coords": "-118.289800",
         "y_coords": "33.859207",
@@ -1364,7 +1371,7 @@ origin_intersections = [
         "city": "Davis",
         "county": "Yolo"
     },
-    {
+   {
         "origin_intersection": "co rd 6 and I-5",
         "x_coords": "-121.973910",
         "y_coords": "38.881664",
@@ -1740,6 +1747,13 @@ origin_intersections = [
         "city": "Roseville"
     },
     {
+        "origin_intersection": "exeter blvd and SR-198", # aka rd 196 and SR-198
+        "x_coords": "-119.134913",
+        "y_coords": "36.326231",
+        "city": "Exeter",
+        "county": "Tulare"
+    },
+    {
         "origin_intersection": "fairfax rd and SR-58",
         "x_coords": "-118.9319631",
         "y_coords": "35.3522921",
@@ -1793,6 +1807,13 @@ origin_intersections = [
         "x_coords": "-121.1125818",
         "y_coords": "36.201312",
         "city": "King City"
+    },
+    {
+        "origin_intersection": "flags rd and US-395",
+        "x_coords": "-117.399181",
+        "y_coords": "34.410256",
+        "city": "Hesperia",
+        "county": "San Bernardino"
     },
     {
         "origin_intersection": "flightpath wy and SR-65",
@@ -3283,6 +3304,13 @@ origin_intersections = [
         "city": "Loma Linda"
     },
     {
+        "origin_intersection": "mountain view rd and SR-184",
+        "x_coords": "-118.914383",
+        "y_coords": "35.281563",
+        "city": "Bakersfield",
+        "county": "Kern"
+    },
+    {
         "origin_intersection": "mountain view st and SR-299",
         "x_coords": "-122.9328565",
         "y_coords": "40.7255188",
@@ -3293,11 +3321,6 @@ origin_intersections = [
         "x_coords": "-122.0022341",
         "y_coords": "37.5297842",
         "city": "Newark"
-    },
-    {
-        "origin_intersection": "mt Bakersfield, California and SR-184", # questionable value
-        "x_coords": "-118.9143765",
-        "y_coords": "35.2815483"
     },
     {
         "origin_intersection": "mt vernon ave and SR-58",
@@ -3423,6 +3446,13 @@ origin_intersections = [
         "x_coords": "-119.7588265",
         "y_coords": "36.692398",
         "city": "Fresno"
+    },
+    {
+        "origin_intersection": "north gate and SR-37",
+        "x_coords": "-122.287998",
+        "y_coords": "38.117665",
+        "city": "Vallejo",
+        "county": "Solano"
     },
     {
         "origin_intersection": "north grand ave and SR-65",
@@ -3938,6 +3968,62 @@ origin_intersections = [
         "x_coords": "-117.8898728",
         "y_coords": "33.9125886",
         "city": "Brea"
+    },
+    {
+        "origin_intersection": "rd 144 and SR-190",
+        "x_coords": "-119.072875",
+        "y_coords": "36.051253",
+        "city": "Porterville",
+        "county": "Tulare"
+    },
+    {
+        "origin_intersection": "rd 192 and SR-190",
+        "x_coords": "-119.143075",
+        "y_coords": "36.051263",
+        "city": "Porterville",
+        "county": "Tulare"
+    },
+    {
+        "origin_intersection": "rd 196 and SR-198", # aka exeter blvd and SR-198
+        "x_coords": "-119.134913",
+        "y_coords": "36.326231",
+        "city": "Exeter",
+        "county": "Tulare"
+    },
+    {
+        "origin_intersection": "rd 204 and SR-65", # not an actual intersection, rd 204 is down the street from SR-65 (e.g., via 5th ave)
+        "x_coords": "-119.117047",
+        "y_coords": "36.167223",
+        "city": "Lindsay",
+        "county": "Tulare"
+    },
+    {
+        "origin_intersection": "rd 208 and SR-190",
+        "x_coords": "-119.107473",
+        "y_coords": "36.051219",
+        "city": "Porterville",
+        "county": "Tulare"
+    },
+    {
+        "origin_intersection": "rd 220 and SR-198",
+        "x_coords": "-119.081185",
+        "y_coords": "36.325422",
+        "city": "Exeter",
+        "county": "Tulare"
+    },
+    {
+        "origin_intersection": "rd 38 and SR-145",
+        "x_coords": "-119.857605",
+        "y_coords": "37.010317",
+        "city": "Madera",
+        "county": "Madera"
+    },
+    {
+        "origin_intersection": "rd 56 and SR-198", # aka 17th ave and SR-198
+        "x_coords": "-119.448413",
+        "y_coords": "36.327555",
+        "city": "Visalia",
+        "county": "Tulare"
     },
     {
         "origin_intersection": "reclamation rd and SR-113",
