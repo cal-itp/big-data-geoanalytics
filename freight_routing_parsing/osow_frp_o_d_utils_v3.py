@@ -5767,6 +5767,13 @@ destination_intersections = [
         "city": "Corona"
     },
     {
+        "destination_intersection": "I-15 and I-40",
+        "x_coords": "-117.009853",
+        "y_coords": "34.886236",
+        "city": "Barstow",
+        "county": "San Bernardino"
+    },
+    {
         "destination_intersection": "I-15 and indian truck trail",
         "x_coords": "-117.4524298",
         "y_coords": "33.7487283",
@@ -6068,6 +6075,13 @@ destination_intersections = [
         "city": "Menifee"
     },
     {
+        "destination_intersection": "I-215 and SR-60",
+        "x_coords": "-117.357329",
+        "y_coords": "33.993339",
+        "city": "Riverside",
+        "county": "Riverside"
+    },
+    {
         "destination_intersection": "I-215 and university parkway",
         "x_coords": "-117.3332737",
         "y_coords": "34.164392",
@@ -6096,6 +6110,13 @@ destination_intersections = [
         "x_coords": "-121.898165",
         "y_coords": "37.3222572",
         "city": "San Jose"
+    },
+    {
+        "destination_intersection": "I-280 and caesar chavez st",
+        "x_coords": "-122.392004",
+        "y_coords": "37.750081",
+        "city": "San Francisco",
+        "county": "San Francisco"
     },
     {
         "destination_intersection": "I-280 and foothill expressway",
@@ -6128,6 +6149,13 @@ destination_intersections = [
         "city": "San Jose"
     },
     {
+        "destination_intersection": "I-380 and north access rd",
+        "x_coords": "-122.397714",
+        "y_coords": "37.638590",
+        "city": "South San Francisco",
+        "county": "San Mateo"
+    },
+    {
         "destination_intersection": "I-40 and amboy/kelso",
         "x_coords": "-115.7563233",
         "y_coords": "34.5553649",
@@ -6141,10 +6169,11 @@ destination_intersections = [
         "county": "Riverside"
     },
     {
-        "destination_intersection": "I-40 and daggett, California",
-        "x_coords": "-116.8871242",
-        "y_coords": "34.902274",
-        "city": "Yermo"
+        "destination_intersection": "I-40 and daggett",
+        "x_coords": "-116.890201",
+        "y_coords": "34.855029",
+        "city": "Daggett",
+        "county": "San Bernardino"
     },
     {
         "destination_intersection": "I-40 and essex rd",
@@ -6165,10 +6194,11 @@ destination_intersections = [
         "city": "Amboy"
     },
     {
-        "destination_intersection": "I-40 and ludlow Ludlow, California",
+        "destination_intersection": "I-40 and ludlow",
         "x_coords": "-116.163163",
         "y_coords": "34.7254931",
         "city": "Ludlow"
+        "county": "San Bernardino"
     },
     {
         "destination_intersection": "I-40 and marine corps",
@@ -6369,16 +6399,25 @@ destination_intersections = [
         "city": "Stockton"
     },
     {
-        "destination_intersection": "I-5 and co rd",
-        "x_coords": "-121.9785049",
-        "y_coords": "38.8922724",
-        "city": "Dunnigan"
+        "destination_intersection": "I-5 and co rd 8", # aka "I-5 and road 8"
+        "x_coords": "-121.953655",
+        "y_coords": "38.861241",
+        "city": "Woodland", # Although it's super close to Dunnigan but google says Woodland
+        "county": "Yolo"
     },
     {
-        "destination_intersection": "I-5 and co rd",
-        "x_coords": "-121.4969629",
-        "y_coords": "38.4665937",
-        "city": "Sacramento"
+        "destination_intersection": "I-5 and copco rd", #aka "I-5 and henley hornbrook"
+        "x_coords": "-122.566218",
+        "y_coords": "41.901018",
+        "city": "Hornbrook",
+        "county": "Siskiyou"
+    },
+    {
+        "destination_intersection": "I-5 and copus rd",
+        "x_coords": "-119.037327",
+        "y_coords": "35.095012",
+        "city": "Bakersfield",
+        "county": "Kern"
     },
     {
         "destination_intersection": "I-5 and cosumnes river blvd",
@@ -6397,6 +6436,13 @@ destination_intersections = [
         "x_coords": "-121.4970698",
         "y_coords": "38.466575",
         "city": "Elk Grove"
+    },
+    {
+        "destination_intersection": "I-5 and crows landing", # aka "I-5 and fink rd"
+        "x_coords": "-121.138211",
+        "y_coords": "37.397389",
+        "city": "Newman",
+        "county": "Stanislaus"
     },
     {
         "destination_intersection": "I-5 and derrick ave",
@@ -6439,6 +6485,13 @@ destination_intersections = [
         "x_coords": "-122.3201603",
         "y_coords": "40.7309264",
         "city": "Mountain Gate"
+    },
+    {
+        "destination_intersection": "I-5 and fink rd", # aka "I-5 and crows landing"
+        "x_coords": "-121.138211",
+        "y_coords": "37.397389",
+        "city": "Newman",
+        "county": "Stanislaus"
     },
     {
         "destination_intersection": "I-5 and florin rd",
@@ -6495,10 +6548,11 @@ destination_intersections = [
         "city": "San Diego"
     },
     {
-        "destination_intersection": "I-5 and henley / hornbrook",
-        "x_coords": "-122.5743744",
-        "y_coords": "41.9196636",
-        "city": "Hornbrook"
+        "destination_intersection": "I-5 and henley hornbrook", #aka "I-5 and copco rd"
+        "x_coords": "-122.566218",
+        "y_coords": "41.901018",
+        "city": "Hornbrook",
+        "county": "Siskiyou"
     },
     {
         "destination_intersection": "I-5 and I-5 Acampo, California", # Questionable value
@@ -6515,6 +6569,13 @@ destination_intersections = [
         "x_coords": "-121.5171669",
         "y_coords": "38.6249834",
         "city": "Sacramento"
+    },
+    {
+        "destination_intersection": "I-5 and j st",
+        "x_coords": "-121.503311",
+        "y_coords": "38.583031",
+        "city": "Sacramento",
+        "county": "Sacramento"
     },
     {
         "destination_intersection": "I-5 and jamboree rd",
@@ -6668,9 +6729,11 @@ destination_intersections = [
         "city": "Sacramento"
     },
     {
-        "destination_intersection": "I-5 and road Dunnigan, California", # Questionable value
-        "x_coords": "-121.9739579",
-        "y_coords": "38.8815673"
+        "destination_intersection": "I-5 and road 8", # aka "I-5 and co rd 8"
+        "x_coords": "-121.953655",
+        "y_coords": "38.861241",
+        "city": "Woodland", # Although it's super close to Dunnigan but google says Woodland
+        "county": "Yolo"
     },
     {
         "destination_intersection": "I-5 and rosecrans st",
@@ -6899,6 +6962,13 @@ destination_intersections = [
         "city": "Seal Beach"
     },
     {
+        "destination_intersection": "I-605 and live oak ave",
+        "x_coords": "-117.981064",
+        "y_coords": "34.109122",
+        "city": "Irwindale",
+        "county": "Los Angeles"
+    },
+    {
         "destination_intersection": "I-605 and lower azusa rd",
         "x_coords": "-117.9917519",
         "y_coords": "34.0918114",
@@ -6964,6 +7034,20 @@ destination_intersections = [
         "city": "Benicia"
     },
     {
+        "destination_intersection": "I-680 and lake herman rd",
+        "x_coords": "-122.111932",
+        "y_coords": "38.085820",
+        "city": "Benicia",
+        "county": "Solano",
+    },
+    {
+        "destination_intersection": "I-680 and landess ave",
+        "x_coords": "-121.880374",
+        "y_coords": "37.414410",
+        "city": "Milpitas",
+        "county": "Santa Clara"
+    },
+    {
         "destination_intersection": "I-680 and marina vista",
         "x_coords": "-122.112099",
         "y_coords": "38.025507",
@@ -7022,6 +7106,13 @@ destination_intersections = [
         "x_coords": "-122.1119815",
         "y_coords": "38.0255013",
         "city": "Martinez"
+    },
+    {
+        "destination_intersection": "I-80 and newcastle rd",
+        "x_coords": "-121.131688",
+        "y_coords": "38.872319",
+        "city": "Newcastle",
+        "county": "Placer"
     },
     {
         "destination_intersection": "I-80 and pacheco blvd",
@@ -7457,10 +7548,39 @@ destination_intersections = [
         "city": "Vandenberg Space Force Base"
     },
     {
-        "destination_intersection": "SR-1 and capitola / park ave",
-        "x_coords": "-121.9370337",
-        "y_coords": "36.9839562",
+        "destination_intersection": "SR-1 and bayside dr",
+        "x_coords": "-117.900926",
+        "y_coords": "33.616278",
+        "city": "Newport Beach",
+        "county": "Los Angeles"
+    },
+    {
+        "destination_intersection": "SR-1 and brookhurst st",
+        "x_coords": "-117.964110",
+        "y_coords": "33.635279",
+        "city": "Huntington Beach",
+        "county": "Los Angeles"
+    },
+    {
+        "destination_intersection": "SR-1 and capitola park ave", # aka "SR-1 and park ave"
+        "x_coords": "-121.937056",
+        "y_coords": "36.983981",
         "city": "Santa Cruz"
+        "county": "Santa Cruz"
+    },
+    {
+        "destination_intersection": "SR-1 and cherry ave",
+        "x_coords": "-118.167661",
+        "y_coords": "33.789848",
+        "city": "Long Beach",
+        "county": "Los Angeles"
+    },
+    {
+        "destination_intersection": "SR-1 and east anaheim st",
+        "x_coords": "-118.132689",
+        "y_coords": "33.782695",
+        "city": "Long Beach",
+        "county": "Los Angeles"
     },
     {
         "destination_intersection": "SR-1 and park ave",
@@ -7480,6 +7600,12 @@ destination_intersections = [
         "y_coords": "33.916364",
         "city": "El Segundo"
     },
+    {
+        "destination_intersection": "SR-1 and encinal canyon rd",
+        "x_coords": "-118.885241",
+        "y_coords": "34.040375"
+        "city": "Malibu",
+        "county": "Los A
     {
         "destination_intersection": "SR-1 and green valley rd",
         "x_coords": "-121.785388",
@@ -7540,6 +7666,13 @@ destination_intersections = [
         "y_coords": "34.020269",
         "city": "Malibu",
         "county": "Los Angeles"
+    },
+    {
+        "destination_intersection": "SR-1 and park ave", # aka "SR-1 and capitola park ave"
+        "x_coords": "-121.937056",
+        "y_coords": "36.983981",
+        "city": "Santa Cruz"
+        "county": "Santa Cruz"
     },
     {
         "destination_intersection": "SR-1 and rio del mar",
