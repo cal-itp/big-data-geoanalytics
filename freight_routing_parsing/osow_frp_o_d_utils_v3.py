@@ -262,22 +262,11 @@ origin_intersections = [
     },
     {
         "origin_intersection": "alabama st and I-10",
-        "x_coords": "-117.2087662",
-        "y_coords": "34.0665861",
-        "city": "Loma Linda"
-    },
-    {
-        "origin_intersection": "alabama st and I-10",
         "x_coords": "-117.2087914",
         "y_coords": "34.0666322",
-        "city": "Redlands"
-    },
-    {
-        "origin_intersection": "alabama st and I-10",
-        "x_coords": "-117.2087586",
-        "y_coords": "34.066649",
-        "city": "San Bernardino"
-    },
+        "city": "Redlands",
+        "county": "San Bernardino"
+    },   
     {
         "origin_intersection": "alameda ave and SR-134",
         "x_coords": "-118.34134",
@@ -5355,9 +5344,11 @@ destination_intersections = [
         "y_coords": "37.413849"
     },
     {
-        "destination_intersection": "I-10 and alabama st", # Highland, California
-        "x_coords": "-117.2087283",
-        "y_coords": "34.0665637"
+        "destination_intersection": "I-10 and alabama st",
+        "x_coords": "-117.2087914",
+        "y_coords": "34.0666322",
+        "city": "Redlands",
+        "county": "San Bernardino"
     },
     {
         "destination_intersection": "I-10 and archibald ave",
@@ -5413,6 +5404,13 @@ destination_intersections = [
         "x_coords": "-116.3551141",
         "y_coords": "33.785484",
         "city": "Indian Wells"
+    },
+    {
+        "destination_intersection": "I-10 and corn springs rd",
+        "x_coords": "-115.243465",
+        "y_coords": "33.682438",
+        "city": "Desert Center",
+        "county": "Riverside"
     },
     {
         "destination_intersection": "I-10 and dillon rd",
@@ -5850,7 +5848,15 @@ destination_intersections = [
         "destination_intersection": "I-15 and old highway",
         "x_coords": "-117.1495296",
         "y_coords": "33.2862661",
-        "city": "Escondido"
+        "city": "Bonsall",
+        "county": "San Diego"
+    },
+    {
+        "destination_intersection": "I-15 and old highway 395",
+        "x_coords": "-117.1495296",
+        "y_coords": "33.2862661",
+        "city": "Bonsall",
+        "county": "San Diego"
     },
     {
         "destination_intersection": "I-15 and pomerado rd",
