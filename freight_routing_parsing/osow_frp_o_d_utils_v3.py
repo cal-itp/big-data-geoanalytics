@@ -2957,7 +2957,8 @@ origin_intersections = [
         "origin_intersection": "malibu canyon rd and SR-1",
         "x_coords": "-118.7033712",
         "y_coords": "34.0347274",
-        "city": "Malibu"
+        "city": "Malibu",
+        "county": "Los Angeles"
     },
     {
         "origin_intersection": "manning ave and SR-33",
@@ -6197,7 +6198,7 @@ destination_intersections = [
         "destination_intersection": "I-40 and ludlow",
         "x_coords": "-116.163163",
         "y_coords": "34.7254931",
-        "city": "Ludlow"
+        "city": "Ludlow",
         "county": "San Bernardino"
     },
     {
@@ -7565,7 +7566,7 @@ destination_intersections = [
         "destination_intersection": "SR-1 and capitola park ave", # aka "SR-1 and park ave"
         "x_coords": "-121.937056",
         "y_coords": "36.983981",
-        "city": "Santa Cruz"
+        "city": "Santa Cruz",
         "county": "Santa Cruz"
     },
     {
@@ -7576,23 +7577,17 @@ destination_intersections = [
         "county": "Los Angeles"
     },
     {
+        "destination_intersection": "SR-1 and dover dr",
+        "x_coords": "-117.9071933",
+        "y_coords": "33.6162423",
+        "city": "Newport Beach"
+    },
+    {
         "destination_intersection": "SR-1 and east anaheim st",
         "x_coords": "-118.132689",
         "y_coords": "33.782695",
         "city": "Long Beach",
         "county": "Los Angeles"
-    },
-    {
-        "destination_intersection": "SR-1 and park ave",
-        "x_coords": "-121.9370337",
-        "y_coords": "36.9839562",
-        "city": "Santa Cruz"
-    },
-    {
-        "destination_intersection": "SR-1 and dover dr",
-        "x_coords": "-117.9071933",
-        "y_coords": "33.6162423",
-        "city": "Newport Beach"
     },
     {
         "destination_intersection": "SR-1 and el segundo blvd",
@@ -7603,9 +7598,17 @@ destination_intersections = [
     {
         "destination_intersection": "SR-1 and encinal canyon rd",
         "x_coords": "-118.885241",
-        "y_coords": "34.040375"
+        "y_coords": "34.040375",
         "city": "Malibu",
-        "county": "Los A
+        "county": "Los Angeles"
+    },
+    {
+        "destination_intersection": "SR-1 and gazos creek rd",
+        "x_coords": "-122.361130",
+        "y_coords": "37.166723",
+        "city": "Pescadero",
+        "county": "San Mateo"
+    },
     {
         "destination_intersection": "SR-1 and green valley rd",
         "x_coords": "-121.785388",
@@ -7637,6 +7640,27 @@ destination_intersections = [
         "city": "Laguna Beach"
     },
     {
+        "destination_intersection": "SR-1 and jensen rd",
+        "x_coords": "-121.771113",
+        "y_coords": "36.853823",
+        "city": "Moss Landing",
+        "county": "Monterey"
+    },
+    {
+        "destination_intersection": "SR-1 and judah st",
+        "x_coords": "-122.477044",
+        "y_coords": "37.761704",
+        "city": "San Francisco",
+        "county": "San Francisco"
+    },
+    {
+        "destination_intersection": "SR-1 and kirkham st",
+        "x_coords": "-122.476843",
+        "y_coords": "37.759839",
+        "city": "San Francisco",
+        "county": "San Francisco"
+    },
+    {
         "destination_intersection": "SR-1 and las posas rd",
         "x_coords": "-119.0853612",
         "y_coords": "34.1167625",
@@ -7655,6 +7679,13 @@ destination_intersections = [
         "city": "Long Beach"
     },
     {
+        "destination_intersection": "SR-1 and malibu canyon rd",
+        "x_coords": "-118.7033712",
+        "y_coords": "34.0347274",
+        "city": "Malibu",
+        "county": "Los Angeles"
+    },
+    {
         "destination_intersection": "SR-1 and marina",
         "x_coords": "-121.812895",
         "y_coords": "36.6694672",
@@ -7668,10 +7699,31 @@ destination_intersections = [
         "county": "Los Angeles"
     },
     {
+        "destination_intersection": "SR-1 and mulholland highway",
+        "x_coords": "-118.934953",
+        "y_coords": "34.045141",
+        "city": "Malibu",
+        "county": "Los Angeles"
+    },
+    {
+        "destination_intersection": "SR-1 and newland st",
+        "x_coords": "-117.98120",
+        "y_coords": "33.644308",
+        "city": "Huntington Beach",
+        "county": "Los Angeles"
+    },
+    {
+        "destination_intersection": "SR-1 and paradise cove rd",
+        "x_coords": "-118.786673",
+        "y_coords": "34.024126",
+        "city": "Malibu",
+        "county": "Los Angeles"
+    },
+    {
         "destination_intersection": "SR-1 and park ave", # aka "SR-1 and capitola park ave"
         "x_coords": "-121.937056",
         "y_coords": "36.983981",
-        "city": "Santa Cruz"
+        "city": "Santa Cruz",
         "county": "Santa Cruz"
     },
     {
@@ -9951,7 +10003,7 @@ destination_intersections = [
         "city": "Desert Hot Springs"
     },
     {
-        "destination_intersection": "SR-65 and famoso/woody rd",
+        "destination_intersection": "SR-65 and famosowoody rd",
         "x_coords": "-119.087574",
         "y_coords": "35.602502",
         "city": "McFarland"
