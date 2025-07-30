@@ -5593,7 +5593,8 @@ destination_intersections = [
         "destination_intersection": "I-10 and wileys well rd",
         "x_coords": "-114.9016314",
         "y_coords": "33.6079671",
-        "city": "Blythe"
+        "city": "Blythe",
+        "county": "Riverside"
     },
     {
         "destination_intersection": "I-15 and balboa ave",
