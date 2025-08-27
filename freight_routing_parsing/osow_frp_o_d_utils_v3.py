@@ -4,6 +4,7 @@
 # a list of locations pulled from the subset of OSOW permit routes
 origin_intersections = [
     {
+<<<<<<< HEAD
         "origin_intersection": "1st ave and I-5",
         "x_coords": "-117.1638923",
         "y_coords": "32.7233218",
@@ -16,6 +17,8 @@ origin_intersections = [
         "city": "Beaumont"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "10th st and US-101",
         "x_coords": "-121.556489",
         "y_coords": "37.0030168",
@@ -52,6 +55,7 @@ origin_intersections = [
         "city": "Palmdale"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "17th ave and SR-198", # aka rd 56 and SR-198
         "x_coords": "-119.448413",
         "y_coords": "36.327555",
@@ -66,22 +70,38 @@ origin_intersections = [
         "county": "Los Angeles"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "16th st and SR-99",
         "x_coords": "-120.5005912",
         "y_coords": "37.3031708",
         "city": "Merced"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "2nd st and I-215",
         "x_coords": "-117.301894",
         "y_coords": "34.102708",
         "city": "San Bernardino",
         "county": "San Bernardino"
+=======
+        "origin_intersection": "1st ave and I-5",
+        "x_coords": "-117.1638923",
+        "y_coords": "32.7233218",
+        "city": "San Diego"
+    },    
+    {
+        "origin_intersection": "1st st and SR-79",
+        "x_coords": "-116.9771788",
+        "y_coords": "33.9216701",
+        "city": "Beaumont"
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
     },
     {
         "origin_intersection": "20th st and I-10",
         "x_coords": "-118.4737752",
         "y_coords": "34.0233192",
+<<<<<<< HEAD
         "city": "Santa Monica",
         "county": "Los Angeles"        
     },
@@ -91,6 +111,14 @@ origin_intersections = [
         "y_coords": "34.0232892",
         "city": "Santa Monica",
         "county": "Los Angeles"
+=======
+        "city": "Santa Monica"
+    },
+    {
+        "origin_intersection": "20th st Santa Monica, California and morn10w", # Questionable value
+        "x_coords": "-118.4737377",
+        "y_coords": "34.0232892"
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
     },
     {
         "origin_intersection": "29th ave and I-880",
@@ -177,6 +205,7 @@ origin_intersections = [
         "city": "San Leandro"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "a and I-40",
         "x_coords": "-116.890211",
         "y_coords": "34.855052",
@@ -191,6 +220,8 @@ origin_intersections = [
         "county": "Santa Barbara"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "acacia rd and SR-20",
         "x_coords": "-121.753985",
         "y_coords": "39.1423148",
@@ -215,12 +246,15 @@ origin_intersections = [
         "city": "Fairfield"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "air base pkwy and I-80",
         "x_coords": "-122.0497322",
         "y_coords": "38.2733662",
         "city": "Fairfield"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "air expressway and US-395",
         "x_coords": "-117.4095832",
         "y_coords": "34.5720079",
@@ -262,11 +296,30 @@ origin_intersections = [
     },
     {
         "origin_intersection": "alabama st and I-10",
+<<<<<<< HEAD
         "x_coords": "-117.2087914",
         "y_coords": "34.0666322",
         "city": "Redlands",
         "county": "San Bernardino"
     },   
+=======
+        "x_coords": "-117.2087662",
+        "y_coords": "34.0665861",
+        "city": "Loma Linda"
+    },
+    {
+        "origin_intersection": "alabama st and I-10",
+        "x_coords": "-117.2087914",
+        "y_coords": "34.0666322",
+        "city": "Redlands"
+    },
+    {
+        "origin_intersection": "alabama st and I-10",
+        "x_coords": "-117.2087586",
+        "y_coords": "34.066649",
+        "city": "San Bernardino"
+    },
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
     {
         "origin_intersection": "alameda ave and SR-134",
         "x_coords": "-118.34134",
@@ -418,6 +471,7 @@ origin_intersections = [
         "city": "Vernon"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "auburn blvd and I-80",
         "x_coords": "-121.365227",
         "y_coords": "38.643766",
@@ -425,6 +479,8 @@ origin_intersections = [
         "county": "Sacramento"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "austin rd and SR-99",
         "x_coords": "-121.1793133",
         "y_coords": "37.7746714",
@@ -449,6 +505,7 @@ origin_intersections = [
         "city": "Wilmington"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "ave 12 and SR-145",
         "x_coords": "-120.056036",
         "y_coords": "36.923858",
@@ -497,6 +554,8 @@ origin_intersections = [
         "county": "Tulare"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "ave 15341 Rd 28 1/2 Madra, Ca, California and SR-99", # Questionable value
         "x_coords": "-120.028455",
         "y_coords": "36.9381609"
@@ -522,6 +581,7 @@ origin_intersections = [
         "y_coords": "34.6456641"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "ave h and SR-14",
         "x_coords": "-118.170197",
         "y_coords": "34.718694",
@@ -543,6 +603,8 @@ origin_intersections = [
         "county": "Los Angeles"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "azalea ave and SR-200",
         "x_coords": "-124.0795898",
         "y_coords": "40.9159302",
@@ -579,11 +641,18 @@ origin_intersections = [
         "city": "Pittsburg"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "baker st and SR-74",
         "x_coords": "-117.3504332",
         "y_coords": "33.6913211",
         "city": "Lake Elsinore",
         "county": "Riverside"
+=======
+        "origin_intersection": "baker st Lake and SR-74",
+        "x_coords": "-117.3504332",
+        "y_coords": "33.6913211",
+        "city": "Elsinore"
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
     },
     {
         "origin_intersection": "balboa ave and I-15",
@@ -592,6 +661,7 @@ origin_intersections = [
         "city": "San Diego"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "balboa ave and I-805",
         "x_coords": "-117.162467",
         "y_coords": "32.821706",
@@ -600,6 +670,9 @@ origin_intersections = [
     },
     {
         "origin_intersection": "bandini blvd and I-710",
+=======
+        "origin_intersection": "bandini blvd and Interstate-710",
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "x_coords": "-118.1762518",
         "y_coords": "33.9986325",
         "city": "Commerce"
@@ -635,10 +708,16 @@ origin_intersections = [
         "city": "National City"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "bay marina wy e and I-5", # room for improvement
         "x_coords": "-117.108049",
         "y_coords": "32.6600782",
         "city": "National City"
+=======
+        "origin_intersection": "bay marina wy e San Diego, California and I-5", # room for improvement
+        "x_coords": "-117.108001",
+        "y_coords": "32.660086"
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
     },
     {
         "origin_intersection": "bayshore rd and I-680",
@@ -749,6 +828,7 @@ origin_intersections = [
         "city": "Boron"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "boron ave and SR-58",
         "x_coords": "-117.649815",
         "y_coords": "35.010251",
@@ -756,6 +836,8 @@ origin_intersections = [
         "county": "Kern"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "boundry pl and SR-1",
         "x_coords": "-118.3959874",
         "y_coords": "33.8771174",
@@ -835,10 +917,17 @@ origin_intersections = [
         "city": "Middletown"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "cajalco rd and I-15",
         "x_coords": "-117.5187075",
         "y_coords": "33.8213802",
         "city": "Corona"
+=======
+        "origin_intersection": "cajalco rd and Interstate-15",
+        "x_coords": "-117.5187075",
+        "y_coords": "33.8213802",
+        "city": "San Jacinto"
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
     },
     {
         "origin_intersection": "calaveras rd and I-680",
@@ -870,6 +959,7 @@ origin_intersections = [
         "city": "Highland"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "california st and I-105",
         "x_coords": "-118.403969",
         "y_coords": "33.931394",
@@ -877,6 +967,8 @@ origin_intersections = [
         "county": "Los Angeles"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "camarillo springs rd and US-101",
         "x_coords": "-118.9836261",
         "y_coords": "34.2052546",
@@ -901,17 +993,25 @@ origin_intersections = [
         "city": "San Deigo"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "camino del rio way and I-8",
+=======
+        "origin_intersection": "camino del rio way San Diego, California and I-8", # room for improvement
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "x_coords": "-117.1329791",
         "y_coords": "32.7731875"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "camino del rio west e and I-5",
         "x_coords": "-117.2036847",
         "y_coords": "32.7582733"
     },
     {
         "origin_intersection": "camino del rio and I-5",
+=======
+        "origin_intersection": "camino del rio west e San Diego, California and I-5", # room for improvement
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "x_coords": "-117.2036847",
         "y_coords": "32.7582733"
     },
@@ -1132,6 +1232,7 @@ origin_intersections = [
         "city": "Castaic"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "christianitos canyon road and SR-74",
         "x_coords": "-117.580697",
         "y_coords": "33.513741",
@@ -1146,6 +1247,8 @@ origin_intersections = [
         "county": "orange"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "churchill downs ave and SR-113",
         "x_coords": "-121.7652055",
         "y_coords": "38.6988228",
@@ -1242,6 +1345,7 @@ origin_intersections = [
         "city": "Manteca"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "commercial vehicle border and SR-905", # State Boundary
         "x_coords": "-116.939074",
         "y_coords": "32.5518611",
@@ -1254,6 +1358,16 @@ origin_intersections = [
         "y_coords": "32.5518611",
         "city": "Otay Mesa",
         "county": "San Diego"
+=======
+        "origin_intersection": "commercial vehicle border entrance Otay Mesa / Mex Border, California and SR-905", # State Boundary
+        "x_coords": "-116.9390526",
+        "y_coords": "32.5517706"
+    },
+    {
+        "origin_intersection": "commercial vehicle border entrance Otay Mesa, California and SR-905", # State Boundary
+        "x_coords": "-116.939074",
+        "y_coords": "32.5518611"
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
     },
     {
         "origin_intersection": "commercial vehicle border entrance Us/Mex Border At Hwy 905, California and SR-905", # State Boundary
@@ -1291,6 +1405,7 @@ origin_intersections = [
         "city": "Bakersfield"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "corn springs rd and I-10",
         "x_coords": "-115.243465",
         "y_coords": "33.682438",
@@ -1298,6 +1413,8 @@ origin_intersections = [
         "county": "Riverside"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "cornelia ave and SR-180",
         "x_coords": "-119.8807549",
         "y_coords": "36.7354706",
@@ -1334,6 +1451,7 @@ origin_intersections = [
         "city": "Fontana"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "co rd 102 and SR-113",
         "x_coords": "-121.727575",
         "y_coords": "38.792218",
@@ -1382,6 +1500,8 @@ origin_intersections = [
         "county": "Yolo"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "covell blvd and SR-113",
         "x_coords": "-121.7678071",
         "y_coords": "38.5608649",
@@ -1400,12 +1520,15 @@ origin_intersections = [
         "city": "Amboy"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "crystal springs rd and I-280",
         "x_coords": "-122.424220",
         "y_coords": "37.616575",
         "city": "San Bruno"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "culver blvd and SR-90",
         "x_coords": "-118.4284592",
         "y_coords": "33.9815233",
@@ -1418,6 +1541,7 @@ origin_intersections = [
         "city": "Fremont"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "d and I-15",
         "x_coords": "-117.300671",
         "y_coords": "34.545362",
@@ -1425,6 +1549,8 @@ origin_intersections = [
         "county": "Riverside"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "dale evans parkway and I-15",
         "x_coords": "-117.2179753",
         "y_coords": "34.6442563",
@@ -1533,6 +1659,7 @@ origin_intersections = [
         "city": "Santa Ana"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "e and SR-51",
         "x_coords": "-121.464843",
         "y_coords": "38.578752",
@@ -1540,6 +1667,8 @@ origin_intersections = [
         "county": "Sacramento"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "e 223rd st and I-405",
         "x_coords": "-118.2252936",
         "y_coords": "33.8243046",
@@ -1552,6 +1681,7 @@ origin_intersections = [
         "city": "Folsom"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "e and I-5",
         "x_coords": "-117.099975",
         "y_coords": "32.639503",
@@ -1559,6 +1689,8 @@ origin_intersections = [
         "county": "San Diego"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "e orange ave and I-805",
         "x_coords": "-117.0363137",
         "y_coords": "32.6058014",
@@ -1613,6 +1745,7 @@ origin_intersections = [
         "city": "Stockton"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "el camino real s and SR-78",
         "x_coords": "-117.326912",
         "y_coords": "33.181673",
@@ -1632,12 +1765,15 @@ origin_intersections = [
         "county": "Alameda"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "el dorado st and SR-4",
         "x_coords": "-121.2860513",
         "y_coords": "37.9389336",
         "city": "Stockton"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "elkelton pl w and SR-125", # room for improvement
         "x_coords": "-117.011206",
         "y_coords": "32.701392",
@@ -1652,6 +1788,8 @@ origin_intersections = [
         "county": "San Diego"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "el segundo blvd and SR-1",
         "x_coords": "-118.3959832",
         "y_coords": "33.9163618",
@@ -1736,6 +1874,7 @@ origin_intersections = [
         "city": "Roseville"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "exeter blvd and SR-198", # aka rd 196 and SR-198
         "x_coords": "-119.134913",
         "y_coords": "36.326231",
@@ -1743,6 +1882,8 @@ origin_intersections = [
         "county": "Tulare"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "fairfax rd and SR-58",
         "x_coords": "-118.9319631",
         "y_coords": "35.3522921",
@@ -1773,11 +1914,18 @@ origin_intersections = [
         "city": "San Pedro"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "fiji way and SR-1",
         "x_coords": "-118.4365758",
         "y_coords": "33.9785202",
         "city": "Marina Del Rey",
         "county": "Los Angeles"
+=======
+        "origin_intersection": "fiji way Marina and SR-1",
+        "x_coords": "-118.4365758",
+        "y_coords": "33.9785202",
+        "city": "Del Rey"
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
     },
     {
         "origin_intersection": "firebaugh ave and SR-65",
@@ -1798,6 +1946,7 @@ origin_intersections = [
         "city": "King City"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "flags rd and US-395",
         "x_coords": "-117.399181",
         "y_coords": "34.410256",
@@ -1805,6 +1954,8 @@ origin_intersections = [
         "county": "San Bernardino"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "flightpath wy and SR-65",
         "x_coords": "-119.0747082",
         "y_coords": "35.4475398",
@@ -2045,6 +2196,7 @@ origin_intersections = [
         "city": "Sloughhouse"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "gravel plant rd and SR-16",
         "x_coords": "-121.805764",
         "y_coords": "38.677725",
@@ -2052,10 +2204,13 @@ origin_intersections = [
         "county": "Yolo"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "guernsey ave and SR-1",
         "x_coords": "-118.8392761",
         "y_coords": "34.0281237",
         "city": "Malibu"
+<<<<<<< HEAD
     },
     {
         "origin_intersection": "h and I-5",
@@ -2064,6 +2219,9 @@ origin_intersections = [
         "city": "Chula Vista",
         "county": "San Diego"
     },
+=======
+    },    
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
     {
         "origin_intersection": "hallock dr and SR-126",
         "x_coords": "-119.0414922",
@@ -2077,6 +2235,7 @@ origin_intersections = [
         "city": "San Jose"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "hamilton rd and SR-99",
         "x_coords": "-121.688338",
         "y_coords": "39.450597",
@@ -2084,6 +2243,8 @@ origin_intersections = [
         "county": "Butte"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "hammer ln and I-5",
         "x_coords": "-121.3588483",
         "y_coords": "38.0213285",
@@ -2240,6 +2401,7 @@ origin_intersections = [
         "city": "Gilroy"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "holt ave and I-10",
         "x_coords": "-117.864537",
         "y_coords": "34.070304",
@@ -2254,12 +2416,15 @@ origin_intersections = [
         "county": "San Joaquin"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "hooker creek rd and I-5",
         "x_coords": "-122.2789809",
         "y_coords": "40.2930224",
         "city": "Cottonwood"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "humboldt rd and SR-89",
         "x_coords": "-121.208430",
         "y_coords": "40.227139",
@@ -2274,6 +2439,8 @@ origin_intersections = [
         "county": "Plumas"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "humphrey rd and SR-20",
         "x_coords": "-121.7261331",
         "y_coords": "39.1418871",
@@ -2324,6 +2491,7 @@ origin_intersections = [
         "city": "Marina"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "imperial hwy & I-105",
         "x_coords": "-118.345358",
         "y_coords": "33.930968",
@@ -2331,6 +2499,8 @@ origin_intersections = [
         "county": "Los Angeles"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "indian canyon dr and I-10",
         "x_coords": "-116.5454081",
         "y_coords": "33.9046795",
@@ -2391,6 +2561,7 @@ origin_intersections = [
         "city": "Blythe"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "interchange dr and I-215", # the actual name is interchange street
         "x_coords": "-117.352233",
         "y_coords": "34.002837",
@@ -2405,6 +2576,8 @@ origin_intersections = [
         "county": "Riverside",
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "iowa ave and I-215",
         "x_coords": "-117.3353761",
         "y_coords": "34.0239462",
@@ -2429,6 +2602,7 @@ origin_intersections = [
         "city": "Irwindale"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "j and I-5",
         "x_coords": "-117.093205",
         "y_coords": "32.622267",
@@ -2443,6 +2617,8 @@ origin_intersections = [
         "county": "Kern"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "jack tone road and SR-120",
         "x_coords": "-121.1431748",
         "y_coords": "37.7976494",
@@ -2748,12 +2924,15 @@ origin_intersections = [
         "city": "Lemoore"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "lemoore naval air station and SR-198",
         "x_coords": "-119.8960744",
         "y_coords": "36.2554875",
         "city": "Lemoore"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "lerdo highway and SR-65",
         "x_coords": "-119.0766122",
         "y_coords": "35.4994389",
@@ -2772,6 +2951,7 @@ origin_intersections = [
         "city": "Port Hueneme"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "liberty dr and SR-99",
         "x_coords": "-120.682038",
         "y_coords": "37.373900",
@@ -2786,6 +2966,8 @@ origin_intersections = [
         "county": "Merced"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "limonite ave and I-15",
         "x_coords": "-117.548846",
         "y_coords": "33.9752044",
@@ -2957,8 +3139,12 @@ origin_intersections = [
         "origin_intersection": "malibu canyon rd and SR-1",
         "x_coords": "-118.7033712",
         "y_coords": "34.0347274",
+<<<<<<< HEAD
         "city": "Malibu",
         "county": "Los Angeles"
+=======
+        "city": "Malibu"
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
     },
     {
         "origin_intersection": "manning ave and SR-33",
@@ -3101,6 +3287,7 @@ origin_intersections = [
     {
         "origin_intersection": "mexico border Calexico, California and SR-7", # State Boundary
         "x_coords": "-115.3877795",
+<<<<<<< HEAD
         "y_coords": "32.6740132",
         "city": "Calexico",
         "county": "Imperial"
@@ -3121,6 +3308,16 @@ origin_intersections = [
     },
     
     {
+=======
+        "y_coords": "32.6740132"
+    },
+    {
+        "origin_intersection": "mexico border Mex , California and SR-7", # State Boundary
+        "x_coords": "-115.3878005",
+        "y_coords": "32.6739913"
+    },
+    {
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "mexico border United States / Mexican Border - Calexico, California and SR-7", # State Boundary
         "x_coords": "-115.3878034",
         "y_coords": "32.6740478"
@@ -3131,6 +3328,7 @@ origin_intersections = [
         "y_coords": "32.5763774"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "mexico border and SR-188",# State BOundary
         "x_coords": "-116.627646",
         "y_coords": "32.577547",
@@ -3138,6 +3336,8 @@ origin_intersections = [
         "county": "San Diego"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "mexico border Us/Mx Border 7, California and SR-7", # State Boundary
         "x_coords": "-115.3877667",
         "y_coords": "32.6740805"
@@ -3257,6 +3457,7 @@ origin_intersections = [
         "city": "San Jose"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "morning view rd and SR-1",
         "x_coords": "-118.827852",
         "y_coords": "34.020259",
@@ -3264,6 +3465,8 @@ origin_intersections = [
         "county": "Los Angeles"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "mossdale rd and I-5",
         "x_coords": "-121.3146548",
         "y_coords": "37.7790268",
@@ -3294,6 +3497,7 @@ origin_intersections = [
         "city": "Loma Linda"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "mountain view rd and SR-184",
         "x_coords": "-118.914383",
         "y_coords": "35.281563",
@@ -3301,6 +3505,8 @@ origin_intersections = [
         "county": "Kern"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "mountain view st and SR-299",
         "x_coords": "-122.9328565",
         "y_coords": "40.7255188",
@@ -3313,6 +3519,14 @@ origin_intersections = [
         "city": "Newark"
     },
     {
+<<<<<<< HEAD
+=======
+        "origin_intersection": "mt Bakersfield, California and SR-184", # questionable value
+        "x_coords": "-118.9143765",
+        "y_coords": "35.2815483"
+    },
+    {
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "mt vernon ave and SR-58",
         "x_coords": "-118.9675336",
         "y_coords": "35.3530071",
@@ -3390,12 +3604,15 @@ origin_intersections = [
         "city": "Newport Beach"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "nv line and I-15", # State Boundary
         "x_coords": "-115.391301",
         "y_coords": "35.607169",
         "county": "San Bernardino"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "nimbus rd and US-50",
         "x_coords": "-121.223981",
         "y_coords": "38.632199",
@@ -3438,6 +3655,7 @@ origin_intersections = [
         "city": "Fresno"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "north gate and SR-37",
         "x_coords": "-122.287998",
         "y_coords": "38.117665",
@@ -3445,6 +3663,8 @@ origin_intersections = [
         "county": "Solano"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "north grand ave and SR-65",
         "x_coords": "-119.0401084",
         "y_coords": "36.0982515",
@@ -3507,12 +3727,15 @@ origin_intersections = [
         "y_coords": "35.1752649"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "nv line and US-95", # State Boundary
         "x_coords": "-114.849156",
         "y_coords": "35.1752649"
     },
     
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "nv line Nevada, California and I-15", # State Boundary
         "x_coords": "-115.3916369",
         "y_coords": "35.6063268"
@@ -3641,6 +3864,7 @@ origin_intersections = [
         "city": "Maricopa"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "old us 50 and I-5", # old us 50/11th Street
         "x_coords": "-121.341462",
         "y_coords": "37.759992",
@@ -3648,6 +3872,8 @@ origin_intersections = [
         "county": "San Joaquin"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "olema Bolinas, California and bolinas rd", # Questionable value
         "x_coords": "-122.6996505",
         "y_coords": "37.9347986"
@@ -3833,6 +4059,7 @@ origin_intersections = [
         "city": "Desert Hot Springs"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "pine valley rd and I-8",
         "x_coords": "-116.532562",
         "y_coords": "32.818264",
@@ -3840,6 +4067,8 @@ origin_intersections = [
         "county": "San Diego"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "placentia ave and I-215",
         "x_coords": "-117.2412497",
         "y_coords": "33.8230715",
@@ -3960,6 +4189,7 @@ origin_intersections = [
         "city": "Brea"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "rd 144 and SR-190",
         "x_coords": "-119.072875",
         "y_coords": "36.051253",
@@ -4016,6 +4246,8 @@ origin_intersections = [
         "county": "Tulare"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "reclamation rd and SR-113",
         "x_coords": "-121.7074812",
         "y_coords": "38.8710666",
@@ -4046,6 +4278,7 @@ origin_intersections = [
         "city": "Pomona"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "rice ave and SR-1",
         "x_coords": "-119.140827",
         "y_coords": "34.163357",
@@ -4053,6 +4286,8 @@ origin_intersections = [
         "county": "Ventura"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "rice ave and US-101",
         "x_coords": "-119.1422375",
         "y_coords": "34.2225573",
@@ -4160,6 +4395,7 @@ origin_intersections = [
         "city": "San Diego"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "rosemary and SR-76",
         "x_coords": "-117.141572",
         "y_coords": "33.340469",
@@ -4167,6 +4403,8 @@ origin_intersections = [
         "county": "San Diego"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "roxford st and I-5",
         "x_coords": "-118.4796637",
         "y_coords": "34.3033018",
@@ -4251,6 +4489,7 @@ origin_intersections = [
         "city": "San Jacinto"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "san diego st and SR-43",
         "x_coords": "-119.260986",
         "y_coords": "35.463503",
@@ -4258,6 +4497,8 @@ origin_intersections = [
         "county": "Kern"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "sandquist rd and SR-178",
         "x_coords": "-117.6698632",
         "y_coords": "35.6516335",
@@ -4324,6 +4565,7 @@ origin_intersections = [
         "city": "Santa Rosa"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "saratoga ave and I-280",
         "x_coords": "-121.974924",
         "y_coords": "37.317187",
@@ -4331,6 +4573,8 @@ origin_intersections = [
         "county": "Santa Clara"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "scott creek rd and I-680",
         "x_coords": "-121.9056526",
         "y_coords": "37.4663765",
@@ -4487,6 +4731,7 @@ origin_intersections = [
         "city": "Whittier"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "sloat blvd and SR-35",
         "x_coords": "-122.489285",
         "y_coords": "37.734128",
@@ -4494,6 +4739,8 @@ origin_intersections = [
         "county": "San Francisco"
     },   
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "snyder rd and SR-115",
         "x_coords": "-115.3370796",
         "y_coords": "32.811103",
@@ -4580,6 +4827,7 @@ origin_intersections = [
         "city": "Santa Clara"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "stephens ave and I-215",
         "x_coords": "-117.344513",
         "y_coords": "34.015306",
@@ -4587,6 +4835,8 @@ origin_intersections = [
         "county": "Riverside"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "stoddard rd and SR-219",
         "x_coords": "-121.0684039",
         "y_coords": "37.71113",
@@ -4671,6 +4921,7 @@ origin_intersections = [
         "city": "Alpine"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "taylor st and I-8",
         "x_coords": "-117.197255",
         "y_coords": "32.758404",
@@ -4678,6 +4929,8 @@ origin_intersections = [
         "county": "San Diego"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "tejon highway and SR-223",
         "x_coords": "-118.8242665",
         "y_coords": "35.2091161",
@@ -4738,6 +4991,7 @@ origin_intersections = [
         "city": "Lewiston"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "tujunga ave and SR-170",
         "x_coords": "-118.379212",
         "y_coords": "34.157004",
@@ -4745,6 +4999,8 @@ origin_intersections = [
         "county": "Los Angeles"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "tully rd and US-101",
         "x_coords": "-121.8315308",
         "y_coords": "37.3184312",
@@ -4757,6 +5013,7 @@ origin_intersections = [
         "city": "San Jose"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "tupman rd and SR-119",
         "x_coords": "-119.311903",
         "y_coords": "35.265780",
@@ -4764,6 +5021,8 @@ origin_intersections = [
         "county": "Kern"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "turner rd and SR-99",
         "x_coords": "-121.261249",
         "y_coords": "38.1457484",
@@ -5158,6 +5417,7 @@ origin_intersections = [
         "city": "Blythe"
     },
     {
+<<<<<<< HEAD
         "origin_intersection": "wilkinson rd and SR-111",
         "x_coords": "-115.518609",
         "y_coords": "33.140211",
@@ -5165,6 +5425,8 @@ origin_intersections = [
         "county": "Imperial"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "origin_intersection": "will s green rd and SR-20",
         "x_coords": "-122.0230927",
         "y_coords": "39.2023304",
@@ -5345,11 +5607,17 @@ destination_intersections = [
         "y_coords": "37.413849"
     },
     {
+<<<<<<< HEAD
         "destination_intersection": "I-10 and alabama st",
         "x_coords": "-117.2087914",
         "y_coords": "34.0666322",
         "city": "Redlands",
         "county": "San Bernardino"
+=======
+        "destination_intersection": "I-10 and alabama st", # Highland, California
+        "x_coords": "-117.2087283",
+        "y_coords": "34.0665637"
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
     },
     {
         "destination_intersection": "I-10 and archibald ave",
@@ -5407,6 +5675,7 @@ destination_intersections = [
         "city": "Indian Wells"
     },
     {
+<<<<<<< HEAD
         "destination_intersection": "I-10 and corn springs rd",
         "x_coords": "-115.243465",
         "y_coords": "33.682438",
@@ -5414,6 +5683,8 @@ destination_intersections = [
         "county": "Riverside"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "destination_intersection": "I-10 and dillon rd",
         "x_coords": "-116.1727376",
         "y_coords": "33.7150681",
@@ -5486,7 +5757,10 @@ destination_intersections = [
         "y_coords": "34.0674249",
         "city": "Fontana"
     },
+<<<<<<< HEAD
     
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
     {
         "destination_intersection": "I-10 and monterey ave",
         "x_coords": "-116.3881637",
@@ -5593,8 +5867,12 @@ destination_intersections = [
         "destination_intersection": "I-10 and wileys well rd",
         "x_coords": "-114.9016314",
         "y_coords": "33.6079671",
+<<<<<<< HEAD
         "city": "Blythe",
         "county": "Riverside"
+=======
+        "city": "Blythe"
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
     },
     {
         "destination_intersection": "I-15 and balboa ave",
@@ -5769,6 +6047,7 @@ destination_intersections = [
         "city": "Corona"
     },
     {
+<<<<<<< HEAD
         "destination_intersection": "I-15 and I-40",
         "x_coords": "-117.009853",
         "y_coords": "34.886236",
@@ -5776,6 +6055,8 @@ destination_intersections = [
         "county": "San Bernardino"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "destination_intersection": "I-15 and indian truck trail",
         "x_coords": "-117.4524298",
         "y_coords": "33.7487283",
@@ -5857,6 +6138,7 @@ destination_intersections = [
         "destination_intersection": "I-15 and old highway",
         "x_coords": "-117.1495296",
         "y_coords": "33.2862661",
+<<<<<<< HEAD
         "city": "Bonsall",
         "county": "San Diego"
     },
@@ -5866,6 +6148,9 @@ destination_intersections = [
         "y_coords": "33.2862661",
         "city": "Bonsall",
         "county": "San Diego"
+=======
+        "city": "Escondido"
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
     },
     {
         "destination_intersection": "I-15 and pomerado rd",
@@ -6077,6 +6362,7 @@ destination_intersections = [
         "city": "Menifee"
     },
     {
+<<<<<<< HEAD
         "destination_intersection": "I-215 and SR-60",
         "x_coords": "-117.357329",
         "y_coords": "33.993339",
@@ -6084,6 +6370,8 @@ destination_intersections = [
         "county": "Riverside"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "destination_intersection": "I-215 and university parkway",
         "x_coords": "-117.3332737",
         "y_coords": "34.164392",
@@ -6114,6 +6402,7 @@ destination_intersections = [
         "city": "San Jose"
     },
     {
+<<<<<<< HEAD
         "destination_intersection": "I-280 and caesar chavez st",
         "x_coords": "-122.392004",
         "y_coords": "37.750081",
@@ -6121,6 +6410,8 @@ destination_intersections = [
         "county": "San Francisco"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "destination_intersection": "I-280 and foothill expressway",
         "x_coords": "-122.0684104",
         "y_coords": "37.3343507",
@@ -6151,6 +6442,7 @@ destination_intersections = [
         "city": "San Jose"
     },
     {
+<<<<<<< HEAD
         "destination_intersection": "I-380 and north access rd",
         "x_coords": "-122.397714",
         "y_coords": "37.638590",
@@ -6158,6 +6450,8 @@ destination_intersections = [
         "county": "San Mateo"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "destination_intersection": "I-40 and amboy/kelso",
         "x_coords": "-115.7563233",
         "y_coords": "34.5553649",
@@ -6171,11 +6465,18 @@ destination_intersections = [
         "county": "Riverside"
     },
     {
+<<<<<<< HEAD
         "destination_intersection": "I-40 and daggett",
         "x_coords": "-116.890201",
         "y_coords": "34.855029",
         "city": "Daggett",
         "county": "San Bernardino"
+=======
+        "destination_intersection": "I-40 and daggett, California",
+        "x_coords": "-116.8871242",
+        "y_coords": "34.902274",
+        "city": "Yermo"
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
     },
     {
         "destination_intersection": "I-40 and essex rd",
@@ -6196,11 +6497,18 @@ destination_intersections = [
         "city": "Amboy"
     },
     {
+<<<<<<< HEAD
         "destination_intersection": "I-40 and ludlow",
         "x_coords": "-116.163163",
         "y_coords": "34.7254931",
         "city": "Ludlow",
         "county": "San Bernardino"
+=======
+        "destination_intersection": "I-40 and ludlow Ludlow, California",
+        "x_coords": "-116.163163",
+        "y_coords": "34.7254931",
+        "city": "Ludlow"
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
     },
     {
         "destination_intersection": "I-40 and marine corps",
@@ -6401,6 +6709,7 @@ destination_intersections = [
         "city": "Stockton"
     },
     {
+<<<<<<< HEAD
         "destination_intersection": "I-5 and co rd 8", # aka "I-5 and road 8"
         "x_coords": "-121.953655",
         "y_coords": "38.861241",
@@ -6420,6 +6729,18 @@ destination_intersections = [
         "y_coords": "35.095012",
         "city": "Bakersfield",
         "county": "Kern"
+=======
+        "destination_intersection": "I-5 and co rd",
+        "x_coords": "-121.9785049",
+        "y_coords": "38.8922724",
+        "city": "Dunnigan"
+    },
+    {
+        "destination_intersection": "I-5 and co rd",
+        "x_coords": "-121.4969629",
+        "y_coords": "38.4665937",
+        "city": "Sacramento"
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
     },
     {
         "destination_intersection": "I-5 and cosumnes river blvd",
@@ -6440,6 +6761,7 @@ destination_intersections = [
         "city": "Elk Grove"
     },
     {
+<<<<<<< HEAD
         "destination_intersection": "I-5 and crows landing", # aka "I-5 and fink rd"
         "x_coords": "-121.138211",
         "y_coords": "37.397389",
@@ -6447,6 +6769,8 @@ destination_intersections = [
         "county": "Stanislaus"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "destination_intersection": "I-5 and derrick ave",
         "x_coords": "-120.394156",
         "y_coords": "36.4356636",
@@ -6489,6 +6813,7 @@ destination_intersections = [
         "city": "Mountain Gate"
     },
     {
+<<<<<<< HEAD
         "destination_intersection": "I-5 and fink rd", # aka "I-5 and crows landing"
         "x_coords": "-121.138211",
         "y_coords": "37.397389",
@@ -6496,6 +6821,8 @@ destination_intersections = [
         "county": "Stanislaus"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "destination_intersection": "I-5 and florin rd",
         "x_coords": "-121.5165825",
         "y_coords": "38.4955288",
@@ -6550,11 +6877,18 @@ destination_intersections = [
         "city": "San Diego"
     },
     {
+<<<<<<< HEAD
         "destination_intersection": "I-5 and henley hornbrook", #aka "I-5 and copco rd"
         "x_coords": "-122.566218",
         "y_coords": "41.901018",
         "city": "Hornbrook",
         "county": "Siskiyou"
+=======
+        "destination_intersection": "I-5 and henley / hornbrook",
+        "x_coords": "-122.5743744",
+        "y_coords": "41.9196636",
+        "city": "Hornbrook"
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
     },
     {
         "destination_intersection": "I-5 and I-5 Acampo, California", # Questionable value
@@ -6573,6 +6907,7 @@ destination_intersections = [
         "city": "Sacramento"
     },
     {
+<<<<<<< HEAD
         "destination_intersection": "I-5 and j st",
         "x_coords": "-121.503311",
         "y_coords": "38.583031",
@@ -6580,6 +6915,8 @@ destination_intersections = [
         "county": "Sacramento"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "destination_intersection": "I-5 and jamboree rd",
         "x_coords": "-117.79512",
         "y_coords": "33.7195999",
@@ -6731,11 +7068,17 @@ destination_intersections = [
         "city": "Sacramento"
     },
     {
+<<<<<<< HEAD
         "destination_intersection": "I-5 and road 8", # aka "I-5 and co rd 8"
         "x_coords": "-121.953655",
         "y_coords": "38.861241",
         "city": "Woodland", # Although it's super close to Dunnigan but google says Woodland
         "county": "Yolo"
+=======
+        "destination_intersection": "I-5 and road Dunnigan, California", # Questionable value
+        "x_coords": "-121.9739579",
+        "y_coords": "38.8815673"
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
     },
     {
         "destination_intersection": "I-5 and rosecrans st",
@@ -6964,6 +7307,7 @@ destination_intersections = [
         "city": "Seal Beach"
     },
     {
+<<<<<<< HEAD
         "destination_intersection": "I-605 and live oak ave",
         "x_coords": "-117.981064",
         "y_coords": "34.109122",
@@ -6971,6 +7315,8 @@ destination_intersections = [
         "county": "Los Angeles"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "destination_intersection": "I-605 and lower azusa rd",
         "x_coords": "-117.9917519",
         "y_coords": "34.0918114",
@@ -7036,6 +7382,7 @@ destination_intersections = [
         "city": "Benicia"
     },
     {
+<<<<<<< HEAD
         "destination_intersection": "I-680 and lake herman rd",
         "x_coords": "-122.111932",
         "y_coords": "38.085820",
@@ -7050,6 +7397,8 @@ destination_intersections = [
         "county": "Santa Clara"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "destination_intersection": "I-680 and marina vista",
         "x_coords": "-122.112099",
         "y_coords": "38.025507",
@@ -7110,6 +7459,7 @@ destination_intersections = [
         "city": "Martinez"
     },
     {
+<<<<<<< HEAD
         "destination_intersection": "I-80 and newcastle rd",
         "x_coords": "-121.131688",
         "y_coords": "38.872319",
@@ -7117,6 +7467,8 @@ destination_intersections = [
         "county": "Placer"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "destination_intersection": "I-80 and pacheco blvd",
         "x_coords": "-122.0904935",
         "y_coords": "38.0066547",
@@ -7550,6 +7902,7 @@ destination_intersections = [
         "city": "Vandenberg Space Force Base"
     },
     {
+<<<<<<< HEAD
         "destination_intersection": "SR-1 and bayside dr",
         "x_coords": "-117.900926",
         "y_coords": "33.616278",
@@ -7576,6 +7929,18 @@ destination_intersections = [
         "y_coords": "33.789848",
         "city": "Long Beach",
         "county": "Los Angeles"
+=======
+        "destination_intersection": "SR-1 and capitola / park ave",
+        "x_coords": "-121.9370337",
+        "y_coords": "36.9839562",
+        "city": "Santa Cruz"
+    },
+    {
+        "destination_intersection": "SR-1 and park ave",
+        "x_coords": "-121.9370337",
+        "y_coords": "36.9839562",
+        "city": "Santa Cruz"
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
     },
     {
         "destination_intersection": "SR-1 and dover dr",
@@ -7584,6 +7949,7 @@ destination_intersections = [
         "city": "Newport Beach"
     },
     {
+<<<<<<< HEAD
         "destination_intersection": "SR-1 and east anaheim st",
         "x_coords": "-118.132689",
         "y_coords": "33.782695",
@@ -7591,12 +7957,15 @@ destination_intersections = [
         "county": "Los Angeles"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "destination_intersection": "SR-1 and el segundo blvd",
         "x_coords": "-118.396005",
         "y_coords": "33.916364",
         "city": "El Segundo"
     },
     {
+<<<<<<< HEAD
         "destination_intersection": "SR-1 and encinal canyon rd",
         "x_coords": "-118.885241",
         "y_coords": "34.040375",
@@ -7611,6 +7980,8 @@ destination_intersections = [
         "county": "San Mateo"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "destination_intersection": "SR-1 and green valley rd",
         "x_coords": "-121.785388",
         "y_coords": "36.915226",
@@ -7641,6 +8012,7 @@ destination_intersections = [
         "city": "Laguna Beach"
     },
     {
+<<<<<<< HEAD
         "destination_intersection": "SR-1 and jensen rd",
         "x_coords": "-121.771113",
         "y_coords": "36.853823",
@@ -7662,6 +8034,8 @@ destination_intersections = [
         "county": "San Francisco"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "destination_intersection": "SR-1 and las posas rd",
         "x_coords": "-119.0853612",
         "y_coords": "34.1167625",
@@ -7680,6 +8054,7 @@ destination_intersections = [
         "city": "Long Beach"
     },
     {
+<<<<<<< HEAD
         "destination_intersection": "SR-1 and malibu canyon rd",
         "x_coords": "-118.7033712",
         "y_coords": "34.0347274",
@@ -7687,12 +8062,15 @@ destination_intersections = [
         "county": "Los Angeles"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "destination_intersection": "SR-1 and marina",
         "x_coords": "-121.812895",
         "y_coords": "36.6694672",
         "city": "Salinas"
     },
     {
+<<<<<<< HEAD
         "destination_intersection": "SR-1 and morning view rd",
         "x_coords": "-118.827867",
         "y_coords": "34.020269",
@@ -7728,6 +8106,8 @@ destination_intersections = [
         "county": "Santa Cruz"
     },
     {
+=======
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "destination_intersection": "SR-1 and rio del mar",
         "x_coords": "-121.8863298",
         "y_coords": "36.9750211",
@@ -7771,10 +8151,22 @@ destination_intersections = [
     },
     {
         "destination_intersection": "SR-79 and ramona expwy",
+<<<<<<< HEAD
         "x_coords": "-117.003586",
         "y_coords": "33.823582",
         "city": "San Jacinto",
         "county": "Riverside"
+=======
+        "x_coords": "-117.003603",
+        "y_coords": "33.823603",
+        "city": "Hemet"
+    },
+    {
+        "destination_intersection": "SR-79 and ramona expwy",
+        "x_coords": "-117.003603",
+        "y_coords": "33.823603",
+        "city": "San Jacinto"
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
     },
     {
         "destination_intersection": "SR-86 and `k` st",
@@ -9999,7 +10391,11 @@ destination_intersections = [
         "city": "Desert Hot Springs"
     },
     {
+<<<<<<< HEAD
         "destination_intersection": "SR-65 and famosowoody rd",
+=======
+        "destination_intersection": "SR-65 and famoso/woody rd",
+>>>>>>> 831fdf444c095254e0c0fa661270424bb1a32bb4
         "x_coords": "-119.087574",
         "y_coords": "35.602502",
         "city": "McFarland"
