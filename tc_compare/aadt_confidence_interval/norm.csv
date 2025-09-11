@@ -1,0 +1,50 @@
+name,daytype,objectids,ahead_zones,behind_zones
+BROYLES ROAD,0: All Days (M-Su),['7879'],['CA 99 / 185206'],['CA 99 / 185165']
+KEEFER ROAD,0: All Days (M-Su),['7877'],['CA 99 / 185159'],['CA 99 / 185106']
+EATON AVENUE,0: All Days (M-Su),"['7874', '7873']","['CA 99 / 185116', 'CA 99 / 185119']","['CA 99 / 185087', 'CA 99 / 185088']"
+EAST AVENUE,0: All Days (M-Su),"['7872', '7871']","['CA 99 / 185087', 'CA 99 / 185088']","['CA 99 / 185045', 'CA 99 / 185041']"
+"CHICO, COHASSET HIGHWAY",0: All Days (M-Su),"['7870', '7869']","['CA 99 / 185045', 'CA 99 / 185041']","['CA 99 / 185287', 'CA 99 / 185012']"
+"CHICO, EAST FIRST AVENUE",0: All Days (M-Su),"['7868', '7867']","['CA 99 / 185287', 'CA 99 / 185012']","['CA 99 / 3236621', 'CA 99 / 5232036']"
+"CHICO, JCT. RTE. 32 EAST",0: All Days (M-Su),"['7866', '7865']","['CA 99 / 3236622', 'CA 99 / 185312']","['CA 99 / 22607112', 'CA 99 / 185347']"
+EAST 20TH STREET,0: All Days (M-Su),"['7864', '7863']","['CA 99 / 22607112', 'CA 99 / 185347']","['CA 99 / 185451', 'CA 99 / 22981402']"
+"CHICO, SKYWAY OVERCROSSING",0: All Days (M-Su),"['7862', '7861']","['CA 99 / 9432481', 'CA 99 / 22093967']","['CA 99 / 11495974', 'CA 99 / 16551419']"
+NEAL HIGHWAY,0: All Days (M-Su),"['7860', '7859']","['CA 99 / 185596', 'CA 99 / 185597']","['CA 99 / 185590', 'CA 99 / 185591']"
+PENTZ ROAD,0: All Days (M-Su),"['7858', '7857']","['CA 99 / 185590', 'CA 99 / 185591']","['CA 99 / 70538', 'CA 99 / 185577']"
+JCT. RTE 149,0: All Days (M-Su),"['7856', '7855']","['CA 99 / 70538', 'CA 99 / 185577']","['CA 99 / 17021934', 'CA 99 / 16363414']"
+NELSON SHIPPEE ROAD,0: All Days (M-Su),['7853'],['CA 99 / 712588'],['CA 99 / 1302938']
+JCT. RTE. 162 EAST,0: All Days (M-Su),['7851'],['CA 99 / 1302938'],['CA 99 / 22187531']
+JCT. RTE. 162 WEST,0: All Days (M-Su),['7849'],['CA 99 / 22187531'],['CA 99 / 70189']
+BIGGS HIGHWAY,0: All Days (M-Su),['7847'],['CA 99 / 70189'],['CA 99 / 720583']
+"GRIDLEY, SPRUCE STREET",0: All Days (M-Su),['7845'],['CA 99 / 720583'],['CA 99 / 713069']
+"GRIDLEY, WILSON STREET",0: All Days (M-Su),['7843'],['CA 99 / 16880739'],['CA 99 / 693872']
+"LIVE OAK, PENNINGTON ROAD",0: All Days (M-Su),"['7834', '7833']","['Live Oak Boulevard / 185052', 'Live Oak Boulevard / 185055']","['Live Oak Boulevard / 4270255', 'Live Oak Boulevard / 185044']"
+ENCINAL ROAD/LIVE OAK BOULEVARD,0: All Days (M-Su),['7831'],['Live Oak Boulevard / 69780'],['CA 99 / 690970']
+EAGER ROAD,0: All Days (M-Su),"['7830', '7829']","['CA 99 / 694159', 'CA 99 / 711538']","['CA 99 / 19182490', 'CA 99 / 19885831']"
+"YUBA CITY, QUEENS AVENUE",0: All Days (M-Su),"['7828', '7827']","['CA 99 / 19182490', 'CA 99 / 19885831']","['CA 99 / 694163', 'CA 99 / 185054']"
+"YUBA CITY, JCT. RTE. 20",0: All Days (M-Su),"['7826', '7825']","['CA 99 / 694163', 'CA 99 / 185054']","['CA 99 / 71210', 'CA 99 / 70537']"
+"YUBA CITY, BRIDGE STREET",0: All Days (M-Su),['7821'],['CA 99 / 683549'],['CA 99 / 1303764']
+FRANKLIN ROAD,0: All Days (M-Su),['7819'],['CA 99 / 1303764'],['CA 99 / 1302697']
+"YUBA CITY, LINCOLN ROAD",0: All Days (M-Su),['7817'],['CA 99 / 693786'],['CA 99 / 69539']
+BOGUE ROAD,0: All Days (M-Su),['7815'],['CA 99 / 69539'],['CA 99 / 683020']
+BARRY ROAD,0: All Days (M-Su),['7813'],['CA 99 / 683020'],['CA 99 / 713219']
+JCT. RTE. 113,0: All Days (M-Su),"['7810', '7809']","['CA 99 / 19988633', 'CA 99 / 70681']","['CA 99 / 1305890', 'CA 99 / 20383725']"
+FEATHER RIVER BRIDGE,0: All Days (M-Su),"['7806', '7809']","['CA 99 / 62242', 'CA 99 / 72259']","['CA 99 / 15956877', 'CA 99 / 23862508']"
+JCT. RTE. 70 NORTH,0: All Days (M-Su),"['7802', '7801']","['CA 99 / 10474764', 'CA 99 / 15283380']","['CA 99 / 190748', 'CA 99 / 190751']"
+RIEGO ROAD,0: All Days (M-Su),"['7800', '7799']","['Golden State Highway / 14677099', 'CA 99 / 15435840']","['Golden State Highway / 17457767', 'CA 99 / 10478428']"
+ELVERTA ROAD,0: All Days (M-Su),"['7794', '7793']","['Golden State Highway / 62778', 'CA 99 / 10478428']","['Golden State Highway / 190363', 'CA 99 / 190364']"
+ELKHORN BOULEVARD,0: All Days (M-Su),"['7792', '7791']","['Golden State Highway / 190363', 'CA 99 / 190364']","['Golden State Highway / 1700995', 'CA 99 / 190201']"
+"SACRAMENTO, 12TH AVENUE",0: All Days (M-Su),"['7788', '7787']","['South Sacramento Freeway / 193828', 'South Sacramento Freeway / 193825']","['South Sacramento Freeway / 192822', 'South Sacramento Freeway / 192818']"
+"SACRAMENTO, FRUITRIDGE ROAD",0: All Days (M-Su),"['7786', '7785']","['South Sacramento Freeway / 192822', 'South Sacramento Freeway / 192818']","['South Sacramento Freeway / 20029922', 'South Sacramento Freeway / 5306321']"
+47TH AVENUE,0: All Days (M-Su),"['7782', '7781']","['South Sacramento Freeway / 193001', 'South Sacramento Freeway / 6282898']","['South Sacramento Freeway / 193022', 'South Sacramento Freeway / 73027']"
+FLORIN ROAD,0: All Days (M-Su),"['7780', '7779']","['South Sacramento Freeway / 193022', 'South Sacramento Freeway / 73027']","['South Sacramento Freeway / 189279', 'South Sacramento Freeway / 189284']"
+"SACRAMENTO, MACK ROAD",0: All Days (M-Su),"['7778', '7777']","['South Sacramento Freeway / 189279', 'South Sacramento Freeway / 189284']","['South Sacramento Freeway / 11496158', 'South Sacramento Freeway / 5251250']"
+DULUTH AVENUE,0: All Days (M-Su),"['7774', '7773']","['South Sacramento Freeway / 189277', 'South Sacramento Freeway / 189275']","['South Sacramento Freeway / 189188', 'South Sacramento Freeway / 189132']"
+SHELDON ROAD,0: All Days (M-Su),"['7768', '7767']","['South Sacramento Freeway / 189188', 'South Sacramento Freeway / 188302']","['South Sacramento Freeway / 189132', 'South Sacramento Freeway / 188301']"
+LAGUNA BOULEVARD/ BOND ROAD,0: All Days (M-Su),"['7766', '7765']","['South Sacramento Freeway / 188302', 'South Sacramento Freeway / 188301']","['South Sacramento Freeway / 1302576', 'South Sacramento Freeway / 188510']"
+ELK GROVE BOULEVARD,0: All Days (M-Su),"['7764', '7763']","['South Sacramento Freeway / 1302576', 'South Sacramento Freeway / 188510']","['South Sacramento Freeway / 188084', 'South Sacramento Freeway / 1305508']"
+GRANT LINE ROAD,0: All Days (M-Su),"['7762', '7761']","['South Sacramento Freeway / 188084', 'South Sacramento Freeway / 1305508']","['South Sacramento Freeway / 22309324', 'South Sacramento Freeway / 188730']"
+DILLARD ROAD,0: All Days (M-Su),"['7758', '7757']","['South Sacramento Freeway / 188721', 'South Sacramento Freeway / 188730']","['South Sacramento Freeway / 188716', 'South Sacramento Freeway / 70493']"
+ARNO ROAD,0: All Days (M-Su),"['7756', '7755']","['South Sacramento Freeway / 9947986', 'South Sacramento Freeway / 70493']",['South Sacramento Freeway / 10980779']
+JCT. RTE. 104 EAST,0: All Days (M-Su),"['7752', '7751']","['South Sacramento Freeway / 9947988', 'South Sacramento Freeway / 10980777']","['South Sacramento Freeway / 9947991', 'South Sacramento Freeway / 10980774']"
+WALNUT STREET CONNECTION,0: All Days (M-Su),"['7750', '7749']","['South Sacramento Freeway / 9947991', 'South Sacramento Freeway / 10980774']","['South Sacramento Freeway / 9947994', 'South Sacramento Freeway / 22215110']"
+"GALT, C STREET",0: All Days (M-Su),"['7744', '7743']","['South Sacramento Freeway / 21487462', 'South Sacramento Freeway / 22215115']","['South Sacramento Freeway / 21487460', 'South Sacramento Freeway / 22215117']"
