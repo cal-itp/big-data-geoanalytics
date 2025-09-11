@@ -109,12 +109,12 @@ sr_99_d3_tc_aadt_locations = [
                 'southbound': {
                     'objectid': ['7868'],
                     'zonename_ahead': ['CA 99 / 185287'], 
-                    'zonename_behind': ['CA 99 / 3236621']
+                    'zonename_behind': ['Highway 99 / 3236621']
                 },
                 'northbound': {
                     'objectid': ['7867'],
                     'zonename_ahead': ['CA 99 / 185012'], 
-                    'zonename_behind': ['CA 99 / 5232036']
+                    'zonename_behind': ['Highway 99 / 185312']
                 }
             }
         },
@@ -128,12 +128,12 @@ sr_99_d3_tc_aadt_locations = [
             'nodes': {
                 'southbound': {
                     'objectid': ['7866'],
-                    'zonename_ahead': ['CA 99 / 3236622'], 
+                    'zonename_ahead': ['Highway 99 / 3236622'], 
                     'zonename_behind': ['CA 99 / 22607112']
                 },
                 'northbound': {
                     'objectid': ['7865'],
-                    'zonename_ahead': ['CA 99 / 185312'], 
+                    'zonename_ahead': ['Highway 99 / 185312'], 
                     'zonename_behind': ['CA 99 / 185347']
                 }
             }
@@ -264,7 +264,7 @@ sr_99_d3_tc_aadt_locations = [
                 'bi-directional': {
                     'objectid': ['7851'],
                     'zonename_ahead': ['CA 99 / 1302938'], 
-                    'zonename_behind': ['CA 99 / 22187531']
+                    'zonename_behind': ['CA 99;CA 162 / 22187531']
                 }
             }
         },
@@ -278,7 +278,7 @@ sr_99_d3_tc_aadt_locations = [
             'nodes': {
                 'bi-directional': {
                     'objectid': ['7849'],
-                    'zonename_ahead': ['CA 99 / 22187531'], 
+                    'zonename_ahead': ['CA 99;CA 162 / 22187531'], 
                     'zonename_behind': ['CA 99 / 70189']
                 }
             }
