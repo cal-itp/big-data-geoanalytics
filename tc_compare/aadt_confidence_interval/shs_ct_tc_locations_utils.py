@@ -6,6 +6,216 @@
 # Ahead AADT, Peak Month, and Peak Hour usually represents traffic North or East of the count location. Listing of routes with their designated
 
 
+interstate_605_d7_tc_aadt_locations = [
+    {
+        'IRWINDALE, LOWER AZUSA ROAD/LOS ANGELES STREET': {
+            'location_description': 'IRWINDALE, LOWER AZUSA ROAD/LOS ANGELES STREET',
+            'order_number': 0,
+            'metadata': {
+                'corridor': 'I-605', 'district': 'D7'
+            },
+            'daytype': '0: All Days (M-Su)',
+            'nodes': {
+                'bi-directional_0': {
+                    'objectid': ['13117'],
+                    'zonename_ahead': ['San Gabriel River Freeway / 60501'],   # northbound
+                    'zonename_behind': ['San Gabriel River Freeway / 62770']   # southbound
+                },
+                'bi-directional_1': {
+                    'objectid': ['13118'],
+                    'zonename_ahead': ['San Gabriel River Freeway / 17825964'],  # northbound
+                    'zonename_behind': ['San Gabriel River Freeway / 19247825']  # southbound
+                }
+            }
+        },
+        'BALDWIN PARK, JCT. RTE. 10': {
+            'location_description': 'BALDWIN PARK, JCT. RTE. 10',
+            'order_number': 2,
+            'metadata': {
+                'corridor': 'I-605', 'district': 'D7'
+            },
+            'daytype': '0: All Days (M-Su)',
+            'nodes': {
+                'bi-directional_0': {
+                    'objectid': ['13113'],
+                    'zonename_ahead': ['San Gabriel River Freeway / 19171162'],  # northbound
+                    'zonename_behind': ['San Gabriel River Freeway / 18695412']  # southbound
+                },
+                'bi-directional_1': {
+                    'objectid': ['13114'],
+                    'zonename_ahead': ['San Gabriel River Freeway / 23240119'],  # northbound
+                    'zonename_behind': ['San Gabriel River Freeway / 62623']     # southbound
+                }
+            }
+        },
+        'INDUSTRY, VALLEY BOULEVARD': {
+            'location_description': 'INDUSTRY, VALLEY BOULEVARD',
+            'order_number': 4,
+            'metadata': {
+                'corridor': 'I-605', 'district': 'D7'
+            },
+            'daytype': '0: All Days (M-Su)',
+            'nodes': {
+                'bi-directional_0': {
+                    'objectid': ['13111'],
+                    'zonename_ahead': ['San Gabriel River Freeway / 686634'],  # northbound
+                    'zonename_behind': ['San Gabriel River Freeway / 62623']   # southbound
+                },
+                'bi-directional_1': {
+                    'objectid': ['13112'],
+                    'zonename_ahead': ['San Gabriel River Freeway / 703991'],  # northbound
+                    'zonename_behind': ['San Gabriel River Freeway / 705638']  # southbound
+                }
+            }
+        },
+        'INDUSTRY, JCT. RTE. 60': {
+            'location_description': 'INDUSTRY, JCT. RTE. 60',
+            'order_number': 6,
+            'metadata': {
+                'corridor': 'I-605', 'district': 'D7'
+            },
+            'daytype': '0: All Days (M-Su)',
+            'nodes': {
+                'bi-directional_0': {
+                    'objectid': ['13109'],
+                    'zonename_ahead': ['San Gabriel River Freeway / 18665945'],  # northbound
+                    'zonename_behind': ['San Gabriel River Freeway / 705638']    # southbound
+                },
+                'bi-directional_1': {
+                    'objectid': ['13110'],
+                    'zonename_ahead': ['San Gabriel River Freeway / 13434006'],  # northbound
+                    'zonename_behind': ['San Gabriel River Freeway / 17555043']  # southbound
+                }
+            }
+        },
+        'PICO RIVERA, ROSE HILLS ROAD': {
+            'location_description': 'PICO RIVERA, ROSE HILLS ROAD',
+            'order_number': 8,
+            'metadata': {
+                'corridor': 'I-605', 'district': 'D7'
+            },
+            'daytype': '0: All Days (M-Su)',
+            'nodes': {
+                'bi-directional_0': {
+                    'objectid': ['13105'],
+                    'zonename_ahead': ['San Gabriel River Freeway / 19894523'],  # northbound
+                    'zonename_behind': ['San Gabriel River Freeway / 20053622']  # southbound
+                },
+                'bi-directional_1': {
+                    'objectid': ['13106'],
+                    'zonename_ahead': ['San Gabriel River Freeway / 703999'],  # northbound
+                    'zonename_behind': ['San Gabriel River Freeway / 673791']  # southbound
+                }
+            }
+        },
+        'WHITTIER, JCT. RTE. 72': {
+            'location_description': 'WHITTIER, JCT. RTE. 72',
+            'order_number': 10,
+            'metadata': {
+                'corridor': 'I-605', 'district': 'D7'
+            },
+            'daytype': '0: All Days (M-Su)',
+            'nodes': {
+                'bi-directional_0': {
+                    'objectid': ['13101'],
+                    'zonename_ahead': ['San Gabriel River Freeway / 23806759'],  # northbound
+                    'zonename_behind': ['San Gabriel River Freeway / 19085288']  # southbound
+                },
+                'bi-directional_1': {
+                    'objectid': ['13102'],
+                    'zonename_ahead': ['San Gabriel River Freeway / 689516'],   # northbound
+                    'zonename_behind': ['San Gabriel River Freeway / 1283676']  # southbound
+                }
+            }
+        },
+        'NORWALK, IMPERIAL HIGHWAY': {
+            'location_description': 'NORWALK, IMPERIAL HIGHWAY',
+            'order_number': 12,
+            'metadata': {
+                'corridor': 'I-605', 'district': 'D7'
+            },
+            'daytype': '0: All Days (M-Su)',
+            'nodes': {
+                'bi-directional_0': {
+                    'objectid': ['13089'],
+                    'zonename_ahead': ['San Gabriel River Freeway / 1292558'],  # northbound
+                    'zonename_behind': ['San Gabriel River Freeway / 43294']    # southbound
+                },
+                'bi-directional_1': {
+                    'objectid': ['13090'],
+                    'zonename_ahead': ['San Gabriel River Freeway / 36182'],   # northbound
+                    'zonename_behind': ['San Gabriel River Freeway / 699066']  # southbound
+                }
+            }
+        },
+        'NORWALK, ROSECRANS AVENUE': {
+            'location_description': 'NORWALK, ROSECRANS AVENUE',
+            'order_number': 14,
+            'metadata': {
+                'corridor': 'I-605', 'district': 'D7'
+            },
+            'daytype': '0: All Days (M-Su)',
+            'nodes': {
+                'bi-directional_0': {
+                    'objectid': ['13085'],
+                    'zonename_ahead': ['San Gabriel River Freeway / 18987883'],  # northbound
+                    'zonename_behind': ['San Gabriel River Freeway / 657856']    # southbound
+                },
+                'bi-directional_1': {
+                    'objectid': ['13086'],
+                    'zonename_ahead': ['San Gabriel River Freeway / 13303859'],  # northbound
+                    'zonename_behind': ['San Gabriel River Freeway / 23409847']  # southbound
+                }
+            }
+        },
+        'NORWALK, ALONDRA BOULEVARD': {
+            'location_description': 'NORWALK, ALONDRA BOULEVARD',
+            'order_number': 16,
+            'metadata': {
+                'corridor': 'I-605', 'district': 'D7'
+            },
+            'daytype': '0: All Days (M-Su)',
+            'nodes': {
+                'bi-directional_0': {
+                    'objectid': ['13084'],
+                    'zonename_ahead': ['San Gabriel River Freeway / 13815791'],  # northbound
+                    'zonename_behind': ['San Gabriel River Freeway / 35978']     # southbound
+                },
+                'bi-directional_1': {
+                    'objectid': ['13083'],
+                    'zonename_ahead': ['San Gabriel River Freeway / 15650683'],  # northbound
+                    'zonename_behind': ['San Gabriel River Freeway / 15851885']  # southbound
+                }
+            }
+        },
+        'CERRITOS, JCT. RTE. 91': {
+            'location_description': 'CERRITOS, JCT. RTE. 91',
+            'order_number': 18,
+            'metadata': {
+                'corridor': 'I-605', 'district': 'D7'
+            },
+            'daytype': '0: All Days (M-Su)',
+            'nodes': {
+                'bi-directional_0': {
+                    'objectid': ['13081'],
+                    'zonename_ahead': ['San Gabriel River Freeway / 15650683'],  # northbound
+                    'zonename_behind': ['San Gabriel River Freeway / 17325939']  # southbound
+                },
+                'bi-directional_1': {
+                    'objectid': ['13082'],
+                    'zonename_ahead': ['San Gabriel River Freeway / 45330'],   # northbound
+                    'zonename_behind': ['San Gabriel River Freeway / 45717']   # southbound
+                }
+            }
+        },
+    }
+]
+
+
+
+
+
+
 sr_99_d3_tc_aadt_locations = [
     {
         'BROYLES ROAD': {
