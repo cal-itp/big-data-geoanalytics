@@ -1057,7 +1057,7 @@ sr_99_d3_tc_aadt_locations = [
                 'southbound': {
                     'objectid': ['7756'],
                     'zonename_ahead': ['South Sacramento Freeway / 188716'], 
-                    'zonename_ahead': ['South Sacramento Freeway / 9947986']
+                    'zonename_behind': ['South Sacramento Freeway / 9947986']
                 },
                 'northbound': {
                     'objectid': ['7755'],
