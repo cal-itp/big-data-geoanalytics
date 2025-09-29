@@ -18,11 +18,13 @@ interstate_605_d7_tc_aadt_locations = [
             'nodes': {
                 'bi-directional_0': {
                     'objectid': ['13117'],
+                    'direction': ['northbound'],
                     'zonename_ahead': ['San Gabriel River Freeway / 160880'],   # northbound stl
                     'zonename_behind': ['San Gabriel River Freeway / 6739504'], # northbound stl
                 },
                 'bi-directional_1': {
                     'objectid': ['13118'],
+                    'direction': ['southbound'],
                     'zonename_ahead': ['San Gabriel River Freeway / 160881'],  # southbound stl
                     'zonename_behind': ['San Gabriel River Freeway / 19247825'],  # southbound stl
                 }
@@ -38,11 +40,13 @@ interstate_605_d7_tc_aadt_locations = [
             'nodes': {
                 'bi-directional_0': {
                     'objectid': ['13113'],
+                    'direction': ['northbound'],
                     'zonename_ahead': ['San Gabriel River Freeway / 19171162'],  # northbound stl
                     'zonename_behind': ['San Gabriel River Freeway / 164740'], # northbound stl
                 },
                 'bi-directional_1': {
                     'objectid': ['13114'],
+                    'direction': ['southbound'],
                     'zonename_ahead': ['San Gabriel River Freeway / 7368478'],  # southbound
                     'zonename_behind': ['San Gabriel River Freeway / 164736'],  # southbound
                 }
@@ -58,11 +62,13 @@ interstate_605_d7_tc_aadt_locations = [
             'nodes': {
                 'bi-directional_0': {
                     'objectid': ['13111'],
+                    'direction': ['northbound'],
                     'zonename_ahead': ['San Gabriel River Freeway / 164740'],  # northbound
                     'zonename_behind': ['San Gabriel River Freeway / 703991']   # northbound
                 },
                 'bi-directional_1': {
                     'objectid': ['13112'],
+                    'direction': ['southbound'],
                     'zonename_ahead': ['San Gabriel River Freeway / 164736'],  # southbound
                     'zonename_behind': ['San Gabriel River Freeway / 705638']  # southbound
                 }
@@ -78,11 +84,13 @@ interstate_605_d7_tc_aadt_locations = [
             'nodes': {
                 'bi-directional_0': {
                     'objectid': ['13109'],
+                    'direction': ['northbound'],
                     'zonename_ahead': ['San Gabriel River Freeway / 703991'],  # northbound
                     'zonename_behind': ['San Gabriel River Freeway / 1698720']    # southbound
                 },
                 'bi-directional_1': {
                     'objectid': ['13110'],
+                    'direction': ['southbound'],
                     'zonename_ahead': ['San Gabriel River Freeway / 705638'],  # northbound
                     'zonename_behind': ['San Gabriel River Freeway / 2730673']  # southbound
                 }
@@ -98,11 +106,13 @@ interstate_605_d7_tc_aadt_locations = [
             'nodes': {
                 'bi-directional_0': {
                     'objectid': ['13105'],
+                    'direction': ['northbound'],
                     'zonename_ahead': ['San Gabriel River Freeway / 8402350'],  # northbound
                     'zonename_behind': ['San Gabriel River Freeway / 164212']  # northbound
                 },
                 'bi-directional_1': {
                     'objectid': ['13106'],
+                    'direction': ['southbound'],
                     'zonename_ahead': ['San Gabriel River Freeway / 9176481'],  # southbound
                     'zonename_behind': ['San Gabriel River Freeway / 673791']  # southbound
                 }
@@ -118,11 +128,13 @@ interstate_605_d7_tc_aadt_locations = [
             'nodes': {
                 'bi-directional_0': {
                     'objectid': ['13101'],
+                    'direction': ['northbound'],
                     'zonename_ahead': ['San Gabriel River Freeway / 12790206'],  # northbound
                     'zonename_behind': ['San Gabriel River Freeway / 689516']  # northbound
                 },
                 'bi-directional_1': {
                     'objectid': ['13102'],
+                    'direction': ['southbound'],
                     'zonename_ahead': ['San Gabriel River Freeway / 8144057'],   # southbound
                     'zonename_behind': ['San Gabriel River Freeway / 1283676']  # southbound
                 }
@@ -138,11 +150,13 @@ interstate_605_d7_tc_aadt_locations = [
             'nodes': {
                 'bi-directional_0': {
                     'objectid': ['13089'],
+                    'direction': ['northbound'],
                     'zonename_ahead': ['San Gabriel River Freeway / 1292558'],  # northbound
                     'zonename_behind': ['San Gabriel River Freeway / 36648843']    # northbound
                 },
                 'bi-directional_1': {
                     'objectid': ['13090'],
+                    'direction': ['southbound'],
                     'zonename_ahead': ['San Gabriel River Freeway / 43294'],   # southbound
                     'zonename_behind': ['San Gabriel River Freeway / 118798']  # southbound
                 }
@@ -158,11 +172,13 @@ interstate_605_d7_tc_aadt_locations = [
             'nodes': {
                 'bi-directional_0': {
                     'objectid': ['13085'],
+                    'direction': ['northbound'],
                     'zonename_ahead': ['San Gabriel River Freeway / 18987883'],  # northbound
                     'zonename_behind': ['San Gabriel River Freeway / 1292560']    # southbound
                 },
                 'bi-directional_1': {
                     'objectid': ['13086'],
+                    'direction': ['southbound'],
                     'zonename_ahead': ['San Gabriel River Freeway / 118696'],  # northbound
                     'zonename_behind': ['San Gabriel River Freeway / 23409847']  # southbound
                 }
@@ -178,11 +194,13 @@ interstate_605_d7_tc_aadt_locations = [
             'nodes': {
                 'bi-directional_0': {
                     'objectid': ['13084'],
+                    'direction': ['northbound'],
                     'zonename_ahead': ['San Gabriel River Freeway / 13815791'],  # northbound
                     'zonename_behind': ['San Gabriel River Freeway / 4404474']     # southbound
                 },
                 'bi-directional_1': {
                     'objectid': ['13083'],
+                    'direction': ['southbound'],
                     'zonename_ahead': ['San Gabriel River Freeway / 118843'],  # northbound
                     'zonename_behind': ['San Gabriel River Freeway / 118944']  # southbound
                 }
@@ -198,11 +216,13 @@ interstate_605_d7_tc_aadt_locations = [
             'nodes': {
                 'bi-directional_0': {
                     'objectid': ['13081'],
+                    'direction': ['northbound'],
                     'zonename_ahead': ['San Gabriel River Freeway / 4404474'],  # northbound
                     'zonename_behind': ['San Gabriel River Freeway / 119733']  # southbound
                 },
                 'bi-directional_1': {
                     'objectid': ['13082'],
+                    'direction': ['southbound'],
                     'zonename_ahead': ['San Gabriel River Freeway / 118944'],   # northbound
                     'zonename_behind': ['San Gabriel River Freeway / 45717']   # southbound
                 }
