@@ -799,7 +799,7 @@ sr_99_d3_tc_aadt_locations = [
             'daytype': '0: All Days (M-Su)',
             'nodes': {
                 'bi-directional_0': {
-                    'objectid': ['7809'],
+                    'objectid': ['7805'],
                     'direction': ['northbound'],
                     'zonename_ahead': ['CA 99 / 72259'], 
                     'zonename_behind': ['CA 99 / 23862508']
@@ -820,15 +820,17 @@ sr_99_d3_tc_aadt_locations = [
             },
             'daytype': '0: All Days (M-Su)',
             'nodes': {
-                'southbound': {
-                    'objectid': ['7802'],
-                    'zonename_ahead': ['CA 99 / 10474764'], 
-                    'zonename_behind': ['CA 99 / 190748']
-                },
-                'northbound': {
+                'bi-directional_0': {
                     'objectid': ['7801'],
+                    'direction': ['northbound'],
                     'zonename_ahead': ['CA 99 / 15283380'],
                     'zonename_behind': ['CA 99 / 190751']
+                },
+                'bi-directional_1': {
+                    'objectid': ['7802'],
+                    'direction': ['southbound'],
+                    'zonename_ahead': ['CA 99 / 10474764'], 
+                    'zonename_behind': ['CA 99 / 190748']
                 }
             }
         },
@@ -840,15 +842,17 @@ sr_99_d3_tc_aadt_locations = [
             },
             'daytype': '0: All Days (M-Su)',
             'nodes': {
-                'southbound': {
-                    'objectid': ['7800'],
-                    'zonename_ahead': ['Golden State Highway / 14677099'], 
-                    'zonename_behind': ['Golden State Highway / 17457767']
-                },
-                'northbound': {
+                'bi-directional_0': {
                     'objectid': ['7799'],
+                    'direction': ['northbound'],
                     'zonename_ahead': ['CA 99 / 15435840'], 
                     'zonename_behind': ['CA 99 / 10478428']
+                },
+                'bi-directional_1': {
+                    'objectid': ['7800'],
+                    'direction': ['southbound'],
+                    'zonename_ahead': ['Golden State Highway / 14677099'], 
+                    'zonename_behind': ['Golden State Highway / 17457767']
                 }
             }
         },
@@ -860,15 +864,17 @@ sr_99_d3_tc_aadt_locations = [
             },
             'daytype': '0: All Days (M-Su)',
             'nodes': {
-                'southbound': {
-                    'objectid': ['7794'],
-                    'zonename_ahead': ['Golden State Highway / 62778'], 
-                    'zonename_behind': ['Golden State Highway / 190363']
-                },
-                'northbound': {
+                'bi-directional_0': {
                     'objectid': ['7793'],
+                    'direction': ['northbound'],
                     'zonename_ahead': ['CA 99 / 10478428'], 
                     'zonename_behind': ['CA 99 / 190364']
+                },
+                'bi-directional_1': {
+                    'objectid': ['7794'],
+                    'direction': ['southbound'],
+                    'zonename_ahead': ['Golden State Highway / 62778'], 
+                    'zonename_behind': ['Golden State Highway / 190363']
                 }
             }
         },
@@ -880,15 +886,17 @@ sr_99_d3_tc_aadt_locations = [
             },
             'daytype': '0: All Days (M-Su)',
             'nodes': {
-                'southbound': {
-                    'objectid': ['7792'],
-                    'zonename_ahead': ['Golden State Highway / 190363'], 
-                    'zonename_behind': ['Golden State Highway / 1700995']
-                },
-                'northbound': {
+                'bi-directional_0': {
                     'objectid': ['7791'],
+                    'direction': ['northbound'],
                     'zonename_ahead': ['CA 99 / 190364'], 
                     'zonename_behind': ['CA 99 / 190201']
+                },
+                'bi-directional_1': {
+                    'objectid': ['7792'],
+                    'direction': ['southbound'],
+                    'zonename_ahead': ['Golden State Highway / 190363'], 
+                    'zonename_behind': ['Golden State Highway / 1700995']
                 }
             }
         },
@@ -900,15 +908,17 @@ sr_99_d3_tc_aadt_locations = [
             },
             'daytype': '0: All Days (M-Su)',
             'nodes': {
-                'southbound': {
-                    'objectid': ['7788'],
-                    'zonename_ahead': ['South Sacramento Freeway / 193828'],
-                    'zonename_behind': ['South Sacramento Freeway / 192822']
-                },
-                'northbound': {
+                'bi-directional_1': {
                     'objectid': ['7787'],
+                    'direction': ['northbound'],
                     'zonename_ahead': ['South Sacramento Freeway / 193825'], 
                     'zonename_behind': ['South Sacramento Freeway / 192818']
+                },
+                'bi-directional_1': {
+                    'objectid': ['7788'],
+                    'direction': ['southbound'],
+                    'zonename_ahead': ['South Sacramento Freeway / 193828'],
+                    'zonename_behind': ['South Sacramento Freeway / 192822']
                 }
             }
         },
@@ -920,15 +930,17 @@ sr_99_d3_tc_aadt_locations = [
              },
              'daytype': '0: All Days (M-Su)',
              'nodes': {
-                 'southbound': {
-                     'objectid': ['7786'],
-                     'zonename_ahead': ['South Sacramento Freeway / 192822'], 
-                     'zonename_behind': ['South Sacramento Freeway / 20029922']
-                 },
-                 'northbound': {
+                 'bi-directional_0': {
                      'objectid': ['7785'],
+                     'direction': ['northbound'],
                      'zonename_ahead': ['South Sacramento Freeway / 192818'], 
                      'zonename_behind': ['South Sacramento Freeway / 5306321']
+                 },
+                 'bi-directional_1': {
+                     'objectid': ['7786'],
+                     'direction': ['southbound'],
+                     'zonename_ahead': ['South Sacramento Freeway / 192822'], 
+                     'zonename_behind': ['South Sacramento Freeway / 20029922']
                  }
              }
          },
@@ -940,13 +952,15 @@ sr_99_d3_tc_aadt_locations = [
             },
             'daytype': '0: All Days (M-Su)',
             'nodes': {
-                'southbound': {
+                'bi-directional_1': {
                     'objectid': ['7782'],
+                    'direction': ['southbound'],
                     'zonename_ahead': ['South Sacramento Freeway / 193001'], 
                     'zonename_behind': ['South Sacramento Freeway / 193022']
                 },
-                'northbound': {
+                'bi-directional_0': {
                     'objectid': ['7781'],
+                    'direction': ['northbound'],
                     'zonename_ahead': ['South Sacramento Freeway / 6282898'],
                     'zonename_behind': ['South Sacramento Freeway / 73027']
                 }
@@ -960,15 +974,17 @@ sr_99_d3_tc_aadt_locations = [
             },
             'daytype': '0: All Days (M-Su)',
             'nodes': {
-                'southbound': {
-                    'objectid': ['7780'],
-                    'zonename_ahead': ['South Sacramento Freeway / 193022'], 
-                    'zonename_behind': ['South Sacramento Freeway / 189279']
-                },
-                'northbound': {
+                'bi-directional_0': {
                     'objectid': ['7779'],
+                    'direction': ['northbound'],
                     'zonename_ahead': ['South Sacramento Freeway / 73027'], 
                     'zonename_behind': ['South Sacramento Freeway / 189284']
+                },
+                'bi-directional_1': {
+                    'objectid': ['7780'],
+                    'direction': ['southbound'],
+                    'zonename_ahead': ['South Sacramento Freeway / 193022'], 
+                    'zonename_behind': ['South Sacramento Freeway / 189279']
                 }
             }
         },
