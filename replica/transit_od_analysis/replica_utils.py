@@ -18,26 +18,6 @@ gcs_path = "gs://calitp-analytics-data/data-analyses/big_data/hta/"
 
 
 
-def read_in_stations(all_stations_list):
-    
-    gdf_stations = import_stations(all_stations_list)
-    
-    all_station_list = pd.read_csv(f"{gcs_path}Station_lists_072425.csv",  nrows=72)
-    
-    all_station_list['downloaded_geo_name'] = all_station_list['downloaded_geo_name'].str.replace('_', '-')
-    
-    column_names = all_station_list.columns[2:12]
-    
-    all_station_list['transit_lines'] = all_station_list[column_names].apply(lambda row: ', '.join([col for col in column_names if row[col] == 'x']), axis=1)
-    all_station_list = all_station_list.rename(columns={'station_name':'station_name_full', 'downloaded_geo_name':'station_name'})
-    
-    gdf_stations = gdf_stations.merge((all_station_list[['station_name_full','station_name','transit_lines']]), on="station_name", how="left")
-    
-    
-    return gdf_stations
-    
-
-
 def aggregate_destination_station_geometries(df_all_stations, origin_stations_list):
     
     for station in origin_stations_list:
@@ -64,16 +44,6 @@ def aggregate_destination_station_geometries(df_all_stations, origin_stations_li
         
 
         
-def define_transit_line(line):
-    if line == "sbline":
-        line_name = "San Bernardino Line"
-    elif line == "riversideline":
-        line_name = "Riverside Line"
-    else:
-        line_name = "Both"
-        
-    return line_name
-    
 
 def calc_auto_travel_info(df):
     df_auto = df[df.primary_mode=="private_auto"]
@@ -145,23 +115,6 @@ def return_score_summary(analyses_study_data_list, station_geom_list):
     
     results = []
     for analysis in analyses_study_data_list:
-        with get_fs().open(f"{gcs_path}replica_data_downloads/replica-socal_travel_analysis_{analysis}-trips_dataset.csv") as f:
-
-            df = to_snakecase(pd.read_csv(f, dtype={25: str, 26:str}, low_memory=False))
-
-            station_col_map = dict(zip(gdf_stations_geom['geoname'], gdf_stations_geom['station_name_full']))
-            station_line_map = dict(zip(gdf_stations_geom['station_name_full'], gdf_stations_geom['transit_lines']))
-
-            df['origin_tract_station_area'] = df['origin_trct_2020'].map(station_col_map)
-            df['destination_tract_station_area'] = df['destination_trct_2020'].map(station_col_map)
-
-            df['lines'] = df['origin_tract_station_area'].map(station_line_map)
-
-            station = analysis.split('origin_')[1]  # Get the part after '_origin_'
-            station_name = station.replace('_', ' ').upper()
-            line = df.lines.loc[0]
-
-            station_name_full = df.origin_tract_station_area.iloc[1]
 
             auto_df = (df[df.primary_mode=="private_auto"])
             transit_df = (df[df.primary_mode=="public_transit"])
