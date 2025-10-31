@@ -16,6 +16,39 @@ import shutil
 gcs_path = "gs://calitp-analytics-data/data-analyses/big_data/hta/"
 
 
+def read_in_and_prep_replica_data(file_name, shape_data, file_type):
+    
+    ### read in the replica study data
+    df = to_snakecase( pd.read_csv(f"{gcs_path}{file_name}"))    
+    
+    ### read in the census blockgroup shape data
+    with get_fs().open(f"{gcs_path}{shape_data}") as f:
+        blkgr = to_snakecase(gpd.read_file(f))
+    
+    ##get the county and state info
+    blkgr["name_county"]  = blkgr['geoname'].str.rstrip(', ').str.split(', ').str[1] 
+    blkgr["name_state"]  = blkgr['geoname'].str.strip().str[-3:-1]
+    
+    ### get 
+    blkgr_map = dict(zip(blkgr['geoname'], 
+                          blkgr['geometry']))
+    
+    ### set the geometry. choose the right blockgroup based on the data study type
+    df["geometry"] = np.nan
+    
+    ### i.e. if the data has CalPoly as the destination, then set the geometry as the origin and vice versa
+    if file_type == "to_cp":
+            
+        df['geometry'] = df['geometry'].fillna(df['origin_bgrp_2020'].map(blkgr_map))
+        
+    elif file_type== "from_cp":
+        df['geometry'] = df['geometry'].fillna(df['destination_bgrp_2020'].map(blkgr_map))
+
+    df = df.set_geometry("geometry")
+
+    df = df.set_crs(4326)
+    
+    return df
 
 
 def aggregate_destination_station_geometries(df_all_stations, origin_stations_list):
@@ -103,87 +136,84 @@ def get_top_and_bottom_tract_counts(df, top_least, all_trips):
         
         return bottom_name1, #bottom_name2, #bottom_name3
     
+    
+def get_mode_split(df):
+    
+    ##get list of unique modes that appear in the Replica Studio results
+
+    mode_list = list(df.primary_mode.unique())
+    
+    mode_pcts = []
+    
+    for mode in mode_list:
+        
+        df_copy = df.copy()
+        
+        df_name_ = df.loc[0, 'df_name']
+        
+        df_mode_subset = df_copy[df_copy["primary_mode"] == mode ]
+        
+        n_trips = len(df_mode_subset)
+        pct_trips = ((len(df_mode_subset)) / (len(df)))
+        
+        mode_pcts.append({
+            'df_name': df_name_,
+            'mode': mode,
+            'pct_trips': pct_trips, 
+            'total_trips': n_trips,
+        })
+        
+    mode_pcts_summary = pd.DataFrame(mode_pcts)
+    
+    return mode_pcts_summary
 
 
 #### NEED TO REFACTOR
 ### putting it all together
-def return_score_summary(analyses_study_data_list, station_geom_list):
-    
-    #### read in the station geometries 
-    #### this function also reads in the common names and transit lines
-    gdf_stations_geom = read_in_stations(station_geom_list)
-    
+def return_score_summary(df_list):
+
     results = []
-    for analysis in analyses_study_data_list:
 
-            auto_df = (df[df.primary_mode=="private_auto"])
-            transit_df = (df[df.primary_mode=="public_transit"])
+    for df in df_list:
+        
+        trip_type = df.loc[0, 'trip_type']
+        
+        auto_df = (df[df.primary_mode=="private_auto"])
+        transit_df = (df[df.primary_mode=="public_transit"])
 
-            all_trip_count = len(df)
+        all_trip_count = len(df)
 
-            n_total_trips = len(df)
-            n_private_auto_trips = len(auto_df)
-            pct_private_auto_trips = ((len(auto_df)) / (len(df)))
-            n_public_transit_trips = (len(transit_df))
-            pct_public_transit_trips = ((len(transit_df)) / (len(df)))
+        n_total_trips = len(df)
+        n_private_auto_trips = len(auto_df)
+        pct_private_auto_trips = ((len(auto_df)) / (len(df)))
+        n_public_transit_trips = (len(transit_df))
+        pct_public_transit_trips = ((len(transit_df)) / (len(df)))
 
-            auto_mean_min, auto_median_min, auto_mean_miles, auto_median_miles, auto_max_min, auto_max_miles = calc_auto_travel_info(df)
-            transit_mean_min, transit_median_min, transit_mean_miles, transit_median_miles, transit_max_miles, transit_max_min = calc_transit_travel_info(df)
+        auto_mean_min, auto_median_min, auto_mean_miles, auto_median_miles, auto_max_min, auto_max_miles = calc_auto_travel_info(df)
+        transit_mean_min, transit_median_min, transit_mean_miles, transit_median_miles, transit_max_miles, transit_max_min = calc_transit_travel_info(df)
 
-            auto_top_name1, = get_top_and_bottom_tract_counts(auto_df, top_least = "top", all_trips=all_trip_count)
-            auto_bottom_name1,  = get_top_and_bottom_tract_counts(auto_df, top_least = "least", all_trips=all_trip_count)
-            # auto_top_name2, auto_top_name3,  auto_bottom_name2, auto_bottom_name3
+                ## set up the table for all the results
+        results.append({
+                        'trip_type': trip_type,
+                        'total_trips': n_total_trips,
+                        'n_auto_trips': n_private_auto_trips,
+                        'pct_auto_trips': pct_private_auto_trips,
+                        'n_tranist_trips': n_public_transit_trips,
+                        'pct_transit_trips': pct_public_transit_trips,
+                        'auto_mean_minutes': auto_mean_min,
+                        'auto_median_minutes': auto_median_min,
+                        'auto_max_minutes': auto_max_min, 
+                        'auto_mean_miles': auto_mean_miles,
+                        'auto_median_miles': auto_median_miles,
+                        'auto_max_miles': auto_max_miles,
+                        'transit_mean_minutes': transit_mean_min,
+                        'transit_median_minutes': transit_median_min,
+                        'transit_max_minutes': transit_max_min,
+                        'transit_mean_miles': transit_mean_miles,
+                        'transit_median_miles': transit_median_miles,
+                        'transit_max_miles':transit_max_miles,
 
-            transit_top_name1,  = get_top_and_bottom_tract_counts(transit_df, top_least = "top", all_trips=all_trip_count)
-            transit_bottom_name1, = get_top_and_bottom_tract_counts(transit_df, top_least = "least", all_trips=all_trip_count)
-             # transit_top_name2, transit_top_name3
-                 # transit_bottom_name2, transit_bottom_name3 
-
-            ## set up the table for all the results
-            results.append({
-                    'station_name': station_name,
-                    'station_name_full':station_name_full,
-                    'metrolink_lines': line,
-                    'total_trips_from_origin_station': n_total_trips,
-                    'n_auto_trips_to_other_station_areas': n_private_auto_trips,
-                    'pct_auto_trips_to_other_station_areas': pct_private_auto_trips,
-                    'n_tranist_trips_to_other_station_areas': n_public_transit_trips,
-                    'pct_transit_trips_to_other_station_areas': pct_public_transit_trips,
-                    'auto_mean_minutes': auto_mean_min,
-                    'auto_median_minutes': auto_median_min,
-                    'auto_max_minutes': auto_max_min, 
-                    'auto_mean_miles': auto_mean_miles,
-                    'auto_median_miles': auto_median_miles,
-                    'auto_max_miles': auto_max_miles,
-                    'transit_mean_minutes': transit_mean_min,
-                    'transit_median_minutes': transit_median_min,
-                    'transit_max_minutes': transit_max_min,
-                    'transit_mean_miles': transit_mean_miles,
-                    'transit_median_miles': transit_median_miles,
-                    'transit_max_miles':transit_max_miles,
-
-                    'auto_top_tract_traveled_to': auto_top_name1,
-                    # 'auto_top_tract_traveled_to_pct':auto_top_num1, 
-                    # 'auto_second_top_tract_traveled_to':auto_top_name2, 
-                    # 'auto_second_top_tract_traveled_to_pct':auto_top_num2, 
-                    # 'auto_third_top_tract_traveled_to':auto_top_name3, 
-                    # 'auto_third_top_tract_traveled_to_pct':auto_top_num3, 
-
-                    'auto_least_tract_traveled_to': auto_bottom_name1,
-                    # 'auto_second_least_tract_traveled_to':auto_bottom_name2, 
-                    # 'auto_third_least_tract_traveled_to':auto_bottom_name3,  
-
-                    'transit_top_tract_traveled_to': transit_top_name1,
-                    # 'transit_top_tract_traveled_to_pct':transit_top_num1, 
-                    # 'transit_second_top_tract_traveled_to':transit_top_name2, 
-                    # 'transit_second_top_tract_traveled_to_pct':transit_top_num2, 
-                    # 'transit_third_top_tract_traveled_to':transit_top_name3, 
-                    # 'atransit_third_top_tract_traveled_to_pct':transit_top_num3, 
-
-                    'transit_least_tract_traveled_to': transit_bottom_name1,
-                    # 'transit_second_least_tract_traveled_to':transit_bottom_name2, 
-                    # 'transit_third_least_tract_traveled_to':transit_bottom_name3
-                    })
+                        })
 
     result_summary = pd.DataFrame(results)   
     
