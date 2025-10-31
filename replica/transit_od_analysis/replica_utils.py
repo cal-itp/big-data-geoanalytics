@@ -149,7 +149,7 @@ def get_mode_split(df):
         
         df_copy = df.copy()
         
-        df_name_ = df.loc[0, 'df_name']
+        df_name_ = df.loc[0, 'trip_type']
         
         df_mode_subset = df_copy[df_copy["primary_mode"] == mode ]
         
@@ -157,7 +157,7 @@ def get_mode_split(df):
         pct_trips = ((len(df_mode_subset)) / (len(df)))
         
         mode_pcts.append({
-            'df_name': df_name_,
+            'trip_type': df_name_,
             'mode': mode,
             'pct_trips': pct_trips, 
             'total_trips': n_trips,
