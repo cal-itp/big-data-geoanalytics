@@ -12,6 +12,12 @@ fs = get_fs()
 import os
 import shutil
 
+import altair as alt
+import folium
+
+from IPython.display import HTML
+from calitp_data_analysis import calitp_color_palette as cp
+
 
 gcs_path = "gs://calitp-analytics-data/data-analyses/big_data/hta/"
 
@@ -152,20 +158,45 @@ def get_mode_split(df):
         df_name_ = df.loc[0, 'trip_type']
         
         df_mode_subset = df_copy[df_copy["primary_mode"] == mode ]
-        
+        # n_blkgr_dest = (df_copy.destination_bgrp_2020.nunique())
+        # n_blkgr_origin = (df_copy.origin_bgrp_2020.nunique())
         n_trips = len(df_mode_subset)
-        pct_trips = ((len(df_mode_subset)) / (len(df)))
+        pct_trips = ((len(df_mode_subset)) / (len(df_copy)))
+
         
         mode_pcts.append({
             'trip_type': df_name_,
             'mode': mode,
             'pct_trips': pct_trips, 
             'total_trips': n_trips,
+            # 'n_blkgrs_dest': n_blkgr_dest,
+            # 'n_blkgrs_origin': n_blkgr_origin,
         })
         
     mode_pcts_summary = pd.DataFrame(mode_pcts)
     
     return mode_pcts_summary
+
+def return_mode_map(df, routes_df, mode_list, trip_type):
+
+    for mode in mode_list:
+        display(HTML(f"<h3>{(mode.title())} Trips {trip_type.title()} Cal Poly</h3>"))
+
+        df_susbet = (df[df["primary_mode"]==mode])
+
+        if len(df_susbet)==0:
+            display(HTML("<strong>**No trips present**</strong>"))
+
+        else:
+            m = df_susbet.explore(column="n_trips", 
+                        scheme="NaturalBreaks",
+                         k=10,
+                        cmap="YlOrRd")
+            m = routes_df.explore(m=m, column="Route Name", name="HTA Routes", tooltip=["Agency","Route Name", "SHN Route"])
+            folium.LayerControl().add_to(m)
+
+            display(m)
+            
 
 
 #### NEED TO REFACTOR
