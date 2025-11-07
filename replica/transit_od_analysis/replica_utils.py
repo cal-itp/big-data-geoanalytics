@@ -177,6 +177,63 @@ def get_mode_split(df):
     
     return mode_pcts_summary
 
+
+def return_time_metrics(df, time_start_col, time_end_col):
+    
+    mode_col = "primary_mode"
+    
+    df['trip_start_time_test'] = df[time_start_col].apply(pd.to_datetime, errors="coerce")
+    df['trip_end_time_test'] = df[time_end_col].apply(pd.to_datetime, errors="coerce")
+    
+    df_agg = (
+        df.groupby(mode_col).agg(
+
+        trip_start_min=('trip_start_time_test', 'min'),
+        trip_start_max=('trip_start_time_test', 'max'),
+        trip_start_median=('trip_start_time_test', 'median'),
+        trip_start_mean=('trip_start_time_test', 'mean'),
+
+        trip_end_min=('trip_end_time_test', 'min'),
+        trip_end_max=('trip_end_time_test', 'max'),
+        trip_end_median=('trip_end_time_test', 'median'),
+        trip_end_mean=('trip_end_time_test', 'mean'),
+
+        trip_duration_minutes_min=('trip_duration_minutes', 'min'),
+        trip_duration_minutes_max=('trip_duration_minutes', 'max'),
+        trip_duration_minutes_median=('trip_duration_minutes', 'median'),
+        trip_duration_minutes_mean=('trip_duration_minutes', 'mean'),
+
+        trip_duration_miles_min=('trip_distance_miles', 'min'),
+        trip_duration_miles_max=('trip_distance_miles', 'max'),
+        trip_duration_miles_median=('trip_distance_miles', 'median'),
+        trip_duration_miles_mean=('trip_distance_miles', 'mean'),
+        ).reset_index())
+
+    df_agg.columns = [col.replace('_', ' ').title() for col in df_agg.columns]
+
+    df_agg['Primary Mode'] = df_agg[f'Primary Mode'].apply(lambda x: x.replace('_', ' ').title())
+
+    time_melt =  (pd.melt(
+        df_agg,
+        id_vars=["Primary Mode"],
+        value_vars=[ 'Trip Start Min', 'Trip Start Max', 'Trip Start Median', 'Trip Start Mean', 
+                   'Trip End Min', 'Trip End Max', 'Trip End Median', 'Trip End Mean',],
+        var_name="Metric",
+        value_name="Time"))
+    
+    time_melt_duration =  (pd.melt(
+        df_agg,
+        id_vars=["Primary Mode"],
+        value_vars=['Trip Duration Minutes Min', 'Trip Duration Minutes Max', 'Trip Duration Minutes Median', 'Trip Duration Minutes Mean'],
+        var_name="Metric",
+        value_name="Value"))
+    
+    time_melt['Time'] = time_melt['Time'].apply(pd.to_datetime, errors="coerce")
+    
+    return time_melt, time_melt_duration
+
+
+
 def return_mode_map(df, routes_df, mode_list, trip_type):
 
     for mode in mode_list:
