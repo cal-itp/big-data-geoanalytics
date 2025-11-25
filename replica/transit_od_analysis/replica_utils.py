@@ -84,34 +84,47 @@ def aggregate_destination_station_geometries(df_all_stations, origin_stations_li
 
         
 
-def calc_auto_travel_info(df):
-    df_auto = df[df.primary_mode=="private_auto"]
+def calc_travel_info(df):
     
-    auto_mean_min = df_auto.trip_duration_minutes.mean()
-    auto_median_min = df_auto.trip_duration_minutes.median()
+    mean_min = df.trip_duration_minutes.mean()
+    median_min = df.trip_duration_minutes.median()
     
-    auto_mean_miles = df_auto.trip_distance_miles.mean()
-    auto_median_miles = df_auto.trip_distance_miles.median()
+    mean_miles = df.trip_distance_miles.mean()
+    median_miles = df.trip_distance_miles.median()
     
-    auto_max_min = df_auto.trip_duration_minutes.max()
-    auto_max_miles = df_auto.trip_distance_miles.max()
+    max_miles = df.trip_distance_miles.max()
+    max_min = df.trip_duration_minutes.max()
     
-    return auto_mean_min, auto_median_min, auto_mean_miles, auto_median_miles, auto_max_min, auto_max_miles
+    return mean_min, median_min, mean_miles, median_miles, max_miles, max_min
+
+# def calc_auto_travel_info(df):
+#     df_auto = df[df.primary_mode=="private_auto"]
+    
+#     auto_mean_min = df_auto.trip_duration_minutes.mean()
+#     auto_median_min = df_auto.trip_duration_minutes.median()
+    
+#     auto_mean_miles = df_auto.trip_distance_miles.mean()
+#     auto_median_miles = df_auto.trip_distance_miles.median()
+    
+#     auto_max_min = df_auto.trip_duration_minutes.max()
+#     auto_max_miles = df_auto.trip_distance_miles.max()
+    
+#     return auto_mean_min, auto_median_min, auto_mean_miles, auto_median_miles, auto_max_min, auto_max_miles
 
 
-def calc_transit_travel_info(df):
-    df_auto = df[df.primary_mode=="public_transit"]
+# def calc_transit_travel_info(df):
+#     df_auto = df[df.primary_mode=="public_transit"]
     
-    transit_mean_min = df_auto.trip_duration_minutes.mean()
-    transit_median_min = df_auto.trip_duration_minutes.median()
+#     transit_mean_min = df_auto.trip_duration_minutes.mean()
+#     transit_median_min = df_auto.trip_duration_minutes.median()
     
-    transit_mean_miles = df_auto.trip_distance_miles.mean()
-    transit_median_miles = df_auto.trip_distance_miles.median()
+#     transit_mean_miles = df_auto.trip_distance_miles.mean()
+#     transit_median_miles = df_auto.trip_distance_miles.median()
     
-    transit_max_miles = df_auto.trip_distance_miles.max()
-    transit_max_min = df_auto.trip_duration_minutes.max()
+#     transit_max_miles = df_auto.trip_distance_miles.max()
+#     transit_max_min = df_auto.trip_duration_minutes.max()
     
-    return transit_mean_min, transit_median_min, transit_mean_miles, transit_median_miles, transit_max_miles, transit_max_min
+#     return transit_mean_min, transit_median_min, transit_mean_miles, transit_median_miles, transit_max_miles, transit_max_min
 
 
 def get_top_and_bottom_tract_counts(df, top_least, all_trips):
@@ -268,6 +281,7 @@ def return_score_summary(df_list):
         
         auto_df = (df[df.primary_mode=="private_auto"])
         transit_df = (df[df.primary_mode=="public_transit"])
+        walking_df = (df[df.primary_mode=="walking"])
 
         all_trip_count = len(df)
 
@@ -276,9 +290,13 @@ def return_score_summary(df_list):
         pct_private_auto_trips = ((len(auto_df)) / (len(df)))
         n_public_transit_trips = (len(transit_df))
         pct_public_transit_trips = ((len(transit_df)) / (len(df)))
+        
+        n_walking_trips = (len(walking_df))
+        pct_walking_trips = ((len(walking_df)) / (len(df)))
 
-        auto_mean_min, auto_median_min, auto_mean_miles, auto_median_miles, auto_max_min, auto_max_miles = calc_auto_travel_info(df)
-        transit_mean_min, transit_median_min, transit_mean_miles, transit_median_miles, transit_max_miles, transit_max_min = calc_transit_travel_info(df)
+        auto_mean_min, auto_median_min, auto_mean_miles, auto_median_miles, auto_max_min, auto_max_miles = calc_travel_info(auto_df)
+        transit_mean_min, transit_median_min, transit_mean_miles, transit_median_miles, transit_max_miles, transit_max_min = calc_travel_info(transit_df)
+        walking_mean_min, walking_median_min, walking_mean_miles, walking_median_miles, walking_max_miles, walking_max_min = calc_travel_info(walking_df)
 
                 ## set up the table for all the results
         results.append({
@@ -288,6 +306,8 @@ def return_score_summary(df_list):
                         'pct_auto_trips': pct_private_auto_trips,
                         'n_tranist_trips': n_public_transit_trips,
                         'pct_transit_trips': pct_public_transit_trips,
+                        'n_walking_trips': n_walking_trips,
+                        'pct_walking_trips': pct_walking_trips,
                         'auto_mean_minutes': auto_mean_min,
                         'auto_median_minutes': auto_median_min,
                         'auto_max_minutes': auto_max_min, 
