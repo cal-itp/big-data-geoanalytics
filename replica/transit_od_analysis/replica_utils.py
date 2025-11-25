@@ -250,7 +250,7 @@ def return_time_metrics(df, time_start_col, time_end_col):
 def return_mode_map(df, routes_df, mode_list, trip_type):
 
     for mode in mode_list:
-        display(HTML(f"<h3>{(mode.title())} Trips {trip_type.title()} Cal Poly</h3>"))
+        display(HTML(f"<h3>{(mode.title())} Trips {trip_type.replace('_', ' ').title()} Cal Poly</h3>"))
 
         df_susbet = (df[df["primary_mode"]==mode])
 
@@ -308,18 +308,27 @@ def return_score_summary(df_list):
                         'pct_transit_trips': pct_public_transit_trips,
                         'n_walking_trips': n_walking_trips,
                         'pct_walking_trips': pct_walking_trips,
+            
                         'auto_mean_minutes': auto_mean_min,
                         'auto_median_minutes': auto_median_min,
                         'auto_max_minutes': auto_max_min, 
                         'auto_mean_miles': auto_mean_miles,
                         'auto_median_miles': auto_median_miles,
                         'auto_max_miles': auto_max_miles,
+            
                         'transit_mean_minutes': transit_mean_min,
                         'transit_median_minutes': transit_median_min,
                         'transit_max_minutes': transit_max_min,
                         'transit_mean_miles': transit_mean_miles,
                         'transit_median_miles': transit_median_miles,
                         'transit_max_miles':transit_max_miles,
+                        
+                        'walking_mean_minutes': walking_mean_min,
+                        'walking_median_minutes': walking_median_min,
+                        'walking_max_minutes': walking_max_min,
+                        'walking_mean_miles': walking_mean_miles,
+                        'walking_median_miles': walking_median_miles,
+                        'walking_max_miles': walking_max_miles,
 
                         })
 
