@@ -58,10 +58,10 @@ def read_in_stations(all_stations_list):
     
 
 
-def aggregate_destination_station_geometries(df_all_stations, origin_stations_list):
+def aggregate_destination_station_geometries(df_all_stations, origin_stations_list, station_name_col):
     
     for station in origin_stations_list:
-        station_destinations = df_all_stations >> filter(_.station_name != station)
+        station_destinations = df_all_stations >> filter(_[station_name_col] != station)
         station_destinations_deduplicated = station_destinations.drop_duplicates(subset=['geoname'], keep='first')
 
         utils.make_zipped_shapefile(station_destinations_deduplicated, f"station_destinations/origin_{station}_destinations_network_wide.zip")
