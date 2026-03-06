@@ -19,7 +19,7 @@ from IPython.display import HTML
 from calitp_data_analysis import calitp_color_palette as cp
 
 
-gcs_path = "gs://calitp-analytics-data/data-analyses/big_data/hta/"
+gcs_path = "gs://calitp-analytics-data/data-analyses/big_data/STM/"
 
 
 def read_in_and_prep_replica_data_w_shp(file_name, shape_data, file_type):
@@ -43,18 +43,14 @@ def read_in_and_prep_replica_data_w_shp(file_name, shape_data, file_type):
     df["geometry"] = np.nan
     
     ### i.e. if the data has CalPoly as the destination, then set the geometry as the origin and vice versa
-    if file_type == "to_cp":
-            
-        df['geometry'] = df['geometry'].fillna(df['origin_bgrp_2020'].map(blkgr_map))
-        
-    elif file_type== "from_cp":
-        df['geometry'] = df['geometry'].fillna(df['destination_bgrp_2020'].map(blkgr_map))
+    df['geometry'] = df['geometry'].fillna(df['origin_bgrp_2020'].map(blkgr_map))
 
     df = df.set_geometry("geometry")
 
     df = df.set_crs(4326)
     
     return df
+
 
 
 def aggregate_destination_station_geometries(df_all_stations, origin_stations_list):
