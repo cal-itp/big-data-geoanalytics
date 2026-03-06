@@ -152,7 +152,7 @@ def get_top_and_bottom_tract_counts(df, top_least, all_trips):
         return bottom_name1, #bottom_name2, #bottom_name3
     
     
-def get_mode_split(df):
+def get_mode_split(df, group_col):
     
     ##get list of unique modes that appear in the Replica Studio results
 
@@ -164,21 +164,21 @@ def get_mode_split(df):
         
         df_copy = df.copy()
         
-        df_name_ = df.loc[0, 'trip_type']
+        value = df_copy[group_col].iloc[0]
         
         df_mode_subset = df_copy[df_copy["primary_mode"] == mode ]
-        # n_blkgr_dest = (df_copy.destination_bgrp_2020.nunique())
+        n_blkgr_dest = (df_copy.destination_bgrp_2020.nunique())
         # n_blkgr_origin = (df_copy.origin_bgrp_2020.nunique())
         n_trips = len(df_mode_subset)
         pct_trips = ((len(df_mode_subset)) / (len(df_copy)))
 
         
         mode_pcts.append({
-            'trip_type': df_name_,
+            'trip_grouping': value,
             'mode': mode,
             'pct_trips': pct_trips, 
             'total_trips': n_trips,
-            # 'n_blkgrs_dest': n_blkgr_dest,
+            'n_blkgrs_dest': n_blkgr_dest,
             # 'n_blkgrs_origin': n_blkgr_origin,
         })
         
@@ -267,11 +267,12 @@ def return_mode_map(df, routes_df, mode_list, trip_type):
 
 #### NEED TO REFACTOR
 ### putting it all together
-def return_score_summary(df_list):
+def return_score_summary_multiple_df(df_list):
 
     results = []
 
     for df in df_list:
+
         
         trip_type = df.loc[0, 'trip_type']
         
@@ -329,5 +330,82 @@ def return_score_summary(df_list):
                         })
 
     result_summary = pd.DataFrame(results)   
+    
+    return result_summary
+
+
+def return_score_summary_single_df(df, values_list, value_column):
+
+    results = []
+
+    df_copy = df.copy()
+    
+
+    for value in values_list:
+
+        df_subset = df_copy[df_copy[value_column] == value]
+
+        geo = df_subset['geometry'].iloc[0]
+                
+        auto_df = (df_subset[df_subset.primary_mode=="private_auto"])
+        transit_df = (df_subset[df_subset.primary_mode=="public_transit"])
+        walking_df = (df_subset[df_subset.primary_mode=="walking"])
+
+        all_trip_count = len(df_subset)
+
+        n_total_trips = len(df_subset)
+        n_private_auto_trips = len(auto_df)
+        pct_private_auto_trips = ((len(auto_df)) / (len(df_subset)))
+        n_public_transit_trips = (len(transit_df))
+        pct_public_transit_trips = ((len(transit_df)) / (len(df_subset)))
+        
+        n_walking_trips = (len(walking_df))
+        pct_walking_trips = ((len(walking_df)) / (len(df_subset)))
+
+        auto_mean_min, auto_median_min, auto_mean_miles, auto_median_miles, auto_max_min, auto_max_miles = calc_travel_info(auto_df)
+        transit_mean_min, transit_median_min, transit_mean_miles, transit_median_miles, transit_max_miles, transit_max_min = calc_travel_info(transit_df)
+        walking_mean_min, walking_median_min, walking_mean_miles, walking_median_miles, walking_max_miles, walking_max_min = calc_travel_info(walking_df)
+
+                ## set up the table for all the results
+        results.append({
+                        'trip_grouping': value,
+                        'total_trips': n_total_trips,
+                        'n_auto_trips': n_private_auto_trips,
+                        'pct_auto_trips': pct_private_auto_trips,
+                        'n_tranist_trips': n_public_transit_trips,
+                        'pct_transit_trips': pct_public_transit_trips,
+                        'n_walking_trips': n_walking_trips,
+                        'pct_walking_trips': pct_walking_trips,
+            
+                        'auto_mean_minutes': auto_mean_min,
+                        'auto_median_minutes': auto_median_min,
+                        'auto_max_minutes': auto_max_min, 
+                        'auto_mean_miles': auto_mean_miles,
+                        'auto_median_miles': auto_median_miles,
+                        'auto_max_miles': auto_max_miles,
+            
+                        'transit_mean_minutes': transit_mean_min,
+                        'transit_median_minutes': transit_median_min,
+                        'transit_max_minutes': transit_max_min,
+                        'transit_mean_miles': transit_mean_miles,
+                        'transit_median_miles': transit_median_miles,
+                        'transit_max_miles':transit_max_miles,
+                        
+                        'walking_mean_minutes': walking_mean_min,
+                        'walking_median_minutes': walking_median_min,
+                        'walking_max_minutes': walking_max_min,
+                        'walking_mean_miles': walking_mean_miles,
+                        'walking_median_miles': walking_median_miles,
+                        'walking_max_miles': walking_max_miles,
+
+                        'geometry':geo
+
+                        })
+
+    result_summary = pd.DataFrame(results)   
+
+    result_summary = result_summary.set_geometry("geometry")
+
+    result_summary = result_summary.set_crs(4326)
     
     return result_summary
