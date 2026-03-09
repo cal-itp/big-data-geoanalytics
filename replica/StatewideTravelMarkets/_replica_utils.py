@@ -60,8 +60,6 @@ def aggregate_destination_station_geometries(df_all_stations, origin_stations_li
         station_destinations_deduplicated = station_destinations.drop_duplicates(subset=['geoname'], keep='first')
 
         utils.make_zipped_shapefile(station_destinations_deduplicated, f"station_destinations/origin_{station}_destinations_network_wide.zip")
-        # station_destinations.to_file(f"{gcs_path}station_destinations_combined/{station}_destinations.shp", driver="ESRI Shapefile")
-
         print(f"Sucessfully exported {station} destinations to gcs")
 
     ### remove locations folder
@@ -77,7 +75,6 @@ def aggregate_destination_station_geometries(df_all_stations, origin_stations_li
     else:
         print(f"The folder '{folder_to_delete}' does not exist.")
         
-
         
 
 def calc_travel_info(df):
