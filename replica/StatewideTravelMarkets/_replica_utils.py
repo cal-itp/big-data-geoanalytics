@@ -1,6 +1,6 @@
 import geopandas as gpd
 import pandas as pd
-from siuba import *
+# from siuba import *
 import numpy as np
 
 from calitp_data_analysis.sql import to_snakecase
