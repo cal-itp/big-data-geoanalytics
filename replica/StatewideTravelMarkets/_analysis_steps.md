@@ -40,12 +40,12 @@ For this specific analysis, we are interested in looking at where people are tra
     ![Trip Origin/Destination Filter](images/add_trip_origin_filter.png)
       <br>
       <br>
-    * Select RTPA from the `User Custom`/`Org Custom`, which are uploaded RTPA geometries for the state
+    * Select RTPA/District from the `User Custom`/`Org Custom`, which are uploaded RTPA geometries for the state. "District Labeled" is also an option for the Caltrans District.
     ![Select RTPA](images/select_rtpas.png)
       <br>
       <br>
 
-    * Once the layer is loaded, select one of the geometries in the map that matches you analysis name. *In this example, we will be selecting the SACOG geometry*. Once you select the geometry, it will populate on the left hand side of the screen. Then click `Save`
+    * Once the layer is loaded, select one of the geometries in the map that matches you analysis name. *In this example, we will be selecting the SACOG geometry*. Once you select the geometry, it will populate on the left hand side of the screen. Then click `Save`. You can also select more than one District or RTPA geometry so which will capture all the trips that are starting in the selected area.
     ![Select RTPA](images/select_geometry.png)
       <br>
       <br>
