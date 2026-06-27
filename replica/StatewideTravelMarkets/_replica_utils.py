@@ -22,34 +22,41 @@ from calitp_data_analysis import calitp_color_palette as cp
 gcs_path = "gs://calitp-analytics-data/data-analyses/big_data/STM/"
 
 
-def read_in_and_prep_replica_data_w_shp(file_name, shape_data, file_type):
+def read_in_and_prep_replica_data_w_shp(file_name, shape_data, origin_col_id, dest_col_id):
     
     ### read in the replica study data
-    df = to_snakecase( pd.read_csv(f"{gcs_path}{file_name}"))    
+    df_origin = to_snakecase( pd.read_csv(f"{gcs_path}{file_name}"))    
+
+    df_dest = df_origin.copy()
     
     ### read in the census blockgroup shape data
     with get_fs().open(f"{gcs_path}{shape_data}") as f:
-        blkgr = to_snakecase(gpd.read_file(f))
+        shps = to_snakecase(gpd.read_file(f))
     
-    ##get the county and state info
-    blkgr["name_county"]  = blkgr['geoname'].str.rstrip(', ').str.split(', ').str[1] 
-    blkgr["name_state"]  = blkgr['geoname'].str.strip().str[-3:-1]
     
     ### get 
-    blkgr_map = dict(zip(blkgr['geoname'], 
-                          blkgr['geometry']))
-    
+    shps_map = dict(zip(shps['id'], 
+                          shps['geometry']))
+
     ### set the geometry. choose the right blockgroup based on the data study type
-    df["geometry"] = np.nan
+    df_origin["origin_geometry"] = np.nan
+
+    ### set the geometry. choose the right blockgroup based on the data study type
+    df_dest["dest_geometry"] = np.nan
     
     ### i.e. if the data has CalPoly as the destination, then set the geometry as the origin and vice versa
-    df['geometry'] = df['geometry'].fillna(df['origin_bgrp_2020'].map(blkgr_map))
+    df_origin['origin_geometry'] = df_origin['origin_geometry'].fillna(df_origin[origin_col_id].map(shps_map))
 
-    df = df.set_geometry("geometry")
+    ### do the same for destinations
+    df_dest['dest_geometry'] = df_dest['dest_geometry'].fillna(df_dest[dest_col_id].map(shps_map))
 
-    df = df.set_crs(4326)
+    df_origin = df_origin.set_geometry("origin_geometry")
+    df_origin = df_origin.set_crs(4326)
     
-    return df
+    df_dest = df_dest.set_geometry("dest_geometry")
+    df_dest = df_dest.set_crs(4326)
+    
+    return df_origin, df_dest
 
 
 
@@ -331,7 +338,7 @@ def return_score_summary_multiple_df(df_list):
     return result_summary
 
 
-def return_score_summary_single_df(df, values_list, value_column):
+def return_score_summary_single_df(df, values_list, geom_col, value_column):
 
     results = []
 
@@ -342,7 +349,7 @@ def return_score_summary_single_df(df, values_list, value_column):
 
         df_subset = df_copy[df_copy[value_column] == value]
 
-        geo = df_subset['geometry'].iloc[0]
+        geo = df_subset[geom_col].iloc[0]
                 
         auto_df = (df_subset[df_subset.primary_mode=="private_auto"])
         transit_df = (df_subset[df_subset.primary_mode=="public_transit"])
@@ -401,7 +408,7 @@ def return_score_summary_single_df(df, values_list, value_column):
 
     result_summary = pd.DataFrame(results)   
 
-    result_summary = result_summary.set_geometry("geometry")
+    result_summary = result_summary.set_geometry(geom_col)
 
     result_summary = result_summary.set_crs(4326)
     
