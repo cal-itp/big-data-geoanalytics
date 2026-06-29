@@ -408,7 +408,7 @@ def return_score_summary_single_df(df, values_list, geom_col, value_column):
 
     result_summary = pd.DataFrame(results)   
 
-    result_summary = result_summary.set_geometry(geom_col)
+    result_summary = result_summary.set_geometry('geometry')
 
     result_summary = result_summary.set_crs(4326)
     
