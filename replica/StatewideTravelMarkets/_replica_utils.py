@@ -20,6 +20,7 @@ from calitp_data_analysis import calitp_color_palette as cp
 
 
 gcs_path = "gs://calitp-analytics-data/data-analyses/big_data/STM/"
+blk_grp_url = "CA_Census_blocks_w_Cities_centered.zip"
 
 
 def read_in_and_prep_replica_data_w_shp(file_name, shape_data, origin_col_id, dest_col_id):
@@ -59,6 +60,101 @@ def read_in_and_prep_replica_data_w_shp(file_name, shape_data, origin_col_id, de
     return df_origin, df_dest
 
 
+def prep_replica_data_w_shp(df_origin, shape_data, origin_col_id, dest_col_id):
+
+    df_dest = df_origin.copy()
+    
+    ### read in the census blockgroup shape data
+    with get_fs().open(f"{gcs_path}{shape_data}") as f:
+        shps = to_snakecase(gpd.read_file(f))
+    
+    ### get 
+    shps_map = dict(zip(shps['id'], 
+                          shps['geometry']))
+
+    ### set the geometry. choose the right blockgroup based on the data study type
+    df_origin["origin_geometry"] = np.nan
+
+    ### set the geometry. choose the right blockgroup based on the data study type
+    df_dest["dest_geometry"] = np.nan
+    
+    ### i.e. if the data has CalPoly as the destination, then set the geometry as the origin and vice versa
+    df_origin['origin_geometry'] = df_origin['origin_geometry'].fillna(df_origin[origin_col_id].map(shps_map))
+
+    ### do the same for destinations
+    df_dest['dest_geometry'] = df_dest['dest_geometry'].fillna(df_dest[dest_col_id].map(shps_map))
+
+    df_origin = df_origin.set_geometry("origin_geometry")
+    df_origin = df_origin.set_crs(4326)
+    
+    df_dest = df_dest.set_geometry("dest_geometry")
+    df_dest = df_dest.set_crs(4326)
+    
+    return df_origin, df_dest
+
+
+def add_city_from_blkgrps(df, origin_county_col, orgin_tract_col, origin_blkgrp_col, dest_county_col, dest_tract_col, dest_blkgrp_col):
+
+    #### Read in the census data that has Census Designated Places spatially joined to 2020 Census Blockgroups
+    with get_fs().open(f"{gcs_path}{blk_grp_url}") as f:
+        blk_grps = to_snakecase(gpd.read_file(f))
+
+    ### subset blockgroups
+    blk_grps = blk_grps[['objectid', 'state', 'geoid', 'tract', 'blkgrp', 'name', 'county_1', 'city', 'geometry']]
+
+    ### add in a period and ", CA" to match the format in the replica data 
+    blk_grps['tract'] = blk_grps['tract'].str[:-2] + '.' + blk_grps['tract'].str[-2:]
+    blk_grps['county_name'] = blk_grps['county_1'] + ", CA"
+
+    ### Format the block group column by removing trailing and leading 0s
+    ### Replica's data format is different for tract numbers
+    ### Ex: 00111.00 vs 111
+    condition = blk_grps['tract'].str.endswith(".00")
+    blk_grps['tract'] = np.where(condition, blk_grps['tract'].str.replace(".00", ""), blk_grps['tract'])
+
+    blk_grps['corrected_tract'] = blk_grps['tract'].str.lstrip('00')
+    blk_grps['corrected_tract'] = blk_grps['tract'].str.lstrip('0')
+
+    ### add county name for those tracts are are Unincorporated
+    blk_grps['city_county'] = blk_grps['city'] + ', ' + blk_grps['county_1']
+
+    ### set up replica data by extracting just the tract number and blockgroup number 
+    df['origin_tract'] = df[orgin_tract_col].str.split(' (', regex=False).str[0]
+    df['origin_blkgrp'] = df[origin_blkgrp_col].str.split(' (', regex=False).str[0]
+    
+    df['dest_tract'] = df[dest_tract_col].str.split(' (', regex=False).str[0]
+    df['dest_blkgrp'] = df[dest_blkgrp_col].str.split(' (', regex=False).str[0]
+
+    ### merge together! 
+    ### first merge origins to get the origin city and then merge the destinations to get destination city
+
+    df2 = pd.merge(
+        df, 
+        blk_grps[['county_name', 'corrected_tract', 'blkgrp', 'city_county']], 
+        left_on=[origin_county_col, 'origin_tract', 'origin_blkgrp'], 
+        right_on=['county_name', 'corrected_tract', 'blkgrp'],
+        how='left'
+    )
+
+    ### drop the blk_grps columms for the second merge and rename city col to distinguish
+    df2 = df2.drop(columns=['county_name', 'corrected_tract', 'blkgrp'])
+    df2 = df2.rename(columns={"city_county":"origin_city"})
+    
+    ### and repeat
+    df2 = pd.merge(
+        df2, 
+        blk_grps[['county_name', 'corrected_tract', 'blkgrp', 'city_county']], 
+        left_on=[dest_county_col, 'dest_tract', 'dest_blkgrp'], 
+        right_on=['county_name', 'corrected_tract', 'blkgrp'],
+        how='left'
+    )
+    
+    df2 = df2.drop(columns=['county_name', 'corrected_tract', 'blkgrp'])
+    df2 = df2.rename(columns={"city_county":"dest_city"})
+
+    return df2
+
+    
 
 def aggregate_destination_station_geometries(df_all_stations, origin_stations_list):
     
