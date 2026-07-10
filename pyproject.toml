@@ -19,7 +19,6 @@ dependencies = [
     "gcsfs>=2026.4.0",
     "great-tables>=0.22.0",
     "gt-extras>=0.0.8",
-    "gtfs-curator-utils",
     "gtfs-segments>=2.1.7",
     "intake>=2.0.9",
     "intake-geopandas>=0.3.0",
@@ -36,7 +35,7 @@ dependencies = [
     "omegaconf>=2.3.0",
     "openpyxl>=3.1.5",
     "polars>=1.40.1",
-    "pyaml==21.10.1", # had "pyaml>=26.2.1"
+    # "pyaml==21.10.1", # had "pyaml>=26.2.1"
     "quarto==0.1.0",
     "quarto-cli>=1.9.37",
     "requests>=2.31.0,<3.0.0",
@@ -45,14 +44,16 @@ dependencies = [
     "vegafusion==2.0.3",
     "vl-convert-python>=1.6.0",
     "xmltodict>=0.13.0,<0.14",
-    "calitp-portfolio",
+    # "calitp-portfolio",
+    "calitp-data-analysis",
+    "_shared_utils",
 ]
 
 [tool.uv.workspace]
 members = [
-    "calitp-portfolio",
+    "big-data-geoanalytics",
      "calitp-data-analysis",
-    "_shared_utils"
+     "_shared_utils"
 ]
 
 [tool.uv]
@@ -72,6 +73,7 @@ dev = [
 
 
 [tool.uv.sources]
+big-data-geoanalytics = { workspace = true }
 shared-utils = { workspace = true }
 calitp-data-analysis = { workspace = true }
-calitp-portfolio = { workspace = true }
+
