@@ -15,6 +15,6 @@ install_env:
 uv_setup_project:
 	pip install uv
 	uv init
-	uv add _shared_utils
-    uv add calitp_data_analysis
+	uv add shared-utils
+    uv add calitp-data-analysis
 	uv lock
