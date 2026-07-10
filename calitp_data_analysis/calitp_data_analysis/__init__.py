@@ -1,11 +1,10 @@
-import sys
+import os
 
-from calitp_data_analysis.sql import get_engine
-from sqlalchemy.orm import sessionmaker
+import gcsfs  # type: ignore[import]
 
-if hasattr(sys, "_called_from_test"):
-    db_engine = get_engine(project="cal-itp-data-infra-staging")
-    DBSession = sessionmaker(db_engine)
-else:
-    db_engine = get_engine()
-    DBSession = sessionmaker(db_engine)
+
+def get_fs(gcs_project="", **kwargs):
+    if os.environ.get("CALITP_AUTH") == "cloud":
+        return gcsfs.GCSFileSystem(project=gcs_project, token="cloud", **kwargs)
+    else:
+        return gcsfs.GCSFileSystem(project=gcs_project, token="google_default", **kwargs)
