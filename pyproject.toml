@@ -45,9 +45,10 @@ dependencies = []
 #     "shared-utils",
 # ]
 
+
 [tool.uv.workspace]
 members = [
-    "calitp-data-analysis",
+    "calitp_data_analysis",
     "_shared_utils",
 ]
 
@@ -56,15 +57,17 @@ package = false
 
 [dependency-groups]
 dev = [
-    # "shared-utils",
     "ipykernel>=6.29.0",
-    "pyproject-local-kernel",
     "black==24.10.0",
     "isort==5.10.1",
     "pre-commit>=2.18.1",
-    "nbdime>=4.0.4",
+	"pyproject-local-kernel",
+    "shared-utils"
 ]
+
 
 [tool.uv.sources]
 shared-utils = { workspace = true }
 calitp-data-analysis = { workspace = true }
+
+

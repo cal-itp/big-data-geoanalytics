@@ -62,7 +62,6 @@ def download_table(
         print(f"query: {sql_query_statement}")
 
     if geom_col is not None:
-
         df = geo_utils.convert_to_gdf(df, geom_col, geom_type)
 
     return df

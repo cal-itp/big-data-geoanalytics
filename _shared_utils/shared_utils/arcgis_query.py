@@ -9,6 +9,7 @@ from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 
 import geopandas as gpd
 import pandas as pd
+
 from calitp_data_analysis import utils
 from calitp_data_analysis.sql import to_snakecase
 
@@ -110,7 +111,6 @@ def exclude_columns(
 
 
 if __name__ == "__main__":
-
     esri_datasets = {
         "ca_county": COUNTY_POLYGONS_URL,
         "caltrans_districts": CALTRANS_DISTRICTS_URL,

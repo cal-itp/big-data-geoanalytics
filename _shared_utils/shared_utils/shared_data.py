@@ -5,11 +5,12 @@ One-off functions, run once, save datasets for shared use.
 from functools import cache
 
 import geopandas as gpd
+from shared_utils import catalog_utils
+
 from calitp_data_analysis import geography_utils, utils
 from calitp_data_analysis.gcs_geopandas import GCSGeoPandas
 from calitp_data_analysis.gcs_pandas import GCSPandas
 from calitp_data_analysis.sql import to_snakecase
-from shared_utils import catalog_utils
 
 
 @cache

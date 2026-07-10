@@ -12,9 +12,10 @@ from typing import Literal, Union
 import gcsfs
 import google.auth
 import pandas as pd
+from shared_utils import catalog_utils
+
 from calitp_data_analysis.gcs_geopandas import GCSGeoPandas
 from calitp_data_analysis.gcs_pandas import GCSPandas
-from shared_utils import catalog_utils
 
 credentials, _ = google.auth.default()
 
