@@ -14,7 +14,7 @@ dependencies = [
     "click<8.3",
     "folium>=0.20.0,<0.21.0",
     "geopandas>=0.14.0,<0.15.0",
-    "gcsfs>=2026.4.0",
+    "gcsfs==2024.5.0",
     "great-tables>=0.22.0",
     "intake>=2.0.9",
     "intake-geopandas>=0.3.0",
@@ -65,5 +65,5 @@ dev = [
 ]
 
 [tool.uv.sources]
-shared-utils = { workspace = true }
+# shared-utils = { workspace = true }
 calitp-data-analysis = { workspace = true }
