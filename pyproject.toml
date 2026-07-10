@@ -41,14 +41,13 @@ dependencies = [
     "vl-convert-python>=1.6.0",
     "xmltodict>=0.13.0,<0.14",
     "calitp-data-analysis",
-    "_shared_utils",
+    "shared-utils",
 ]
 
 [tool.uv.workspace]
 members = [
-    "big-data-geoanalytics",
-     "calitp-data-analysis",
-     "_shared_utils"
+    "calitp-data-analysis",
+    "shared_utils",
 ]
 
 [tool.uv]
@@ -56,19 +55,15 @@ package = false
 
 [dependency-groups]
 dev = [
+    "shared-utils",
     "ipykernel>=6.29.0",
+    "pyproject-local-kernel",
     "black==24.10.0",
     "isort==5.10.1",
     "pre-commit>=2.18.1",
-	"pyproject-local-kernel",
-    "shared-utils",
-    "calitp-portfolio",
     "nbdime>=4.0.4",
 ]
 
-
 [tool.uv.sources]
-big-data-geoanalytics = { workspace = true }
 shared-utils = { workspace = true }
 calitp-data-analysis = { workspace = true }
-

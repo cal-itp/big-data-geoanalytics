@@ -12,7 +12,8 @@ install_env:
 uv_setup_project:
 	pip install uv
 	uv init
-	#uv add package1 package2 # all defined in pyproject.toml, can copy over to future ones 
-	uv add _shared_utils
+	uv add shared-utils
     uv add calitp-data-analysis
 	uv lock
+
+
