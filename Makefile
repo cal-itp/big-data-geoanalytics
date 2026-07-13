@@ -12,9 +12,9 @@ install_env:
 	make add_precommit
 
 
-uv_setup_project:
-	pip install uv
-	uv init
-	uv add shared-utils
-    uv add calitp-data-analysis
-	uv lock
+#uv_setup_project:
+#	pip install uv
+#	uv init
+#	uv add shared-utils
+#   uv add calitp-data-analysis
+#	uv lock
