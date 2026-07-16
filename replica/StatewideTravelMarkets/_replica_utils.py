@@ -507,7 +507,7 @@ def return_score_summary_single_df(df, values_list, geom_col, value_column):
 
         df_subset = df_copy[df_copy[value_column] == value]
 
-        if len(df) > 0:
+        if not df_subset.empty:
             geo = df_subset[geom_col].iloc[0]
                     
             auto_df = (df_subset[df_subset.primary_mode=="private_auto"])
@@ -572,6 +572,7 @@ def return_score_summary_single_df(df, values_list, geom_col, value_column):
             result_summary = result_summary.set_crs(4326)
 
         else:
-            return "No Data"
+            print("Warning: No data found in the subset.")
+            geo = None
     
     return result_summary
