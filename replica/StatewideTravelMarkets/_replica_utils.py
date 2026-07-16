@@ -23,6 +23,8 @@ gcs_path = "gs://calitp-analytics-data/data-analyses/big_data/STM/"
 blk_grp_url = "CA_Census_blocks_w_Cities_centered.zip"
 
 
+'''
+'''
 def read_in_and_prep_replica_data_w_shp(file_name, shape_data, origin_col_id, dest_col_id):
     
     ### read in the replica study data
@@ -60,6 +62,8 @@ def read_in_and_prep_replica_data_w_shp(file_name, shape_data, origin_col_id, de
     return df_origin, df_dest
 
 
+'''
+'''
 def prep_replica_data_w_shp(df_origin, shape_data, origin_col_id, dest_col_id):
 
     df_dest = df_origin.copy()
@@ -93,30 +97,66 @@ def prep_replica_data_w_shp(df_origin, shape_data, origin_col_id, dest_col_id):
     return df_origin, df_dest
 
 
-def add_city_from_blkgrps(df, origin_county_col, orgin_tract_col, origin_blkgrp_col, dest_county_col, dest_tract_col, dest_blkgrp_col):
 
-    #### Read in the census data that has Census Designated Places spatially joined to 2020 Census Blockgroups
-    with get_fs().open(f"{gcs_path}{blk_grp_url}") as f:
-        blk_grps = to_snakecase(gpd.read_file(f))
-
-    ### subset blockgroups
-    blk_grps = blk_grps[['objectid', 'state', 'geoid', 'tract', 'blkgrp', 'name', 'county_1', 'city', 'geometry']]
+'''
+'''
+def prep_place_data(place_data_df, county_name_col, tract_col, city_name_col, state):
 
     ### add in a period and ", CA" to match the format in the replica data 
-    blk_grps['tract'] = blk_grps['tract'].str[:-2] + '.' + blk_grps['tract'].str[-2:]
-    blk_grps['county_name'] = blk_grps['county_1'] + ", CA"
+    place_data_df[tract_col] = place_data_df[tract_col].str[:-2] + '.' + place_data_df['tract'].str[-2:]
+    place_data_df['county_name'] = place_data_df[[county_name_col]] + f", {state}"
+
+    ### replace the na locations
+    place_data_df[city_name_col] = place_data_df[city_name_col].fillna('Unincorporated')
 
     ### Format the block group column by removing trailing and leading 0s
     ### Replica's data format is different for tract numbers
     ### Ex: 00111.00 vs 111
-    condition = blk_grps['tract'].str.endswith(".00")
-    blk_grps['tract'] = np.where(condition, blk_grps['tract'].str.replace(".00", ""), blk_grps['tract'])
+    condition = place_data_df[tract_col].str.endswith(".00")
+    place_data_df[tract_col] = np.where(condition, place_data_df[tract_col].str.replace(".00", ""), place_data_df['tract'])
+    
+    place_data_df['corrected_tract'] = place_data_df[tract_col].str.lstrip('00')
+    place_data_df['corrected_tract'] = place_data_df[tract_col].str.lstrip('0')
+    
+    ### add together the county and city names, helpful for thing like "Unincorporated, County"
+    place_data_df['city_county'] = place_data_df[city_name_col] + ', ' + place_data_df[county_name_col]
 
-    blk_grps['corrected_tract'] = blk_grps['tract'].str.lstrip('00')
-    blk_grps['corrected_tract'] = blk_grps['tract'].str.lstrip('0')
+    return place_data_df
 
-    ### add county name for those tracts are are Unincorporated
-    blk_grps['city_county'] = blk_grps['city'] + ', ' + blk_grps['county_1']
+
+
+'''
+'''
+def read_and_prep_place_data(ca_place_path, nv_place_path,):
+    
+    ## read in the place data for CA
+    with get_fs().open(f"{gcs_path}{ca_place_path}") as f:
+        ca_plc = to_snakecase(gpd.read_file(f))
+    ## susbet data
+    ca_plc = ca_plc[['objectid', 'state', 'geoid', 'county', 'tract', 'blkgrp', 'name', 'basename', 'cdtfa_coun', 'city_name', 'geometry']]
+    ## format
+    ca = prep_place_data(ca_plc, county_name_col='cdtfa_coun', tract_col='tract', city_name_col='city_name', state="CA")
+
+    ### repreat for NV
+    with get_fs().open(f"{gcs_path}{nv_place_path}") as f:
+        nv_plc = to_snakecase(gpd.read_file(f))
+    nv_plc['countyname'] = nv_plc['countyname'] + " County"
+    nv = prep_place_data(nv_plc, county_name_col='countyname', tract_col='tract', city_name_col='city_name', state="NV")
+
+    nv_subset = nv[['corrected_tract', 'blkgrp','county_name', 'city_county']] 
+    ca_subset = ca[['corrected_tract', 'blkgrp','county_name', 'city_county']]
+
+    places = pd.concat([ca_subset, nv_subset], axis=0, ignore_index=True)
+
+    return places
+
+
+
+'''
+'''
+def add_cities_to_origin_dest(df, ca_place_path, nv_place_path, origin_county_col, orgin_tract_col, origin_blkgrp_col, dest_county_col, dest_tract_col, dest_blkgrp_col):
+
+    places = read_and_prep_place_data(ca_place_path, nv_place_path)
 
     ### set up replica data by extracting just the tract number and blockgroup number 
     df['origin_tract'] = df[orgin_tract_col].str.split(' (', regex=False).str[0]
@@ -130,7 +170,7 @@ def add_city_from_blkgrps(df, origin_county_col, orgin_tract_col, origin_blkgrp_
 
     df2 = pd.merge(
         df, 
-        blk_grps[['county_name', 'corrected_tract', 'blkgrp', 'city_county']], 
+        places[['county_name', 'corrected_tract', 'blkgrp', 'city_county']],  
         left_on=[origin_county_col, 'origin_tract', 'origin_blkgrp'], 
         right_on=['county_name', 'corrected_tract', 'blkgrp'],
         how='left'
@@ -143,7 +183,7 @@ def add_city_from_blkgrps(df, origin_county_col, orgin_tract_col, origin_blkgrp_
     ### and repeat
     df2 = pd.merge(
         df2, 
-        blk_grps[['county_name', 'corrected_tract', 'blkgrp', 'city_county']], 
+       places[['county_name', 'corrected_tract', 'blkgrp', 'city_county']], 
         left_on=[dest_county_col, 'dest_tract', 'dest_blkgrp'], 
         right_on=['county_name', 'corrected_tract', 'blkgrp'],
         how='left'
@@ -152,10 +192,14 @@ def add_city_from_blkgrps(df, origin_county_col, orgin_tract_col, origin_blkgrp_
     df2 = df2.drop(columns=['county_name', 'corrected_tract', 'blkgrp'])
     df2 = df2.rename(columns={"city_county":"dest_city"})
 
+    df2['dest_city'] = df2['dest_city'].fillna('Out of Region')
+
     return df2
 
     
 
+'''
+'''
 def aggregate_destination_station_geometries(df_all_stations, origin_stations_list):
     
     for station in origin_stations_list:
@@ -180,6 +224,8 @@ def aggregate_destination_station_geometries(df_all_stations, origin_stations_li
         
         
 
+'''
+'''
 def calc_travel_info(df):
     
     mean_min = df.trip_duration_minutes.mean()
@@ -223,6 +269,9 @@ def calc_travel_info(df):
 #     return transit_mean_min, transit_median_min, transit_mean_miles, transit_median_miles, transit_max_miles, transit_max_min
 
 
+
+'''
+'''
 def get_top_and_bottom_tract_counts(df, top_least, all_trips):
     tract_counts = df['destination_tract_station_area'].value_counts().reset_index()
     tract_counts.columns = ['destination_tract_station_area', 'count']
@@ -250,8 +299,11 @@ def get_top_and_bottom_tract_counts(df, top_least, all_trips):
 #         # bottom_num3 = tract_counts.iloc[(len(tract_counts)-3), 1]
         
         return bottom_name1, #bottom_name2, #bottom_name3
+
     
-    
+  
+'''
+'''  
 def get_mode_split(df, group_col):
     
     ##get list of unique modes that appear in the Replica Studio results
@@ -287,6 +339,9 @@ def get_mode_split(df, group_col):
     return mode_pcts_summary
 
 
+
+'''
+'''
 def return_time_metrics(df, time_start_col, time_end_col):
     
     mode_col = "primary_mode"
@@ -343,6 +398,8 @@ def return_time_metrics(df, time_start_col, time_end_col):
 
 
 
+'''
+'''
 def return_mode_map(df, routes_df, mode_list, trip_type):
 
     for mode in mode_list:
@@ -365,6 +422,8 @@ def return_mode_map(df, routes_df, mode_list, trip_type):
             
 
 
+'''
+'''
 #### NEED TO REFACTOR
 ### putting it all together
 def return_score_summary_multiple_df(df_list):
@@ -434,6 +493,9 @@ def return_score_summary_multiple_df(df_list):
     return result_summary
 
 
+
+'''
+'''
 def return_score_summary_single_df(df, values_list, geom_col, value_column):
 
     results = []
@@ -445,67 +507,71 @@ def return_score_summary_single_df(df, values_list, geom_col, value_column):
 
         df_subset = df_copy[df_copy[value_column] == value]
 
-        geo = df_subset[geom_col].iloc[0]
+        if len(df) > 0:
+            geo = df_subset[geom_col].iloc[0]
+                    
+            auto_df = (df_subset[df_subset.primary_mode=="private_auto"])
+            transit_df = (df_subset[df_subset.primary_mode=="public_transit"])
+            walking_df = (df_subset[df_subset.primary_mode=="walking"])
+    
+            all_trip_count = len(df_subset)
+    
+            n_total_trips = len(df_subset)
+            n_private_auto_trips = len(auto_df)
+            pct_private_auto_trips = ((len(auto_df)) / (len(df_subset)))
+            n_public_transit_trips = (len(transit_df))
+            pct_public_transit_trips = ((len(transit_df)) / (len(df_subset)))
+            
+            n_walking_trips = (len(walking_df))
+            pct_walking_trips = ((len(walking_df)) / (len(df_subset)))
+    
+            auto_mean_min, auto_median_min, auto_mean_miles, auto_median_miles, auto_max_min, auto_max_miles = calc_travel_info(auto_df)
+            transit_mean_min, transit_median_min, transit_mean_miles, transit_median_miles, transit_max_miles, transit_max_min = calc_travel_info(transit_df)
+            walking_mean_min, walking_median_min, walking_mean_miles, walking_median_miles, walking_max_miles, walking_max_min = calc_travel_info(walking_df)
+    
+            ## set up the table for all the results
+            results.append({
+                            'trip_grouping': value,
+                            'total_trips': n_total_trips,
+                            'n_auto_trips': n_private_auto_trips,
+                            'pct_auto_trips': pct_private_auto_trips,
+                            'n_tranist_trips': n_public_transit_trips,
+                            'pct_transit_trips': pct_public_transit_trips,
+                            'n_walking_trips': n_walking_trips,
+                            'pct_walking_trips': pct_walking_trips,
                 
-        auto_df = (df_subset[df_subset.primary_mode=="private_auto"])
-        transit_df = (df_subset[df_subset.primary_mode=="public_transit"])
-        walking_df = (df_subset[df_subset.primary_mode=="walking"])
-
-        all_trip_count = len(df_subset)
-
-        n_total_trips = len(df_subset)
-        n_private_auto_trips = len(auto_df)
-        pct_private_auto_trips = ((len(auto_df)) / (len(df_subset)))
-        n_public_transit_trips = (len(transit_df))
-        pct_public_transit_trips = ((len(transit_df)) / (len(df_subset)))
+                            'auto_mean_minutes': auto_mean_min,
+                            'auto_median_minutes': auto_median_min,
+                            'auto_max_minutes': auto_max_min, 
+                            'auto_mean_miles': auto_mean_miles,
+                            'auto_median_miles': auto_median_miles,
+                            'auto_max_miles': auto_max_miles,
+                
+                            'transit_mean_minutes': transit_mean_min,
+                            'transit_median_minutes': transit_median_min,
+                            'transit_max_minutes': transit_max_min,
+                            'transit_mean_miles': transit_mean_miles,
+                            'transit_median_miles': transit_median_miles,
+                            'transit_max_miles':transit_max_miles,
+                            
+                            'walking_mean_minutes': walking_mean_min,
+                            'walking_median_minutes': walking_median_min,
+                            'walking_max_minutes': walking_max_min,
+                            'walking_mean_miles': walking_mean_miles,
+                            'walking_median_miles': walking_median_miles,
+                            'walking_max_miles': walking_max_miles,
+    
+                            'geometry':geo
+    
+                            })
         
-        n_walking_trips = (len(walking_df))
-        pct_walking_trips = ((len(walking_df)) / (len(df_subset)))
+            result_summary = pd.DataFrame(results)   
+        
+            result_summary = result_summary.set_geometry('geometry')
+        
+            result_summary = result_summary.set_crs(4326)
 
-        auto_mean_min, auto_median_min, auto_mean_miles, auto_median_miles, auto_max_min, auto_max_miles = calc_travel_info(auto_df)
-        transit_mean_min, transit_median_min, transit_mean_miles, transit_median_miles, transit_max_miles, transit_max_min = calc_travel_info(transit_df)
-        walking_mean_min, walking_median_min, walking_mean_miles, walking_median_miles, walking_max_miles, walking_max_min = calc_travel_info(walking_df)
-
-                ## set up the table for all the results
-        results.append({
-                        'trip_grouping': value,
-                        'total_trips': n_total_trips,
-                        'n_auto_trips': n_private_auto_trips,
-                        'pct_auto_trips': pct_private_auto_trips,
-                        'n_tranist_trips': n_public_transit_trips,
-                        'pct_transit_trips': pct_public_transit_trips,
-                        'n_walking_trips': n_walking_trips,
-                        'pct_walking_trips': pct_walking_trips,
-            
-                        'auto_mean_minutes': auto_mean_min,
-                        'auto_median_minutes': auto_median_min,
-                        'auto_max_minutes': auto_max_min, 
-                        'auto_mean_miles': auto_mean_miles,
-                        'auto_median_miles': auto_median_miles,
-                        'auto_max_miles': auto_max_miles,
-            
-                        'transit_mean_minutes': transit_mean_min,
-                        'transit_median_minutes': transit_median_min,
-                        'transit_max_minutes': transit_max_min,
-                        'transit_mean_miles': transit_mean_miles,
-                        'transit_median_miles': transit_median_miles,
-                        'transit_max_miles':transit_max_miles,
-                        
-                        'walking_mean_minutes': walking_mean_min,
-                        'walking_median_minutes': walking_median_min,
-                        'walking_max_minutes': walking_max_min,
-                        'walking_mean_miles': walking_mean_miles,
-                        'walking_median_miles': walking_median_miles,
-                        'walking_max_miles': walking_max_miles,
-
-                        'geometry':geo
-
-                        })
-
-    result_summary = pd.DataFrame(results)   
-
-    result_summary = result_summary.set_geometry('geometry')
-
-    result_summary = result_summary.set_crs(4326)
+        else:
+            return "No Data"
     
     return result_summary
