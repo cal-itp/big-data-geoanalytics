@@ -14,6 +14,7 @@ import shutil
 
 import altair as alt
 import folium
+from shapely.geometry import LineString
 
 from IPython.display import HTML
 from calitp_data_analysis import calitp_color_palette as cp
@@ -23,8 +24,9 @@ gcs_path = "gs://calitp-analytics-data/data-analyses/big_data/STM/"
 blk_grp_url = "CA_Census_blocks_w_Cities_centered.zip"
 
 
-'''
-'''
+"""
+
+"""
 def read_in_and_prep_replica_data_w_shp(file_name, shape_data, origin_col_id, dest_col_id):
     
     ### read in the replica study data
@@ -62,8 +64,9 @@ def read_in_and_prep_replica_data_w_shp(file_name, shape_data, origin_col_id, de
     return df_origin, df_dest
 
 
-'''
-'''
+"""
+
+"""
 def prep_replica_data_w_shp(df_origin, shape_data, origin_col_id, dest_col_id):
 
     df_dest = df_origin.copy()
@@ -98,8 +101,9 @@ def prep_replica_data_w_shp(df_origin, shape_data, origin_col_id, dest_col_id):
 
 
 
-'''
-'''
+"""
+
+"""
 def prep_place_data(place_data_df, county_name_col, tract_col, city_name_col, state):
 
     ### add in a period and ", CA" to match the format in the replica data 
@@ -125,8 +129,9 @@ def prep_place_data(place_data_df, county_name_col, tract_col, city_name_col, st
 
 
 
-'''
-'''
+"""
+
+"""
 def read_and_prep_place_data(ca_place_path, nv_place_path,):
     
     ## read in the place data for CA
@@ -152,8 +157,9 @@ def read_and_prep_place_data(ca_place_path, nv_place_path,):
 
 
 
-'''
-'''
+"""
+
+"""
 def add_cities_to_origin_dest(df, ca_place_path, nv_place_path, origin_county_col, orgin_tract_col, origin_blkgrp_col, dest_county_col, dest_tract_col, dest_blkgrp_col):
 
     places = read_and_prep_place_data(ca_place_path, nv_place_path)
@@ -198,8 +204,9 @@ def add_cities_to_origin_dest(df, ca_place_path, nv_place_path, origin_county_co
 
     
 
-'''
-'''
+"""
+
+"""
 def aggregate_destination_station_geometries(df_all_stations, origin_stations_list):
     
     for station in origin_stations_list:
@@ -224,8 +231,9 @@ def aggregate_destination_station_geometries(df_all_stations, origin_stations_li
         
         
 
-'''
-'''
+"""
+
+"""
 def calc_travel_info(df):
     
     mean_min = df.trip_duration_minutes.mean()
@@ -270,8 +278,9 @@ def calc_travel_info(df):
 
 
 
-'''
-'''
+"""
+
+"""
 def get_top_and_bottom_tract_counts(df, top_least, all_trips):
     tract_counts = df['destination_tract_station_area'].value_counts().reset_index()
     tract_counts.columns = ['destination_tract_station_area', 'count']
@@ -302,8 +311,9 @@ def get_top_and_bottom_tract_counts(df, top_least, all_trips):
 
     
   
-'''
-'''  
+"""
+
+""" 
 def get_mode_split(df, group_col):
     
     ##get list of unique modes that appear in the Replica Studio results
@@ -340,8 +350,9 @@ def get_mode_split(df, group_col):
 
 
 
-'''
-'''
+"""
+
+"""
 def return_time_metrics(df, time_start_col, time_end_col):
     
     mode_col = "primary_mode"
@@ -398,8 +409,9 @@ def return_time_metrics(df, time_start_col, time_end_col):
 
 
 
-'''
-'''
+"""
+
+"""
 def return_mode_map(df, routes_df, mode_list, trip_type):
 
     for mode in mode_list:
@@ -422,8 +434,9 @@ def return_mode_map(df, routes_df, mode_list, trip_type):
             
 
 
-'''
-'''
+"""
+
+"""
 #### NEED TO REFACTOR
 ### putting it all together
 def return_score_summary_multiple_df(df_list):
@@ -494,8 +507,9 @@ def return_score_summary_multiple_df(df_list):
 
 
 
-'''
-'''
+"""
+
+"""
 def return_score_summary_single_df(df, values_list, geom_col, value_column):
 
     results = []
@@ -576,3 +590,35 @@ def return_score_summary_single_df(df, values_list, geom_col, value_column):
             geo = None
     
     return result_summary
+
+
+
+"""
+"""
+def setup_od_map(df, origin_customid_col, dest_customid_col, origin_city_col, dest_city_col, origin_lat, origin_long, dest_lat, dest_long, n_rows):
+    """
+    origin_customid_col: geographical identifier for the origin point 
+    dest_customid_col: geographical identifier for the destination point 
+    origin_city_col: city name for the origin point (or another grouping column you want to include within the grouped df)
+    dest_city_col: city name for the destination point (or another grouping column you want to include within the grouped df)
+    origin_lat: origin geography lat
+    origin_long: origin geography long
+    dest_lat: destination geography lat
+    dest_long: destination geography long
+    n_rows: number of top origin-destination points you want in the result df 
+    """
+    
+    top_od = (df.groupby([origin_customid_col, dest_customid_col, origin_city_col, dest_city_col, origin_lat, origin_long, dest_lat, dest_long])['activity_id'].nunique()).reset_index().sort_values('activity_id', ascending=False).head(n_rows)
+
+    lines = [
+        LineString([(lon_s, lat_s), (lon_e, lat_e)]) 
+        for lon_s, lat_s, lon_e, lat_e 
+        in zip(top_od[origin_long], top_od[origin_lat], top_od[dest_long], top_od[dest_lat])
+        ]
+    
+    od_pairs = gpd.GeoDataFrame(top_od, geometry=lines, crs="EPSG:4326") 
+
+    od_pairs = od_pairs.to_crs(epsg=3310)
+
+    return od_pairs
+    
