@@ -586,7 +586,7 @@ def return_score_summary_single_df(df, values_list, geom_col, value_column):
             result_summary = result_summary.set_crs(4326)
 
         else:
-            print("Warning: No data found in the subset.")
+            print(f"No data found in for {value}.")
             geo = None
     
     return result_summary
