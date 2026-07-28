@@ -25,6 +25,9 @@ blk_grp_url = "CA_Census_blocks_w_Cities_centered.zip"
 
 
 """
+This function reads in the data from the GCS bucket, and also adds the shape data for the origin location.
+origin_col_id is added in case there is a custom geography that was used to group the trip data (i.e. hex cells)
+Depricated in favor of `prep_replica_data_w_shp` (function below). 
 
 """
 def read_in_and_prep_replica_data_w_shp(file_name, shape_data, origin_col_id, dest_col_id):
@@ -65,7 +68,9 @@ def read_in_and_prep_replica_data_w_shp(file_name, shape_data, origin_col_id, de
 
 
 """
-
+Function to separtate out origin and destinations, if those geometries are different. 
+Creating df_dest allows us to add geometries to the destinations while maintaining the origin data
+origin_col_id is there in case unique geometries were used in the trip downloads (i.e. hex cells)
 """
 def prep_replica_data_w_shp(df_origin, shape_data, origin_col_id, dest_col_id):
 
