@@ -3,10 +3,11 @@
 The following provides details on the [CCVRA Webmap](https://experience.arcgis.com/experience/8854a622e61849e5af86256b6f0c69a9), including background on the data structure, data fields, and setup of the webmap. 
 
 ### Data 
+The data was originally received from the consultants as 20 individual layers, one layer for each hazard type and asset combination (5 hazard types, 4 asset types). From there, the data layers were combined based on hazard type to a total 5 hazard layers. 
 
 
-### Webmap
-
+### WebMap
+The webmap showcases the different climate scenarios throughout the years, starting with an analysis for present-day. In the data, the risk ratings for the various scenarios are columns within the layer. To visualize the different scenarios, we created the WebMap to better see the risk ratings between scenarios.
 
 
 #### Color Schemes
