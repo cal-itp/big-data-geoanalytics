@@ -1,0 +1,74 @@
+metadata:
+  version: 1
+sources:
+  ca_counties:
+    driver: geoparquet
+    description: CA county polygons
+    args:
+      # source: shared_utils/arcgis_query.py
+      urlpath: gs://calitp-analytics-data/data-analyses/shared_data/ca_county.parquet
+      use_fsspec: true
+  caltrans_districts:
+    driver: geoparquet
+    description: Caltrans district polygons
+    args:
+      # source: shared_utils/arcgis_query.py
+      urlpath: gs://calitp-analytics-data/data-analyses/shared_data/caltrans_districts.parquet
+      use_fsspec: true
+  legislative_districts:
+    driver: geoparquet
+    description: CA Senate Districts and Assembly Districts combined.
+    args:
+      # source: shared_utils/arcgis_query.py
+      urlpath: gs://calitp-analytics-data/data-analyses/shared_data/legislative_districts.parquet
+      use_fsspec: true
+  us_congressional_districts:
+    driver: geoparquet
+    description: US Congressional Districts within CA.
+    args:
+      # source: shared_utils/arcgis_query.py
+      urlpath: gs://calitp-analytics-data/data-analyses/shared_data/ca_congressional_districts.parquet
+      use_fsspec: true
+  state_highway_network:
+    driver: geoparquet
+    description: Cleaned State Highway Network
+    args:
+      # source: shared_utils/shared_data.py
+      urlpath: gs://calitp-analytics-data/data-analyses/shared_data/state_highway_network.parquet
+      use_fsspec: true
+  state_highway_network_postmiles:
+    driver: geoparquet
+    description: Caltrans State Highway Network postmiles (every 0.1 mile) with postmiles as point geometry.
+    args:
+       # source: shared_data/arcgis_query.py
+      urlpath: gs://calitp-analytics-data/data-analyses/shared_data/state_highway_network_postmiles.parquet
+      use_fsspec: true
+  us_states:
+    driver: geojson
+    description: US state polygons
+    args:
+      # ArcGIS Hub resource; https://hub.arcgis.com/datasets/1612d351695b467eba75fdf82c10884f_0/
+      urlpath: https://services.arcgis.com/ue9rwulIoeLEI9bj/arcgis/rest/services/US_StateBoundaries/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson
+  metropolitan_planning_orgs:
+    driver: geojson
+    description: California Metropolitan Planning Organizations (MPOs)
+    args:
+      urlpath: https://caltrans-gis.dot.ca.gov/arcgis/rest/services/CHboundary/MPO_Boundaries/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson
+  calenviroscreen_lehd_by_tract:
+    driver: geoparquet
+    description: CalEnviroScreen 4.0 + LEHD 2021 data by tract
+    args:
+      # source: bus_service_increase/bus_service_utils/generate_calenviroscreen_lehd_data.py
+      urlpath: gs://calitp-analytics-data/data-analyses/bus_service_increase/calenviroscreen_lehd_by_tract.parquet
+      use_fsspec: true
+  public_road_functional_classification:
+    driver: geoparquet
+    description: |
+      California Road System (CRS) with Functional Classification which is used to determine
+      eligibility for Federal funding programs.
+      Streets and highways are grouped into classes according to the service they provide.
+      This is the authoritative, statewide road system information for general public use.
+    args:
+       # source: shared_data/arcgis_query.py
+      urlpath: gs://calitp-analytics-data/data-analyses/shared_data/public_road_functional_classification.parquet
+      use_fsspec: true

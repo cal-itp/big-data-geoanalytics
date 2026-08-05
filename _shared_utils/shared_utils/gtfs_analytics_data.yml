@@ -1,0 +1,154 @@
+# GTFS Analytics Pipeline
+# Consolidate a data catalog of several GTFS workstreams -
+# schedule, speeds, rt vs schedule, predictions, and any future work
+# Use omegaconf package to help with our string concatenation
+# https://stackoverflow.com/questions/5484016/how-can-i-do-string-concatenation-or-string-replacement-in-yaml
+gcs_paths:
+  GCS: gs://calitp-analytics-data/data-analyses/
+  COMPILED_CACHED_VIEWS: ${.GCS}rt_delay/compiled_cached_views/
+  SEGMENT_GCS: ${.GCS}rt_segment_speeds/
+  SCHED_GCS: ${.GCS}gtfs_schedule/
+  RT_SCHED_GCS: ${.GCS}rt_vs_schedule/
+  SHARED_GCS: ${.GCS}shared_data/
+  PREDICTIONS_GCS: ${.GCS}rt_predictions/
+  DIGEST_GCS: ${.GCS}gtfs_digest/
+  PUBLIC_GCS: "gs://calitp-publish-data-analysis/"
+
+speed_vars:
+  timestamp_col: "location_timestamp_local"
+  max_speed: 80
+  time_min_cutoff: 10
+  timestamp_cols: ["location_timestamp_local", "moving_timestamp_local"]
+
+schedule_downloads:
+  dir: ${gcs_paths.COMPILED_CACHED_VIEWS}
+  trips: trips
+  shapes: routelines
+  stops: stops
+  stop_times: st
+
+speeds_tables:
+  dir: ${gcs_paths.SEGMENT_GCS}
+  raw_vp: vp
+  raw_vp2: vp_grouped
+  usable_vp: vp_usable # this can be dropped
+  vp_dwell_premerge: vp_dwell_premerge
+  vp_dwell: vp_usable_dwell
+  vp_condensed_line: condensed/vp_condensed
+  vp_path: fct_vehicle_locations_path
+  vp_trajectory: vp_trajectory
+  timestamp_col: ${speed_vars.timestamp_col}
+  time_min_cutoff: ${speed_vars.time_min_cutoff}
+
+schedule_tables:
+  dir: ${gcs_paths.SCHED_GCS}
+  gtfs_key_crosswalk: "crosswalk/gtfs_key_organization"
+
+rt_vs_schedule_tables:
+  dir: ${gcs_paths.RT_SCHED_GCS}
+  stop_times_direction: "stop_times_direction"
+  schedule_rt_stop_times: "schedule_rt_stop_times"
+  early_trip_minutes: -5
+  late_trip_minutes: 5
+
+digest_tables:
+  dir: ${gcs_paths.RT_SCHED_GCS}
+
+rt_stop_times:
+  dir: ${gcs_paths.SEGMENT_GCS}
+  stage1: ${speeds_tables.vp_dwell}
+  stage2: "nearest/nearest_vp_rt_stop_times"
+  stage3: "rt_stop_times/stop_arrivals"
+  stage4: "rt_stop_times/speeds"
+  trip_stop_cols: ["trip_instance_key", "stop_sequence"]
+  stop_pair_cols: ["stop_pair", "stop_pair_name"]
+  route_dir_cols: ["route_id", "direction_id"]
+  segment_cols: ["route_id", "direction_id", "stop_pair", "geometry"]
+  crosswalk_cols: ["schedule_gtfs_dataset_key", "name", "caltrans_district", "organization_source_record_id", "organization_name", "base64_url"]
+  segments_file: "segment_options/stop_segments"
+  segment_timeofday: "rollup_singleday/speeds_route_dir_timeofday_segments"
+  trip_speeds_single_summary: "rollup_singleday/speeds_trip"
+  route_dir_timeofday: "rollup_singleday/speeds_route_dir"
+  segment_peakoffpeak_weekday_month: "rollup_singleday/month_speeds_route_dir_peak_segments" # NEW? what to name
+  segment_timeofday_weekday_year: "rollup_multiday/weekday_speeds_route_dir_segments"
+  segments_year_file: "rollup_multiday/stop_segments"
+  min_trip_minutes: ${speed_vars.time_min_cutoff}
+  max_trip_minutes: 180
+  max_speed: ${speed_vars.max_speed}
+  min_meters_elapsed: 1609
+
+speedmap_segments:
+  dir: ${gcs_paths.SEGMENT_GCS}
+  stage1: ${speeds_tables.vp_dwell}
+  proxy_stop_times: "stop_time_expansion/speedmap_stop_times"
+  stage2: "nearest/nearest_vp_speedmap_proxy"
+  stage3: "speedmap/stop_arrivals_proxy"
+  stage3b: "speedmap/stop_arrivals"
+  stage4: "speedmap/speeds"
+  trip_stop_cols: ["trip_instance_key", "stop_sequence", "stop_sequence1"]
+  stop_pair_cols: ["stop_pair", "stop_pair_name", "segment_id"]
+  route_dir_cols: ["route_id", "direction_id"]
+  segment_cols: ["shape_id", "shape_array_key", "route_id", "direction_id", "stop_pair", "segment_id", "geometry"]
+  crosswalk_cols: ["schedule_gtfs_dataset_key", "name", "caltrans_district", "organization_source_record_id", "organization_name", "base64_url"]
+  segments_file: "segment_options/speedmap_segments"
+  # excluded_shapes_by_time_of_day: "rollup_singleday/excluded_shapes_by_time_of_day"
+  segment_timeofday: "rollup_singleday/speeds_shape_timeofday_speedmap_segments"
+  min_trip_minutes: ${speed_vars.time_min_cutoff}
+  max_trip_minutes: 180
+  max_speed: ${speed_vars.max_speed}
+  min_meters_elapsed: 1609
+  segment_meters: 1000
+
+# POC stage - only 2 dates supported
+modeled_vp:
+  dir: ${gcs_paths.SEGMENT_GCS}
+  raw_vp: ${speeds_tables.raw_vp}
+  vp_projected: "resampled/vp_projected"
+  resampled_vp: "resampled/resampled_5sec"
+  speeds_wide: "resampled/speeds_wide_100m"
+
+# POC stage - only 2 dates supported
+modeled_rt_stop_times:
+  dir: ${gcs_paths.SEGMENT_GCS}
+  stop_times_projected: "model_rt_stop_times/stop_times_projected"
+  speeds_wide: "modeled_rt_stop_times/speeds_wide"
+  speeds: "modeled_rt_stop_times/speeds"
+  segment_timeofday: "rollup_singleday/modeled_speeds_stop_segments"
+  trip_stop_cols: ["trip_instance_key", "stop_sequence"]
+  stop_pair_cols: ["stop_pair", "stop_pair_name"]
+  route_dir_cols: ["route_id", "direction_id"]
+
+# POC stage - only 2 dates supported
+modeled_road_segments:
+  dir: ${gcs_paths.SEGMENT_GCS}
+  crosswalk: "road_segments/roads_trips_crosswalk"
+  road_endpoints_projected: "road_segments/road_endpoints_projected"
+  speeds_wide: "road_segments/speeds_wide"
+  speeds: "road_segments/speeds"
+  segment_timeofday: "rollup_multioperator/speeds"
+  trip_stop_cols: ["trip_instance_key", "linearid", "segment_sequence"]
+  min_seconds_elapsed: 60
+  min_meters_elapsed: 250
+
+shared_data:
+  dir: ${gcs_paths.SHARED_GCS}
+  road_segments_twomile: segmented_roads_twomile_2020
+  road_segments_onekm: segmented_roads_onekm_2020
+  condensed_shn: condensed_shn_onekm
+  road_cols: ["linearid", "mtfcc"]
+  road_segment_cols: ["linearid", "mtfcc", "fullname", "segment_sequence"]
+
+gtfs_digest_rollup:
+  dir: ${gcs_paths.DIGEST_GCS}
+  schedule_rt_route_direction: "fct_monthly_schedule_rt_route_direction_summary"
+  route_map: "fct_monthly_routes"
+  operator_summary: "fct_monthly_operator_summary"
+  hourly_day_type_summary: "fct_operator_hourly_summary"
+  ntd_profile: "ntd_profile"
+  crosswalk: "crosswalk"
+  crosswalk_legislative: "crosswalk_transit_operators_legislative_districts"
+
+open_data_rollup:
+  bq_dataset: "mart_gtfs_rollup"
+  ca_transit_routes: "fct_monthly_routes"
+  ca_transit_stops: "fct_monthly_scheduled_stops"

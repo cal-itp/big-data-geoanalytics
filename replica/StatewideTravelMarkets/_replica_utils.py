@@ -14,45 +14,204 @@ import shutil
 
 import altair as alt
 import folium
+from shapely.geometry import LineString
 
 from IPython.display import HTML
 from calitp_data_analysis import calitp_color_palette as cp
 
 
 gcs_path = "gs://calitp-analytics-data/data-analyses/big_data/STM/"
+blk_grp_url = "CA_Census_blocks_w_Cities_centered.zip"
 
 
-def read_in_and_prep_replica_data_w_shp(file_name, shape_data, file_type):
+"""
+This function reads in the data from the GCS bucket, and also adds the shape data for the origin location.
+origin_col_id is added in case there is a custom geography that was used to group the trip data (i.e. hex cells)
+Depricated in favor of `prep_replica_data_w_shp` (function below). 
+
+"""
+def read_in_and_prep_replica_data_w_shp(file_name, shape_data, origin_col_id, dest_col_id):
     
     ### read in the replica study data
-    df = to_snakecase( pd.read_csv(f"{gcs_path}{file_name}"))    
+    df_origin = to_snakecase( pd.read_csv(f"{gcs_path}{file_name}"))    
+
+    df_dest = df_origin.copy()
     
     ### read in the census blockgroup shape data
     with get_fs().open(f"{gcs_path}{shape_data}") as f:
-        blkgr = to_snakecase(gpd.read_file(f))
+        shps = to_snakecase(gpd.read_file(f))
     
-    ##get the county and state info
-    blkgr["name_county"]  = blkgr['geoname'].str.rstrip(', ').str.split(', ').str[1] 
-    blkgr["name_state"]  = blkgr['geoname'].str.strip().str[-3:-1]
     
     ### get 
-    blkgr_map = dict(zip(blkgr['geoname'], 
-                          blkgr['geometry']))
-    
+    shps_map = dict(zip(shps['id'], 
+                          shps['geometry']))
+
     ### set the geometry. choose the right blockgroup based on the data study type
-    df["geometry"] = np.nan
+    df_origin["origin_geometry"] = np.nan
+
+    ### set the geometry. choose the right blockgroup based on the data study type
+    df_dest["dest_geometry"] = np.nan
     
     ### i.e. if the data has CalPoly as the destination, then set the geometry as the origin and vice versa
-    df['geometry'] = df['geometry'].fillna(df['origin_bgrp_2020'].map(blkgr_map))
+    df_origin['origin_geometry'] = df_origin['origin_geometry'].fillna(df_origin[origin_col_id].map(shps_map))
 
-    df = df.set_geometry("geometry")
+    ### do the same for destinations
+    df_dest['dest_geometry'] = df_dest['dest_geometry'].fillna(df_dest[dest_col_id].map(shps_map))
 
-    df = df.set_crs(4326)
+    df_origin = df_origin.set_geometry("origin_geometry")
+    df_origin = df_origin.set_crs(4326)
     
-    return df
+    df_dest = df_dest.set_geometry("dest_geometry")
+    df_dest = df_dest.set_crs(4326)
+    
+    return df_origin, df_dest
+
+
+"""
+Function to separtate out origin and destinations, if those geometries are different. 
+Creating df_dest allows us to add geometries to the destinations while maintaining the origin data
+origin_col_id is there in case unique geometries were used in the trip downloads (i.e. hex cells)
+"""
+def prep_replica_data_w_shp(df_origin, shape_data, origin_col_id, dest_col_id):
+
+    df_dest = df_origin.copy()
+    
+    ### read in the census blockgroup shape data
+    with get_fs().open(f"{gcs_path}{shape_data}") as f:
+        shps = to_snakecase(gpd.read_file(f))
+    
+    ### get 
+    shps_map = dict(zip(shps['id'], 
+                          shps['geometry']))
+
+    ### set the geometry. choose the right blockgroup based on the data study type
+    df_origin["origin_geometry"] = np.nan
+
+    ### set the geometry. choose the right blockgroup based on the data study type
+    df_dest["dest_geometry"] = np.nan
+    
+    ### i.e. if the data has CalPoly as the destination, then set the geometry as the origin and vice versa
+    df_origin['origin_geometry'] = df_origin['origin_geometry'].fillna(df_origin[origin_col_id].map(shps_map))
+
+    ### do the same for destinations
+    df_dest['dest_geometry'] = df_dest['dest_geometry'].fillna(df_dest[dest_col_id].map(shps_map))
+
+    df_origin = df_origin.set_geometry("origin_geometry")
+    df_origin = df_origin.set_crs(4326)
+    
+    df_dest = df_dest.set_geometry("dest_geometry")
+    df_dest = df_dest.set_crs(4326)
+    
+    return df_origin, df_dest
 
 
 
+"""
+
+"""
+def prep_place_data(place_data_df, county_name_col, tract_col, city_name_col, state):
+
+    ### add in a period and ", CA" to match the format in the replica data 
+    place_data_df[tract_col] = place_data_df[tract_col].str[:-2] + '.' + place_data_df['tract'].str[-2:]
+    place_data_df['county_name'] = place_data_df[[county_name_col]] + f", {state}"
+
+    ### replace the na locations
+    place_data_df[city_name_col] = place_data_df[city_name_col].fillna('Unincorporated')
+
+    ### Format the block group column by removing trailing and leading 0s
+    ### Replica's data format is different for tract numbers
+    ### Ex: 00111.00 vs 111
+    condition = place_data_df[tract_col].str.endswith(".00")
+    place_data_df[tract_col] = np.where(condition, place_data_df[tract_col].str.replace(".00", ""), place_data_df['tract'])
+    
+    place_data_df['corrected_tract'] = place_data_df[tract_col].str.lstrip('00')
+    place_data_df['corrected_tract'] = place_data_df[tract_col].str.lstrip('0')
+    
+    ### add together the county and city names, helpful for thing like "Unincorporated, County"
+    place_data_df['city_county'] = place_data_df[city_name_col] + ', ' + place_data_df[county_name_col]
+
+    return place_data_df
+
+
+
+"""
+
+"""
+def read_and_prep_place_data(ca_place_path, nv_place_path,):
+    
+    ## read in the place data for CA
+    with get_fs().open(f"{gcs_path}{ca_place_path}") as f:
+        ca_plc = to_snakecase(gpd.read_file(f))
+    ## susbet data
+    ca_plc = ca_plc[['objectid', 'state', 'geoid', 'county', 'tract', 'blkgrp', 'name', 'basename', 'cdtfa_coun', 'city_name', 'geometry']]
+    ## format
+    ca = prep_place_data(ca_plc, county_name_col='cdtfa_coun', tract_col='tract', city_name_col='city_name', state="CA")
+
+    ### repreat for NV
+    with get_fs().open(f"{gcs_path}{nv_place_path}") as f:
+        nv_plc = to_snakecase(gpd.read_file(f))
+    nv_plc['countyname'] = nv_plc['countyname'] + " County"
+    nv = prep_place_data(nv_plc, county_name_col='countyname', tract_col='tract', city_name_col='city_name', state="NV")
+
+    nv_subset = nv[['corrected_tract', 'blkgrp','county_name', 'city_county']] 
+    ca_subset = ca[['corrected_tract', 'blkgrp','county_name', 'city_county']]
+
+    places = pd.concat([ca_subset, nv_subset], axis=0, ignore_index=True)
+
+    return places
+
+
+
+"""
+
+"""
+def add_cities_to_origin_dest(df, ca_place_path, nv_place_path, origin_county_col, orgin_tract_col, origin_blkgrp_col, dest_county_col, dest_tract_col, dest_blkgrp_col):
+
+    places = read_and_prep_place_data(ca_place_path, nv_place_path)
+
+    ### set up replica data by extracting just the tract number and blockgroup number 
+    df['origin_tract'] = df[orgin_tract_col].str.split(' (', regex=False).str[0]
+    df['origin_blkgrp'] = df[origin_blkgrp_col].str.split(' (', regex=False).str[0]
+    
+    df['dest_tract'] = df[dest_tract_col].str.split(' (', regex=False).str[0]
+    df['dest_blkgrp'] = df[dest_blkgrp_col].str.split(' (', regex=False).str[0]
+
+    ### merge together! 
+    ### first merge origins to get the origin city and then merge the destinations to get destination city
+
+    df2 = pd.merge(
+        df, 
+        places[['county_name', 'corrected_tract', 'blkgrp', 'city_county']],  
+        left_on=[origin_county_col, 'origin_tract', 'origin_blkgrp'], 
+        right_on=['county_name', 'corrected_tract', 'blkgrp'],
+        how='left'
+    )
+
+    ### drop the blk_grps columms for the second merge and rename city col to distinguish
+    df2 = df2.drop(columns=['county_name', 'corrected_tract', 'blkgrp'])
+    df2 = df2.rename(columns={"city_county":"origin_city"})
+    
+    ### and repeat
+    df2 = pd.merge(
+        df2, 
+       places[['county_name', 'corrected_tract', 'blkgrp', 'city_county']], 
+        left_on=[dest_county_col, 'dest_tract', 'dest_blkgrp'], 
+        right_on=['county_name', 'corrected_tract', 'blkgrp'],
+        how='left'
+    )
+    
+    df2 = df2.drop(columns=['county_name', 'corrected_tract', 'blkgrp'])
+    df2 = df2.rename(columns={"city_county":"dest_city"})
+
+    df2['dest_city'] = df2['dest_city'].fillna('Out of Region')
+
+    return df2
+
+    
+
+"""
+
+"""
 def aggregate_destination_station_geometries(df_all_stations, origin_stations_list):
     
     for station in origin_stations_list:
@@ -77,6 +236,9 @@ def aggregate_destination_station_geometries(df_all_stations, origin_stations_li
         
         
 
+"""
+
+"""
 def calc_travel_info(df):
     
     mean_min = df.trip_duration_minutes.mean()
@@ -120,6 +282,10 @@ def calc_travel_info(df):
 #     return transit_mean_min, transit_median_min, transit_mean_miles, transit_median_miles, transit_max_miles, transit_max_min
 
 
+
+"""
+
+"""
 def get_top_and_bottom_tract_counts(df, top_least, all_trips):
     tract_counts = df['destination_tract_station_area'].value_counts().reset_index()
     tract_counts.columns = ['destination_tract_station_area', 'count']
@@ -147,8 +313,12 @@ def get_top_and_bottom_tract_counts(df, top_least, all_trips):
 #         # bottom_num3 = tract_counts.iloc[(len(tract_counts)-3), 1]
         
         return bottom_name1, #bottom_name2, #bottom_name3
+
     
-    
+  
+"""
+
+""" 
 def get_mode_split(df, group_col):
     
     ##get list of unique modes that appear in the Replica Studio results
@@ -184,6 +354,10 @@ def get_mode_split(df, group_col):
     return mode_pcts_summary
 
 
+
+"""
+
+"""
 def return_time_metrics(df, time_start_col, time_end_col):
     
     mode_col = "primary_mode"
@@ -240,6 +414,9 @@ def return_time_metrics(df, time_start_col, time_end_col):
 
 
 
+"""
+
+"""
 def return_mode_map(df, routes_df, mode_list, trip_type):
 
     for mode in mode_list:
@@ -262,6 +439,9 @@ def return_mode_map(df, routes_df, mode_list, trip_type):
             
 
 
+"""
+
+"""
 #### NEED TO REFACTOR
 ### putting it all together
 def return_score_summary_multiple_df(df_list):
@@ -331,7 +511,11 @@ def return_score_summary_multiple_df(df_list):
     return result_summary
 
 
-def return_score_summary_single_df(df, values_list, value_column):
+
+"""
+
+"""
+def return_score_summary_single_df(df, values_list, geom_col, value_column):
 
     results = []
 
@@ -342,67 +526,104 @@ def return_score_summary_single_df(df, values_list, value_column):
 
         df_subset = df_copy[df_copy[value_column] == value]
 
-        geo = df_subset['geometry'].iloc[0]
+        if not df_subset.empty:
+            geo = df_subset[geom_col].iloc[0]
+                    
+            auto_df = (df_subset[df_subset.primary_mode=="private_auto"])
+            transit_df = (df_subset[df_subset.primary_mode=="public_transit"])
+            walking_df = (df_subset[df_subset.primary_mode=="walking"])
+    
+            all_trip_count = len(df_subset)
+    
+            n_total_trips = len(df_subset)
+            n_private_auto_trips = len(auto_df)
+            pct_private_auto_trips = ((len(auto_df)) / (len(df_subset)))
+            n_public_transit_trips = (len(transit_df))
+            pct_public_transit_trips = ((len(transit_df)) / (len(df_subset)))
+            
+            n_walking_trips = (len(walking_df))
+            pct_walking_trips = ((len(walking_df)) / (len(df_subset)))
+    
+            auto_mean_min, auto_median_min, auto_mean_miles, auto_median_miles, auto_max_min, auto_max_miles = calc_travel_info(auto_df)
+            transit_mean_min, transit_median_min, transit_mean_miles, transit_median_miles, transit_max_miles, transit_max_min = calc_travel_info(transit_df)
+            walking_mean_min, walking_median_min, walking_mean_miles, walking_median_miles, walking_max_miles, walking_max_min = calc_travel_info(walking_df)
+    
+            ## set up the table for all the results
+            results.append({
+                            'trip_grouping': value,
+                            'total_trips': n_total_trips,
+                            'n_auto_trips': n_private_auto_trips,
+                            'pct_auto_trips': pct_private_auto_trips,
+                            'n_tranist_trips': n_public_transit_trips,
+                            'pct_transit_trips': pct_public_transit_trips,
+                            'n_walking_trips': n_walking_trips,
+                            'pct_walking_trips': pct_walking_trips,
                 
-        auto_df = (df_subset[df_subset.primary_mode=="private_auto"])
-        transit_df = (df_subset[df_subset.primary_mode=="public_transit"])
-        walking_df = (df_subset[df_subset.primary_mode=="walking"])
-
-        all_trip_count = len(df_subset)
-
-        n_total_trips = len(df_subset)
-        n_private_auto_trips = len(auto_df)
-        pct_private_auto_trips = ((len(auto_df)) / (len(df_subset)))
-        n_public_transit_trips = (len(transit_df))
-        pct_public_transit_trips = ((len(transit_df)) / (len(df_subset)))
+                            'auto_mean_minutes': auto_mean_min,
+                            'auto_median_minutes': auto_median_min,
+                            'auto_max_minutes': auto_max_min, 
+                            'auto_mean_miles': auto_mean_miles,
+                            'auto_median_miles': auto_median_miles,
+                            'auto_max_miles': auto_max_miles,
+                
+                            'transit_mean_minutes': transit_mean_min,
+                            'transit_median_minutes': transit_median_min,
+                            'transit_max_minutes': transit_max_min,
+                            'transit_mean_miles': transit_mean_miles,
+                            'transit_median_miles': transit_median_miles,
+                            'transit_max_miles':transit_max_miles,
+                            
+                            'walking_mean_minutes': walking_mean_min,
+                            'walking_median_minutes': walking_median_min,
+                            'walking_max_minutes': walking_max_min,
+                            'walking_mean_miles': walking_mean_miles,
+                            'walking_median_miles': walking_median_miles,
+                            'walking_max_miles': walking_max_miles,
+    
+                            'geometry':geo
+    
+                            })
         
-        n_walking_trips = (len(walking_df))
-        pct_walking_trips = ((len(walking_df)) / (len(df_subset)))
+            result_summary = pd.DataFrame(results)   
+        
+            result_summary = result_summary.set_geometry('geometry')
+        
+            result_summary = result_summary.set_crs(4326)
 
-        auto_mean_min, auto_median_min, auto_mean_miles, auto_median_miles, auto_max_min, auto_max_miles = calc_travel_info(auto_df)
-        transit_mean_min, transit_median_min, transit_mean_miles, transit_median_miles, transit_max_miles, transit_max_min = calc_travel_info(transit_df)
-        walking_mean_min, walking_median_min, walking_mean_miles, walking_median_miles, walking_max_miles, walking_max_min = calc_travel_info(walking_df)
-
-                ## set up the table for all the results
-        results.append({
-                        'trip_grouping': value,
-                        'total_trips': n_total_trips,
-                        'n_auto_trips': n_private_auto_trips,
-                        'pct_auto_trips': pct_private_auto_trips,
-                        'n_tranist_trips': n_public_transit_trips,
-                        'pct_transit_trips': pct_public_transit_trips,
-                        'n_walking_trips': n_walking_trips,
-                        'pct_walking_trips': pct_walking_trips,
-            
-                        'auto_mean_minutes': auto_mean_min,
-                        'auto_median_minutes': auto_median_min,
-                        'auto_max_minutes': auto_max_min, 
-                        'auto_mean_miles': auto_mean_miles,
-                        'auto_median_miles': auto_median_miles,
-                        'auto_max_miles': auto_max_miles,
-            
-                        'transit_mean_minutes': transit_mean_min,
-                        'transit_median_minutes': transit_median_min,
-                        'transit_max_minutes': transit_max_min,
-                        'transit_mean_miles': transit_mean_miles,
-                        'transit_median_miles': transit_median_miles,
-                        'transit_max_miles':transit_max_miles,
-                        
-                        'walking_mean_minutes': walking_mean_min,
-                        'walking_median_minutes': walking_median_min,
-                        'walking_max_minutes': walking_max_min,
-                        'walking_mean_miles': walking_mean_miles,
-                        'walking_median_miles': walking_median_miles,
-                        'walking_max_miles': walking_max_miles,
-
-                        'geometry':geo
-
-                        })
-
-    result_summary = pd.DataFrame(results)   
-
-    result_summary = result_summary.set_geometry("geometry")
-
-    result_summary = result_summary.set_crs(4326)
+        else:
+            print(f"No data found in for {value}.")
+            geo = None
     
     return result_summary
+
+
+
+"""
+"""
+def setup_od_map(df, origin_customid_col, dest_customid_col, origin_city_col, dest_city_col, origin_lat, origin_long, dest_lat, dest_long, n_rows):
+    """
+    origin_customid_col: geographical identifier for the origin point 
+    dest_customid_col: geographical identifier for the destination point 
+    origin_city_col: city name for the origin point (or another grouping column you want to include within the grouped df)
+    dest_city_col: city name for the destination point (or another grouping column you want to include within the grouped df)
+    origin_lat: origin geography lat
+    origin_long: origin geography long
+    dest_lat: destination geography lat
+    dest_long: destination geography long
+    n_rows: number of top origin-destination points you want in the result df 
+    """
+    
+    top_od = (df.groupby([origin_customid_col, dest_customid_col, origin_city_col, dest_city_col, origin_lat, origin_long, dest_lat, dest_long])['activity_id'].nunique()).reset_index().sort_values('activity_id', ascending=False).head(n_rows)
+
+    lines = [
+        LineString([(lon_s, lat_s), (lon_e, lat_e)]) 
+        for lon_s, lat_s, lon_e, lat_e 
+        in zip(top_od[origin_long], top_od[origin_lat], top_od[dest_long], top_od[dest_lat])
+        ]
+    
+    od_pairs = gpd.GeoDataFrame(top_od, geometry=lines, crs="EPSG:4326") 
+
+    od_pairs = od_pairs.to_crs(epsg=3310)
+
+    return od_pairs
+    
